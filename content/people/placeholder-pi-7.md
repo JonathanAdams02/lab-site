@@ -1,9 +1,7 @@
 ---
-name: Name Surname
+name: Francois-Laurent de Winter
 role: Principal investigator
 group: pi
-focus: Placeholder
-order: 7
-photo: ""
-link: ""
+orcid: 0000-0001-7753-3575
+openalex_id: A5037642793
 ---
