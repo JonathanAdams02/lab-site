@@ -1,5 +1,1932 @@
 {
-  "source": "FRIS",
-  "updated": null,
-  "projects": []
+  "source": "FRIS — Flemish government, Department of Economy, Science and Innovation",
+  "unit": {
+    "name": "Neuropsychiatry",
+    "uuid": "66b08b71-ed04-461b-bcd2-e35523a1b624"
+  },
+  "updated": "2026-10-22T14:42:49.600Z",
+  "projects": [
+    {
+      "uuid": "abd15368-c687-4da1-9ab3-0f82d9411f39",
+      "title": "Basal ganglia mechanisms of motor symptoms in Late-Life Depression and comparison with Parkinson’s Disease: A High-Resolution PE2I-PET-MRI Study.",
+      "acronym": "",
+      "abstract": "Late-Life Depression (LLD) is often complicated by motor symptoms. The neurobiology of these symptoms is not well understood, and they show overlap with Parkinson’s disease (PD), complicating diagnosis and treatment. \n\n \nThis project aims to improve the mechanistic understanding and diagnostic precision regarding motor signs in LLD patients with a firm exclusion of synucleinopathies such as PD. It will investigate different motor phenotypes both cross-sectionally and at 1 year follow-up, in LLD patients stratified by body fluid-based α-synuclein seed amplification assays status. Dual-phase 18F-FE-PE2I brain PET on the novel ultra-high-resolution NeuroExplorer device will investigate the role of presynaptic dopaminergic dysfunction in small basal ganglia regions and neuronal activity changes in cortico-basal ganglia thalamic regions, in relation to LLD motor signs. Resting-state fMRI and diffusion MRI will map altered cortico-basal ganglia-thalamic connectivity in relation to LLD motor signs and metabolic alterations in the basal ganglia. The brain imaging outcomes will be contrasted with healthy older persons and with early PD patients. \n\n \nWe expect to identify distinct motor phenotypes and evolutions in LLD patients with suspected α-synuclein pathology. The multimodal imaging findings may identify overlaps and differences in motor symptom neurobiology in LLD versus PD. Our findings could improve differential diagnosis and guide dedicated treatments for motor symptoms in LLD.",
+      "start": "2026-11-01",
+      "end": "2029-10-31",
+      "funding": [
+        {
+          "code": "FWO junior postdoctoral fellowship",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/59074371",
+      "keywords": [
+        "Late Life Depression",
+        "motor symptons",
+        "PET-MR brain imaging"
+      ]
+    },
+    {
+      "uuid": "28f91288-d002-4a32-baf6-6b281b24ab95",
+      "title": "AI in Neuropsychiatry",
+      "acronym": "",
+      "abstract": "The prevalence and burden of neuropsychiatric disorders in older age is gradually increasing as the world population ages. Accurate diagnosis of late life neuropsychiatric syndromes is key to providing targeted treatments to patients and maximize quality of life for patients and caregivers. However, as these syndromes commonly present with a combination of emotional, behavioral and cognitive symptoms, the differential diagnosis between primary psychiatric syndromes (e.g., depression) and different neurocognitive disorders (e.g., Alzheimer’s disease) is often challenging in clinical practice.Currently, diagnosis relies heavily on clinical evaluation, usually combined with a structured assessment of cognition through a neuropsychological examination as well as structural brain imaging via Magnetic Resonance Imaging (MRI). In some cases, measurement of brain metabolism via fluorodeoxyglucose positron emission tomography (FDG PET) is added. Yet, the interpretation of these behavioral and neuroimaging measures is based on a subjective classification of within- and across-modality patterns associated with the most probable diagnoses. Moreover, conventional diagnostic tests have limited sensitivity and specificity, resulting in diagnostic uncertainty. Machine learning (ML) algorithms provide ameans to classify patients into diagnostic categories based on objective patterns of relevant features. Previous studies of ML mostly focused on classifying patients versus controls or Alzheimer’s disease versus another type of dementia. However, this does not reflect real-world clinical practice in which a broad differential diagnosis is moreover the standard approach. Also, previous such studies were generally limited to one diagnostic modality and multimodality approaches only focus on Alzheimer’s disease.In this project we plan to conduct a retrospective study in which we will retrieve clinical data from patients who presented with neuropsychiatric symptoms at UZ Leuven or UPC KU Leuven during the past 15 years. We will focus on patients diagnosed with late-life depression, late-life bipolar disorder, late-onset psychosis, Alzheimer’s disease, Lewy body disease, frontotemporal dementia and vascular dementia.Patient-related data will include demographic data as well as personal and familyneuropsychiatric/medical history. Diagnostic modalities will include neuropsychological test scores, brain MRI and FDG PET. All data are stored in the electronic medical record system and UZ Leuven archives. Based on a conservative estimation, we anticipate to include more than 3000 cases. The availability of large-scale normative neuropsychological datasets and robust procedures for atlas-based parcellations of the human brain, will allow us to obtain reliable indices of cognitive symptom severity and of regional measurements of both structural (via MRI) and metabolic features (via FDG PET). Recent advancements in automated brain imaging data analysis pipelines will furthermore maximize the reliability and robustness across a diversity of acquisition protocol. Current brain imaging tools allow conversion of older clinical brain scans into high-resolution images for morphometric analysis and will permit us to use the full potential of the large-scale available historic in-house clinical dataset.We aim to develop a multimodal machine learning model designed to support diagnosis based on clinical information combined with neuropsychological test scores, and/or MRI and FDG PET measurements. The output of the model will consist of probabilities assigned to predefined diagnostic categories. The focus will be on designing methods that prioritize model explainability. In addition, the model will show the reasoning behind its predictions and decision-making processes. The project will provide medical practitioners and patients with a helpful tool to complement and support the clinical decision-making process, and optimize patient care.",
+      "start": "2026-09-22",
+      "end": "2030-09-22",
+      "funding": [
+        {
+          "code": "Own budget, for example: patrimony, inscription fees, gifts",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/59177517",
+      "keywords": [
+        "neuroimaging",
+        "machine learning",
+        "multimodal",
+        "artificial intelligence",
+        "neuropsychiatry",
+        "aging"
+      ]
+    },
+    {
+      "uuid": "d484e34a-f7c9-4877-8d17-2c55af34ca7a",
+      "title": "Embedding physical activity into routine mental healthcare: From engaging health care professionals to organizational readiness and sustainable clinical practice",
+      "acronym": "",
+      "abstract": "People living with mental illness experience disproportionately high levels of physical inactivity, contributing to poorer physical health and premature mortality. Although the benefits of physical activity for mental and physical health are well established, integrating physical activity into routine mental health care remains challenging. Sustainable implementation requires attention not only to patient-level interventions but also to healthcare professionals, organizational readiness, and implementation processes. This PhD project aims to develop a comprehensive understanding of how physical activity can be sustainably embedded within mental health care through three interconnected work packages. The first work package focuses on mental healthcare professionals. It examines their physical activity behaviours, professional well-being, and physical activity promotion practices, while evaluating workplace-based initiatives designed to increase physical activity among staff. The second work package investigates organizational readiness for implementing physical activity coaching within psychiatric services. Using mixed methods and implementation science frameworks, it identifies organizational strengths, barriers, and readiness-building strategies to facilitate successful implementation. The third work package evaluates the implementation of an individualized physical activity counselling intervention for physically inactive psychiatric inpatients. Guided by implementation science frameworks, the study assesses implementation outcomes, intervention effectiveness, and the potential for long-term integration into routine clinical practice. Together, these studies provide a multilevel implementation science approach that spans healthcare professionals, organization, and patients. The project aims to generate practical knowledge on how physical activity can be effectively, sustainably, and routinely integrated into mental health care, ultimately contributing to improved health outcomes for both patients and healthcare professionals.",
+      "start": "2026-09-21",
+      "end": "2030-09-21",
+      "funding": [
+        {
+          "code": "Own budget, for example: patrimony, inscription fees, gifts",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/59249955",
+      "keywords": [
+        "implementation science",
+        "mental health care",
+        "lifestyle psychiatry",
+        "organizational readiness",
+        "healthcare professionals"
+      ]
+    },
+    {
+      "uuid": "19d282dd-1130-4bc4-a9b6-2e971bd7a44d",
+      "title": "An Advanced Multimodal Neuroimaging and Peripheral Biomarker Investigation of Inflammatory and Waste Clearance Pathways in Late-Life Depression",
+      "acronym": "",
+      "abstract": "This PhD project investigates the interplay between inflammation and impaired waste clearance as a synergistic framework contributing to accelerated ageing in Late-Life Major Depressive Disorder (LLD). It will explore how these convergent pathways erode neural resilience using a multimodal approach including high-resolution PET, MRI, novel blood biomarkers, and neuropsychological assessments to characterise the \"biological load\" of LLD and its interaction with broader psychosocial factors inherent to the disorder.",
+      "start": "2026-08-21",
+      "end": "2030-08-21",
+      "funding": [
+        {
+          "code": "Own budget, for example: patrimony, inscription fees, gifts",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/59156040",
+      "keywords": [
+        "Late-Life Depression",
+        "Waste Clearance",
+        "Neuroinflammation"
+      ]
+    },
+    {
+      "uuid": "7e35f66f-be44-4f0c-b65e-edeb2cdf5473",
+      "title": "\"A multimodal PET-MR brain imaging follow-up study of accelerated ageing in late life depression \"",
+      "acronym": "",
+      "abstract": "Late-life depression (LLD) is a common and debilitating psychiatric disorder associated with reduced life expectancy and substantial socioeconomic burden. This study will investigate accelerated ageing in brain micro- and macrostructure in non amyloid-associated LLD and how it impacts upon short- (5 year) and long-term (12 year) clinical outcomes. It will combine state-of-the art magnetic resonance imaging (MRI) techniques, including advanced diffusion MRI, with novel positron emission tomography (PET) techniques to assess myelin, tau and synaptic density. It will provide new fundamental knowledge about brain structural alterations, as well as clinically important knowledge about the prognosis of LLD not associated with Alzheimer’s disease, and identify potential modifiable intervention targets (e.g. cerebral vascular risk factors)",
+      "start": "2026-01-01",
+      "end": "2029-12-31",
+      "funding": [
+        {
+          "code": "FWO research project (including WEAVE projects)",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/58870462",
+      "keywords": [
+        "Biological ageing",
+        "Late life depression",
+        "PET-MRI brain imaging"
+      ]
+    },
+    {
+      "uuid": "870c6f5d-c707-4d1a-9b9b-90aba89b479f",
+      "title": "From Stimulation to Restoration: Using tACS for Cognitive Improvement in Depression and Electroconvulsive Therapy",
+      "acronym": "",
+      "abstract": "Major Depressive Disorder (MDD) significantly impairs cognitive function and quality of life. Electroconvulsive therapy (ECT) is highly effective for treating severe depression but is associated with cognitive side effects, particularly affecting memory and executive functions. There is a critical need for interventions that can both alleviate cognitive impairments in MDD and mitigate ECT-related cognitive side effects. This proposal explores the potential of transcranial alternating current stimulation (tACS), a non-invasive brain stimulation technique, to address these challenges.\nThe proposed research has 3 objectives: 1. to assess the efficacy of tACS in improving cognitive function in patients with MDD, 2. to determine whether tACS can mitigate cognitive side effects in patients receiving ECT for severe depression, and 3. to investigate the neurobiological mechanisms underlying the effects of tACS and ECT on cognitive function using functional near-infrared spectroscopy (fNIRS), a portable neuroimaging tool. The project will employ a series of randomized controlled trials, where patients will receive either active tACS or sham stimulation in conjunction with their standard care. Cognitive assessments and fNIRS scans will be conducted to evaluate changes in memory, executive functions, and brain connectivity. The study aims to determine whether tACS can serve as a neuroprotective intervention to enhance cognitive function in MDD and reduce ECT-induced cognitive deficits.",
+      "start": "2025-10-01",
+      "end": "2028-09-30",
+      "funding": [
+        {
+          "code": "FWO junior postdoctoral fellowship",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/58585865",
+      "keywords": [
+        "Cognition",
+        "Depression",
+        "Neuromodulation"
+      ]
+    },
+    {
+      "uuid": "70b5375d-9f10-4463-9e94-7147ebf0cc50",
+      "title": "Functional brain imaging of social cognition",
+      "acronym": "",
+      "abstract": "Neurosymbolic Artificial Intelligence (AI) is an advanced version of AI. It makes use of classical rule-based (symbolic) AI to improve the decision-making process of Artificial Neural Networks (ANNs). ANNs are computer models that are loosely inspired by the functioning of the human brain. They are now the start of the art method for tackling a variety of AI problems and are becoming an increasingly popular tool in neuroscientific studies. However, neurosymbolic AI and human neuroscience pursue different goals: in AI, the performance of the model is key and the resemblance with the brain is incidental, whilst in neuroscience, the primary aim is to increase the understanding of the brain. A corollary is that despite a shared interest, both communities are organized in separate communities with little overlap. The current proposal bridges both fields and puts forward two innovative focus points: the modeling of high-level tasks, in particular social cognition, as well as a focus on clinical conditions, in particular people with autism and frontotemporal dementia.",
+      "start": "2025-10-01",
+      "end": "2030-10-31",
+      "funding": [
+        {
+          "code": "FWO fellowships",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/58777265",
+      "keywords": [
+        "Social cognition"
+      ]
+    },
+    {
+      "uuid": "0eb3c50a-7942-48f6-80b6-494337e55d7b",
+      "title": "Neurobiology and psychology of late-onset psychiatric disorders.",
+      "acronym": "",
+      "abstract": "We want to study the changes in the brain of people who have a late-onset psychiatric disorder (more specifically, individuals who develop depression or psychosis at a later age). To achieve this, we will use different imaging techniques, such as MRI scans ans PET-CT. With this data, we hope to identify patterns that will provide more insight into the biological into the biological basis of these conditions.",
+      "start": "2025-09-25",
+      "end": "2029-09-25",
+      "funding": [
+        {
+          "code": "Own budget, for example: patrimony, inscription fees, gifts",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/58769010",
+      "keywords": [
+        "etiology",
+        "late-onset psychiatric disorders"
+      ]
+    },
+    {
+      "uuid": "9da0c9fe-bca4-4c78-b33e-9dad9ddf2df3",
+      "title": "Ultrahigh resolution PET in healthy aging and primary cognitive neurodegeneration with focus on brain stem nuclei and the limbic system",
+      "acronym": "",
+      "abstract": "Positron Emission Tomography (PET) has been instrumental in understanding the neurobiology of dementia, its early/differential diagnosis, and plays an important role in drug development. A novel ultrahigh resolution (<1.5 mm) NeuroEXPLORER PET system will be operational in Leuven in July 2025, as first in Europe, and will allow molecular PET of the human brain with unprecedented detail. This system will be used to study of the limbic Papez circuit (including hippocampal subfields, mammilary bodies, anterior thalamus and amygdala) and the Locus Coeruleus (LC), as important components involved in cognition and emotion processing, in both amnestic mild cognitive impairment (aMCI) and Alzheimer’s disease (AD). Aims: The main objectives of the project are to use UHR PET imaging to detect, quantify, and relate early molecular changes in the Papez circuit and LC to cognitive decline and behavioral symptoms in the AD continuum. The relation between tau NFT deposition in these locations, the impact on norepinephrine projections from the LC and on regional glucose metabolic changes in the LC and Papez circuit will be studied prospectively by a triple tracer stduy including 18F-MK6240, 18F-FDG and 11C-MENER (norepinephrine transporter - NET), in comparison to healthy aging. The main hypotheses is that early tau deposition induces NET changes in the LC and Papez circuit, impacting synaptic activity in the Papez circuit and neocortical key areas that are varying between aMCI and AD, linked to cogntive decline and emotional behaviour in particular apathy. Methods: The project consists of two parallel work packages. WP1 will focus on UHR PET imaging of the Papez circuit and LC in aMCI and AD. WP2 will create normative quantitative UHR PET brain atlases for the tracers in healthy controls. Next to PET, advanced 3T MRI with tractography of the fornix and temporo-cingulate bundles, plasma tau-217 (as marker for amyloid status) and neuropsychological testing will be obtained. Advanced methods for motion correction, non-invasive image-derived carotid input function, and metabolic functional PET for metabolic connectivity will be applied. Expected Outcomes: The project aims to achieve several significant outcomes. First, it will provide unprecedented insights into early molecular changes in the main constituents of the Papez circuit and LC, contributing to a deeper understanding of targetable mechanisms and circuits in dementia. Second, the project is expected to improve the accuracy of early diagnosis and cognitive/behavioral prognosis of AD. Third, the creation of high-resolution molecular PET atlases will serve as valuable reference tools for future research and clinical applications. The findings may also have generic implications for other dementias and neurodegenerative diseases.",
+      "start": "2025-08-21",
+      "end": "2026-06-15",
+      "funding": [
+        {
+          "code": "Own budget, for example: patrimony, inscription fees, gifts",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/58659209",
+      "keywords": [
+        "Ultra-high-resolution PET",
+        "Papez circuit",
+        "Locus Coeruleus",
+        "Alzheimer's disease"
+      ]
+    },
+    {
+      "uuid": "3a8631cf-25d8-4ded-8881-c6a8794b86b4",
+      "title": "The neural basis of social cognition, a network-based investigation and clinical verification",
+      "acronym": "",
+      "abstract": "This doctoral project investigates the neural basis of social cognition through a network-based approach, offering an alternative to the traditional localizationist view. The research has three aims: (1) defining the social cognitive brain network in healthy individuals, (2) identifying associations between network-level characteristics and social cognitive behavior, and (3) clinically validating these findings in pre- and symptomatic neurodegeneration (e.g., FTD and Alzheimer’s disease). Using functional MRI and FDG-PET data, the project compares network-level analyses to traditional region-based approaches in explaining social cognitive function. It leverages existing datasets and ongoing studies, with a structured timeline spanning 2025–2029.",
+      "start": "2025-07-14",
+      "end": "2029-07-14",
+      "funding": [
+        {
+          "code": "Own budget, for example: patrimony, inscription fees, gifts",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/58607198",
+      "keywords": [
+        "social cognition"
+      ]
+    },
+    {
+      "uuid": "a332841e-ae87-40ad-b723-0e50a3e39850",
+      "title": "Neuropsychiatric symptoms of dementia: bench to bedside",
+      "acronym": "",
+      "abstract": "With the increasing age of the global population comes a significant increase in the number of people with dementia (PwD). Neuropsychiatric symptoms of dementia (also called behavioural and psychological symptoms of dementia, BPSD) affect almost all PwD. These neuropsychiatric symptoms lead to worse prognosis, increased morbidity and mortality, a lower quality of life of patients and a substantial increase in caregiver burden. Neuropsychiatric symptoms are the most important reason for institutionalisation, even more so than cognitive decline alone. By increasing caregiver burden and earlier institutionalisation, neuropsychiatric symptoms also lead to a vast increase in healthcare and economic costs. In this project we want to study some of the most prevalent neuropsychiatric symptoms, like agitation, sleep problems and apathy. We will study how they are linked and want to create new tools for better assessment and management of these symptoms. We will use a combination of innovative techniques like state-of-the-art imaging (e.g. using new MRI markers), novel biomarkers and technological advancements (e.g. multimodal sensor modalities). This will help us to discover new pathways for diagnosis and treatment of these symptoms. Better management of neuropsychiatric symptoms, can in turn lead to better quality of life in PwD and caregivers, avoidance or postponement of institutionalisation and lower economic costs.",
+      "start": "2025-04-01",
+      "end": "2029-04-23",
+      "funding": [
+        {
+          "code": "Own budget, for example: patrimony, inscription fees, gifts",
+          "funders": []
+        }
+      ],
+      "participants": [
+        {
+          "name": "Marjolein de Vugt",
+          "role": "Co-promoter"
+        },
+        {
+          "name": "Maarten Van Den Bossche",
+          "role": "Co-promoter"
+        }
+      ],
+      "url": "https://research.kuleuven.be/portal/en/project/58542626",
+      "keywords": [
+        "Dementia"
+      ]
+    },
+    {
+      "uuid": "e8f66b0b-b374-402d-a8d9-bd9535338755",
+      "title": "Mental disorders in solid organ transplant patients: epidemiological and treatment perspectives",
+      "acronym": "",
+      "abstract": "Although organ transplantation is a lifesaving procedure that can improve psychical functioning and a health-related quality of life, it is associated with significant medical and psychological stressors. Patients often experience highly distressing emotional symptoms at different periods before and after transplantation related to uncertainty, progressive physical deterioration, fear of organ rejection as well as adjustment to a complex post-transplant regimen. However, data on the evolution of psychiatric complains throughout different stages of a transplantation trajectory as well as specific variables associated with the elevated emotional distress remain inconsistent and knowledge about how these variables may affect mental health across different organs remains scarce. The main goal of this study is to document the prevalence, incidence and persistence of mental disorders, including suicidal thoughts and behaviors among solid organ transplant patients, as well as to evaluate the impact of a psychological intervention on the above psychiatric complains. In doing so, the study aims to develop better screening and intervention models to improve mental health of transplant candidates and recipients across organs.",
+      "start": "2025-03-31",
+      "end": "2029-03-31",
+      "funding": [
+        {
+          "code": "Own budget, for example: patrimony, inscription fees, gifts",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/58550272",
+      "keywords": [
+        "mental health disorders, organ transplantation, suicidal thoughts and behaviours"
+      ]
+    },
+    {
+      "uuid": "49a190fe-043d-4163-a2af-36f404733574",
+      "title": "Social cognition in silico and in vivo",
+      "acronym": "",
+      "abstract": "Neurosymbolic Artificial Intelligence (AI) is an advanced version of AI. It makes use of classical rule-based (symbolic) AI to improve the decision-making process of Artificial Neural Networks (ANNs). ANNs are computer models that are loosely inspired by the functioning of the human brain. They are now the start of the art method for tackling a variety of AI problems and are becoming an increasingly popular tool in neuroscientific studies. However, neurosymbolic AI and human neuroscience pursue different goals: in AI, the performance of the model is key and the resemblance with the brain is incidental, whilst in neuroscience, the primary aim is to increase the understanding of the brain. A corollary is that despite a shared interest, both communities are organized in separate communities with little overlap. The current proposal bridges both fields and puts forward two innovative focus points: the modeling of high-level tasks, in particular social cognition, as well as a focus on clinical conditions, in particular people with autism and frontotemporal dementia.",
+      "start": "2025-01-01",
+      "end": "2028-12-31",
+      "funding": [
+        {
+          "code": "FWO research project (including WEAVE projects)",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/58376793",
+      "keywords": [
+        "neuropsychiatry",
+        "neurosymbolic artificial intelligence",
+        "social cognition"
+      ]
+    },
+    {
+      "uuid": "d61dca52-1bba-43dd-86be-faedf3091d57",
+      "title": "The Insular BAsis of Thermoception and Social cognition (IBAT): a combined intracerebral electrophysiological and systems neuroscience study",
+      "acronym": "",
+      "abstract": "Thermoception refers to sensation of temperature differences derived from heat flux. It is a particular modality of interoception, which covers all sensations related to the state of the body. Interoception contributes to socio-emotional processing. Deficits in socio-emotional functions are a hallmark of frontotemporal dementia (FTD), a neurodegenerative disorder characterized by behavioral changes but also thermoceptive deficits. All these concepts share a common neuroanatomical basis: the insular cortex. This project bridges these concepts at the conceptual and methodological levels. Specifically, we will investigate thermoception by means of intracerebral electroencephalography (iEEG) in epileptic patients with electrodes implanted in the insula (UCLouvain expertise). This sample of epileptic patients and a new sample of FTD patients will also take part in a task-based functional magnetic resonance imaging and behavioral assessment of interoception and socio-emotional processing (KU Leuven expertise). This combination of center-specific techniques and expertise allows for obtaining optimal focal temporal and spatial resolution, together with coverage of neural responses across the whole brain. The project will provide a comprehensive account of the role of the insula in thermoception and provide innovative insights into the neural mechanisms underlying thermoception, the role of thermoception and interoception in socio-emotional processing, and the pathophysiology of FTD.",
+      "start": "2025-01-01",
+      "end": "2028-12-31",
+      "funding": [
+        {
+          "code": "FWO research project (including WEAVE projects)",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/58376749",
+      "keywords": [
+        "insula",
+        "interoception",
+        "thermoception"
+      ]
+    },
+    {
+      "uuid": "dff9ac2e-8410-49bc-97fc-52c022c0a97b",
+      "title": "What is the influence of culture-, leadership- and context-factors on quality(management) of mental health care – from the team level up to the organisational level?",
+      "acronym": "",
+      "abstract": "The goal of every health care provider is to deliver care at the highest possible quality. Recent research in Flemish hospitals has shown a large within- and between-hospital variation in quality of care that cannot be easily explained by straightforward characteristics such as local population, hospital size or academic nature. Rather, the key appears to lie more in how organisations manage quality improvement and control: a process in which both ‘harder’ drivers are involved – such as planning, design and control - as well as ‘softer’ drivers, defined as culture, leadership and context. The aim of this study is to gain insight into the role of these softer, less tangible drivers. How do the culture, leadership and context of teams and organisations influence the quality of delivered care? What are the most important factors involved, and can we identify processes or systems through which these factors interact and work? This PhD will study these questions specifically in the mental health care context, by focusing on psychiatric wards in general hospitals and psychiatric hospitals in Belgium. It will use quantitative and qualitative methods to investigate the link between quality of care, culture, leadership and context on both a team- and organisational level.",
+      "start": "2024-12-04",
+      "end": "2025-06-30",
+      "funding": [
+        {
+          "code": "Own budget, for example: patrimony, inscription fees, gifts",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/58367563",
+      "keywords": [
+        "mental health care",
+        "quality of care",
+        "quality management",
+        "leadership",
+        "culture",
+        "context"
+      ]
+    },
+    {
+      "uuid": "dc30d89b-593f-48ee-ad47-d211930996e4",
+      "title": "From scientific understanding to clinical management of motor impairment in late life depression",
+      "acronym": "",
+      "abstract": "This postdoctoraal project aims at investigating the rol of brain changes due to aging as well as neurodegeneration in de severity and clinical phenotype of motor impairment of late life depression (LLD). With my doctoral thesis project, I observed the presence of severe motor disfuction consisting of both parkinsonism and ataxia that appeared to cluster into subgroups of patients with common dominant symptoms. These 'motor subgroups' may be related to different neuropathological processes in LLD. We aim at investigating these motor subphenotpes and the underlying brain changes such as white matter lesions, brain atrophy, accumulation of toxic proteins, by applying a multimodal imaging approach that assesses both individual contributions and interactive mechanisms of how these changes lead to different motor fenotypes in LLD. Against popular assumptions, my doctoral thesis also found that motor impairment of LLD was not related to core mood symptoms, cognition or antipsychotic drug use. These assumptions could explain why LLD patients with relevant motor symptoms are diagnosed either not or late. We therefore aspire to set up a longitudinal study that investigates the diagnostic accuracy and clinical outcome of patients receiving early neurological diagnostic work-up of motor dysfunction by a panel of neurologists specialised in movement disorders, as compared to current standard psychiatric care.",
+      "start": "2024-12-01",
+      "end": "2025-10-31",
+      "funding": [
+        {
+          "code": "BOF - postdoctoral mandates",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/58117215",
+      "keywords": [
+        "Late Life Depression",
+        "Psychomotor Symptoms",
+        "Brain imaging",
+        "Neurodegeneration",
+        "Brain aging"
+      ]
+    },
+    {
+      "uuid": "47ba3838-8816-498e-abc7-1e1ca7c7a6eb",
+      "title": "Improving care of ECT: Subjective and objective memory adverse effects - two worlds",
+      "acronym": "",
+      "abstract": "Electroconvulsive therapy (ECT) is a safe and well-tolerated treatment for severe psychiatric disorders. Although most people will respond to ECT, the majority of patients fear memory problems and subjective memory complaints are highly prevalent. There is, however, a notable discrepancy between self-reported memory complaints and objective memory assessments in patients undergoing ECT. Further research is needed to clarify this discrepancy. In this doctoral project, a systematic review and meta-analysis will be conducted to map the current state of research regarding the relationship between subjective and objective memory complaints. Current literature suggests that verbal learning and autobiographical memory may be the most affected by ECT. However, it is still unclear whether patients complain about these aspects the most. As part of the ongoing ChaT study (Changing Tactics: Optimizing ECT in Difficult-to-Treat Depression) at the University Psychiatric Center KU Leuven, subjective memory, verbal learning ability, and autobiographical memory are assessed before, during, and after an ECT-course. Within this doctoral project, these data can be utilized to explore the relationship in greater depth. This doctoral project highlights the importance of an integrated approach to cognitive assessment in ECT patients, incorporating both objective and subjective data. Such an approach could lead to improved communication between healthcare providers and patients regarding the nature of cognitive effects from ECT and result in better clinical interventions to address the perception of cognitive issues, reducing anxiety.",
+      "start": "2024-10-04",
+      "end": "2028-10-04",
+      "funding": [
+        {
+          "code": "Own budget, for example: patrimony, inscription fees, gifts",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/58283517",
+      "keywords": [
+        "Electroconvulsive therapy",
+        "Subjective memory",
+        "Objective memory",
+        "Major depressive disorder"
+      ]
+    },
+    {
+      "uuid": "9807b012-b070-48fb-9a65-ec0c1acc3f44",
+      "title": "The MENSIA-project: Toward the solid measurement of subjective well-being in dementia",
+      "acronym": "",
+      "abstract": "Dementia poses one of the greatest challenges of our ageing society. In the absence of a cure, it is a global research priority to support the well-being of people living with dementia today. Subjective well-being (SWB)—understood as a person’s global sense of affective balance and life satisfaction—is acknowledged as a crucial outcome and targetable health asset for populations around the world. However, there is a shocking lack of research and knowledge on SWB in dementia. As evidence-based interventions and care practices targeting SWB hinge on the valid and reliable measurement of SWB, there is a dire need for fundamental research that unites the disjointed fields of SWB measurement and dementia research.\n\n \nAcross three complementary studies, the MENSIA-project will elucidate (1) whether and how the measurement properties of standard SWB measures change before and after a dementia diagnosis, (2) how real-time and retrospective measures of SWB relate to each other in dementia, and (3) how proxy-reports by partners and professional caregivers map onto self-reports of SWB in dementia.\n\n \nThe findings from this work contribute fundamentally to a solid understanding of SWB measurement in dementia. Moreover, by providing researchers and practitioners with a clear framework of how real-time, retrospective, self, and proxy measures can be used to obtain an adequate picture of SWB in dementia, this project delivers a crucial foundation for dementia care and policy.",
+      "start": "2024-10-01",
+      "end": "2027-09-30",
+      "funding": [
+        {
+          "code": "FWO senior postdoctoral fellowship",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/58105315",
+      "keywords": [
+        "dementia",
+        "measurement",
+        "subjective well-being"
+      ]
+    },
+    {
+      "uuid": "2d67bbb5-6ae8-411e-aa99-61603a0232ab",
+      "title": "Unraveling Sleep-Agitation Dynamics in Dementia Through Unobtrusive Multimodal Sensing",
+      "acronym": "",
+      "abstract": "With the increasing age of the global population comes a significant increase in the number of people with dementia (PwD). Behavioural and psychological symptoms of dementia lead to the decision to institutionalise PwD, ahead of the cognitive decline. Specifically, agitation and sleeping problems are the most critical behavioural problems seen in dementia. However, there is limited understanding what happens physiologically during agitation and sleeping problems, there is currently no way to robustly detect agitation and there is a clear need to understand what causes agitation and sleeping problems in each person with dementia. In this research project, we propose a multimodal sensing platform for non-obtrusive in-depth analysis of agitation and sleep in PwD, and will combine this with biological markers. We aim to discover digital markers for measuring agitation objectively, safely and continuously and identify triggers for agitation both on an individual and population level. For this purpose, a large dataset of (wearable) sensing data is available on phenotyped data from PwD, and the goal is to design appropriate cutting-edge analysis approaches (with machine learning and artificial intelligence) to extract those insights and automatically label agitation episodes.",
+      "start": "2024-10-01",
+      "end": "2028-09-25",
+      "funding": [
+        {
+          "code": "Own budget, for example: patrimony, inscription fees, gifts",
+          "funders": []
+        }
+      ],
+      "participants": [
+        {
+          "name": "Maarten Van Den Bossche",
+          "role": "Co-promoter"
+        }
+      ],
+      "url": "https://research.kuleuven.be/portal/en/project/58270043",
+      "keywords": [
+        "Artificial Intelligence",
+        "Dementia",
+        "Agitation Detection",
+        "Wearable Sensors",
+        "Multimodal Sensing"
+      ]
+    },
+    {
+      "uuid": "531e60a9-01dd-40f5-9a5c-2e90ad36d9fb",
+      "title": "Worn down and short-fused: the relation between sleep and aggression",
+      "acronym": "",
+      "abstract": "Both aggression and sleep problems are very common in our society. They lead to considerable mortality and incredible costs that amount into trillions of euros annually. Although many people have the personal experience that poor sleep is related to affective states like greater irritability and short-temperedness, surprisingly the link between these two common phenomena has not been studied well. The relation between sleep and aggression in the general population remains elusive. Moreover, the role of specific underlying mechanisms was not investigated. Specifically in neurodegenerative disorders like Alzheimer’s disease (AD) both sleep problems and aggressive behavior are two of the most common and clinically relevant symptoms largely driving institutionalization and hospitalization, as such also leading to large additional economic costs. However, no study on sleep and aggression has been conducted in AD. We want to shed new light on the relation between sleep and aggression and its underlying mechanisms by a threefold project: (1) A large week-long study with a wearable EEG device to unravel the relationship between sleep and aggression in the general population (Semmelweis University) (2) A unique patient study in AD as sleep and aggression are closely linked to the pathophysiology of AD, are some of the most impactful symptoms and show a circadian pattern (KU Leuven) (3) A study in rats involving invasive methods to study the connection between sleep deprivation, aggression and glymphatic system function (ELTE).",
+      "start": "2024-10-01",
+      "end": "2026-09-30",
+      "funding": [
+        {
+          "code": "BOF - projects",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/58089595",
+      "keywords": [
+        "sleep",
+        "aggression",
+        "Alzheimer's disease",
+        "glymphatic system"
+      ]
+    },
+    {
+      "uuid": "d8e36277-8222-4a92-970c-e762b3b9c3ba",
+      "title": "The crucial role of agitation and sleep in the pathophysiology of Alzheimer's disease",
+      "acronym": "",
+      "abstract": "With the increasing age of the global population comes a significant increase in the number of people with dementia (PwD). Behavioural and psychological symptoms of dementia lead to the decision to institutionalise PwD, ahead of the cognitive decline. Specifically, agitation and sleeping problems are the most critical behavioural problems seen in dementia. We hypothesize that changes in the sleep/wake system, are crucial in the pathophysiology of Alzheimer’s disease (AD). We will study this system in detail both in patients suffering from AD by multimodal sensing and in an rTg4510 mouse model for tauopathy.",
+      "start": "2024-04-23",
+      "end": "2028-04-23",
+      "funding": [
+        {
+          "code": "Own budget, for example: patrimony, inscription fees, gifts",
+          "funders": []
+        }
+      ],
+      "participants": [
+        {
+          "name": "Laura Jacobson",
+          "role": "Promoter"
+        }
+      ],
+      "url": "https://research.kuleuven.be/portal/en/project/58066401",
+      "keywords": [
+        "agitation",
+        "sleep",
+        "Alzheimer's disease"
+      ]
+    },
+    {
+      "uuid": "608cb4f7-ff68-4e29-9052-2d9a04217805",
+      "title": "Stimulating empathy in dementia via a digital tool",
+      "acronym": "",
+      "abstract": "Symptoms like diminished empathy have a strong impact on the patient’s life quality and caregiver distress. We will test a treatment to optimize the affective match in patient-caregiver interactions. Patients will be asked repeatedly to rate the emotion of their caregiver via a smartphone and receive a reward if they perform well. We will investigate whether the patients’ performance improves over time and evaluate the effect on psychological and biological stress measures in the caregivers.",
+      "start": "2024-01-01",
+      "end": "2025-12-31",
+      "funding": [
+        {
+          "code": "Other federal public and semi-governmental institutions",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/57917904",
+      "keywords": [
+        "frontotemporal dementia"
+      ]
+    },
+    {
+      "uuid": "3d154f3d-fe46-4c69-b4de-c16b6156c528",
+      "title": "Multimodal PET-MRI brain imaging of white matter pathology in late life depression",
+      "acronym": "",
+      "abstract": "Depression in later life (late-life depression: LLD) is a common but debilitating psychiatric disorder, which is associated with cerebrovascular disease. Understanding the neurobiological mechanisms underlying LLD is crucial for new solutions for its prevention and treatments. Previous studies have revealed that macrostructural white matter damage is associated with LLD, but little is known about microstructural alterations. The aim of this proposal is to gain comprehensive insight into white matter pathology from the microstructural to macrostructural level in LLD, and its correlation with clinical factors, such as vascular risk factors and brain protein aggregation. Recent technological advances enable us to assess white matter microstructural alterations in humans using advanced positron emission tomography (PET) and magnetic resonance imaging (MRI) techniques. In this proposal, I will apply advanced diffusion MRI analysis, combined with new PET techniques to assess tau, synaptic density and myelin in patients with LLD. The results of this proposal will provide new fundamental knowledge about the role of white matter microstructural alterations in LLD and clinically important knowledge about potential modifiable intervention targets (i.e., cerebral vascular risk factors) in LLD",
+      "start": "2023-11-01",
+      "end": "2025-09-17",
+      "funding": [
+        {
+          "code": "FWO junior postdoctoral fellowship",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/57836127",
+      "keywords": [
+        "white matter",
+        "late-life depression"
+      ]
+    },
+    {
+      "uuid": "8cc49000-3c64-4528-8471-6661f326bd2a",
+      "title": "De NEural BAsis of Thermoception (NEBAT): een gecombineerde intracerebrale elektrofysiologische en systeemneurowetenschappelijke studie",
+      "acronym": "",
+      "abstract": "Thermoception refers to the sensation of temperature differences derived from heat flux. It is a particular modality of interoception, which covers all sensations related to the state of the body. There is accumulating evidence that interoception contributes to the way that social cues are perceived and interpreted, i.e. social cognition. Deficits in social cognition are a hallmark of frontotemporal dementia (FTD), a neurodegenerative disorder characterized by behavioral changes and thermoceptive deficits. Importantly, all these concepts (thermoception, interoception, social cognition and FTD) share a neuroanatomical basis: the insular cortex. This project bridges these concepts by combining unique expertise from UCL with unique expertise at KU Leuven, both at the conceptual and methodological level. Specifically, we will investigate thermoception by means of intracerebral electroencephalography (iEEG) in epilepsy patients with electrodes implanted in the insula (UCL expertise) . This sample of epilepsy patients and a new sample of FTD patients will also take part in a task-based functional magnetic resonance imaging and behavioral assessment of interoception and social cognition (KUL expertise). This combination of center-specific techniques and expertise allows obtaining optimal focal temporal and spatial resolution, together with coverage of neural responses across the whole brain. The project will provide innovative findings of the neural mechanisms underlying thermoception, the role of thermoception and interoception in social cognition, and the pathophysiology of FTD. Furthermore, the project may lay the basis for a long term collaboration between the respective research groups.",
+      "start": "2023-10-01",
+      "end": "2027-09-30",
+      "funding": [
+        {
+          "code": "BOF - doctoral mandates",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/57489334",
+      "keywords": [
+        "insula",
+        "fMRI",
+        "intracerebral EEG",
+        "interoception"
+      ]
+    },
+    {
+      "uuid": "e4f6f430-748c-4362-985b-e9870e4a0856",
+      "title": "Dementia and sexuality: A subject not to forget",
+      "acronym": "",
+      "abstract": "This project, titled ‘Dementia and sexuality: A subject not to forget’, will focus on studying the association between (early onset) dementia and the partner relationship, including the intimate and sexual aspects of a relationship. As literature on this (taboo) subject is still scarce, this timely project aims to explore the experiences of people with dementia and their partners to unravel the (determinants of the) association between (early onset) dementia symptoms, relationship and sexual satisfaction. The project builds on a recently developed longitudinal framework that shows that a (sexual) relationship tends to gradually need more renegotiation between the partners when the disease progresses and when gradually more actors (e.g., family, health care providers, (health) care facility workers) become involved in (decisions about) people’s (sexual) lives. Therefore, the project aims to include all these actors’ perspectives in attempt to increase our (currently limited) understanding of the changing personal and relational experiences of people with dementia and their partners within their changing (care) environment. These new insights will be helpful in clarifying what is important for whom and what is currently missing in care, and in developing guidelines on how to cope with the effects of dementia in (sexual) relationships for all (caring) actors involved.",
+      "start": "2023-10-01",
+      "end": "2027-06-29",
+      "funding": [
+        {
+          "code": "Own budget, for example: patrimony, inscription fees, gifts",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/57631624",
+      "keywords": [
+        "Dementia",
+        "Sexuality"
+      ]
+    },
+    {
+      "uuid": "881fb874-426a-4436-91b3-3029893d6ad1",
+      "title": "Dissecting agitation in dementia by multimodal sensing (DADS)",
+      "acronym": "",
+      "abstract": "With the increasing age of the global population comes a significant increase in the number of people with dementia (PwD). Behavioural and psychological symptoms of dementia lead to the decision to institutionalise PwD, ahead of the cognitive decline. Specifically, agitation is the most critical behavioural problem seen in dementia and is present in 50-80% of PwD. Agitation leads to dire consequences for PwD, their environment and society. However, there is limited understanding what happens physiologically during agitation, there is currently no way to robustly detect agitation and there is a clear need to understand what causes agitation in each person with dementia. In this research project, we propose a multimodal sensing platform for non-obtrusive in-depth analysis of agitation in PwD. We aim to discover digital markers for measuring agitation objectively, safely and continuously and identify triggers for agitation both on an individual and population level.",
+      "start": "2023-10-01",
+      "end": "2027-09-30",
+      "funding": [
+        {
+          "code": "BOF - projects",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/57594336",
+      "keywords": [
+        "agitation",
+        "dementia",
+        "physiology",
+        "physiological sensing",
+        "patient monitoring",
+        "machine learning",
+        "personalised medicine"
+      ]
+    },
+    {
+      "uuid": "3a03594b-981c-4630-9865-ee48d5b5d22a",
+      "title": "From confusion to recovery: determinants of cognitive outcomes following electroconvulsive therapy in late-life depression",
+      "acronym": "",
+      "abstract": "Major depressive disorder (MDD) affects one in six adults in their lifetime and imposes a considerable burden of disease on the patient. Despite the widespread use of antidepressant medication, after several treatment steps, at least a third of patients will fail to achieve remission. For patients with so-called difficult-to-treat depression, not responding to several augmentation or combination attempts, electroconvulsive therapy (ECT) has the best empirical evidence, yielding high response and remission rates. ECT is also used when a rapid antidepressant response is required, such as in patients who are either severely depressed, highly suicidal, or both. If a patient responds to ECT, the majority of the improvement is witnessed early in the treatment course. If early improvement is deemed insufficient, historically it is common practice to switch from a right unilateral (RUL) to a bitemporal (BT) electrode placement. However, no randomized controlled trial (RCT) data are available to support this ubiquitous clinical practice. Therefore, an RCT was designed to address which treatment strategy (continue RUL ECT or switch to BT) speeds up recovery and has the least impact on memory function. In this double-blind randomized trial we will include data of 196 patients, who fail to show early response (i.e. after four treatment sessions). They will be recruited at the four participating centres and will be randomly assigned to one of the two study arms. As primary objectives, we aim to address the antidepressant efficacy and the cognitive impact of switching electrode placement from RUL to BT (arm a) compared to continuing with RUL (arm b), in case of non-response after four RUL ECT sessions.",
+      "start": "2023-10-01",
+      "end": "2027-11-14",
+      "funding": [
+        {
+          "code": "Own budget, for example: patrimony, inscription fees, gifts",
+          "funders": []
+        }
+      ],
+      "participants": [
+        {
+          "name": "Didi Rhebergen",
+          "role": "Co-promoter"
+        }
+      ],
+      "url": "https://research.kuleuven.be/portal/en/project/57851565",
+      "keywords": [
+        "Electroconvulsive therapy",
+        "Major depressive disorder"
+      ]
+    },
+    {
+      "uuid": "5f95da9e-f1c3-4789-99a4-018a27e61aa7",
+      "title": "In vivo PET of synaptic density in cognitive disorders: prospective evaluation of neuronal dysfunction and relation to symptomatology.",
+      "acronym": "",
+      "abstract": "Currently, 18F-FDG PET is used for differential diagnosis in patients with cognitive dysfunction. It has the disadvantage that regional glucose metabolism is a combination of neuronal and astrocytic activity as well as neuroinflammation, which may mask true changes in synaptic activity. Imaging of SV2A serves as a proxy of synaptic density. This study will investigate and compare the diagnostic accuracy of 18F-SynVesT-1 to 18F-FDG PET in cognitive disorders with uncertain etiology and in exclusion of a neurodegenerative cause in patients with cognitive impairment in late-life psychiatric disorders. 110 patients with uncertain diagnosis of cognitive impairment that are sent for 18F-FDG PET brain imaging in their work-up and 40 healthy controls between 18 and 85 will be included. All study participants will undergo 18F-SynVesT-1 PET/MR and healthy controls above 50 years of age will also undergo amyloid PET. Next to an extensive neuropsychological evaluation, structural and functional MRI data will be obtained. The acquisition of multimodal imaging data as well as neuropsychological testing both in patients and controls will enable us to assess not only the relationship between cognition and imaging but also between these different imaging modalities themselves. The study will provide further insight into synaptic density PET and its diagnostic applicability, in particular as an early differential diagnostic tool in clinically uncertain cognitive disorders.",
+      "start": "2023-10-01",
+      "end": "2027-08-09",
+      "funding": [
+        {
+          "code": "Own budget, for example: patrimony, inscription fees, gifts",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/57646376",
+      "keywords": [
+        "PET/MR",
+        "synaptic density",
+        "cognitive disorders"
+      ]
+    },
+    {
+      "uuid": "32356f00-c72b-475c-8552-a44b1128107e",
+      "title": "Multimodal PET-MRI brain imaging of white matter pathology in late life depression",
+      "acronym": "",
+      "abstract": "Depression in later life (late-life depression: LLD) is a common but debilitating psychiatric disorder, which is associated with cerebrovascular disease. Understanding the neurobiological mechanisms underlying LLD is crucial for new solutions for its prevention and treatments. Previous studies have revealed that macrostructural white matter damage is associated with LLD, but little is known about microstructural alterations.The aim of this proposal is to gain comprehensive insight into white matter pathology from the microstructural to macrostructurtal level in LLD, and its correlation with clinical factors, such as vascular risk factors and brain protein aggregation. Recent technological advances enable us to assess white matter microstructural alterations in humans using advanced positron emission tomography (PET) and magnetic resonance imaging (MRI) techniques. In this proposal, I will apply advanced diffusion MRI analysis, combined with new PET techniques to assess tau, synaptic density and myelin in patients with LLD. The results of this proposal will provide new fundamental knowledge about the role of white matter microstructural alterations in LLD and clinically important knowledge about potential modifiable intervention targets (i.e., cerebral vascular risk factors) in LLD.",
+      "start": "2023-10-01",
+      "end": "2024-09-30",
+      "funding": [
+        {
+          "code": "BOF - postdoctoral mandates",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/57613462",
+      "keywords": [
+        "white matter",
+        "late-life depression",
+        "diffusion magnetic resonance imaging"
+      ]
+    },
+    {
+      "uuid": "e5d4a6f0-613d-41c0-8cc6-97e6683c763c",
+      "title": "Unraveling the neurobiological mechanisms underlying the bidirectional sleep-pain relationship in people with non-specific chronic low back pain.",
+      "acronym": "",
+      "abstract": "Chronic low back pain (CLBP) with and without insomnia is a highly prevalent and debilitating disorder characterized by huge socioeconomic burden. Sleep disturbances contribute significantly to CLBP severity and have a bidirectional relationship with chronic pain. This project will fill a critical knowledge gap by unraveling the underlying neurobiological brain mechanisms of this sleep-pain link in CLBP patients compared to pain-free controls with and without insomnia. We hypothesize that altered glial and neural brain mechanisms are linked to increased pain severity and sensitivity in response to acute and chronic sleep disruption. The effect of experimentally-induced acute insomnia will be studied with a randomized controlled crossover study in CLBP patients and pain- free controls. The impact of chronic sleep disturbances will be assessed via a cross-sectional case-control study in CLBP patients and pain-free controls with and without chronic insomnia. We will address our hypothesis by uniquely and ambitiously combining cutting-edge methods in neuroscience (PET-MRI to assess glial activation and neural responses to painful stimuli), pain (quantitative sensory testing to measure pain sensitivity and endogenous pain modulation), and sleep medicine research (ecologically valid sleep disturbance protocol and sleep assessments). Such research is urgently needed to develop effective and novel treatments for CLBP and insomnia that target the involved neurobiological mechanisms.",
+      "start": "2023-10-01",
+      "end": "2027-09-11",
+      "funding": [
+        {
+          "code": "Own budget, for example: patrimony, inscription fees, gifts",
+          "funders": []
+        }
+      ],
+      "participants": [
+        {
+          "name": "Iris Coppieters",
+          "role": "Promoter"
+        },
+        {
+          "name": "Liesbet De Baets",
+          "role": "Co-promoter"
+        }
+      ],
+      "url": "https://research.kuleuven.be/portal/en/project/57717809",
+      "keywords": [
+        "Chronic low back pain",
+        "Acute and chronic sleep disturbances",
+        "Brain alterations"
+      ]
+    },
+    {
+      "uuid": "ce27afb7-6f22-42e2-adab-e7d4b9fc5536",
+      "title": "The neural basis of thermoception",
+      "acronym": "",
+      "abstract": "Thermoception refers to the sensation of temperature differences derived from heat flux. It is a particular modality of interoception, which covers all sensations related to the state of the body. There is accumulating evidence that interoception contributes to how social cues are perceived and interpreted, i.e. social cognition. Deficits in social cognition are a hallmark of frontotemporal dementia (FTD), a neurodegenerative disorder characterized by behavioral changes but also thermoceptive deficits. Importantly, all these concepts (thermoception, interoception, social cognition and FTD) share a neuroanatomical basis in which the insular cortex plays a key role. This project will investigate thermoception by means of intracerebral electroencephalography (iEEG) in epileptic patients with electrodes implanted in the insula (performed at UCLouvain). This sample of epileptic patients and a new sample of FTD patients will also take part in a task-based functional magnetic resonance imaging (fMRI) and behavioral assessment of interoception and social cognition (performed at UCLouvain/KU Leuven). This combination of center-specific techniques and expertise allows obtaining optimal focal temporal and spatial resolution, together with coverage of neural responses across the whole brain. The project will provide innovative insights into the neural mechanisms underlying thermoception, the role of thermoception and interoception in social cognition, and the pathophysiology of FTD. Furthermore, the project may lay the basis for a long term collaboration between the respective research groups.",
+      "start": "2023-09-26",
+      "end": "2027-09-26",
+      "funding": [
+        {
+          "code": "Own budget, for example: patrimony, inscription fees, gifts",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/57782913",
+      "keywords": [
+        "Insula",
+        "Interoception",
+        "Thermoception",
+        "Frontotemporal dementia"
+      ]
+    },
+    {
+      "uuid": "ef9112b2-04ea-485d-81ee-0f9e86740c80",
+      "title": "Sleep agitation in dementia",
+      "acronym": "",
+      "abstract": "Currently, few interventions exist to address this nightly restlessness in people with dementia. Pharmacological solutions have limited effect and are accompanied by side effects whereas non-pharmacological solutions are often overlooked. LUCAS KU Leuven developed a few years ago the online tool “nightly agitation in dementia”, providing family caregivers inspiration and practical solutions to improve sleep in persons with dementia in a nonpharmacological way (Spruytte et al., 2018). The tool was developed in cocreation with family caregivers and relies on evidence-based and practice-based solutions and individual sleeping and living habits and preferences of persons with dementia (Van Vracem et al., 2016). The tool focuses on triggers of sleeping problems related to three areas: (1) triggers in the person itself, (2) triggers in the social environment, and (3) triggers in the spatial and sensory environment. Although the tool is very promising, it is not yet implemented in home care situations. This PhD builds further on the online tool and aims to: 1. Conduct a scoping review on the prevalence and impact of nightly agitation in persons with dementia and the value of sleep and non-pharmacological solutions to address sleeping problems. 2. Update the format of the psychoeducation tool in cocreation with persons with dementia and their care providers to make it more accessible and user-friendly. 3. Elaborate the research protocol for a pilot study to evaluate the appropriateness, acceptability, user-friendliness, and effectiveness of the psychoeducation tool in home care. 4. Implement and evaluate the psychoeducation tool in a home care setting in Flanders and a few international home care settings.",
+      "start": "2023-09-18",
+      "end": "2026-09-18",
+      "funding": [
+        {
+          "code": "Own budget, for example: patrimony, inscription fees, gifts",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/57782072",
+      "keywords": [
+        "nighly agitation",
+        "dementia",
+        "tool development",
+        "community-residing older adults"
+      ]
+    },
+    {
+      "uuid": "582369d9-5fea-472a-9b91-0047f18ee349",
+      "title": "Investigating the role of interoception: To what extent can interoceptive (dys)function account for changes in eating behaviour and social cognition?",
+      "acronym": "",
+      "abstract": "Interoception enables the nervous system to sense and interpret internal signals. These signals guide behaviour to ensure that we maintain a stable internal state. Recently, however, it has been proposed that interoception is not only involved in the interpreting of one’s own feelings but also those of others. We set out to test this theory by looking at the role interoception plays in eating behaviour (interoception as it relates to oneself) and social cognition (interoception as it relates to the interpretation of others). Altered eating behavior and impaired social cognition is frequently reported in behavioral variant frontotemporal dementia (bvFTD). Recent theories propose that deficits in interoception lie at the core of this neurodegenerative disorder. Although some findings seem to show support for this theory, no study has empirically tested to what extent interoceptive dysfunction can account for the diverse behavioural changes that occur in bvFTD. This project aims to do so by combining classical and novel behavioural methods with functional neuroimaging to determine to what extent interoception influences eating behaviour and social cognition. By including neurotypicals, individuals diagnosed with bvFTD and people at risk of this neurodegenerative disorder, this project will elucidate the role interoception plays in bvFTD.",
+      "start": "2023-09-05",
+      "end": "2029-10-31",
+      "funding": [
+        {
+          "code": "FWO fellowships",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/57631196",
+      "keywords": [
+        "social cognition",
+        "behavioural variant frontotemporal dementia",
+        "interoception"
+      ]
+    },
+    {
+      "uuid": "0c43cdb5-7ffb-48e6-845a-fc6b42a8680f",
+      "title": "The crucial role of the sleep-wake system in Alzheimer's Disease pathophysiology",
+      "acronym": "",
+      "abstract": "We hypothesize that changes in the sleep/wake system, are crucial in the pathophysiology of AD. We propose that dysregulation of the LC is a key cause of hyperarousal in AD, and that it can be treated to improve AD symptoms and progression. To investigate this, we aim to study this system in detail in both mouse models for AD as in patients suffering from AD. In a second step, we will look at the effect of DORAs (and SORAs –selective orexin receptor antagonists-) on the sleep-wake system in the rTg4510 mouse model for tauopathy and in patients with AD and severe neuropsychiatric symptoms.",
+      "start": "2023-01-16",
+      "end": "2027-01-16",
+      "funding": [
+        {
+          "code": "Own budget, for example: patrimony, inscription fees, gifts",
+          "funders": []
+        }
+      ],
+      "participants": [
+        {
+          "name": "Daniel Hoyer",
+          "role": "Co-promoter"
+        },
+        {
+          "name": "Laura Jacobson",
+          "role": "Promoter"
+        }
+      ],
+      "url": "https://research.kuleuven.be/portal/en/project/57358639",
+      "keywords": [
+        "Alzheimer's disease",
+        "Sleep-wake system",
+        "Agitation",
+        "Multimodel sensing",
+        "Tauopathy",
+        "locus coeruleus",
+        "Orexin receptor antagonists"
+      ]
+    },
+    {
+      "uuid": "a5c3e989-3817-48ca-8356-5ae94047db08",
+      "title": "Measuring brain activation non-invasively in freely moving healthy and neuropsychiatric human populations using functional near-infrared spectroscopy (fNIRS)",
+      "acronym": "",
+      "abstract": "Functional near-infrared spectroscopy (fNIRS) is an optical brain monitoring technique which uses near-infrared spectroscopy for the purpose of functional neuroimaging. In particular, brain activity is measured by using near-infrared light to estimate cortical hemodynamic activity which occurs in response to neural activity. The signal is comparable with the BOLD signal measured by fMRI and is capable of measuring changes both in oxy- and deoxyhemoglobin concentration. fNIRS devices are portable and one of the few non-invasive neuroimaging techniques which can be used in freely moving participants. Together with the minimal preparation time, this makes fNIRS the neuroimaging modality of choice for both clinical and healthy populations that have low frustration tolerance for longer preparation times (as required for e.g. EEG), or with keeping still (as required for e.g. fMRI), such as children or persons with dementia.",
+      "start": "2023-01-01",
+      "end": "2024-12-31",
+      "funding": [
+        {
+          "code": "BOF - scientific equipment program",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/57358551",
+      "keywords": [
+        "emotion",
+        "social cognition",
+        "dementia",
+        "infants",
+        "functional brain imaging",
+        "BOLD response"
+      ]
+    },
+    {
+      "uuid": "f5932a05-22ea-4c9c-ae05-4d4198d07f65",
+      "title": "Cultural differences in breakdown of social cognition in neuropsychiatric disorders: Chinese vs Flemish consistencies and specificities",
+      "acronym": "",
+      "abstract": "How people interact with others and respond to their emotional expressions (social cognition) is susceptible to cultural differences. These cultural differences are typically more pronounced in psychiatric and neurological conditions that are associated with symptoms in social interaction. Here, we will conduct a comprehensive assessment of social cognitive processes in healthy subjects and neuropsychiatric populations in both the Flemish and Chinese cultural setting. We will investigate the similarities and differences between both cultural settings and investigate their neural basis. In doing so, we will analyze the data that are already available at both centers from routine social cognition assessments and at the same time collect new data by means of recently developed instruments in both centers. The second aim of the project will make use of the same data to optimize the current clinical procedures at each center. The robustness of these procedures is particularly dependent on the size and diversity of the patient sample and combining the data from both centers will significantly increase the clinical benefit at each site. The present project may provide the necessary findings for consolidation of the aims at a longer timeframe beyond the project duration and provide incentives for possible future expansion to other centers and to other neuropsychiatric populations.",
+      "start": "2022-11-01",
+      "end": "2026-10-31",
+      "funding": [
+        {
+          "code": "BOF - doctoral mandates",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/56884272",
+      "keywords": [
+        "social cognition",
+        "cross-cultural",
+        "neurodegeneration",
+        "neuropsychiatry"
+      ]
+    },
+    {
+      "uuid": "6ff0848d-030b-4144-a1c6-449b824fbfba",
+      "title": "Cultural Differences in Breakdown of Social Cognition in Neuropsychiatric Disorders: Western vs Chinese Consistencies and Specificities",
+      "acronym": "",
+      "abstract": "Social cognition refers to cognitive processes during social interaction in which people understand others and respond to their emotional expressions. These processes are susceptible to cultural differences. These cultural differences are typically more pronounced in psychiatric and neurological conditions that are associated with symptoms in social interaction. This project aims to conduct a comprehensive assessment of social cognitive processes in healthy subjects and neuropsychiatric populations in Belgian (Flemish) and Chinese cultural settings. Similarities and differences between both cultural settings and their neural basis will be investigated through the analysis of data that are already available at the Center Neuropsychiatry (KU Leuven, Belgium) and the Dementia Care & Research Center (Peking University Institute of Mental Health, China). At the same time, new data will be collected utilizing recently developed instruments in both centers. Making use of the same data, the second aim of this project is to optimize current clinical procedures at each center.",
+      "start": "2022-11-01",
+      "end": "2026-11-01",
+      "funding": [
+        {
+          "code": "Own budget, for example: patrimony, inscription fees, gifts",
+          "funders": []
+        }
+      ],
+      "participants": [
+        {
+          "name": "Huali Wang",
+          "role": "Promoter"
+        }
+      ],
+      "url": "https://research.kuleuven.be/portal/en/project/57074110",
+      "keywords": [
+        "social cognition",
+        "cultural differences"
+      ]
+    },
+    {
+      "uuid": "0700bb2e-355b-4347-9e1a-41b92ac40766",
+      "title": "Pinpointing obsessive-compulsive symptom severity: Assessing hypersensitivity for symptom-eliciting visual cues using (frequency-tagging) EEG, eye tracking and stress physiology responses",
+      "acronym": "",
+      "abstract": "Obsessive Compulsive Disorder (OCD) is a disabling psychiatric disorder affecting 2-2.5% of the population. It is characterized by anxiety-provoking obsessions and time-consuming compulsions. The clinical expression of OCD is highly heterogenous and available assessment tools entail many limitations. In addition, OCD is associated with numerous comorbidities, which complicate diagnosis and personalized treatment. Against this background, there is a great need for objective and quantifiable tools to determine the presence and severity of OCD, monitor its severity throughout therapy and support the choice for invasive interventions. In the present project, newly designed symptom provocation techniques will be combined with innovative multimodal assessment measures to objectively quantify OCD-related symptomatology. We will investigate overt attention via eye tracking, neural sensitivity via (frequency-tagging) EEG and intracranial recordings and bodily arousal and autonomous stress physiology responses via heart rate, skin conductance and pupillometry. We expect that especially FT-EEG will offer an objective, quantifiable and robust index, sensitive at the individual subject-level. We will compare OCD patients vs healthy controls, and monitor symptom severity throughout exposure therapy and deep brain stimulation. This project constitutes a crucial step towards developing a biomarker of OCD severity, which may support diagnosis and reflect clinical state and treatment response.",
+      "start": "2022-11-01",
+      "end": "2027-10-31",
+      "funding": [
+        {
+          "code": "FWO fellowships",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/57288136",
+      "keywords": [
+        "EEG",
+        "Eye tracking",
+        "Obsessive-compulsive symptom severity biomarker"
+      ]
+    },
+    {
+      "uuid": "930a27e4-1a3a-41ce-8c69-89bedae3203c",
+      "title": "Changing Tactics? Optimizing ECT in difficult-to-treat depression",
+      "acronym": "",
+      "abstract": "This project entails the first-ever RCT comparing antidepressant efficacy and cognitive effects of an- ongoing treatment technique (unilateral ECT) with a change of treatment technique (from unilateral\n to bitemporal ECT). This project will have an impact on the clinical practice, guiding clinical decision making. The project addresses a clinical conundrum ECT clinicians are faced with on a daily basis: what\n to do in case a severely depressed patient fails to show the expected early response to treatment with ECT? How to improve the odds of achieving remission, while keeping the risk of cognitive side-effects\n as low as possible? There is an absolute lack of evidence to support ECT clinicians in making this clinical decision. As such, our project addresses an unmet need, i.e. personalizing and optimizing the\n treatment of the most severely ill. By situating the decision whether or not to change treatment technique earlier in the treatment course, i.e. after 4 sessions, remission might be achieved after a\n lower number of treatment sessions, thus diminishing the cognitive burden. In Belgium, more than 15.000 ECT treatments are performed yearly, of which 12.910 treatments in Flanders, mainly for\n severe depression. These numbers are expected to further increase.\n Moreover, ECT is offered increasingly on an ambulatory basis. Offering an ambulatory treatment assumes that the treatment is well tolerated and safe. Minimizing the time-to-reorientation, and\n cognitive sideeffects, eases the organization ofoutpatient ECT-care, reducing the time that is needed to observe the patient post-ECT. Because of the worldwide (growing) use of ECT we expect that the\n impact of our results will extend beyond Flanders and have international impact.",
+      "start": "2022-10-01",
+      "end": "2026-09-30",
+      "funding": [
+        {
+          "code": "FWO Applied Biomedical Research (TBM)",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/57346656",
+      "keywords": [
+        "antidepressant efficacy",
+        "cognitive effects",
+        "unilateral to bitemporal ECT"
+      ]
+    },
+    {
+      "uuid": "19e48801-0a79-476f-a584-2104fccef76f",
+      "title": "Optimizing maintenance electroconvulsive therapy (ECT) for depression, with lithium as add-on therapy.",
+      "acronym": "",
+      "abstract": "This research project is based on an ongoing multicentric study aimed to optimize the maintenance treatment with lithium and electroconvulsive therapy (ECT) for depression (PRASED – Preventing Relapse After Successful Electroconvulsive therapy for Depression). The project consists of a clinical study, a randomized controlled trial funded by FWO-TBM, and is a collaboration of 4 research sites (UPC KU Leuven campus Kortenberg, PZ Duffel, AZ Sint-Jan Brugge en Erasmus MC Rotterdam). Patiënts that achieved remission after acute ECT-treatment are randomized into 2 groups: they continue treatment with personalised maintenance ECT and ongoing antidepressant treatment, and either receive lithium or not. These two study arms are compared and evaluated over a longer period of time. The aim is to evaluate the efficacy of personalised maitenance ECT. Furthermore the effects of Lithium as add-on therapy will be examined. The scientific objectives as foreseen in the study protocol include: - Validate the effectiveness of a personalized, symptom-driven approach of maintenance ECT (for 6 months) in depressive patients that have responded to an acute ECT-course. - Investigate the additive effect of lithium-addition to symptom-driven M-ECT and antidepressant treatment in preventing relapse after successful ECT. - Compare clinician-rated mood with scores on self-rating scales. - Evaluate the tolerability of combined continuation treatment in the two different treatment arms by assessment of cognitive functioning. Other research questions, related to the collected data, can become part of the PhD project in the course of our research.",
+      "start": "2022-10-01",
+      "end": "2026-09-15",
+      "funding": [
+        {
+          "code": "Own budget, for example: patrimony, inscription fees, gifts",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/57219297",
+      "keywords": [
+        "Depression",
+        "Lithium",
+        "ECT"
+      ]
+    },
+    {
+      "uuid": "c5dcaef3-c5d0-46c4-b765-ac8e5722cf32",
+      "title": "Psych-STRATA - A Stratified Treatment Algorithm in Psychiatry: A program on stratified pharmacogenomics in severe mental illness",
+      "acronym": "Psych-STRATA",
+      "abstract": "A key problem in Mental Health is that up to one third of patients suffering from major mental disorders develop resistance against drug therapy. However, patients showing early signs of treatment resistance (TR) do not receive adequate early intensive pharmacological treatment but instead they undergo a stepwise trial-and-error treatment approach. This situation originates from three major knowledge and translation gaps: i.) we lack effective methods to identify individuals at risk for TR early in the disease process, ii.) we lack effective, personalized treatment strategies grounded in insights into the biological basis of TR, and iii.) we lack efficient processes to translate scientific insights about TR into clinical practice, primary care and treatment guidelines. It is the central goal of PSYCH-STRATA to bridge these gaps and pave the way for a shift towards a treatment decision-making process tailored for the individual at risk for TR. To that end, we aim to establish evidence-based criteria to make decisions of early intense treatment in individuals at risk for TR across the major psychiatric disorders of schizophrenia, bipolar disorder and major depression. PSYCH-STRATA will i.) dissect the biological basis of TR and establish criteria to enable early detection of individuals at risk for TR based on the integrated analysis of an unprecedented collection of genetic, biological, digital mental health, and clinical data. ii.) Moreover, we will determine effective treatment strategies of individuals at risk for TR early in the treatment process, based on pan-European clinical trials in SCZ, BD and MDD. These efforts will enable the establishment of novel multimodal machine learning models to predict TR risk and treatment response. Lastly, iii.) we will enable the translation of these findings into clinical practice by prototyping the integration of personalized treatment decision support and patient-oriented decision-making mental health boards.",
+      "start": "2022-10-01",
+      "end": "2027-09-30",
+      "funding": [
+        {
+          "code": "HORIZON.2.1 - Health",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/57349694",
+      "keywords": [
+        "mental disorders",
+        "treatment resistance",
+        "schizophrenia",
+        "bipolar disorder",
+        "major depression",
+        "machine learning models"
+      ]
+    },
+    {
+      "uuid": "57a02178-7365-4223-9775-5385346142c3",
+      "title": "The crucial role of the sleep-wake system in Alzheimer’s Disease pathophysiology",
+      "acronym": "",
+      "abstract": "There is accumulating evidence, both neurobiological and clinical, that dysregulation of the sleep-wake cycle could be fundamental in Alzheimer’s Disease (AD). From a neurobiological perspective, clear links have been found between changes in sleep and changes in amyloid, tau and atrophy. Mouse model for tauopathies are characterized by marked sleep wake imbalance/hyperarousal, which is strikingly similar to the severe neuropsychiatric symptoms present in most AD patients. Indeed, sleeping problems and daytime agitation in are major causes for institutionalization of AD patients.The Locus coeruleus (LC) is a major regulator of wakefulness/arousal, cognition and stress, and the first brain region to be affected by tau pathology in AD. Orexins are neuropeptides crucial in the sleep-wake function. The orexine receptor type 1 is highly expressed in the LC. Recently, orexin receptor antagonists (ORAs) were developed to treat insomnia, and very interestingly produce physiological sleep.We hypothesize that changes in the sleep/wake system, are crucial in the pathophysiology of AD. We propose that dysregulation of the LC is a key cause of hyperarousal in AD, and that it can be treated to improve AD symptoms and progression. To investigate this, we set up a collaboration between the KU Leuven and the University of Melbourne, to study this system in detail in both mouse models for AD (in Melbourne) and in patients with AD (in Leuven). In a second step, we will look at the effect of ORAs on the sleep-wake system in a mouse model for tauopathy and in patients with AD.",
+      "start": "2022-10-01",
+      "end": "2026-09-30",
+      "funding": [
+        {
+          "code": "BOF - doctoral mandates",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/56781743",
+      "keywords": [
+        "Alzheimer's disease",
+        "Sleep-wake system",
+        "Agitation",
+        "Multimodel sensing",
+        "Tauopathy",
+        "locus coeruleus",
+        "Orexin receptor antagonists"
+      ]
+    },
+    {
+      "uuid": "69c7ace9-d6a7-4368-9d1b-9e081a43e18e",
+      "title": "The crucial role of the sleep-wake system in Alzheimer’s Disease pathophysiology",
+      "acronym": "",
+      "abstract": "We hypothesize that changes in the sleep/wake system, are crucial in the pathophysiology of AD. We propose that dysregulation of the LC is a key cause of hyperarousal in AD, and that it can be treated to improve AD symptoms and progression. To investigate this, we aim to study this system in detail in both mouse models for AD as in patients suffering from AD. In a second step, we will look at the effect of DORAs (and SORAs –selective orexin receptor antagonists-) on the sleep-wake system in the rTg4510 mouse model for tauopathy and in patients with AD and severe neuropsychiatric symptoms.",
+      "start": "2022-10-01",
+      "end": "2023-09-30",
+      "funding": [
+        {
+          "code": "Own budget, for example: patrimony, inscription fees, gifts",
+          "funders": []
+        }
+      ],
+      "participants": [
+        {
+          "name": "Laura Jacobson",
+          "role": "Promoter"
+        }
+      ],
+      "url": "https://research.kuleuven.be/portal/en/project/57128806",
+      "keywords": [
+        "Alzheimer's disease",
+        "sleep"
+      ]
+    },
+    {
+      "uuid": "3bfb183c-e4ff-4b32-b97a-b4a867f9ee6e",
+      "title": "Aggressive behaviour in dementia",
+      "acronym": "",
+      "abstract": "An analysis of aggressive behavior in dementia",
+      "start": "2022-08-01",
+      "end": "2026-07-31",
+      "funding": [
+        {
+          "code": "Own budget, for example: patrimony, inscription fees, gifts",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/57357770",
+      "keywords": [
+        "agressie",
+        "dementie",
+        "aggression",
+        "dementia"
+      ]
+    },
+    {
+      "uuid": "62e41f08-1edb-4f83-b053-3f61a7af9549",
+      "title": "A multi-modal approach to study C9orf72-mediated disease",
+      "acronym": "",
+      "abstract": "ALS and FTD are related neurodegenerative disorders, for which there is to this day no curative treatment. C9orf72 gene mutations are the most frequent cause of familial ALS and FTD. This gene mutation is associated with marked variability in disease presentation and disease progression. The main goal of this project is to better understand C9orf72-mediated disease, using multiparametric imaging, neuropsychological testing and by assessing fluid biomarkers in the cerebrospinal fluid. In doing so, we hope to predict the phenotype asymptomatic mutation carriers will develop, to identify biomarkers that will predict onset of symptoms (especially in this exciting era of gene therapies for ALS) and predict disease progression in ALS patients. Lastly, we will study the neural substrate of mental health in ALS patients, by combining diagnostic assessments with an e-survey on mental health.",
+      "start": "2022-05-16",
+      "end": "2023-05-15",
+      "funding": [
+        {
+          "code": "BOF - postdoctoral mandates",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/56346624",
+      "keywords": [
+        "C9orf72",
+        "Neuroimaging",
+        "Neuropsychology",
+        "Neurodegeneration",
+        "Mental Health"
+      ]
+    },
+    {
+      "uuid": "e1b0ac82-bca9-4c5f-98e8-29402d4a808e",
+      "title": "SOCIAL COGNITION AND ASSOCIATED DEFICITS: IN VIVO AND IN SILICO",
+      "acronym": "",
+      "abstract": "We will investigate social cognition in the human brain. More specifically, we will use functional neuroimaging (fMRI) to image these essential social cognitive networks, in healthy controls and patients with deficits in social cognition (frontotemporal dementia or autismspectrum disorder). During MRI scanning, inclusions will perform a related social cognitive task. After analyses of MRI data, we will construct artificial neural networks, inspired by these social cognitive networks",
+      "start": "2021-10-04",
+      "end": "2022-10-31",
+      "funding": [
+        {
+          "code": "Own budget, for example: patrimony, inscription fees, gifts",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/56505591",
+      "keywords": [
+        "social cognition"
+      ]
+    },
+    {
+      "uuid": "196640cf-33d3-416e-8f24-5efb4221cd27",
+      "title": "Computational Modeling of Social Cognition and associated Deficits by means of Artificial Neural Networks",
+      "acronym": "",
+      "abstract": "Artificial Neural Networks (ANNs) are computer models that are loosely inspired by the functioning of the human brain. They are now the start of the art method for tackling a variety of AI problems, and are becoming an increasingly popular tool in neuroscientific studies. However, both domains pursue different goals: in AI model performance is key and brain resemblance is incidental, whilst in neuroscience the aim is chiefly to better understand the brain. A corollary is that despite a shared interest, both communities are organized in separate communities with little overlap. At KU Leuven, we find both sides represented in the inderdisciplinary institutes Leuven.AI and Leuven Brain Institute. The current proposal builds a bridge between both institutes and additionally puts forward two original focus points: the modeling of high-level tasks, in particular social cognition, as well as a focus on clinical conditions, in particular Autism Spectrum Disorder and Frontotemporal Dementia.",
+      "start": "2021-10-01",
+      "end": "2025-09-30",
+      "funding": [
+        {
+          "code": "BOF - projects",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/56337372",
+      "keywords": [
+        "Artificial Neural Networks",
+        "Neuroscience",
+        "Computational Psychiatry",
+        "Neurosymbolic AI",
+        "Frontotemporal Dementia",
+        "Autism Spectrum Disorder",
+        "Artificial Intelligence"
+      ]
+    },
+    {
+      "uuid": "9762ff76-1a68-48fc-a440-9ea19fd2175f",
+      "title": "Investigating the Alignment between Convolutional Neural Networks and the Brain for Social Cognition",
+      "acronym": "",
+      "abstract": "Artificial Neural Networks (ANNs) attempt to reproduce \"in silico\" processes that take place in the human brain. In the domain of AI, ANNs are now the state-of-the-art method for tackling a variety of problems (computer vision, speech recognition, natural language processing, etc.). Here, the similarity to the human brain is mostly incidental: the brain may serve as a source of inspiration, but it is really the performance of the ANN that matters, e.g., how well it can classify images or understand speech. On the other hand, ANNs are also a popular tool in neuroscientific studies. Here, in stark contrast to the AI domain, similarity to the human brain is key. The ANN is of interest only insofar as it can help to better understand the human brain.\n\n \nThis PhD is situated within the interdisciplinary project \"Computational Modeling of Social Cognition and associated Deficits by means of Artificial Neural Networks\" (KU Leuven IDN/21/010) that brings together people from Computer Science, Psychology and Neuropsychiatry to address one of the biggest challenges in both AI and neuroscience: understanding social cognition. The concept of social cognition comprises multifaceted interpersonal processes that underly the interpretation of other people’s behaviors and how to interact with them. In particular, this thesis asks the question: do Convolutional Neural Networks (CNNs), a common type of ANN that has achieved remarkable successes in many computer vision tasks, form a good basis to model the human brain for the specific task of social cognition?\n\n \nIndeed, the successes of CNNs have mainly been booked on low-level tasks, such as, e.g., identifying objects in pictures. Social cognition goes beyond such low-level tasks by necessitating the integration of multiple information streams, and potentially calling upon prior, latent knowledge. Nevertheless, earlier work has established certain correspondences between the visual processing stream in the human brain and CNNs, making them an ideal starting candidate to model this task.\n\n \nThe motivation for this work resides in the fact that how social cognition manifests in the brain is not entirely understood yet. In particular, it is not well understood how neurodivergent brain structures—either through lifelong conditions such Autism Spectrum Disorder or neurodegenerative conditions such as Frontotemporal Dementia—affect social skills. If a computational model were to be found that manages to capture the essence of neurotypical social cognitive processing, this model could then potentially be used to investigate how altered brain mechanisms, reflected in altered network structures, affect social cognition.\n\n \nThis type of research, whereby computer models are used to model the brain, is generally referred to as Computational Psychiatry or Computational Neuroscience. The present dissertation opens with a short, non-technical introduction to this field. Following this, a novel dataset for \"Emotion Recognition in the Wild\"—i.e., using non-stages scenes—called FindingEmo is described, including an analysis of why previously existing datasets were insufficient for the task at hand. Using this dataset as a starting point, a method, EmoCAM, is introduced that allows to investigate the importance of specific object classes for the detection of specific emotions by a CNN. Essentially, the question is asked: What information does the network use to make its assessment? Next, making use of both FindingEmo and EmoCAM, the question of to what extent CNNs align with the human brain for the task of valence appraisal is explored by performing a correlation analysis with fMRI data obtained from neurotypical individuals. Some attention is also devoted to a limitation of CNNs, and how despite showing similarities with human visual processing they also show weaknesses not exhibited by humans, in the subsequent chapter focused on how color alterations alter CNN predictions. Finally, the FWO ID-N project \"Social cognition in silico and in vivo\" is briefly described. This project forms a direct continuation of, and will build directly on results presented in this dissertation.",
+      "start": "2021-09-29",
+      "end": "2026-01-30",
+      "funding": [
+        {
+          "code": "Own budget, for example: patrimony, inscription fees, gifts",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/56497673",
+      "keywords": [
+        "Artificial Neural Networks",
+        "Neuroscience",
+        "Computational Psychiatry",
+        "Neurosymbolic AI",
+        "Frontotemporal Dementia",
+        "Autism Spectrum Disorder",
+        "Artificial Intelligence"
+      ]
+    },
+    {
+      "uuid": "2fec728a-fb2c-40c6-939c-a5f7be3e8783",
+      "title": "TOWARDS BETTER MANAGEMENT OF SLEEP DISTURBANCES AND AGITATION IN DEMENTIA: FROM SYMPTOM ASSESSMENT TO TREATMENT",
+      "acronym": "",
+      "abstract": "Sleep disturbances and agitation are among the most prevalent neuropsychiatric symptoms in dementia, profoundly affecting patients, caregivers, and healthcare systems. Despite their significance, current management strategies remain insufficient. This thesis addresses critical gaps in three key areas, assessment, risk management, and treatment, to improve the management of these symptoms in dementia care.",
+      "start": "2021-09-10",
+      "end": "2025-09-04",
+      "funding": [
+        {
+          "code": "Own budget, for example: patrimony, inscription fees, gifts",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/56441758",
+      "keywords": [
+        "Alzheimer's disease",
+        "slow wave sleep",
+        "acoustic stimulation"
+      ]
+    },
+    {
+      "uuid": "ef959774-0442-4ca6-8e81-2dee2b394c5f",
+      "title": "PhD in collaborative care for the elderly with psychological and somatic frailty",
+      "acronym": "",
+      "abstract": "More than two-thirds of older patients receiving psychiatric care have at least one general medical condition, and many of these patients have at least two. Management of multimorbidity requires integration of somatic and mental health care. Collaborative care is a complex intervention based on management models for chronic conditions and consists of four key elements: a multi-professional approach to care, a structured care plan, planned follow-up appointments for patients, and improved interprofessional communication. Collaborative care would be effective in managing mental illness in adults. However, there are still insufficient studies on the effect of collaborative care in mental illness in elderly people with somatic comorbidity. The objective of this project is the development and piloting of a collaborative care model for this target group in and around Leuven, in collaboration with, among others, the Leuven general practitioners, the University Psychiatric Center (UPC) KU Leuven, and the Geriatrics and Gerontology Department UZ/KU Leuven. This doctoral dissertation will be under the supervision of and a collaboration with a multidisciplinary research group.",
+      "start": "2021-09-01",
+      "end": "2024-04-30",
+      "funding": [
+        {
+          "code": "Own budget, for example: patrimony, inscription fees, gifts",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/56413754",
+      "keywords": [
+        "collaborative care",
+        "psychological",
+        "somatic",
+        "elderly"
+      ]
+    },
+    {
+      "uuid": "c308fd2a-65d6-4f73-aaec-ff37c86fa2a9",
+      "title": "The neurobiology and psychology of late onset psychosis",
+      "acronym": "",
+      "abstract": "Very-late-onset schizophrenia-like psychosis (VLOSLP) is an invalidating condition characterized by diffuse and mildly progressive cognitive dysfunction. In this PhD project we wish to research neurobiological and associated neuropsychological/behavioral factors that may contribute to the onset and persistence of VLOSLP. Specifically, we hypothesize that brain integrity and possibly neurodegenerative mechanisms may be involved in reducing a neurobiological and cognitive reserve, and thus triggering the onset of psychosis. Indeed, earlier research has identified similar aging-related white matter deficit patterns in patients with schizophrenia and Alzheimer’s disease. Also, there is evidence of accelerated cognitive decline and increased risk of developing dementia in elderly patients with schizophrenia. Therefore, we will analyze brain white matter integrity and amyloid deposition in a cross-sectional study comparing individuals with VLOSLP, a clinical control group of individuals with LOD and a healthy age and gender matched control group. Neurobiological data will be related to neuropsychological/behavioral assessments.",
+      "start": "2021-08-23",
+      "end": "2021-11-30",
+      "funding": [
+        {
+          "code": "Own budget, for example: patrimony, inscription fees, gifts",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/56344690",
+      "keywords": [
+        "old age",
+        "imaging",
+        "psychosis",
+        "schizophrenia",
+        "cognition"
+      ]
+    },
+    {
+      "uuid": "0a63f11a-5a15-4900-8a69-2e4204cf9ee8",
+      "title": "Enhancement of slow wave sleep in Alzheimer’s disease by closed-loop acoustic stimulation",
+      "acronym": "",
+      "abstract": "Alzheimer’s disease (AD) is the most common form of dementia. Sleeping problems (like difficulty falling asleep or maintaining sleep) is a very common symptom in AD. This often leads to additional problems like excessive daytime sleepiness, depressive mood or agitation during the day or at night. Together this has an important detrimental effect on the quality of life of persons with AD. What’s more, this results in increased burden for the caregiver, which often leads to an early admission of the person with AD in a nursing home. Underlying these sleep problems, are changes in the sleep architecture of a person with AD. One of the most striking changes is a reduction in the so called slow wave sleep, sometimes also called “deep sleep”. New technology makes it possible to stimulate the slow brain waves during this sleep stage by means of a quiet (not audible) acoustic stimulation generated by a headband device. We want to study if it is feasible for a person with AD to wear such a device without too much discomfort, and if this stimulation of slow waves, results in better sleep for the person with AD. Also, we want to determine if this subsequently results in better mood and less behavioral problems during daytime. Finally, partners will be asked if this improved their own sleep and if caregiver burden was reduced by this intervention.",
+      "start": "2021-07-01",
+      "end": "2022-06-30",
+      "funding": [
+        {
+          "code": "Other federal public and semi-governmental institutions",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/56325804",
+      "keywords": [
+        "slow wave activity",
+        "alzheimer's disease"
+      ]
+    },
+    {
+      "uuid": "c18b0aee-0173-4172-bec7-7c59c1c91d48",
+      "title": "Objectively assessing dyadic biobehavioural synchrony via dual eye-tracking, dual EEG and ANS stress physiology recording, and detailed video monitoring",
+      "acronym": "",
+      "abstract": "Humans are social beings by excellence. Due to the social and bodily embeddedness during early development, biological and behavioural processes become entrained and coordinated with the interacting partner. This biobehavioural synchrony is evident across behaviour, stress physiology, hormones and brain processing, and across multiple human attachment constellations (e.g., parent-infant pairs, romantic lovers, strangers). Paradoxically, however, conventional socio-affective neuroscience approaches typically examine individual humans in isolation, in very artificial non-ecological settings. Yet, recent technological advances allow us to study dyadic interactions by recording from both partners at the same time. With the present proposal, we apply for equipment that will allow us to measure eye gaze, neural processing, stress physiology, and behaviour simultaneously in two individuals while they are engaged in real-life interactions. This cutting-edge approach will introduce a paradigm shift in socio-affective research and will allow us to study how these multimodal temporal signals relate to each other (within-subject interdependency), how they relate to the multimodal signals of the interacting partner (inter-subject interdependency), and how this mutual dyadic biobehavioural attunement may be disturbed in atypical development and psychiatric conditions.",
+      "start": "2021-01-01",
+      "end": "2022-12-31",
+      "funding": [
+        {
+          "code": "BOF - scientific equipment program",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/56130158",
+      "keywords": [
+        "multimodal",
+        "dyadic interaction",
+        "EEG",
+        "eye-tracking",
+        "stress physiology",
+        "facial mimicry",
+        "video recording",
+        "psychopathology"
+      ]
+    },
+    {
+      "uuid": "5578ec20-538c-4b52-828a-da2b93c42a75",
+      "title": "The comparison of functional localization theory and network perspectives on the neural basis of socio-emotional processing",
+      "acronym": "",
+      "abstract": "The cerebral organization of cognition and behavior has been set by 2 early opposing hypotheses. According to ‘Cerebral euipotentiality’ hypothesis, the brain functions as a whole, implying that any intact part of a functional brain is capable to carry out the functions which are lost by destruction of the other parts while ‘functional localization’ hypothesis posits specific brain-behavior associations. The functional localization hypothesis has dominated the field in the past decades with consistent observations such as fusiform face area. However, there are some contra-evidences against localization hypothesis such as interindividual differences, distributed responses to a single stimulus, low specificity in brain-behavior associations, and inconsistent symptom-lesion associations. As an intermediate view, the network hypothesis can be an explanation to problematic issues of locationist approach. It refers to that cognitive tasks are performed by networks consisting of multiple discrete brain regions that are functionally connected using a key mechanism degeneracy, ‘equi-finality’. Functional brain imaging studies in healthy subjects provide important evidence regarding the nature of brain-behavior associations, yet studies in brain-damaged patients are crucial to evaluate any hypothesis derived from healthy controls. Neurodegenerative diseases showing early socio-emotional deficits such as frontotemporal dementia, mild cognitive impairment, and Alzheimer’s disease are well suited to clinically validate any network hypothesis derived from studies in healthy subjects. The objectives of the study are to define the social cognitive brain, reveal associations between brain characteristics at the network level and social cognition behavior in healthy subjects, and reveal associations between functional brain characteristics and breakdown of social cognition in pre-symptomatic and symptomatic neurodegeneration. Therefore, the collected MRI and fMRI data from healthy subjects will be used to define social cognitive brain as social brain network and emotional brain network. Next, the network-level characteristics and social cognition performance will be calculated and correlated to investigate whether a network model outperforms a locationist model. Finally, a retrospective FDG-PET study in pre-symptomatic and symptomatic neurodegeneration will be performed to clinically validate the findings of previous analyses.",
+      "start": "2020-10-30",
+      "end": "2025-12-31",
+      "funding": [
+        {
+          "code": "Own budget, for example: patrimony, inscription fees, gifts",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/56005605",
+      "keywords": [
+        "emotion",
+        "social cognition",
+        "network hypothesis",
+        "degeneracy",
+        "neuroimaging"
+      ]
+    },
+    {
+      "uuid": "7f34aa21-d1ab-4e46-afe0-a99fce7cc087",
+      "title": "The intertwining relationship between sleep, epileptiform activity and tau pathology in Alzheimer's disease",
+      "acronym": "",
+      "abstract": "Alzheimer’s disease (AD) is the most common neurodegenerative disease causing dementia and one of the leading causes of death. Currently, there is no curative therapy for AD. Epilepsy and sleep-wake disturbances are common co-morbid conditions in AD which are often present in an early stage of the disease. They not only cause more rapid deterioration of the disease by impairing memory and behaviour, but are also an increasing burden on the caregiver and often the reason to institutionalize the elderly. The prevalence and influence of epileptiform activity and sleep-wake disorders in Alzheimer's disease is underestimated and is therefore an area where we can very much help patients and care providers. The most common seizure type in patients with AD are focal temporal lobe seizures. These are non-convulsive seizures, characterized by autonomic disturbances (e.g. tachycardia, hyperventilation, sweating), psychic phenomena (e.g. anxiety, déjà vu, rising epigastric sensation), confusion and arousals during sleep. These seizures are easily overlooked by medical personnel or caregivers and often considered as episodes of confusion due to dementia. Those ictal and interictal epileptic discharges in AD are often not picked up by routine EEG studies. Long-term EEG monitoring is the best technique to diagnose interictal and (sub)clinical epileptic activity in elderly affected by AD, with sleep EEG recordings being more sensitive to detect epileptic spikes than awake recordings. Sleep-wake disturbances (e.g. reduced slow wave sleep, reduced REM sleep, prolonged REM latency, OSAS, …) are one of the most disruptive symptoms for patients and caretakers and may be one of the earliest symptoms in preclinical AD and Mild Cognitive Impairment. There is a bidirectional effect between AD pathology (amyloid-ß and tau) on sleep and vice-versa. Therefore sleep offers potential as a non-invasive marker for tau pathology. In addition, there is a complex interaction between epilepsy and sleep-wake disorders whereby the sole manifestation of a focal temporal lobe seizure can be an arousal during sleep. The main seizure types in AD are probably aware and impaired awareness focal seizures of temporal lobe origin. The only manifestation of a focal temporal lobe attack could be an arousal from sleep. It is probable that a majority of these seizures and subclinical interictal epileptiform activity goes unnoticed, and is not visible on scalp EEG, but can be captured with intracranial foramen ovale electrodes. Co-morbidity of epilepsy and sleep-wake disturbances in AD have not been studied, so far, and will be the focus of our project.\n\n \nBased on this information, our hypotheses are as follows:\n\n \n- Epilepsy/epileptiform activity and sleep-wake disturbances are common and underestimated co-morbidities in AD. These are present in an early stage of the disease and can worsen AD.\n\n \n- Patients with increased severe sleep-wake disturbances will be more likely to have epileptic spikes and seizures, more specifically, we postulate that frequent nocturnal cortical arousals with autonomic features may be a manifestation of hippocampal/temporal lobe seizures, and that epilepsy/epileptiform activity will be more frequent in AD patients with sleep apnea.\n\n \n- Mesial temporal epileptiform activity is associated with damage to the hippocampus (tau pathology), as evidenced with tau-PET\n\n \n- Patients with AD can have silent hippocampal seizures and spikes which can be identified using foramen oval electrodes.\n\n \n- Sleep disturbances are more common in patients with AD; and could be used as a marker to distinguish patients with AD from cognitively intact elderly. \n\n \n- Sleep and tau pathology are linked, and sleep alterations are associated to (regional) tau pathology.\n\n \nOur primary goal is to map the prevalence of epilepsy and sleep-wake disorders in patients with Alzheimer's disease by means of a case-control study using the most advanced technology. Firstly we will select and obtain our study population, consisting of patients with AD and control participants, who will receive an ambulant 24-hour EEG monitoring and polysomnography in combination with a wearable device (Sensor Dot). We will register the prevalence of interictal epileptic discharges and sleep-wake disturbances, and register a possible interaction of those. In the next phase, selected patients with interictal epileptic activity on scalp EEG and/or frequent cortical arousals, will receive long-term EEG monitoring with scalp and foramen oval electrodes/polysomnography to detect silent hippocampal seizures (see hypotheses). Patients will receive MR-tau-PET scanning to look for tau load and anatomic substrates of epileptic activity and sleep-wake disturbances. Finally, we are currently participating in an EIT-Health funded project “A multi-center study to examine clinical scenarios for long-term monitoring of epileptic seizures with a wearable biopotential technology (S63631)” and we aim to use this wearable biopotential technology in our current study. We will compare Sensor Dot data with the gold standard polysomnography and study the feasibility of studying sleep-wake disturbances in patients with AD in the home setting using this multimodal wearable device. Using artificial intelligence models we will look for features and patterns in the physiological data during the night that have a distinguishing character for the AD population, in search for potential sleep biomarkers.",
+      "start": "2020-10-02",
+      "end": "2024-10-23",
+      "funding": [
+        {
+          "code": "Own budget, for example: patrimony, inscription fees, gifts",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/55955615",
+      "keywords": [
+        "Epilepsy",
+        "Alzheimer's Disease",
+        "Sleep-wake disturbances"
+      ]
+    },
+    {
+      "uuid": "f91c9a47-a9c8-446b-86a3-86ed71501c0c",
+      "title": "The wandering and reflecting senior mind: uncovering the link between spontaneous and effortful mental processes and the experience of meaning in late life",
+      "acronym": "",
+      "abstract": "De ervaring van betekenis in het leven is cruciaal voor het psychologisch welbevinden van oudere volwassenen in de eindfase van het leven, zoals bijvoorbeeld oudere volwassenen in woonzorgcentra. Desalniettemin is er een opvallend gebrek aan onderzoek naar de mentale processen die deze ervaring ondersteunen. In het huidige project stellen we voor dat spontante en doelbewuste processen van elkaar kunnen worden onderscheiden. Het empirisch luik van dit project focust op het spontane proces van gedachten-dwalen (mind-wandering) en het doelbewuste proces van betekenis-reflectie. Tijdens gedachten-dwalen drijft de aandacht weg van stimuli in de onmiddellijke externe omgeving naar interne gedachten. Met betekenis-reflectie wordt het doelbewuste gedachtenproces bedoeld waarbij gereflecteerd wordt over issues die te maken hebben met betekenis in het leven. In de literatuur worden de hypotheses naar voor geschoven dat deze processen bijdragen tot de ervaring van betekenis in het leven, maar empirisch onderzoek ontbreekt. Vier studies zullen inzicht bieden in de tussen- en binnen-persoon relaties tussen de ervaring van betekenis in het leven, gedachten-dwalen, en betekenis-reflectie, aan de hand van verschillende methoden (cross-sectionele vragenlijst, dagelijkse bevraging, experience sampling).",
+      "start": "2020-10-01",
+      "end": "2021-09-30",
+      "funding": [
+        {
+          "code": "BOF - postdoctoral mandates",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/55759037",
+      "keywords": [
+        "meaning in life",
+        "old age",
+        "mind-wandering",
+        "reflection",
+        "mental processes"
+      ]
+    },
+    {
+      "uuid": "034a30c2-8e25-4db9-b797-802048b0fc52",
+      "title": "Wireless brain monitoring stimulation tools to investigate neurodegenerative diseases",
+      "acronym": "",
+      "abstract": "There is growing evidence that in people with neurodegenerative diseases, like dementia and Parkinson, wide-spread changes in functional brain connectivity occur much earlier than clinically relevant symptoms of the disease. A key requirement in the development of early predictive models as well as novel interventions targeting synaptic and neuronal integrity is the ability to reliably measure brain function in a natural environment during spontaneous behaviour. Existing advanced neuroimaging techniques are only available in a clinical setting, while existing wearable systems do not offer sufficient spatial coverage and resolution for network analysis and suffer from poor signal quality and significant motion artefacts. Additionally, there is interest from the neuroscientific community to investigate novel electrical brain stimulation approaches which may induce neuroplasticity in the brain. This requires novel electrical stimulation circuits that can provide stimulation deeper into the brain and with higher spatial resolution. This PhD aims to develop a wireless and easy-to-operate high-density (HD)-EEG headset (>64channels) suitable for use in an ambulatory setting under natural behaviour, as well as exploring research purposes for 'electrical interference stimulation'.",
+      "start": "2020-09-22",
+      "end": "2025-10-31",
+      "funding": [
+        {
+          "code": "FWO fellowships",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/55964251",
+      "keywords": [
+        "neuroscience",
+        "neuromodulation",
+        "neurodegenerative diseases",
+        "electrical interference stimulation"
+      ]
+    },
+    {
+      "uuid": "a5e57ebd-1464-446d-b1a9-6abb1ca28ad9",
+      "title": "Resting-State Network Topology in relation to Synaptic Density in Late-Life Depression and Amnestic Mild Cognitive Impairment",
+      "acronym": "",
+      "abstract": "Neuropsychiatric disorders can affect emotional processes, including a decreased sense for interpreting the meaning of social signals, and be associated with lesions in areas of the emotional networks. However, the underlying neural mechanisms of these behavioral changes are still unknown. The aim of the project is to study the accompanying structural and functional changes in these pathological neural circuits and provide a deeper insight in the emotional process in late-life neuropsychiatric disorders, for instance by examining the network properties of the neural circuit changes in the brain.",
+      "start": "2020-09-16",
+      "end": "2026-06-16",
+      "funding": [
+        {
+          "code": "Own budget, for example: patrimony, inscription fees, gifts",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/56121097",
+      "keywords": [
+        "neural emotion circuits",
+        "neuropsychiatric disorders"
+      ]
+    },
+    {
+      "uuid": "86fa7812-c50f-4967-af5e-838d30efa2eb",
+      "title": "Unraveling Neuropsychiatric Symptoms in Dementia: Using Multimodal Sensing to Detect and Predict Agitation",
+      "acronym": "",
+      "abstract": "With the increasing age of the global population comes a significant increase in the number of people with dementia. Although dementia is characterized primarily by a loss of cognitive functioning, there are also behavioral and psychological symptoms that are clinically relevant. Specifically, agitation is one of the most important behavioral problems seen in dementia patients. Agitation alone can lead to a significant decline in a patient’s quality of life and possible (over)use of medication, as well as increasing the burden of the caregiver, typically leading to early institutionalization. Measuring agitation more directly, objectively and continuously will allow us to better understand the mechanisms of agitation. This increased understanding will, in turn, enable better prevention of agitation and provide a platform to better monitor the effect of both pharmacological and non-pharmacological interventions. This research consists of developing a methodology to measure and eventually predict levels of agitation in dementia patients. Due to there not yet being a directly correlated biometric linked to agitation, the approach to be developed will combine multiple physiological and environmental measurements. The devices used for these measurements will be suitable for the target population, and will consist of both wearable and non-contact technology. The various contextualized physiological data inputs acquired will be used to develop a model with the goal of measuring and ultimately predicting levels of agitation.This prediction will be facilitated by machine-learning algorithms. Specifically, the measurement/prediction of agitation can be seen as a multi-input classification problem. To facilitate the development of these algorithms, multiple data collection trials will be organized. Based on the large database resulting from these trials, a personalized machine-learning model will be developed to classify levels of agitation.",
+      "start": "2020-09-03",
+      "end": "2024-09-11",
+      "funding": [
+        {
+          "code": "Own budget, for example: patrimony, inscription fees, gifts",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/55814259",
+      "keywords": [
+        "Artificial Intelligence",
+        "Dementia",
+        "Neurodegenerative disease",
+        "Health algorithm"
+      ]
+    },
+    {
+      "uuid": "9d89208c-ca3e-42c1-8022-57856e47a987",
+      "title": "PET/MR imaging of tau and synaptic density in mild cognitive impairment and traumatic brain injury",
+      "acronym": "",
+      "abstract": "Abnormal protein deposition and brain trauma can both lead to hyperphosphorylation and accumulation of tau protein in the brain. In this project, it is hypothesized that sequentially measuring tau protein in combination with the effect on synaptic density, determines further changes such as anatomic and cognitive changes. Both tau deposition and synaptic density can be determined using PET scans (18F-MK6240 en 11C-UCB-J, respectively). Also, structural changes in white and grey matter can simultaneously be determined using PET-MR. These imaging biomarkers might be predictive for further clinical and neuropsychological changes, more specifically for cognitive dysfunction. This study will investigate the hypothesis in patients with MCI due to Alzheimer's disease and in patients with mild to severe traumatic brain injury.",
+      "start": "2020-07-30",
+      "end": "2024-09-17",
+      "funding": [
+        {
+          "code": "Own budget, for example: patrimony, inscription fees, gifts",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/55770266",
+      "keywords": [
+        "tau protein"
+      ]
+    },
+    {
+      "uuid": "ceed6401-1cdb-4880-8a98-faaf7655d841",
+      "title": "The KU Leuven Brain Institute: interdisciplinary collaboration to transform neuroscience research in health and disease.",
+      "acronym": "LBI",
+      "abstract": "The KU Leuven Brain Institute will unite all neuroscience research at KU Leuven. The goal is to achieve\n\n \nexcellence in neuroscience by joining forces to advance our understanding of the human nervous system, both normal and diseased. The LBI will foster new collaborations and new research lines that span the entire scope of neuroscience, from molecules to behavior and from in vitro systems to patients, to go beyond the state of the art. The LBI will form a creative and stimulating environment, where neuroscientists meet and find inspiration to tackle some of the greatest challenges our society faces today. Thematic focus groups bring together researchers from different disciplines around themes such as neurodegeneration, learning and plasticity, cognition, neuromodulation, consciousness and brainmachine interfaces.",
+      "start": "2020-01-01",
+      "end": "2028-11-30",
+      "funding": [
+        {
+          "code": "BOF - research organisations",
+          "funders": []
+        },
+        {
+          "code": "BOF - research organisations",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/55580279",
+      "keywords": [
+        "neuroscience",
+        "cognition",
+        "neurodegeneration",
+        "behaviour",
+        "neuromodulation",
+        "brain-machine interfaces",
+        "consciousness",
+        "plasticity"
+      ]
+    },
+    {
+      "uuid": "33ddf4ed-60ec-43b2-b1f5-80e4323cb0aa",
+      "title": "Multimodal neuroimaging investigation of brain aging biomarkers in late-life depression",
+      "acronym": "",
+      "abstract": "Late-life depression (LLD) is often associated with cognitive dysfunction and increases the risk of developing dementia. Neuroimaging studies of depression consistently report lower gray matter volume, most robustly in the temporal lobe. Yet, the chain of events leading to lower gray matter volume in depression is still unresolved. The main goal of this PhD project was therefore to gain insight in the origin of gray matter volume differences in LLD. Given the ambiguous link with AD, investigating AD biomarkers in LLD might shed light on potential contributing factors to gray matter volume changes in LLD.\n\n \nWe explored gray matter volume differences in LLD using structural MRI and investigated amyloid (18F-Flutemetamol), tau (18F-MK-6240), and synaptic density (11C-UCB-J) biomarkers using positron emission tomography. Our findings consistently identified reduced gray matter volume in brain regions implicated in AD. However, these volume differences were not accompanied by AD-related pathology (Chapter 4 and Chapter 5) or lower synaptic density (Chapter 6). These results suggest that amyloid, tau and SV2A PET may be valuable in distinguishing LLD and prodromal AD.\n\n \nWhilst underlying neurodegeneration might contribute to some LLD phenomenology, the epidemiological link between AD and LLD might better be explained by common risk factors, than by common neuropathology. Lower GMV in LLD might rather represent a predisposing biological factor, a consequence of accelerated aging, or a dynamic interaction between both that is difficult to disentangle. Investigating LLD both on the individual level and group level while incorporating various biological, psychological, and social factors is essential for future research that seeks specific targets for intervention.",
+      "start": "2019-10-01",
+      "end": "2025-03-28",
+      "funding": [
+        {
+          "code": "Own budget, for example: patrimony, inscription fees, gifts",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/55344068",
+      "keywords": [
+        "neuroimaging",
+        "late life depression",
+        "tauopathy",
+        "medial temporal lobe pathology"
+      ]
+    },
+    {
+      "uuid": "232ad651-890c-4869-9380-7d9dbb6e83ec",
+      "title": "Synaptic density changes and gray matter volume increase following electroconvulsive therapy",
+      "acronym": "",
+      "abstract": "Introduced in 1938, electroconvulsive therapy (ECT) has been a crucial treatment for severe psychiatric disorders. Although its efficacy is well-established, the exact mechanisms underlying its therapeutic effects remain elusive. The leading hypothesis is that ECT induces neuroplasticity, a theory supported by preclinical studies in rodents. However, translating this evidence to a clinical population has been difficult. The increased gray matter volume (GMV) following ECT has been suggested to reflect structural neuroplasticity. This doctoral thesis examined the neurobiological mechanisms driving GMV increase and aimed to explore possible behavioral and clinical correlates.\n\n \nChapter 1 comprehensively reviewed the literature on ECT-induced neuroplasticity and categorized these changes into molecular, structural, and functional domains. Molecular neuroplasticity can be seen in the alterations of neurotrophic factors and neurotransmitters following ECT. While there are numerous studies observing molecular markers of neuroplasticity, their clinical relevance remains inconsistent and rarely correlates with therapeutic efficacy. Structural neuroplasticity was evidenced by strong alterations in both gray and white matter in the brain, however, the clinical relevance of these structural changes was inconsistent. Studies on functional neuroplasticity revealed significant but complex modifications in brain network connectivity patterns. The functional neuroplasticity level provided the most compelling evidence for the therapeutic efficacy of ECT.\n\n \nWith respect to structural GMV changes following ECT, we investigated the relationship between cortisol and GMV changes in the medial temporal lobe (MTL) following ECT in patients with late-life depression (LLD) in chapter 2. No significant correlations were found between cortisol and pre-treatment MTL volumes or ECT-induced MTL volumetric changes, suggesting a mechanism of ECT-related neuroplasticity independent of the neurotoxicity hypothesis of cortisol. Further, in chapter 3, we investigated ECT-induced hippocampal GMV change and its relation with cognition post-ECT in patients with LLD. We observed that larger right hippocampal GMV change predicted less pronounced improvement in visual memory performance up to six months post-ECT. Interestingly, for verbal and semantic memory, as well as global cognitive function, the predictive value of hippocampal GMV change was only significant in patients who switched from right unilateral to bilateral ECT stimulation. This suggests a nuanced relationship between hippocampal GMV changes and cognitive outcomes, dependent on the specifics of ECT administration.\n\n \nIn chapter 4, we investigated long-term GMV patterns following ECT, using data from the GEMRIC consortium. The findings confirmed a significant increase in GMV immediately post-ECT, followed by a consistent decrease within six months, with GMV generally returning to pre-ECT levels. Exceptions were found in both amygdalae, right hippocampus, and pars triangularis, where GMV remained higher than baseline. No consistent relationship was observed between these GMV patterns and clinical depression outcomes during and after ECT, suggesting that the neurobiological effects of ECT as seen with GMV changes might be transient and not directly linked to clinical improvements.\n\n \nThe thesis further explored the molecular dynamics of the neurobiological effects of ECT. First, in chapter 5, we performed a scoping review to investigate the role of molecular imaging, particularly PET and SPECT, in understanding ECT's neurobiological effects. The review highlighted two primary research directions in the past four decades: brain activity and neurotransmitter systems. Early research mostly before the year 2000 focused on regional cerebral blood flow and regional glucose metabolism, revealing significant changes during and after ECT. Later studies shifted to the monoamine hypothesis, examining serotonin and dopamine systems. The review pointed out the need to focus on new research targets in PET studies related to the neuroplasticity hypothesis of ECT. This need for novel molecular PET imaging studies investigating the neuroplasticity hypothesis was met in chapter 6. We conducted a pilot study using 3T PET-MRI investigating whether ECT-induced GMV increases corresponded with changes in synaptic density, measured at the molecular level via SV2A. In patients with LLD, post-ECT increases in GMV were observed, but did not correlate with changes in SV2A, as measured by 11C-UCB-J uptake. Interestingly, the post hoc analysis suggested a more nuanced effect, indicating that synaptic plasticity, indicated by changes in SV2A, correlated with the observed GMV changes but only in patients whom achieved clinical remission. However, the small sample size warrants careful interpretation of these post hoc results.\n\n \nCollectively, these studies underscore the complex and multifaceted nature of GMV changes following ECT. Our understanding of the neuroplasticity hypothesis of ECT has improved; however, ongoing scientific advancements are essential to both challenge and validate this theory.",
+      "start": "2019-03-11",
+      "end": "2024-10-31",
+      "funding": [
+        {
+          "code": "FWO fellowships",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/55036732",
+      "keywords": [
+        "Depression",
+        "Electroconvulsve therapy",
+        "PET-MR"
+      ]
+    },
+    {
+      "uuid": "c3c3a5ee-9da1-45cd-85c5-57664baeff1a",
+      "title": "Non-Amyloid Pathological Brain Aging in Late Life Depression",
+      "acronym": "",
+      "abstract": "Depression and age-related brain disorders such as dementia are together one of the greatest public health issues of our time. With a rapidly increasing aging population and longer life expectancy, the burden associated with depression in later life will only increase. Understanding the neurobiological mechanisms underlying depression is crucial for limiting the personal and economic impact of the disorder by improving diagnosis and treatment.\n\n \nThis project will use new PET-MRI brain imaging biomarkers of neurodegeneration in combination with wearable technology to investigate how stress and neural markers of pathological brain aging such as tau protein abnormalities (tauopathy), temporal lobe gray matter loss and white matter lesions contribute to the pathophysiology of late-life depression. The results may lead to a new proteinopathy based stratification of late-life depression and improved differential diagnosis with respect to dementia.",
+      "start": "2019-01-01",
+      "end": "2022-12-31",
+      "funding": [
+        {
+          "code": "FWO research project (including WEAVE projects)",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/54970008",
+      "keywords": [
+        "Neurology and neurosciences"
+      ]
+    },
+    {
+      "uuid": "31a12345-6b8e-4224-8a90-76932d3c4ee0",
+      "title": "The neurobiology of motor symptoms in late life depression.",
+      "acronym": "",
+      "abstract": "Psychomotor dysfunction (PMD) is a symptom dimension of major depressive disorder that is particularly common in late life depression (LLD) and leads to falls. Its neurobiology remains unresolved. Accelerated aging or neurodegeneration in the brain’s motor regions could explain the severity of motor symptoms in LLD. Recently developed PET imaging techniques allow to study the brain’s neuronal synaptic density, which is typically affected in key brain regions involved in common neurodegenerative diseases. Grey and white matter alterations that are naturally seen in healthy aging can be studied with advanced automated methods for the analysis of MR imaging.\n\n \nThis doctoral project investigated the neurobiology of PMD was in LLD, following a stepwise approach. First, historical clinical descriptions and interpretations of motor symptoms were explored in melancholia, the predecessor of major depressive disorder (chapter 1). This confirmed the multifocal involvement and the diagnostic importance of motor symptoms within depressive syndromes. It became clear that over time, physicians and scientists gave different affective, motivational and cognitive interpretations to psychomotor retardation and agitation. These interpretations were further explored in a study of 34 patients with LLD and 41 healthy older persons, by investigating relationships between motor scales and experimental measures of fine, gross motor function, gait and balance with scales measuring mood, motivational and cognitive function (chapter 3). This study confirmed the multifocal pattern of PMD and showed how its severity was not significantly explained by affective, motivational or cognitive dysfunction nor antipsychotic drug use. A digital tablet task revealed that patient’s fine movement execution was more impaired than initiation, in comparison to healthy older persons an independently of task complexity. Their initiation speed normalized in the presence of visual start cues, which hints at a deficit at the level of the basal ganglia.\n\n \nAs a second step, brain imaging changes associated with PMD were investigated by conducting a scoping review (chapter 4). This review revealed four replicated key imaging findings associated with (more extensive) PMD: lower dopamine availability in the striatum, widespread changes of white matter structural integrity, lower blood flow to the frontal cortex, and altered functional connectivity in the frontal, cingulate cortex and the basal ganglia. The review lay bare the need for a stricter sample selection with exclusion of relevant neuropsychiatric diseases, and a consensus on motor measures that are less influenced by affective, motivational, cognitive or observer bias. To study the specific role of brain aging or neurodegeneration in the motor symptoms of LLD, associations of synaptic density (using an SV2A- PET tracer) in the brain and mild motor signs (using the MDS-UPDRSIII score) were investigated in a sample of 68 healthy older persons (chapter 5). This study revealed how a widespread symmetrical pattern of lower synaptic density in the cortex and subcortical structures related to more pronounced motor symptoms in healthy aging, independent of a white matter hyperintensity rating or grey matter volume. The same investigation was consecutively performed in the group of 34 patients with LLD of the Leuven Late Life Depression study, though with an increased set of motor measures including assessments of fine motor function and gait. No widespread pattern of lower synaptic density was seen, but instead, a localized change in synaptic density of the globus pallidus as well as grey matter volume reductions in the thalamus, globus pallidus and putamen was observed that related to more severe fine and gross motor dysfunction.\n\n \nCapitalizing on these imaging findings, our third and last step was the investigation of basal ganglia grey matter volume changes of 66 older LLD patients over a course of electroconvulsive therapy (ECT), a rapid acting antidepressant therapy. In parallel with large scale studies, a volume increase was observed in the caudate, putamen and accumbens nucleus upon depression remission after ECT. This volume increase however did not correlate with the improvement of PMD (measured with the CORE scale). Though no overall significant volume change was noticed for the globus pallidus, volumetric changes of this structure correlated with the CORE agitation improvement after ECT.\n\n \nIn conclusion, PMD appears to be an independent motor dimension of LLD with specific clinical characteristics and brain imaging findings that point to a dysfunction within the basal ganglia-thalamic circuit. These localized findings were fundamentally different from brain changes related to mild motor signs in healthy older persons, suggesting that the higher prevalence of PMD in LLD is not explained by brain aging effect alone.",
+      "start": "2018-12-01",
+      "end": "2024-11-20",
+      "funding": [
+        {
+          "code": "Own budget, for example: patrimony, inscription fees, gifts",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/54959856",
+      "keywords": [
+        "PET",
+        "MRI",
+        "psychomotor symptoms",
+        "late life depression",
+        "aging"
+      ]
+    },
+    {
+      "uuid": "9b9efbf3-8563-485a-9db3-08bdac3072df",
+      "title": "Non-Amyloid Pathological Brain Aging in Late Life Depression",
+      "acronym": "",
+      "abstract": "Understanding the aetiology of medial temporal lobe (MTL) pathology in severe late-life depression (LLD) is crucial for improving diagnostic specificity with respect to dementia and for optimising treatment. Given the role of tau in neurodegenerative diseases and our recent finding that hippocampal atrophy in LLD is not related to brain amyloid, we will study non-amyloid pathological brain aging in LLD using PET-MRI neuroimaging. We will investigate the relationship between white matter lesions, which are implicated in LLD, synaptic density in the hippocampus, and tau pathology and the association with stress. Importantly, we will also study how these findings impact upon treatment and behaviour, by investigating (a) if electroconvulsive therapy alters hippocampal synaptic density and whether this explains its therapeutic effect and its effect on hippocampal volume, and (b) if MTL atrophy in LLD is associated with failure of the emotional positivity effect that characterizes normal aging.",
+      "start": "2018-10-01",
+      "end": "2022-09-30",
+      "funding": [
+        {
+          "code": "BOF - Concerted Research Project from 1994",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/54689715",
+      "keywords": [
+        "hippocampal volume",
+        "tau pathology",
+        "synaptic density",
+        "late life depression",
+        "PET MR imaging",
+        "stress and aging"
+      ]
+    },
+    {
+      "uuid": "c5f8b304-ddd9-44b0-822d-b47dab2e5a46",
+      "title": "Preventing Relapse After Successful ECT for Depression - A randomized controlled trial on lithium as add-on to personalized maintenance ECT.",
+      "acronym": "ECT",
+      "abstract": "The current project is designed to study some promising relapse prevention strategies in a well-designed but challenging RCT.",
+      "start": "2018-10-01",
+      "end": "2022-09-30",
+      "funding": [
+        {
+          "code": "FWO Applied Biomedical Research (TBM)",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/55031475",
+      "keywords": [
+        "Laboratory medicine"
+      ]
+    },
+    {
+      "uuid": "7a601309-446f-4da3-8c4f-26898399337b",
+      "title": "Synaptic density, tau and multiparametric PET-MR for quantitative functional assessment and prognosis in mild cognitive and behavioural impairment",
+      "acronym": "",
+      "abstract": "With annually 9.9 million new cases worldwide and as one of the\n\n \ncostliest diseases, the impact of dementia cannot be underestimated.\n\n \nAlthough research in this domain has made significant progress,\n\n \nmajor challenges still lie ahead. There is a growing need of\n\n \nbiomarkers with the capacity to diagnose Alzheimer’s disease (AD) in\n\n \nan early stage, predict prognosis for prodromal patients and monitor\n\n \ntreatment. To date, there are no such biomarkers available. PET-MR\n\n \nimaging of tau protein and synaptic density (SD), which only recently\n\n \nbecame possible through the development of radiotracers 18F-MK-\n\n \n6240 and 11C-UCB-J, could provide an answer to this need. The\n\n \ndeposition of Tau and the loss of SD are two related pathological\n\n \nhallmarks of AD that change early in the disease course. We\n\n \nhypothesize that in patients with mild cognitive or behavioral\n\n \nimpairment, prodromal presentations of AD, the uptake of 18F-MK-\n\n \n6240 is increased in the medial temporal cortex, related to cognitive\n\n \nor behavioral changes. Accompanying this, we expect a decrease in\n\n \nSD, measured by 11C-UCB-J, diminished network connectivity and\n\n \ndecrease in white matter organization. These changes will deteriorate\n\n \nover the course of 2 years in patients that evolve to AD. The objective\n\n \nof this project is to determine the added value and potential clinical\n\n \nimplementation of Tau and SD simultaneous PET-MR imaging in\n\n \nprodromal AD, which will be accomplished in a longitudinal design\n\n \nfrom early symptom onset to 2 years of follow up",
+      "start": "2018-02-01",
+      "end": "2020-01-31",
+      "funding": [
+        {
+          "code": "FWO Strategic Basic Research Grant",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/54548769",
+      "keywords": [
+        "aMCI/MBI",
+        "PET/MR"
+      ]
+    },
+    {
+      "uuid": "714b0310-e1ed-48d8-84f2-668593fb2c9c",
+      "title": "Does electroconvulsive therapy (ECT) reduce amyloid deposition through microglial activation?",
+      "acronym": "",
+      "abstract": "In this study we propose to investigate if ECT alters the rate of amyloid deposition in the brains of LLD patients with cerebral amyloidosis, and if this is associated with increasing microglial activation.",
+      "start": "2018-01-01",
+      "end": "2020-12-31",
+      "funding": [
+        {
+          "code": "BOF - Other initiatives",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/54613847",
+      "keywords": [
+        "electroconvulsive therapy (ECT)",
+        "miroglial"
+      ]
+    },
+    {
+      "uuid": "07c28d3c-9d98-49af-abbe-c153a15a1ae2",
+      "title": "EXERGAMING IN OLDER ADULTS WITH MAJOR NEUROCOGNITIVE DISORDER",
+      "acronym": "",
+      "abstract": "Major neurocognitive disorder is characterized by a decline of cognitive and motor functions which leads to a\ngradual decrease of independence in daily life activities. This functional decline contributes to a reduced quality\nof life, increased caregiver effort, care burden and long-term care costs. In recent years, there has been in\nparticular a growing interest in the benefits of non-pharmacological therapies, such as regular physical activity.\nMore importantly, researchers recently stated that a combination of cognitive and physical training positively\naffect cognitive function in people with major neurocognitive disorder. Therefore, it is of upmost importance to\noffer combined cognitive and physical training to this population.\nRecent improvements in technology have provided opportunities for combining physical activity with cognitivelychallenging\ntasks in one single session through exergames (exercise and video games). Exergames are interactive\nvideo-games which require the player to produce body movements in response to visual, auditory and\nsomatosensory cues. Previous research demonstrated that compared with physical activity, exergames induce\nmore beneficial cognitive effects. It also improves physical activity levels and reduces obesity, depression and fall\nrisk. Considering these promising benefits, it is of upmost importance to examine the use of exergames in people\nwith major neurocognitive disorder. The first phase of this doctoral project will focus on the use of exergames in\nthis population in a mixed-methods study. In the second phase, we will contribute to an international study\nwhere a gait speed and variability assessment will be used to personalize the exergame intervention in this\npopulation. We hypothesize that exergames present an enjoyable and motivating instrument of being physically\nactive in people with major neurocognitive disorder and positively influence the quality of life, physical, cognitive\nand behavioral functioning.",
+      "start": "2018-01-01",
+      "end": "2022-09-05",
+      "funding": [
+        {
+          "code": "Own budget, for example: patrimony, inscription fees, gifts",
+          "funders": []
+        }
+      ],
+      "participants": [
+        {
+          "name": "Eling de Bruin",
+          "role": "Co-promoter"
+        }
+      ],
+      "url": "https://research.kuleuven.be/portal/en/project/54499441",
+      "keywords": [
+        "Exergaming"
+      ]
+    },
+    {
+      "uuid": "f70c7691-4afb-429d-8641-f405b0675675",
+      "title": "Synaptic density, tau and multiparametric PET-MR for quantitative functional assessment and prognosis in stroke and mild cognitive impairment",
+      "acronym": "",
+      "abstract": "There are no reliable biomarkers to predict recovery, assess prognosis or objectively monitor interventions in stroke and amnestic mild cognitive impairment (aMCI) due to Alzheimer’s disease. Two major, related pathological hallmarks common to these disorders are a decrease in synaptic connectivity, which may involve various neurotransmitters, and an accumulation of tau protein deposits. These are associated with disturbances in white matter integrity and regional network dysfunction, before finally neuronal death and atrophy occur. Simultaneous PET-MR allows quantitative imaging of these hallmarks in only two sessions, to determine their respective contribution and chronological dependence in vivo. Using novel highly specific and sensitive radioligands for synaptic density (synaptic vesicle glycoprotein (SV2a), 11CUCB-J) and tau deposits (18F-MK-6240), together with advanced MR measures of white matter tract integrity, resting-state fMRI network analysis and structural MR metrics, we want to assess their individual and combined diagnostic, prognostic and monitoring value to measure functional disease burden in relation to cognitive and behavioural dysfunction. This will be done in a longitudinal study with two-year follow-up, using advanced voxel-based quantification and multiparametric graphbased analysis tools.",
+      "start": "2018-01-01",
+      "end": "2021-12-31",
+      "funding": [
+        {
+          "code": "FWO research project (including WEAVE projects)",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/54520141",
+      "keywords": [
+        "Synaptic density",
+        "Tau deposits",
+        "Multiparametric PET-MR",
+        "Stroke",
+        "Mild cognitive impairment"
+      ]
+    },
+    {
+      "uuid": "37d27821-b756-4bd3-8426-a7388bbb787b",
+      "title": "Phenotyping socio−emotional profiles in presymptomatic and symptomatic neurodegenerative disorders.",
+      "acronym": "",
+      "abstract": "The project uses a translational and multidisciplinary approach to investigate socio−emotional functions in neurodegeneration. We will first valorize research findings on socio−emotional deficits for use in clinical practice. The output objective is an automated test battery and classification program. The second aim is to phenotype emotion perception abilities in presymptomatic (genetic variants) and symptomatic neurodegeneration. The primacy of the disruption of functional brain network over the nosological condition and/or genotype in the behavioral presentation will be tested. In addition, the predictive value of presymptomatic socio−emotional phenotype towards clinical phenotype will be evaluated. Finally, we will investigate the involvement of dopamine release and limbic activation in irritability at the presymptomatic disease stage. The findings will advance the knowledge of aetiology, pathophysiology and progression in neurodegeneration.",
+      "start": "2017-10-01",
+      "end": "2027-09-30",
+      "funding": [
+        {
+          "code": "BOF - ZAP BOF mandates",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/56815814",
+      "keywords": [
+        "neurodegeneration",
+        "emotion perception abilities",
+        "dopamine release",
+        "limbic activation"
+      ]
+    },
+    {
+      "uuid": "392effe7-bc0f-40ce-ac06-61ab85699e78",
+      "title": "The Dementia Step Dance revolution: a mixed-methods exergame study in people with mild to moderate dementia.",
+      "acronym": "",
+      "abstract": "The current treatment of dementia is not efficacious in all patients. Pharmacotherapy may introduce undesirable side-effects. Physical activity has been defined as a promising non-pharmacological treatment. Despite the scientific evidence that physical activity is beneficial for people with dementia, and a variety of guidelines advise health professionals to engage and refer people living with dementia to physical activity, there is a dearth of evidence on how best to work and engage with people in care settings. Both dance and exercise-based videogames (exergames) that combine player movement, recreation, performance feedback and social connectivity have been shown to promote motivation in elderly. In this project we will combine these motivational strategies and investigate the efficacy and effectiveness of an innovative dance exergame intervention in residential patients with dementia. More in detail, we will explore the efficacy and feasibility of the intervention on the functional capacity, behavioral, psychological and cognitive functioning. We will also explore the efficacy of the intervention on fall incidents.",
+      "start": "2017-07-01",
+      "end": "2019-04-30",
+      "funding": [
+        {
+          "code": "Other federal public and semi-governmental institutions",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/54269993",
+      "keywords": [
+        "Exergame",
+        "dance",
+        "dementia",
+        "depression",
+        "quality of life",
+        "physical performance",
+        "falling"
+      ]
+    },
+    {
+      "uuid": "fadf53a2-4b57-4080-9006-8848016e5c4b",
+      "title": "The neural basis of social cognition in health and neuropsychological disorders",
+      "acronym": "",
+      "abstract": "Facial expressions are important for nonverbal communication and can display personal emotions and indicate an individual’s intention within a social situation. The expression of emotion is known to enhance retention of facial identity. Relative little is known about the underlying neuropsychology and the link between emotional and social memory, an interaction known to be of pivotal importance for an individual’s social interactions. The human brain has been found to possess multiple neuronal networks involved in managing the complex process of social interaction.\n\n \n\nThis doctoral thesis includes a literature study and five research studies that are conducted in order to investigate the neural basis of social cognition. The first objective was to provide a better understanding of both facial and emotion recognition in subjects with different neurodegenerative disorders. The second objective was to explore the neural substrate of social and emotional memory. The third objective was to investigate the link between neurobiology and personality (brain-trait association). In addition, the role of the amygdala as possible key structure relevant for social cognition was studied and discussed. Chapter one is dedicated to a general introduction.\n\nIn chapter two, the results are discussed of a systematic literature review to obtain a comprehensive overview of the current knowledge and the impact of neurodegeneration in the form of Frontotemporal Dementia (FTD) and Alzheimer’s disease (AD) on facial expression recognition and the differential impact of FTD versus AD. The qualitative syntheses revealed that in both FTD and AD overall emotion recognition was most frequently impaired. The results of the meta-analyse support the general hypothesis, that FTD is characterized by impaired emotion recognition, in comparison to AD and healthy controls. In addition, AD patients perform significantly worse on the non-emotional control task.\n\n                In the third chapter, we studied in more detail the impact of neurodegeneration in bvFTD on not only facial expression recognition but also on moral reasoning abnormalities. Our study revealed a more utilitarian response on low-conflict personal moral dilemmas in bvFTD and these responses were found to be associated with facial emotion recognition. At the neural level, abnormal moral cognition in bvFTD is related to structural integrity of the medial prefrontal cortex and functional characteristics of the anterior insula. The present findings provide a common basis for emotion recognition and moral reasoning and link them with areas in the default mode and salience network.\n\n                In chapter four, we tested the predictive coding hypothesis for repetition suppression (RS) during social memory processing by investigating the interaction between RS and differences due to memory in category-selective cortex (FFA, pSTS, PPA, and RSC) and the amygdala. The results revealed that absolute RS during encoding interacts with probability of future remembrance in face-selective cortex, an opposite correlation was observed in the amygdala. The findings also reveal an association between adapter response and RS, both for short long-term (48h) intervals. Furthermore, we clinically validated the findings in developmental prosopagnosia, which shows consistent effects that are also associated with behavioural deficits. These combined findings are challenging for predictive coding models of visual memory and are more compatible with adapter-related and familiarity accounts.\n\n                Chapter four emphasizes the importance of eye movements during face recognition (Supplementary Information), therefore, in chapter five we observed eye-scanning patterns for social and emotional memory. The results revealed enhanced memory for angry faces for young adults compared to older adults, consistent with the socioemotional selectivity theory. This effect was associated with a shorter fixation duration for angry faces compared to neutral faces in the older adults group. Furthermore, the results revealed that total fixation duration also was a strong predictor for face memory performance.\n\n                To further improve our understanding of the ‘social brain’ we investigated the Brain-Trait association chapters six and seven. The results revealed a significant specific positive correlation between a region in the left thalamic pulvinar and ‘novelty seeking’, driven by the subscale impulsiveness. We further observed opposing associations in males and females between temperament brain associations, emphasizing the importance of the acknowledgement of the role of sex on structural neurobiology of personality. The results support the general hypothesis that individual personality differences reflect the structural differences observed in the brain.\n\n                This doctoral thesis highlights that including social cognitive deficits, as emotion recognition, in neuropsychological criteria may improve the differential diagnosis of neurodegenerative disorders. The results further support the adapter-related and familiarity accounts of social memory, which was absent in developmental prosopagnosia. The main findings of this doctoral thesis are more in line with the psychological construction theory stating that the amygdala is involved in several aspects of emotion processing, including social processing. This leaves the question about the actual role of the amygdala in social cognition open for future study. In an extensive discussion, we elaborate on future prospects in early diagnosis and understanding disease onset and progression of different neuropsychological disorders.",
+      "start": "2016-12-16",
+      "end": "2022-04-22",
+      "funding": [
+        {
+          "code": "Own budget, for example: patrimony, inscription fees, gifts",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/54023364",
+      "keywords": [
+        "Emotion",
+        "Memory",
+        "fMRI brain imaging",
+        "Face recognition",
+        "Neuropsychological disorders"
+      ]
+    },
+    {
+      "uuid": "461d1e56-614e-4de4-9879-7d15d7adb68d",
+      "title": "Eye-tracking equipment",
+      "acronym": "",
+      "abstract": "Research into conscious and unconscious emotional processes during visual perception takes a prominent place within the research group psychiatry and beyond. The acquisition of a state-of-the-art eye-tracking system will provide an important quality increase for the current and future research projects. Such equipment offers significant methodological and theoretical additive value to complement and interpret behavioral data. It allows to evaluate whether differences in performance (for instance between emotional and neutral stimuli or between normal and neuropsychiatric populations) are related to differences in attention; it allows to investigate eye-movements (fixation duration, fixation pattern) as a function of the intensity of emotional cues and it allows to investigate autonomous reactions (pupil dilatation) to emotional stimuli.",
+      "start": "2016-10-01",
+      "end": "2018-09-30",
+      "funding": [
+        {
+          "code": "Fund Recuperation Fiscal Exemption",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/53814843",
+      "keywords": [
+        "Eye-tracking"
+      ]
+    },
+    {
+      "uuid": "26ac5aed-5b84-4262-915b-0d8d758c1d44",
+      "title": "Phenotyping socio-emotional profiles in presymptomatic and symptomatic neurogenerative disorders.",
+      "acronym": "",
+      "abstract": "A better understanding of psychopathology necessitates the integration of 3 research domains: genetics, neurochemistry and brain circuitry. This project combines these 3 domains and takes a symptom-centered trans-nosological approach to identify associations between behavioral and brain changes. We will study carriers of different pathogenic mutations causing neurodegeneration. The experimental measurements will consist of psychophysics, neuropsychiatric evaluation, fMRI and PET-MR, covering neuro-pathophysiological assessment of receptor availability as well as task-dependend neurotransmitter release. The project can provide insights that are valuable for all psychiatric and neurological disorders that are associated with mood symptoms or social cognition deficits and provide biomarkers of disease onset and progression to allow for better and earlier planning of clinical trials.",
+      "start": "2016-10-01",
+      "end": "2018-09-30",
+      "funding": [
+        {
+          "code": "BOF - Other initiatives",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/54007392",
+      "keywords": [
+        "neurodegenerative disorders"
+      ]
+    },
+    {
+      "uuid": "9ac4da9e-4b81-4cdc-b108-8639bf17ea72",
+      "title": "Neural bases for observed and executed actions in the primate brain",
+      "acronym": "",
+      "abstract": "One of the most intriguing stories to emerge in cognitive neurosciences over the past few decades has been the discovery of the mirror neurons in the monkey brain. These neurons respond not only when a monkey performs a particular motor act, but also when it observes another individual performing a similar motor act. A similar mirror system appears to exist in the human brain as well, and it has been speculated that this system mediates a whole scale of social capabilities, including action and intention understanding, imitation, language abilities and empathy. However, more than 20 years after the initial discovery of these neurons, the organization and precise function of the primate mirror system has not been unraveled.\n\n \nIn this PhD project, we will, for the first time, investigate the organization of the mirror system at systems level in both species in a comparative fMRI study. Using fMRI, we will first establish a fine-grained characterization of different computational functions related to action observation and execution in the human and monkey brain, and compare this information obtained in both species to investigate functional homologies and build plausible computational models of action recognition. Furthermore, we will investigate if state-of-the-art multi-voxel pattern analysis techniques can infer the existence or absence of mirror neurons in the brain by employing this technique on non-human primate fMRI data, which allows in depth comparison with single neuron information obtained from invasive recording techniques in the same model.",
+      "start": "2015-04-15",
+      "end": "2020-11-30",
+      "funding": [
+        {
+          "code": "Own budget, for example: patrimony, inscription fees, gifts",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/53301256",
+      "keywords": [
+        "action recognition",
+        "brain",
+        "grasping"
+      ]
+    },
+    {
+      "uuid": "12be06bc-fbd8-4226-95fd-2a4f509437e7",
+      "title": "Action recognition in the primate brain: a comparative functional MRI study of the organization and function of the human and non-human primate mirror system.",
+      "acronym": "",
+      "abstract": "One of the most intriguing stories to emerge in cognitive neurosciences over the past few decades has been the discovery of the mirror neurons in the monkey brain. These neurons respond both when a monkey performs a particular motor act, and when it observes another individual performing a similar motor act. A similar system appears to exist in the human brain as well, and it has been speculated that it mediates a whole scale of social capabilities, including action and intention understanding, imitation, language abilities and empathy. However, more than 20 years after the initial discovery, the organization and precise function of the primate mirror system has not been unraveled. In this proposal, we will, for the first time, investigate the organization of the mirror system at systems level in both species in a comparative fMRI study. We will first establish a fine-grained characterization of different computational functions related to action observation and execution in the human and monkey brain. Subsequently, we will use this information to investigate functional homologies across species and build plausible computational models of action recognition. By combining active action recognition tasks with non-invasive focal inactivation techniques, we will specifically investigate a causal role of these mirror regions in goal understanding. Together, these results will provide a foundation for translational work related to brain computer interfaces and neurorehabilitation.",
+      "start": "2015-01-01",
+      "end": "2018-12-31",
+      "funding": [
+        {
+          "code": "FWO research project (including WEAVE projects)",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/53229364",
+      "keywords": [
+        "Comparatieve functionele MRI studie"
+      ]
+    },
+    {
+      "uuid": "28eae54f-6972-4a40-92db-c009faa1bd12",
+      "title": "Perceiving bodily and cinematographic emotions in MCI.",
+      "acronym": "",
+      "abstract": "Alzheimer's research project that consists of observing physical and cinematographic emotions in MCI as a result of AD and early BV-FTD.",
+      "start": "2015-01-01",
+      "end": "2016-12-31",
+      "funding": [
+        {
+          "code": "Private funding of national origin - undefined",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/53241913",
+      "keywords": [
+        "early bv-FTD",
+        "AD",
+        "MCI",
+        "cinematographic emotions"
+      ]
+    },
+    {
+      "uuid": "d82ccf3d-926b-480f-8243-a6a8f4c890e6",
+      "title": "Translational study on dopaminergic modulation in normal visual cortex and neurodegeneration.",
+      "acronym": "",
+      "abstract": "We recently observed a remarkably robust but surprising effect in early visual cortex of monkeys in the absence of a visual stimulus. We found that rewards without visual stimulation selectively decrease fMRI activity within the representation of a stimulus that was paired with the reward during entirely different trials. In particular, we found that these reward signals can modulate (reduce) activity in visual cortex in a spatially-specific manner. We hypothesize that these reward signals originate in the ventral midbrain and constitute a dopaminergic-dependent neuromodulation of sensory cortices. A link between dopaminergic neurotransmission and activity changes in visual cortex has been postulated in Parkinson disease. The disorder is characterized by loss of dopaminergic neurons in the ventral midbrain and hypo-activity in visual cortex. We further speculate that, in the presence of impaired visual processing and decreased retinal input, dopamine-dependent mechanisms may trigger visual responses in higher visual cortex, which may explain the origin of visual hallucinations in Parkinson disease. We here propose a number of experiments to further clarify our knowledge of our recently described reward-induced dopaminergic signals in visual cortex and whether it correlates with hypo-activity and the presence of hallucinations in Parkinson’s patients.",
+      "start": "2013-08-01",
+      "end": "2022-07-05",
+      "funding": [
+        {
+          "code": "BOF - Doctoral projects",
+          "funders": []
+        },
+        {
+          "code": "FWO fellowships",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/52645855",
+      "keywords": [
+        "Parkinson"
+      ]
+    },
+    {
+      "uuid": "aa2e8929-616b-4f8a-b2c9-7c6457517518",
+      "title": "Modulation of emotional reactions to unidentifiable social stimuli.",
+      "acronym": "",
+      "abstract": "Modulation of emotional reactions to unidentifiable social stimuli by speed, direction of movement and eccentricity: an imaging study of the brain in healthy volunteers and patients with brain injuries.",
+      "start": "2013-01-01",
+      "end": "2015-12-31",
+      "funding": [
+        {
+          "code": "FWO research grant KAN",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/52412751",
+      "keywords": [
+        "Brains",
+        "Motion and eccentricity",
+        "Non-identifiable social stimuli"
+      ]
+    },
+    {
+      "uuid": "7207f1c5-fc7c-4a78-8e09-84e72f56aafc",
+      "title": "Selective dopaminergic reward signals in the visual cortex of monkeys, humans en Parkinson patients.",
+      "acronym": "",
+      "abstract": "We recently observed a remarkably robust but surprising reward effect in early visual cortex of monkeys in the absence of a visual stimulus. In particular, we found that rewards without visual stimulation selectively decrease fMRI activity within the representation of a stimulus that was paired with the reward during entirely different trials. This result suggests that rewards can ‘tag’ stimulus representations in sensory cortex during periods surrounding stimulus-reward association events. This ‘tagging’ may be an attractive mechanism by which plasticity in visual cortex, as observed during perceptual learning, can be controlled. Given these unexpected but exciting results, we predict that reward signals can modulate (reduce) activity in visual cortex in a spatially-specific manner. We further hypothesize that these signals are dopaminergic-dependent, originate in the ventral midbrain and may be a correlate of a prediction error signal –hence show very similar properties as dopamine midbrain neurons as described by Schultz, Hikosaka and others. Moreover, we speculate that hypoactivity of visual cortex observed in Parkinson’s patients and the frequently observed hallucinations of these patients are related to this dopaminergic signal originating in the ventral midbrain which reduces activity in visual cortex. We here propose a number of experiments aimed to test the specificity of this reward signal, whether it can be causally linked to midbrain activity and whether it correlates with hypoactivity and the presence of hallucinations in Parkinson’s patients.",
+      "start": "2013-01-01",
+      "end": "2016-12-31",
+      "funding": [
+        {
+          "code": "FWO research project (including WEAVE projects)",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/52318302",
+      "keywords": [
+        "reward",
+        "dopaminergic"
+      ]
+    },
+    {
+      "uuid": "ef5e19db-5b52-4af9-a368-73550ac37eb5",
+      "title": "The modulation of emotional responses to unidentifiable social stimuly by velocity, direction of movement and eccentricity: a brain imaging study in healthy volunteers and brain damaged patients.",
+      "acronym": "",
+      "abstract": "We daily interact with people and are experts in reading the intentions and emotions of the people we encounter. Previous research has primarily focused on how we process static facial and bodily expressions of people we can identify, but little is known about what happens when we can not perceive the full identity of the person and we can only process different aspects of the movements and the location of the person. This project aims to investigate how the direction of movement (directly or not directly approaching), the velocity (slowly or fast moving) and the location in the visual field (central or peripheral) contribute to how threatening a person looks when we can not establish his identity. We will present subjects with videos of actors that can be identified or not and that display threatening or nonthreatening expressions. We will measure how the brain processes the movements and location of these stimuli. Thereafter, we will present the same stimuli to two groups of patients with damage in brain areas that are either involved in identification or in threat perception. This will reveal which brain areas are involved in or necessary for processing social threat, independent of the identity information.",
+      "start": "2011-10-01",
+      "end": "2017-09-30",
+      "funding": [
+        {
+          "code": "FWO fellowships",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/51670179",
+      "keywords": [
+        "Emotion",
+        "Movement",
+        "Amygdala",
+        "Social",
+        "Identity",
+        "Eccentricity",
+        "Threat",
+        "Blindsight"
+      ]
+    },
+    {
+      "uuid": "688bb70b-00fc-423d-923b-5e11af3ec7e4",
+      "title": "Structure and function of the cerebral cortex in human and nonhuman patients: from single cells to deficits in patients (Leuven Cerebral Cortex Center).",
+      "acronym": "",
+      "abstract": "The Leuven Cerebral Cortex Center (LC3) aims to investigate the strucd function of the normal and diseased brain in both humans and nonhuman s. We will adopt a comprehensive strategy to unravel the neural basis ofant brain functions: object processing, attention and reward, and intersnbsp;communication and action recognition. These higher brain functions studied using a wide range of research tools including modeling, electrlogy, and functional imaging (fMRI). We will study nonhuman primates - t animal model of cognitive brain functions in the human - but also normas and patients. In each of these research topics we will study the effecnnectivity between brain areas, the relation between brain activity and r, and the neural mechanisms underlying brain pathology. Our research com is rooted in a strong convergence between basic and clinical neure, such that animal and patient studies can run in parallel using the sauli, tasks and imaging techniques. Our ultimate goal is to bridge the gaen basic and clinical research.",
+      "start": "2010-11-01",
+      "end": "2017-10-31",
+      "funding": [
+        {
+          "code": "BOF - Concerted Research Project from 1994",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/51317837",
+      "keywords": [
+        "Neurophysiology"
+      ]
+    },
+    {
+      "uuid": "c7adcf29-8ea3-4aaa-beba-5ac9eaae79f9",
+      "title": "Investigating the visual processing of biological agents: a comparison between humans and non-human primates using fMRI.",
+      "acronym": "",
+      "abstract": "Visual object recognition has a long standing tradition in monkey electrophysiology and human imaging. While most of this research has been carried out using manmade inanimate objects, one very important category in everyday life, the human body, has been widely neglected. In the proposed project, we will not only investigate the processing of the body form as such, but also the concept of biological agents, namely the combination of body-shape and body-movement. In a set of fMRI experiments scanning humans and awake behaving monkeys using similar designs, we intend to investigate three main objectives: a) arrive at a more precise description of body areas in the human and monkey brain, using identical stimulus sets for their localization. b) identify the areas that are involved in the integration of form and motion during action processing in the monkey. and c) investigate the extend to which human and monkey occipito-temporal, parietal and premotor areas are sensitive to the specific kinematic constraints of their bodies. These experiments will provide us with the unique opportunity to directly compare the processing of biological agents in humans and monkeys and to link electrophysiological findings from action observation with human imaging.",
+      "start": "2010-10-01",
+      "end": "2016-06-30",
+      "funding": [
+        {
+          "code": "FWO fellowships",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/51316610",
+      "keywords": [
+        "Functional imaging",
+        "Human",
+        "Body shape",
+        "Body motion",
+        "Catagorical representations",
+        "Agency",
+        "Action observation",
+        "Monkey"
+      ]
+    },
+    {
+      "uuid": "e3b282f9-fd12-4cb0-af36-f6fbb2bdb20b",
+      "title": "The Psychology and Neurobiology of Late Onset Psychosis",
+      "acronym": "",
+      "abstract": "Summary\n\nTitle: The psychology and neurobiology of late onset psychosis\n\nPhD student: Lies Van Assche\n\nPromotors: Prof. Dr. Mathieu Vandenbulcke, Prof. Dr. Patrick Luyten\n\nThe first onset of psychosis in late life is a highly incapacitating syndrome which is more common than previously assumed, presenting in approximately 10-62% of nursing home residents, 5-15% of elderly psychiatric inpatients and 27% of psychiatric outpatients. Yet the etiological mechanisms triggering its onset are still unclear.\n\n     Research in early adulthood suggests that mentalizing difficulties, possibly related to childhood adversity and insecure attachment patterns, as well as cognitive deficits and neurodevelopmental alterations are risk factors to psychosis. Similarly, mild cognitive dysfunction and abnormal brain aging have been associated with late onset psychosis. However, little is known about the involvement of childhood adversity and attachment. We hypothesize that pre-existing vulnerability related to childhood adversity as well as accelerated brain aging and associated cognitive impairment interactively contribute to late onset psychosis.\n\n     First, to gain insight in attachment patterns in non-psychotic elderly persons, we conducted a systematic review on attachment and aging which pointed to a deleterious effect of attachment insecurity on psychological wellbeing. In line with these findings, our empirical research showed more anxiety and depression in community dwelling older adults (n&#61;81) with higher levels of attachment insecurity. Consistent with our general hypothesis, older adults with very-late-onset schizophrenia-like psychosis (VLOSLP, n&#61;49), defined as a first incidence of psychosis after the age of 60 years and in the absence of a neurological or a major affective disorder, reported more childhood trauma and exhibited reduced mentalizing skills compared with healthy controls (n&#61;49) who were matched for age, gender and education. Still, individuals with VLOSLP did not show higher levels of attachment insecurity than controls.\n\n     Second, we studied cognitive and neurobiological changes in VLOSLP. A systematic review revealed a specific set of deficiencies pertaining to the domains of attention, executive function, processing speed, (working) memory and to a lesser degree mentalizing. Neurobiological underpinnings consisted of white matter pathology, an increased ventricle-to-brain ratio, and atrophy or hypo-metabolism in the frontal, subcortical and temporal brain areas. The cognitive profiles of our VLOSLP cohort were largely consistent with the findings of the systematic review. In addition, the profiles in our cohort showed a surprising overlap with those in neurodegenerative conditions with concomitant psychosis. Specifically, we compared individuals with VLOSLP (n&#61;57), dementia with Lewy Bodies (DLB; n&#61;49) and Alzheimer’s type dementia with psychosis (AD&#43;P; n&#61;35) who were matched for general level of cognitive function and found that they were equally impaired on processing speed, attention and executive function, whereas individuals with AD&#43;P experienced relatively more consolidation difficulties and patients with DLB exhibited greater visuoconstructive deficits. Finally, we studied whether lower hippocampal volumes constitute a vulnerability marker to late onset psychopathology and are related to memory dysfunction. We found hippocampal volume reductions in VLOSLP (n&#61;36) and late onset depression (LOD, n&#61;34) and these were indeed associated with memory dysfunction, whereas such an association did not exist in age and gender matched healthy controls who generally had larger hippocampal volumes (n&#61;36). This suggests that there is a threshold effect for the impact of hippocampal volume reduction on memory function.\n\n     In summary, late onset psychosis is a heterogeneous condition in which pre-existing vulnerability related to childhood adversity and accelerated, possibly stress-related neurobiological alterations likely interact leading to the first incidence of psychosis only later in life in individuals who had earlier attained an adequate level of professional and personal functioning.",
+      "start": "2010-10-01",
+      "end": "2018-11-13",
+      "funding": [
+        {
+          "code": "Own budget, for example: patrimony, inscription fees, gifts",
+          "funders": []
+        }
+      ],
+      "participants": [],
+      "url": "https://research.kuleuven.be/portal/en/project/51476263",
+      "keywords": [
+        "psychosis",
+        "old age"
+      ]
+    }
+  ]
 }
