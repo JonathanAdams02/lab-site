@@ -1,7 +1,139 @@
 {
   "source": "OpenAlex (https://openalex.org)",
-  "updated": "2026-10-22T13:32:11.838Z",
+  "updated": "2026-10-22T13:34:32.024Z",
   "works": [
+    {
+      "openalex": "W7220842024",
+      "doi": "10.1016/j.jad.2026.122596",
+      "title": "Lithium during maintenance electroconvulsive therapy: Secondary neuropsychological outcomes from the open-label PRASED randomized controlled trial",
+      "year": 2026,
+      "date": "2026-10-07",
+      "type": "article",
+      "journal": "Journal of Affective Disorders",
+      "url": "https://doi.org/10.1016/j.jad.2026.122596",
+      "open_access_url": "",
+      "authors": [
+        {
+          "name": "Liese Van den Eynde",
+          "member": false
+        },
+        {
+          "name": "Kristof Vansteelandt",
+          "member": false
+        },
+        {
+          "name": "Jasmien Obbels",
+          "member": false
+        },
+        {
+          "name": "Nathalie Denayer",
+          "member": false
+        },
+        {
+          "name": "Shauni Verspecht",
+          "member": false
+        },
+        {
+          "name": "Kaat Hebbrecht",
+          "member": false
+        },
+        {
+          "name": "Liselotte Gezels",
+          "member": false
+        },
+        {
+          "name": "Simon Lambrichts",
+          "member": false
+        },
+        {
+          "name": "Jean-Baptiste Belge",
+          "member": false
+        },
+        {
+          "name": "Annelies Dellink",
+          "member": false
+        },
+        {
+          "name": "Maarten Laroy",
+          "member": true
+        },
+        {
+          "name": "Violette Coppens",
+          "member": false
+        },
+        {
+          "name": "Linda van Diermen",
+          "member": false
+        },
+        {
+          "name": "Lennart Gistelinck",
+          "member": false
+        },
+        {
+          "name": "Tom Birkenhäger",
+          "member": false
+        },
+        {
+          "name": "Didier L. Schrijvers",
+          "member": false
+        },
+        {
+          "name": "Pascal A. Sienaert",
+          "member": false
+        }
+      ],
+      "author_count": 17
+    },
+    {
+      "openalex": "W7213755296",
+      "doi": "10.1016/j.jpsychires.2026.09.018",
+      "title": "Subjective and objective memory effects after electroconvulsive therapy for depressive disorders - systematic review and meta-analysis",
+      "year": 2026,
+      "date": "2026-09-20",
+      "type": "review",
+      "journal": "Journal of Psychiatric Research",
+      "url": "https://doi.org/10.1016/j.jpsychires.2026.09.018",
+      "open_access_url": "",
+      "authors": [
+        {
+          "name": "Shauni Verspecht",
+          "member": false
+        },
+        {
+          "name": "Kristof Vansteelandt",
+          "member": false
+        },
+        {
+          "name": "Jasmien Obbels",
+          "member": false
+        },
+        {
+          "name": "Toine Mercier",
+          "member": false
+        },
+        {
+          "name": "Nathalie Denayer",
+          "member": false
+        },
+        {
+          "name": "Liese Van den Eynde",
+          "member": false
+        },
+        {
+          "name": "Maarten Laroy",
+          "member": true
+        },
+        {
+          "name": "Kaat Hebbrecht",
+          "member": false
+        },
+        {
+          "name": "Pascal A. Sienaert",
+          "member": false
+        }
+      ],
+      "author_count": 9
+    },
     {
       "openalex": "W7212119714",
       "doi": "10.1007/s00415-026-14117-0",
@@ -77,7 +209,7 @@
         },
         {
           "name": "Maarten Laroy",
-          "member": false
+          "member": true
         },
         {
           "name": "Daphne Stam",
@@ -175,6 +307,230 @@
       "author_count": 3
     },
     {
+      "openalex": "W7155635016",
+      "doi": "10.1016/j.biopsych.2026.03.076",
+      "title": "Neuroimaging-Based Prediction of Relapse Following ECT – A GEMRIC Analysis",
+      "year": 2026,
+      "date": "2026-04-25",
+      "type": "article",
+      "journal": "Biological Psychiatry",
+      "url": "https://doi.org/10.1016/j.biopsych.2026.03.076",
+      "open_access_url": "",
+      "authors": [
+        {
+          "name": "Maarten Laroy",
+          "member": true
+        },
+        {
+          "name": "Olga Therese Ousdal",
+          "member": false
+        },
+        {
+          "name": "Filip Bouckaert",
+          "member": false
+        },
+        {
+          "name": "Annemiek Dols",
+          "member": false
+        },
+        {
+          "name": "Pia Nordanskog",
+          "member": false
+        },
+        {
+          "name": "Guido Alexander van Wingen",
+          "member": false
+        },
+        {
+          "name": "Leif Oltedal",
+          "member": false
+        },
+        {
+          "name": "Louise Emsell",
+          "member": false
+        },
+        {
+          "name": "Miklós Árgyelán",
+          "member": false
+        }
+      ],
+      "author_count": 9
+    },
+    {
+      "openalex": "W7125544973",
+      "doi": "10.1038/s43856-026-01390-3",
+      "title": "Author Correction: Effects of electroconvulsive therapy on hippocampal longitudinal axis and its association with cognitive side effects",
+      "year": 2026,
+      "date": "2026-01-23",
+      "type": "erratum",
+      "journal": "Communications Medicine",
+      "url": "https://doi.org/10.1038/s43856-026-01390-3",
+      "open_access_url": "https://www.nature.com/articles/s43856-026-01390-3.pdf",
+      "authors": [
+        {
+          "name": "Olga Therese Ousdal",
+          "member": false
+        },
+        {
+          "name": "Miklós Árgyelán",
+          "member": false
+        },
+        {
+          "name": "Maarten Laroy",
+          "member": true
+        },
+        {
+          "name": "Amit Anand",
+          "member": false
+        },
+        {
+          "name": "Filip Bouckaert",
+          "member": false
+        },
+        {
+          "name": "Joan Albert Camprodon",
+          "member": false
+        },
+        {
+          "name": "Marta Cano",
+          "member": false
+        },
+        {
+          "name": "Narcı́s Cardoner",
+          "member": false
+        },
+        {
+          "name": "Udo Dannlowski",
+          "member": false
+        },
+        {
+          "name": "Annemiek Dols",
+          "member": false
+        },
+        {
+          "name": "Louise Emsell",
+          "member": false
+        },
+        {
+          "name": "Randall T. Espinoza",
+          "member": false
+        },
+        {
+          "name": "Kaat Hebbrecht",
+          "member": false
+        },
+        {
+          "name": "René Hurlemann",
+          "member": false
+        },
+        {
+          "name": "Martin Jorgensen",
+          "member": false
+        },
+        {
+          "name": "Maximilian Kiebs",
+          "member": false
+        },
+        {
+          "name": "Taishiro Kishimoto",
+          "member": false
+        },
+        {
+          "name": "Katherine L. Narr",
+          "member": false
+        },
+        {
+          "name": "Pia Nordanskog",
+          "member": false
+        },
+        {
+          "name": "Nils Opel",
+          "member": false
+        },
+        {
+          "name": "Ronny Redlich",
+          "member": false
+        },
+        {
+          "name": "Didi Rhebergen",
+          "member": false
+        },
+        {
+          "name": "Alexander Sartorius",
+          "member": false
+        },
+        {
+          "name": "Didier L. Schrijvers",
+          "member": false
+        },
+        {
+          "name": "Pascal A. Sienaert",
+          "member": false
+        },
+        {
+          "name": "Carles Soriano‐Mas",
+          "member": false
+        },
+        {
+          "name": "Akihiro Takamiya",
+          "member": false
+        },
+        {
+          "name": "Freek ten Doesschate",
+          "member": false
+        },
+        {
+          "name": "Indira Tendolkar",
+          "member": false
+        },
+        {
+          "name": "Mikel Urretavizcaya",
+          "member": false
+        },
+        {
+          "name": "Linda van Diermen",
+          "member": false
+        },
+        {
+          "name": "Philip van Eijndhoven",
+          "member": false
+        },
+        {
+          "name": "Guido Alexander van Wingen",
+          "member": false
+        },
+        {
+          "name": "Jeroen A. van Waarde",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        },
+        {
+          "name": "Joey P. A. J. Verdijk",
+          "member": false
+        },
+        {
+          "name": "Benjamin Wade",
+          "member": false
+        },
+        {
+          "name": "Antoine Yrondi",
+          "member": false
+        },
+        {
+          "name": "Njål Brekke",
+          "member": false
+        },
+        {
+          "name": "Joan Prudic",
+          "member": false
+        }
+      ],
+      "author_count": 48
+    },
+    {
       "openalex": "W7120042011",
       "doi": "10.1007/s00415-025-13613-z",
       "title": "Integrating functional network topology, synaptic density, and tau pathology to predict cognitive decline in amnestic mild cognitive impairment",
@@ -199,7 +555,7 @@
         },
         {
           "name": "Maarten Laroy",
-          "member": false
+          "member": true
         },
         {
           "name": "Margot Van Cauwenberge",
@@ -819,6 +1175,180 @@
       "author_count": 4
     },
     {
+      "openalex": "W4414685570",
+      "doi": "10.1038/s43856-025-01120-1",
+      "title": "Effects of electroconvulsive therapy on hippocampal longitudinal axis and its association with cognitive side effects",
+      "year": 2025,
+      "date": "2025-10-01",
+      "type": "article",
+      "journal": "Communications Medicine",
+      "url": "https://doi.org/10.1038/s43856-025-01120-1",
+      "open_access_url": "https://www.nature.com/articles/s43856-025-01120-1.pdf",
+      "authors": [
+        {
+          "name": "Olga Therese Ousdal",
+          "member": false
+        },
+        {
+          "name": "Miklós Árgyelán",
+          "member": false
+        },
+        {
+          "name": "Maarten Laroy",
+          "member": true
+        },
+        {
+          "name": "Amit Anand",
+          "member": false
+        },
+        {
+          "name": "Filip Bouckaert",
+          "member": false
+        },
+        {
+          "name": "Joan Albert Camprodon",
+          "member": false
+        },
+        {
+          "name": "Marta Cano",
+          "member": false
+        },
+        {
+          "name": "Narcı́s Cardoner",
+          "member": false
+        },
+        {
+          "name": "Udo Dannlowski",
+          "member": false
+        },
+        {
+          "name": "Annemiek Dols",
+          "member": false
+        },
+        {
+          "name": "Louise Emsell",
+          "member": false
+        },
+        {
+          "name": "Randall T. Espinoza",
+          "member": false
+        },
+        {
+          "name": "Kaat Hebbrecht",
+          "member": false
+        },
+        {
+          "name": "René Hurlemann",
+          "member": false
+        },
+        {
+          "name": "Martin Balslev Jørgensen",
+          "member": false
+        },
+        {
+          "name": "Maximilian Kiebs",
+          "member": false
+        },
+        {
+          "name": "Taishiro Kishimoto",
+          "member": false
+        },
+        {
+          "name": "Katherine L. Narr",
+          "member": false
+        },
+        {
+          "name": "Pia Nordanskog",
+          "member": false
+        },
+        {
+          "name": "Nils Opel",
+          "member": false
+        },
+        {
+          "name": "Ronny Redlich",
+          "member": false
+        },
+        {
+          "name": "Didi Rhebergen",
+          "member": false
+        },
+        {
+          "name": "Alexander Sartorius",
+          "member": false
+        },
+        {
+          "name": "Didier L. Schrijvers",
+          "member": false
+        },
+        {
+          "name": "Pascal A. Sienaert",
+          "member": false
+        },
+        {
+          "name": "Carles Soriano‐Mas",
+          "member": false
+        },
+        {
+          "name": "Akihiro Takamiya",
+          "member": false
+        },
+        {
+          "name": "Freek ten Doesschate",
+          "member": false
+        },
+        {
+          "name": "Indira Tendolkar",
+          "member": false
+        },
+        {
+          "name": "Mikel Urretavizcaya",
+          "member": false
+        },
+        {
+          "name": "Linda van Diermen",
+          "member": false
+        },
+        {
+          "name": "Philip van Eijndhoven",
+          "member": false
+        },
+        {
+          "name": "Guido Alexander van Wingen",
+          "member": false
+        },
+        {
+          "name": "Jeroen A. van Waarde",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        },
+        {
+          "name": "Joey P. A. J. Verdijk",
+          "member": false
+        },
+        {
+          "name": "Benjamin Wade",
+          "member": false
+        },
+        {
+          "name": "Antoine Yrondi",
+          "member": false
+        },
+        {
+          "name": "Njål Brekke",
+          "member": false
+        },
+        {
+          "name": "Joan Prudic",
+          "member": false
+        }
+      ],
+      "author_count": 48
+    },
+    {
       "openalex": "W4414123062",
       "doi": "10.1038/s41386-025-02229-6",
       "title": "Motor signs in late life depression relate to altered subcortical synaptic density and gray matter volume: an 11C-UCB-J PET-MR study",
@@ -839,7 +1369,7 @@
         },
         {
           "name": "Maarten Laroy",
-          "member": false
+          "member": true
         },
         {
           "name": "Kristof Vansteelandt",
@@ -889,7 +1419,7 @@
         },
         {
           "name": "Maarten Laroy",
-          "member": false
+          "member": true
         },
         {
           "name": "Kristof Vansteelandt",
@@ -1157,6 +1687,62 @@
       "author_count": 7
     },
     {
+      "openalex": "W4410202586",
+      "doi": "10.1016/j.bpsgos.2025.100529",
+      "title": "Multilevel Neuroimaging Insights Into Electroconvulsive Therapy Mechanisms in Clozapine-Refractory Schizophrenia: A Comparative Perspective With Depression",
+      "year": 2025,
+      "date": "2025-05-08",
+      "type": "article",
+      "journal": "Biological Psychiatry Global Open Science",
+      "url": "https://doi.org/10.1016/j.bpsgos.2025.100529",
+      "open_access_url": "https://doi.org/10.1016/j.bpsgos.2025.100529",
+      "authors": [
+        {
+          "name": "Maarten Laroy",
+          "member": true
+        },
+        {
+          "name": "Akihiro Takamiya",
+          "member": false
+        },
+        {
+          "name": "Filip Bouckaert",
+          "member": false
+        }
+      ],
+      "author_count": 3
+    },
+    {
+      "openalex": "W4409352019",
+      "doi": "10.1016/j.neubiorev.2025.106143",
+      "title": "Mapping electroconvulsive therapy induced neuroplasticity: Towards a multilevel understanding of the available clinical literature – A scoping review",
+      "year": 2025,
+      "date": "2025-04-11",
+      "type": "article",
+      "journal": "Neuroscience & Biobehavioral Reviews",
+      "url": "https://doi.org/10.1016/j.neubiorev.2025.106143",
+      "open_access_url": "",
+      "authors": [
+        {
+          "name": "Maarten Laroy",
+          "member": true
+        },
+        {
+          "name": "Louise Emsell",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        },
+        {
+          "name": "Filip Bouckaert",
+          "member": false
+        }
+      ],
+      "author_count": 4
+    },
+    {
       "openalex": "W4409298134",
       "doi": "10.1016/j.jad.2025.04.053",
       "title": "Motor dysfunction in late life depression: A mood or movement disorder?",
@@ -1177,7 +1763,7 @@
         },
         {
           "name": "Maarten Laroy",
-          "member": false
+          "member": true
         },
         {
           "name": "Kristof Vansteelandt",
@@ -1231,7 +1817,7 @@
         },
         {
           "name": "Maarten Laroy",
-          "member": false
+          "member": true
         },
         {
           "name": "François‐Laurent De Winter",
@@ -1301,7 +1887,7 @@
         },
         {
           "name": "Maarten Laroy",
-          "member": false
+          "member": true
         },
         {
           "name": "Kristof Vansteelandt",
@@ -1363,7 +1949,7 @@
         },
         {
           "name": "Maarten Laroy",
-          "member": false
+          "member": true
         },
         {
           "name": "Margot Van Cauwenberge",
@@ -1451,6 +2037,44 @@
       "author_count": 8
     },
     {
+      "openalex": "W4407934882",
+      "doi": "10.1016/j.brs.2024.12.163",
+      "title": "Cortical and subcortical gray matter volume change and cognitive performance after Electroconvulsive Therapy",
+      "year": 2025,
+      "date": "2025-01-01",
+      "type": "article",
+      "journal": "Brain stimulation",
+      "url": "https://doi.org/10.1016/j.brs.2024.12.163",
+      "open_access_url": "https://www.brainstimjrnl.com/article/S1935-861X(24)00358-9/pdf",
+      "authors": [
+        {
+          "name": "Maximilian Kiebs",
+          "member": false
+        },
+        {
+          "name": "Olga Therese Ousdal",
+          "member": false
+        },
+        {
+          "name": "Danielle C. Farrar",
+          "member": false
+        },
+        {
+          "name": "Maarten Laroy",
+          "member": true
+        },
+        {
+          "name": "Erik Barry Erhardt",
+          "member": false
+        },
+        {
+          "name": "Chris Abbott",
+          "member": false
+        }
+      ],
+      "author_count": 6
+    },
+    {
       "openalex": "W4407145685",
       "doi": "10.1017/s0033291724003362",
       "title": "Gray and white matter differences in the medial temporal lobe in late-life depression: a multimodal PET-MRI investigation",
@@ -1483,7 +2107,7 @@
         },
         {
           "name": "Maarten Laroy",
-          "member": false
+          "member": true
         },
         {
           "name": "Kristof Vansteelandt",
@@ -1541,7 +2165,7 @@
         },
         {
           "name": "Maarten Laroy",
-          "member": false
+          "member": true
         },
         {
           "name": "Thomas Vande Casteele",
@@ -1593,6 +2217,36 @@
         }
       ],
       "author_count": 15
+    },
+    {
+      "openalex": "W4407934035",
+      "doi": "10.1016/j.brs.2024.12.161",
+      "title": "Synaptic density changes following electroconvulsive therapy: a longitudinal pilot study with PET-MR 11C-UCB-J imaging in late-life depression",
+      "year": 2025,
+      "date": "2025-01-01",
+      "type": "article",
+      "journal": "Brain stimulation",
+      "url": "https://doi.org/10.1016/j.brs.2024.12.161",
+      "open_access_url": "https://www.brainstimjrnl.com/article/S1935-861X(24)00356-5/pdf",
+      "authors": [
+        {
+          "name": "Maarten Laroy",
+          "member": true
+        },
+        {
+          "name": "Louise Emsell",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        },
+        {
+          "name": "Filip Bouckaert",
+          "member": false
+        }
+      ],
+      "author_count": 4
     },
     {
       "openalex": "W4405879435",
@@ -1649,6 +2303,110 @@
         }
       ],
       "author_count": 4
+    },
+    {
+      "openalex": "W4405707896",
+      "doi": "10.1097/yct.0000000000001094",
+      "title": "Molecular Positron Emission Tomography and Single-Photon Emission Computed Tomography Imaging for Understanding the Neurobiological Mechanisms of Electroconvulsive Therapy",
+      "year": 2024,
+      "date": "2024-12-17",
+      "type": "article",
+      "journal": "Journal of Ect",
+      "url": "https://doi.org/10.1097/yct.0000000000001094",
+      "open_access_url": "https://doi.org/10.1097/yct.0000000000001094",
+      "authors": [
+        {
+          "name": "Maarten Laroy",
+          "member": true
+        },
+        {
+          "name": "Koen Van Laere",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        },
+        {
+          "name": "Louise Emsell",
+          "member": false
+        },
+        {
+          "name": "Filip Bouckaert",
+          "member": false
+        }
+      ],
+      "author_count": 5
+    },
+    {
+      "openalex": "W4406200421",
+      "doi": "10.1002/alz.090738",
+      "title": "Associations between blood‐based biomarkers, synaptic density and Alzheimer’s disease hallmarks in the brains of nondemented elderly",
+      "year": 2024,
+      "date": "2024-12-01",
+      "type": "article",
+      "journal": "Alzheimer s & Dementia",
+      "url": "https://doi.org/10.1002/alz.090738",
+      "open_access_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/alz.090738",
+      "authors": [
+        {
+          "name": "Steffi De Meyer",
+          "member": false
+        },
+        {
+          "name": "Soha Alali",
+          "member": false
+        },
+        {
+          "name": "Maarten Laroy",
+          "member": true
+        },
+        {
+          "name": "Thomas Vande Casteele",
+          "member": false
+        },
+        {
+          "name": "Margot Van Cauwenberge",
+          "member": false
+        },
+        {
+          "name": "Julie Goossens",
+          "member": false
+        },
+        {
+          "name": "Charlotte De Rocker",
+          "member": false
+        },
+        {
+          "name": "Jeroen Vanbrabant",
+          "member": false
+        },
+        {
+          "name": "Eugeen Vanmechelen",
+          "member": false
+        },
+        {
+          "name": "Patrick J. Dupont",
+          "member": false
+        },
+        {
+          "name": "Koen Van Laere",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        },
+        {
+          "name": "Louise Emsell",
+          "member": false
+        },
+        {
+          "name": "Koen Poesen",
+          "member": false
+        }
+      ],
+      "author_count": 14
     },
     {
       "openalex": "W4403599068",
@@ -1825,6 +2583,180 @@
       "author_count": 42
     },
     {
+      "openalex": "W4402577487",
+      "doi": "10.1016/j.jpsychires.2024.09.013",
+      "title": "Electroconvulsive therapy and cognitive performance from the Global ECT MRI Research Collaboration",
+      "year": 2024,
+      "date": "2024-09-18",
+      "type": "article",
+      "journal": "Journal of Psychiatric Research",
+      "url": "https://doi.org/10.1016/j.jpsychires.2024.09.013",
+      "open_access_url": "https://doi.org/10.1016/j.jpsychires.2024.09.013",
+      "authors": [
+        {
+          "name": "Maximilian Kiebs",
+          "member": false
+        },
+        {
+          "name": "Danielle C. Farrar",
+          "member": false
+        },
+        {
+          "name": "Antoine Yrondi",
+          "member": false
+        },
+        {
+          "name": "Narcı́s Cardoner",
+          "member": false
+        },
+        {
+          "name": "Noora Tuovinen",
+          "member": false
+        },
+        {
+          "name": "Ronny Redlich",
+          "member": false
+        },
+        {
+          "name": "Udo Dannlowski",
+          "member": false
+        },
+        {
+          "name": "Carles Soriano‐Mas",
+          "member": false
+        },
+        {
+          "name": "Annemiek Dols",
+          "member": false
+        },
+        {
+          "name": "Akihiro Takamiya",
+          "member": false
+        },
+        {
+          "name": "Indira Tendolkar",
+          "member": false
+        },
+        {
+          "name": "Katherine L. Narr",
+          "member": false
+        },
+        {
+          "name": "Randall T. Espinoza",
+          "member": false
+        },
+        {
+          "name": "Maarten Laroy",
+          "member": true
+        },
+        {
+          "name": "Philip van Eijndhoven",
+          "member": false
+        },
+        {
+          "name": "Esmée Verwijk",
+          "member": false
+        },
+        {
+          "name": "Jeroen A. van Waarde",
+          "member": false
+        },
+        {
+          "name": "Joey P. A. J. Verdijk",
+          "member": false
+        },
+        {
+          "name": "Hannah Benedictine Maier",
+          "member": false
+        },
+        {
+          "name": "Pia Nordanskog",
+          "member": false
+        },
+        {
+          "name": "Guido Alexander van Wingen",
+          "member": false
+        },
+        {
+          "name": "Linda van Diermen",
+          "member": false
+        },
+        {
+          "name": "Louise Emsell",
+          "member": false
+        },
+        {
+          "name": "Filip Bouckaert",
+          "member": false
+        },
+        {
+          "name": "Jonathan Repple",
+          "member": false
+        },
+        {
+          "name": "Joan Albert Camprodon",
+          "member": false
+        },
+        {
+          "name": "Benjamin Wade",
+          "member": false
+        },
+        {
+          "name": "K. Tristan Donaldson",
+          "member": false
+        },
+        {
+          "name": "Leif Oltedal",
+          "member": false
+        },
+        {
+          "name": "Ute Keßler",
+          "member": false
+        },
+        {
+          "name": "Åsa Hammar",
+          "member": false
+        },
+        {
+          "name": "Pascal A. Sienaert",
+          "member": false
+        },
+        {
+          "name": "Kaat Hebbrecht",
+          "member": false
+        },
+        {
+          "name": "Mikel Urretavizcaya",
+          "member": false
+        },
+        {
+          "name": "Jean-Baptiste Belge",
+          "member": false
+        },
+        {
+          "name": "Miklós Árgyelán",
+          "member": false
+        },
+        {
+          "name": "Máté Baradits",
+          "member": false
+        },
+        {
+          "name": "Jasmien Obbels",
+          "member": false
+        },
+        {
+          "name": "Bogdan Draganski",
+          "member": false
+        },
+        {
+          "name": "Alexandra Philipsen",
+          "member": false
+        }
+      ],
+      "author_count": 47
+    },
+    {
       "openalex": "W4400766600",
       "doi": "10.1016/j.jagp.2024.07.005",
       "title": "Late Life Depression is Not Associated With Alzheimer-Type Tau: Preliminary Evidence From a Next-Generation Tau Ligand PET-MR Study",
@@ -1841,7 +2773,7 @@
         },
         {
           "name": "Maarten Laroy",
-          "member": false
+          "member": true
         },
         {
           "name": "Margot Van Cauwenberge",
@@ -2065,6 +2997,96 @@
       "author_count": 47
     },
     {
+      "openalex": "W4400942468",
+      "doi": "10.1016/j.brs.2024.07.015",
+      "title": "Characterization of gray matter volume changes from one week to 6 months after termination of electroconvulsive therapy in depressed patients",
+      "year": 2024,
+      "date": "2024-07-01",
+      "type": "article",
+      "journal": "Brain stimulation",
+      "url": "https://doi.org/10.1016/j.brs.2024.07.015",
+      "open_access_url": "https://doi.org/10.1016/j.brs.2024.07.015",
+      "authors": [
+        {
+          "name": "Maarten Laroy",
+          "member": true
+        },
+        {
+          "name": "Filip Bouckaert",
+          "member": false
+        },
+        {
+          "name": "Olga Therese Ousdal",
+          "member": false
+        },
+        {
+          "name": "Annemiek Dols",
+          "member": false
+        },
+        {
+          "name": "Didi Rhebergen",
+          "member": false
+        },
+        {
+          "name": "Eric R. van Exel",
+          "member": false
+        },
+        {
+          "name": "Guido Alexander van Wingen",
+          "member": false
+        },
+        {
+          "name": "Jeroen A. van Waarde",
+          "member": false
+        },
+        {
+          "name": "Joey P. A. J. Verdijk",
+          "member": false
+        },
+        {
+          "name": "Ute Keßler",
+          "member": false
+        },
+        {
+          "name": "Hauke Bartsch",
+          "member": false
+        },
+        {
+          "name": "Martin Balslev Jørgensen",
+          "member": false
+        },
+        {
+          "name": "Olaf Bjarne Paulson",
+          "member": false
+        },
+        {
+          "name": "Pia Nordanskog",
+          "member": false
+        },
+        {
+          "name": "Joan Prudic",
+          "member": false
+        },
+        {
+          "name": "Pascal A. Sienaert",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        },
+        {
+          "name": "Leif Oltedal",
+          "member": false
+        },
+        {
+          "name": "Louise Emsell",
+          "member": false
+        }
+      ],
+      "author_count": 19
+    },
+    {
       "openalex": "W4396544740",
       "doi": "10.1016/j.brs.2024.04.020",
       "title": "Synaptic density changes following electroconvulsive therapy: A longitudinal pilot study with PET-MR 11C-UCB-J imaging in late-life depression",
@@ -2077,7 +3099,7 @@
       "authors": [
         {
           "name": "Maarten Laroy",
-          "member": false
+          "member": true
         },
         {
           "name": "Thomas Vande Casteele",
@@ -2177,7 +3199,7 @@
         },
         {
           "name": "Maarten Laroy",
-          "member": false
+          "member": true
         },
         {
           "name": "Margot Van Cauwenberge",
@@ -2327,6 +3349,40 @@
       "author_count": 7
     },
     {
+      "openalex": "W4405660439",
+      "doi": "10.1016/j.nsa.2024.104450",
+      "title": "Molecular PET/SPECT imaging as a tool for understanding the neurobiological mechanisms of electroconvulsive therapy",
+      "year": 2024,
+      "date": "2024-01-01",
+      "type": "article",
+      "journal": "Neuroscience Applied",
+      "url": "https://doi.org/10.1016/j.nsa.2024.104450",
+      "open_access_url": "https://doi.org/10.1016/j.nsa.2024.104450",
+      "authors": [
+        {
+          "name": "Maarten Laroy",
+          "member": true
+        },
+        {
+          "name": "Koen Van Laere",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        },
+        {
+          "name": "Louise Emsell",
+          "member": false
+        },
+        {
+          "name": "Filip Bouckaert",
+          "member": false
+        }
+      ],
+      "author_count": 5
+    },
+    {
       "openalex": "W4403091263",
       "doi": "10.2139/ssrn.4975395",
       "title": "Plasma VAMP2 and GFAP Associate with Synaptic Density Independent of Alzheimer's Pathology in Nondemented Older Adults",
@@ -2347,7 +3403,7 @@
         },
         {
           "name": "Maarten Laroy",
-          "member": false
+          "member": true
         },
         {
           "name": "Thomas Vande Casteele",
@@ -2667,7 +3723,7 @@
         },
         {
           "name": "Maarten Laroy",
-          "member": false
+          "member": true
         },
         {
           "name": "Ahmed Radwan",
@@ -2705,6 +3761,64 @@
       "author_count": 12
     },
     {
+      "openalex": "W4383532820",
+      "doi": "10.1016/j.jagp.2023.07.004",
+      "title": "The Cortisol Awakening Response as a Biomarker for Cognitive Side-Effects of Electroconvulsive Therapy",
+      "year": 2023,
+      "date": "2023-07-07",
+      "type": "article",
+      "journal": "American Journal of Geriatric Psychiatry",
+      "url": "https://doi.org/10.1016/j.jagp.2023.07.004",
+      "open_access_url": "https://dspace.library.uu.nl/handle/1874/450795",
+      "authors": [
+        {
+          "name": "Thomas C. Feenstra",
+          "member": false
+        },
+        {
+          "name": "Eldon K.J. la Cruz",
+          "member": false
+        },
+        {
+          "name": "Jasmien Obbels",
+          "member": false
+        },
+        {
+          "name": "Maarten Laroy",
+          "member": true
+        },
+        {
+          "name": "Filip Bouckaert",
+          "member": false
+        },
+        {
+          "name": "Pascal A. Sienaert",
+          "member": false
+        },
+        {
+          "name": "Mardien Leoniek Oudega",
+          "member": false
+        },
+        {
+          "name": "Annemiek Dols",
+          "member": false
+        },
+        {
+          "name": "Eric R. van Exel",
+          "member": false
+        },
+        {
+          "name": "Aartjan T.F. Beekman",
+          "member": false
+        },
+        {
+          "name": "Didi Rhebergen",
+          "member": false
+        }
+      ],
+      "author_count": 11
+    },
+    {
       "openalex": "W4363648620",
       "doi": "10.1016/j.biopsych.2023.02.309",
       "title": "69. Lower Grey Matter Volume is not Related to Synaptic Density in Late Life Depression",
@@ -2721,7 +3835,7 @@
         },
         {
           "name": "Maarten Laroy",
-          "member": false
+          "member": true
         },
         {
           "name": "Margot Van Cauwenberge",
@@ -2837,7 +3951,7 @@
         },
         {
           "name": "Maarten Laroy",
-          "member": false
+          "member": true
         },
         {
           "name": "Stefan G. Sunaert",
@@ -2913,7 +4027,7 @@
         },
         {
           "name": "Maarten Laroy",
-          "member": false
+          "member": true
         },
         {
           "name": "Kristof Vansteelandt",
@@ -3355,7 +4469,7 @@
       "authors": [
         {
           "name": "Maarten Laroy",
-          "member": false
+          "member": true
         },
         {
           "name": "Olga Therese Ousdal",
@@ -3459,7 +4573,7 @@
         },
         {
           "name": "Maarten Laroy",
-          "member": false
+          "member": true
         },
         {
           "name": "Thomas Vande Casteele",
@@ -3617,7 +4731,7 @@
         },
         {
           "name": "Maarten Laroy",
-          "member": false
+          "member": true
         },
         {
           "name": "Jeroen Blommaert",
@@ -3807,7 +4921,7 @@
         },
         {
           "name": "Maarten Laroy",
-          "member": false
+          "member": true
         },
         {
           "name": "Margot Van Cauwenberge",
@@ -3979,7 +5093,7 @@
       "authors": [
         {
           "name": "Maarten Laroy",
-          "member": false
+          "member": true
         },
         {
           "name": "Kristof Vansteelandt",
@@ -4231,6 +5345,56 @@
       "author_count": 27
     },
     {
+      "openalex": "W3004273993",
+      "doi": "10.1016/j.euroneuro.2019.12.103",
+      "title": "P.406 Hippocampal volume increase in electroconvulsive therapy is independent of amyloid deposition in late-life depression",
+      "year": 2020,
+      "date": "2020-01-28",
+      "type": "article",
+      "journal": "European Neuropsychopharmacology",
+      "url": "https://doi.org/10.1016/j.euroneuro.2019.12.103",
+      "open_access_url": "",
+      "authors": [
+        {
+          "name": "Maarten Laroy",
+          "member": true
+        },
+        {
+          "name": "Louise Emsell",
+          "member": false
+        },
+        {
+          "name": "Kristof Vansteelandt",
+          "member": false
+        },
+        {
+          "name": "François‐Laurent De Winter",
+          "member": false
+        },
+        {
+          "name": "Annemiek Dols",
+          "member": false
+        },
+        {
+          "name": "Max L. Stek",
+          "member": false
+        },
+        {
+          "name": "Pascal A. Sienaert",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        },
+        {
+          "name": "Filip Bouckaert",
+          "member": false
+        }
+      ],
+      "author_count": 9
+    },
+    {
       "openalex": "W3009452141",
       "doi": "10.1093/brain/awaa018",
       "title": "Recommendations to distinguish behavioural variant frontotemporal dementia from psychiatric disorders",
@@ -4439,6 +5603,90 @@
       "author_count": 5
     },
     {
+      "openalex": "W4233328526",
+      "doi": "10.1016/j.euroneuro.2019.09.321",
+      "title": "P.301 Hippocampal subfield volumetric changes following electroconvulsive therapy in patients with late-life depression",
+      "year": 2019,
+      "date": "2019-12-01",
+      "type": "article",
+      "journal": "European Neuropsychopharmacology",
+      "url": "https://doi.org/10.1016/j.euroneuro.2019.09.321",
+      "open_access_url": "https://lirias.kuleuven.be/retrieve/ac7b5320-8256-4704-af67-f539bd311d44",
+      "authors": [
+        {
+          "name": "Maarten Laroy",
+          "member": true
+        },
+        {
+          "name": "Louise Emsell",
+          "member": false
+        },
+        {
+          "name": "J. Germann",
+          "member": false
+        },
+        {
+          "name": "Annemiek Dols",
+          "member": false
+        },
+        {
+          "name": "M. Stek",
+          "member": false
+        },
+        {
+          "name": "M.M. Chakravarty",
+          "member": false
+        },
+        {
+          "name": "Pascal A. Sienaert",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        },
+        {
+          "name": "Filip Bouckaert",
+          "member": false
+        }
+      ],
+      "author_count": 9
+    },
+    {
+      "openalex": "W2973503761",
+      "doi": "10.1101/777524",
+      "title": "Isolation housing exacerbates Alzheimer’s Disease phenotype in aged APP KI mice",
+      "year": 2019,
+      "date": "2019-09-20",
+      "type": "preprint",
+      "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "url": "https://doi.org/10.1101/777524",
+      "open_access_url": "https://www.biorxiv.org/content/biorxiv/early/2019/09/20/777524.full.pdf",
+      "authors": [
+        {
+          "name": "Maarten Laroy",
+          "member": true
+        },
+        {
+          "name": "Takashi Saito",
+          "member": false
+        },
+        {
+          "name": "TC Saido",
+          "member": false
+        },
+        {
+          "name": "Rudi D’Hooge",
+          "member": false
+        },
+        {
+          "name": "Ann Van der Jeugd",
+          "member": false
+        }
+      ],
+      "author_count": 5
+    },
+    {
       "openalex": "W2969932687",
       "doi": "10.1016/j.neubiorev.2019.08.017",
       "title": "Neural correlates of emotion-attention interactions: From perception, learning, and memory to social cognition, individual differences, and training interventions",
@@ -4573,6 +5821,114 @@
         }
       ],
       "author_count": 10
+    },
+    {
+      "openalex": "W2967081970",
+      "doi": "10.1111/acps.13086",
+      "title": "Association between hippocampal volume change and change in memory following electroconvulsive therapy in late‐life depression",
+      "year": 2019,
+      "date": "2019-08-14",
+      "type": "article",
+      "journal": "Acta Psychiatrica Scandinavica",
+      "url": "https://doi.org/10.1111/acps.13086",
+      "open_access_url": "https://pure.amsterdamumc.nl/en/publications/22a5ea79-23da-4e7c-b049-7faec2cb2e78",
+      "authors": [
+        {
+          "name": "Maarten Laroy",
+          "member": true
+        },
+        {
+          "name": "Filip Bouckaert",
+          "member": false
+        },
+        {
+          "name": "Kristof Vansteelandt",
+          "member": false
+        },
+        {
+          "name": "Jasmien Obbels",
+          "member": false
+        },
+        {
+          "name": "Annemiek Dols",
+          "member": false
+        },
+        {
+          "name": "Louise Emsell",
+          "member": false
+        },
+        {
+          "name": "M.L. Stek",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        },
+        {
+          "name": "Pascal A. Sienaert",
+          "member": false
+        }
+      ],
+      "author_count": 9
+    },
+    {
+      "openalex": "W2965261816",
+      "doi": "10.1016/j.pscychresns.2019.07.006",
+      "title": "Cortisol is not associated with pre-treatment medial temporal lobe volume or volume changes after electroconvulsive therapy in patients with late-life depression",
+      "year": 2019,
+      "date": "2019-07-29",
+      "type": "article",
+      "journal": "Psychiatry Research Neuroimaging",
+      "url": "https://doi.org/10.1016/j.pscychresns.2019.07.006",
+      "open_access_url": "",
+      "authors": [
+        {
+          "name": "Maarten Laroy",
+          "member": true
+        },
+        {
+          "name": "Justien Weydts",
+          "member": false
+        },
+        {
+          "name": "Kristof Vansteelandt",
+          "member": false
+        },
+        {
+          "name": "Louise Emsell",
+          "member": false
+        },
+        {
+          "name": "Christopher L. Adamson",
+          "member": false
+        },
+        {
+          "name": "Pascal A. Sienaert",
+          "member": false
+        },
+        {
+          "name": "Annemiek Dols",
+          "member": false
+        },
+        {
+          "name": "Didi Rhebergen",
+          "member": false
+        },
+        {
+          "name": "Max L. Stek",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        },
+        {
+          "name": "Filip Bouckaert",
+          "member": false
+        }
+      ],
+      "author_count": 11
     },
     {
       "openalex": "W2941495460",
