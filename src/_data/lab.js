@@ -38,6 +38,75 @@ function byOrder(fallback) {
   };
 }
 
+function readYaml(file) {
+  return fs.existsSync(file) ? loadYaml(fs.readFileSync(file, "utf8")) || {} : {};
+}
+
+const escapeHtml = (s) =>
+  String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
+const normTitle = (s) => String(s || "").toLowerCase().replace(/<[^>]+>/g, "").replace(/[^a-z0-9]+/g, "");
+const normDoi = (s) => {
+  const m = String(s || "").match(/10\.\d{4,9}\/\S+/);
+  return m ? m[0].toLowerCase().replace(/[.,;]+$/, "") : "";
+};
+
+// "A, B, C, … , Member, et al." — lab members in bold, and always shown.
+function formatAuthors(authors, total, max) {
+  const shown = authors.slice(0, max);
+  const extraMembers = authors.slice(max).filter((a) => a.member);
+  const fmt = (a) => (a.member ? `<strong>${escapeHtml(a.name)}</strong>` : escapeHtml(a.name));
+  let html = shown.map(fmt).join(", ");
+  if (extraMembers.length) html += ", … " + extraMembers.map(fmt).join(", ");
+  if (total > shown.length + extraMembers.length) html += ", et al.";
+  return html;
+}
+
+function buildPublications(settings, manualEntries) {
+  const max = Number(settings.max_authors) || 8;
+  const fromYear = Number(settings.from_year) || 0;
+  const types = (settings.types || []).map(String);
+  const excluded = (settings.exclude || [])
+    .map((e) => (typeof e === "string" ? e : e?.id || e?.doi || ""))
+    .map((e) => String(e).trim().toLowerCase())
+    .filter(Boolean);
+  const isExcluded = (p) =>
+    excluded.some((e) => (p.doi && normDoi(e) === p.doi) || e.replace(/.*\//, "") === String(p.openalex || "").toLowerCase());
+
+  let auto = [];
+  try {
+    auto = JSON.parse(fs.readFileSync(path.resolve("data", "publications.json"), "utf8")).works || [];
+  } catch {}
+  auto = auto
+    .filter((p) => !types.length || types.includes(p.type))
+    .filter((p) => !fromYear || Number(p.year) >= fromYear)
+    .map((p) => ({
+      ...p,
+      link: p.url,
+      authorsHtml: formatAuthors(p.authors || [], p.author_count || 0, max),
+    }));
+
+  const manual = manualEntries
+    .filter((p) => p.title)
+    .map((p) => ({
+      ...p,
+      doi: normDoi(p.link),
+      date: String(p.year ?? ""),
+      authorsHtml: escapeHtml(p.authors || ""),
+      manual: true,
+    }));
+
+  // Hand-made entries win over automatic ones for the same paper.
+  const seen = new Set();
+  const all = [];
+  for (const p of [...manual.sort(byOrder("title")), ...auto]) {
+    const keys = [p.doi, `${normTitle(p.title)}-${p.year}`].filter(Boolean);
+    if (keys.some((k) => seen.has(k)) || isExcluded(p)) continue;
+    keys.forEach((k) => seen.add(k));
+    all.push(p);
+  }
+  return all.sort((a, b) => String(b.date || b.year).localeCompare(String(a.date || a.year)));
+}
+
 function isTrue(value, fallback) {
   if (value === undefined || value === null || value === "") return fallback;
   return value === true || value === "true";
@@ -64,12 +133,14 @@ export default function () {
   const orphans = people.filter((p) => !known.has(p.group)).sort(byOrder("name"));
   if (orphans.length) peopleGroups.push({ id: "other", title: "Other", members: orphans });
 
-  // Publications grouped by year, newest year first.
-  const pubs = readFolder("publications").filter((p) => p.title);
+  // Publications: the automatic list from OpenAlex (data/publications.json,
+  // refreshed weekly) plus any entries added by hand, grouped by year.
+  const pubSettings = readYaml(path.join(root, "publications.yml"));
+  const pubs = buildPublications(pubSettings, readFolder("publications"));
   const years = [...new Set(pubs.map((p) => String(p.year ?? "")))].sort((a, b) => b.localeCompare(a));
   const pubYears = years.map((year) => ({
     year: year || "Undated",
-    items: pubs.filter((p) => String(p.year ?? "") === year).sort(byOrder("title")),
+    items: pubs.filter((p) => String(p.year ?? "") === year),
   }));
 
   const projects = readFolder("projects").filter((p) => p.title).sort(byOrder("title"));
@@ -77,11 +148,18 @@ export default function () {
     .filter((s) => s.title && isTrue(s.recruiting, true))
     .sort(byOrder("title"));
 
+  let pubsUpdated = null;
+  try {
+    const u = JSON.parse(fs.readFileSync(path.resolve("data", "publications.json"), "utf8")).updated;
+    if (u) pubsUpdated = new Date(u).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" });
+  } catch {}
+
   return {
     settings,
     pages,
     peopleGroups,
     pubYears,
+    pubsUpdated,
     projects,
     studies,
     isTrue,

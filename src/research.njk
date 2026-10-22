@@ -20,12 +20,22 @@ permalink: /research/
       {%- for pub in year.items %}
       <article class="pub">
         <h3>{% if pub.link %}<a href="{{ pub.link }}">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}</h3>
-        {% if pub.authors %}<div class="pub-authors">{{ pub.authors }}</div>{% endif %}
-        {% if pub.journal %}<div class="pub-journal"><em>{{ pub.journal }}</em></div>{% endif %}
+        {% if pub.authorsHtml %}<div class="pub-authors">{{ pub.authorsHtml | safe }}</div>{% endif %}
+        {% if pub.journal or pub.open_access_url %}<div class="pub-journal">
+          {%- if pub.journal %}<em>{{ pub.journal }}</em>{% endif %}
+          {%- if pub.open_access_url %}{% if pub.journal %} · {% endif %}<a class="pub-oa" href="{{ pub.open_access_url }}">Open access</a>{% endif -%}
+        </div>{% endif %}
       </article>
       {%- endfor %}
     </div>
   </div>
   {%- endfor %}
-  {% if p.note %}<div class="pubs-note">{{ p.note }}</div>{% endif %}
+  {%- if not lab.pubYears.length and p.empty_message %}
+  <p class="pubs-empty">{{ p.empty_message }}</p>
+  {%- endif %}
+  {% if p.note or lab.pubsUpdated %}<div class="pubs-note">
+    {%- if p.note %}{{ p.note }}{% endif %}
+    {%- if p.note and lab.pubsUpdated %} · {% endif %}
+    {%- if lab.pubsUpdated %}Updated automatically from <a href="https://openalex.org">OpenAlex</a> · last change {{ lab.pubsUpdated }}{% endif -%}
+  </div>{% endif %}
 </section>

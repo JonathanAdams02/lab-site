@@ -195,6 +195,10 @@ a:hover { color: var(--sky); }
 .pub h3 a:hover { color: var(--blue); }
 .pub-authors { font-size: 14px; line-height: 1.55; color: var(--muted); margin-bottom: 6px; }
 .pub-journal { font-size: 14px; color: var(--faint); }
+.pub-authors strong { color: var(--ink); font-weight: 600; }
+.pub-oa { font-size: 13px; font-weight: 600; }
+.pubs-empty { padding: 34px 0; border-top: 1px solid var(--line); font-size: 15.5px; color: var(--muted); margin: 0; }
+.pubs-note a { color: inherit; text-decoration: underline; }
 .pubs-note {
   border-top: 1px solid var(--line); padding-top: 26px;
   font-family: var(--mono); font-size: 12px; color: var(--faint);

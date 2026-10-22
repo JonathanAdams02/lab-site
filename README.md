@@ -10,6 +10,9 @@ content/      ← everything editors change (Pages CMS edits these files)
   projects/     one file per project
   studies/      one file per recruiting study
   settings.yml  emails, logos, atlas address, footer links
+  publications.yml  settings for the automatic publication list
+data/publications.json  ← publication list fetched from OpenAlex (updated automatically)
+scripts/      ← the OpenAlex fetch script
 media/        ← photos uploaded through Pages CMS
 src/          ← design: page templates, stylesheet, fonts, logos
 .pages.yml    ← defines the editing forms
@@ -51,6 +54,28 @@ Links, images and stylesheets adjust themselves automatically, whether the site 
 2. Open the repository there. The editing forms appear in the sidebar.
 3. Invite colleagues. Pages CMS can invite people by email (they then don't need a GitHub account), or you can add them as collaborators on the GitHub repository.
 
+## 4 · Automatic publication list
+
+The publication list on *Research output* fills itself from [OpenAlex](https://openalex.org), a free, open database of scholarly papers.
+
+1. In Pages CMS, open each researcher under **People** and fill in their **ORCID iD**. For someone without an ORCID, use the *OpenAlex author ID* field instead.
+2. Saving starts an update straight away. You can also start one by hand in the GitHub **Actions** tab → *Update publications* → **Run workflow**.
+3. After that it checks for new papers **every Monday**. When it finds some, it saves them and republishes the site, with no one needing to do anything.
+
+Fine-tuning, in Pages CMS → **Publication list settings**:
+- **From year**: how far back the list goes.
+- **Leuven affiliation only** (on by default): only papers where the lab member listed a Leuven affiliation, so a new member's earlier work elsewhere stays out.
+- **Publication types**: articles, reviews, chapters and so on.
+- **Hide these publications**: paste the DOI of any paper that shouldn't be there.
+
+Anything OpenAlex misses can be added under **Extra publications (manual)**. A manual entry with the same DOI replaces the automatic one, which is useful for correcting a title or journal name. **Delete the placeholder publications there** once the real list appears.
+
+Lab members are shown in **bold** in author lists. Because the update runs on GitHub's servers, nothing needs to be running on anyone's computer.
+
+> **Optional:** OpenAlex gives faster, more reliable access to users who identify themselves. In GitHub, go to **Settings → Secrets and variables → Actions → Variables** and add `OPENALEX_MAILTO` with a lab email address. If OpenAlex asks for an API key in future, add it under *Secrets* as `OPENALEX_API_KEY`.
+>
+> GitHub pauses scheduled jobs in repositories with no activity for 60 days. If the list stops updating, open Actions → *Update publications* and re-enable it, or just save any change in Pages CMS.
+
 ---
 
 ## Editing guide (for everyone)
@@ -60,7 +85,9 @@ Log in at **app.pagescms.org**, open the site, then:
 | To… | Go to… |
 |---|---|
 | Add or update a **team member** | **People** → *Add an entry* (or click a name). Choose the group, upload a square photo, save. |
-| Add a **publication** | **Publications** → *Add an entry*. They're grouped by year automatically, newest first. |
+| Get someone's **publications** listed | **People** → their entry → fill in the **ORCID iD**. Papers appear automatically (see section 4). |
+| Add a publication OpenAlex missed | **Extra publications (manual)** → *Add an entry*. |
+| Hide a wrong publication | **Publication list settings** → *Hide these publications* → paste its DOI. |
 | Add or update a **project** | **Projects**. Use *Position in the list* to set the order. |
 | Open or close a **recruiting study** | **Recruiting studies**. Untick *Currently recruiting* to hide a study without deleting it. |
 | Change **page texts** (intro, About, Contact…) | **Page texts** → the page. |

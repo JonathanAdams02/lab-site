@@ -1,0 +1,13 @@
+# Settings for the automatic publication list (edited through Pages CMS).
+from_year: 2018
+require_affiliation: true
+affiliation_keywords:
+  - Leuven
+types:
+  - article
+  - review
+  - letter
+  - book-chapter
+  - book
+max_authors: 8
+exclude: []

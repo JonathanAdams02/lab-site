@@ -1,0 +1,51 @@
+# Refreshes the publication list from OpenAlex every Monday morning, and
+# whenever someone's ORCID / the publication settings change. If anything new
+# turned up, it saves data/publications.json, which then republishes the site.
+name: Update publications
+
+on:
+  schedule:
+    - cron: "17 4 * * 1" # Mondays 04:17 UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "content/people/**"
+      - "content/publications.yml"
+      - "scripts/fetch-publications.mjs"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publications
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Fetch from OpenAlex
+        run: node scripts/fetch-publications.mjs
+        env:
+          # Optional: add these under Settings → Secrets and variables → Actions.
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+          OPENALEX_MAILTO: ${{ vars.OPENALEX_MAILTO }}
+      - name: Save changes
+        run: |
+          if git diff --quiet -- data/publications.json; then
+            echo "Publication list unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/publications.json
+          git commit -m "Update publication list from OpenAlex"
+          git pull --rebase
+          git push

@@ -101,6 +101,7 @@ content:
           - { name: intro, label: Introduction, type: text }
           - { name: show_atlas, label: Show the Output Atlas, type: boolean, default: true }
           - { name: publications_title, label: Publications heading, type: string }
+          - { name: empty_message, label: Message when the list is empty, type: text }
           - { name: note, label: Note under the publication list (leave empty to hide), type: string }
 
       - name: projects_page
@@ -218,10 +219,70 @@ content:
       - { name: focus, label: Research focus, type: string }
       - { name: photo, label: Portrait photo, type: image, description: Square photos look best. Without a photo the initials are shown. }
       - { name: link, label: Personal page or profile link (optional), type: string }
+      - name: orcid
+        label: ORCID iD
+        type: string
+        description: "e.g. 0000-0002-1825-0097. Their papers then appear on Research output automatically (checked weekly)."
+      - name: openalex_id
+        label: OpenAlex author ID (optional)
+        type: string
+        description: "Only needed if someone has no ORCID. Find it by searching their name on openalex.org — it looks like A5012345678."
       - { name: order, label: Position within the group, type: number, description: Lower numbers come first. Leave empty to sort alphabetically at the end. }
 
+  - name: publication_settings
+    label: Publication list settings
+    type: file
+    path: content/publications.yml
+    format: yaml
+    fields:
+      - name: from_year
+        label: Show publications from year
+        type: number
+      - name: require_affiliation
+        label: Only papers where the lab member listed a Leuven affiliation
+        description: Keeps out papers a new member wrote before joining. Untick to include everything.
+        type: boolean
+        default: true
+      - name: affiliation_keywords
+        label: Affiliation words that count
+        type: string
+        list: true
+        description: "Matched against the authors' institution names, e.g. Leuven"
+      - name: types
+        label: Publication types to show
+        type: select
+        options:
+          multiple: true
+          values:
+            - { name: article, label: Article }
+            - { name: review, label: Review }
+            - { name: letter, label: Letter }
+            - { name: editorial, label: Editorial }
+            - { name: book-chapter, label: Book chapter }
+            - { name: book, label: Book }
+            - { name: preprint, label: Preprint }
+            - { name: dissertation, label: Dissertation }
+            - { name: report, label: Report }
+            - { name: erratum, label: Erratum }
+            - { name: other, label: Other }
+      - name: max_authors
+        label: Authors shown before "et al."
+        type: number
+        description: Lab members further down the author list are always shown.
+      - name: exclude
+        label: Hide these publications
+        description: For papers that were picked up by mistake. Paste the DOI (or the OpenAlex work ID, e.g. W2741809807).
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{id}"
+        fields:
+          - { name: id, label: DOI or OpenAlex ID, type: string }
+          - { name: note, label: Reason (optional), type: string }
+
   - name: publications
-    label: Publications
+    label: Extra publications (manual)
     type: collection
     path: content/publications
     filename: "{fields.year}-{fields.title}.md"
