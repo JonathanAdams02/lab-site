@@ -9,6 +9,6 @@ groups:
     title: Postdoctoral researchers
   - id: phd
     title: PhD candidates
-  - id: support
-    title: Support and affiliated staff
+  - id: clinicians
+    title: Clinicians
 ---
