@@ -155,7 +155,7 @@ function buildProjects(settings, manualEntries) {
         funder: [...new Set(funders)].join(", "),
         // Older imports built links from FRIS's internal number, which the
         // KU Leuven portal doesn't recognise (…/project/59074371) — skip those.
-        url: /research\.kuleuven\.be\/portal\/en\/project\/\d+$/.test(p.url || "") ? "" : p.url,
+        url: (/research\.kuleuven\.be\/portal\/en\/project\/\d+$/.test(p.url || "") ? "" : p.url) || settings.portal_link || "",
         start: p.start || "",
       };
     });
