@@ -1,9 +1,6 @@
 ---
-name: Name Surname
-role: Principal investigator
-group: pi
-focus: Placeholder
+name: Fan Ji
+role: PhD candidate
+group: phd
 order: 5
-photo: ""
-link: ""
 ---

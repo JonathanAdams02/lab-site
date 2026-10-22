@@ -1,9 +1,7 @@
 ---
-name: Name Surname
+name: Doga Gundem
 role: PhD candidate
 group: phd
-focus: Placeholder
-order: 4
-photo: ""
-link: ""
+orcid: 0000-0002-0548-6551
+openalex_id: A5046990645
 ---

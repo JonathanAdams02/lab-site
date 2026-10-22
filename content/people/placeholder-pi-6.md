@@ -1,9 +1,7 @@
 ---
-name: Name Surname
+name: Filip Bouckaert
 role: Principal investigator
 group: pi
 focus: Placeholder
-order: 6
-photo: ""
-link: ""
+orcid: 0000-0003-2513-8957
 ---
