@@ -1,0 +1,24 @@
+# One-time test of the FRIS project service. Run it by hand from the Actions
+# tab, then download the "fris-probe" file from the finished run.
+name: FRIS probe (one-time test)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/fris-probe.mjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: fris-probe
+          path: fris-probe/
+          retention-days: 7
