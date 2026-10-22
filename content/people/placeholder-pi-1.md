@@ -1,9 +1,6 @@
 ---
-name: Name Surname
-role: Professor, group leader
-group: pi
-focus: Placeholder
+name: Lina Ren
+role: PhD candidate
+group: phd
 order: 1
-photo: ""
-link: ""
 ---
