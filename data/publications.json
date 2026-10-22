@@ -1,5 +1,4950 @@
 {
   "source": "OpenAlex (https://openalex.org)",
-  "updated": null,
-  "works": []
+  "updated": "2026-10-22T13:14:21.755Z",
+  "works": [
+    {
+      "openalex": "W7212119714",
+      "doi": "10.1007/s00415-026-14117-0",
+      "title": "Emotional brain responses and pattern expressions in right temporal variant frontotemporal dementia",
+      "year": 2026,
+      "date": "2026-09-10",
+      "type": "article",
+      "journal": "Journal of Neurology",
+      "url": "https://doi.org/10.1007/s00415-026-14117-0",
+      "open_access_url": "",
+      "authors": [
+        {
+          "name": "Jonathan Adams",
+          "member": false
+        },
+        {
+          "name": "Doğa Gündem",
+          "member": false
+        },
+        {
+          "name": "Elahe’ Yargholi",
+          "member": false
+        },
+        {
+          "name": "Qi Luo",
+          "member": false
+        },
+        {
+          "name": "Stefan G. Sunaert",
+          "member": false
+        },
+        {
+          "name": "Ronald Peeters",
+          "member": false
+        },
+        {
+          "name": "François‐Laurent De Winter",
+          "member": false
+        },
+        {
+          "name": "Tor Dessart Wager",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        }
+      ],
+      "author_count": 10
+    },
+    {
+      "openalex": "W7211913171",
+      "doi": "10.1002/ana.78355",
+      "title": "Tracking Socio‐emotional Brain Changes in Premanifest C9orf72 Repeat Expansion Carriers: A Structural and Functional 2‐Year Longitudinal Magnetic Resonance Imaging Study",
+      "year": 2026,
+      "date": "2026-09-07",
+      "type": "article",
+      "journal": "Annals of Neurology",
+      "url": "https://doi.org/10.1002/ana.78355",
+      "open_access_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ana.78355",
+      "authors": [
+        {
+          "name": "Jiaze Sun",
+          "member": false
+        },
+        {
+          "name": "Joke De Vocht",
+          "member": false
+        },
+        {
+          "name": "Maarten Laroy",
+          "member": false
+        },
+        {
+          "name": "Daphne Stam",
+          "member": false
+        },
+        {
+          "name": "Chih-Hao Lien",
+          "member": false
+        },
+        {
+          "name": "Nikita Lamaire",
+          "member": false
+        },
+        {
+          "name": "Ann D’Hondt",
+          "member": false
+        },
+        {
+          "name": "Ronald Peeters",
+          "member": false
+        },
+        {
+          "name": "Stefan G. Sunaert",
+          "member": false
+        },
+        {
+          "name": "Philip Van Damme",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        }
+      ],
+      "author_count": 12
+    },
+    {
+      "openalex": "W7203585171",
+      "doi": "10.1080/13554794.2026.2718969",
+      "title": "Cognitive impairment in adult Alexander disease",
+      "year": 2026,
+      "date": "2026-08-15",
+      "type": "article",
+      "journal": "Neurocase",
+      "url": "https://doi.org/10.1080/13554794.2026.2718969",
+      "open_access_url": "",
+      "authors": [
+        {
+          "name": "Eva Maes",
+          "member": false
+        },
+        {
+          "name": "Gert Cypers",
+          "member": false
+        },
+        {
+          "name": "Sam Van de Schoot",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        }
+      ],
+      "author_count": 4
+    },
+    {
+      "openalex": "W7167845866",
+      "doi": "10.1093/cercor/bhag084",
+      "title": "From body selectivity to socio-emotional meaning: where extrastriate body area stops",
+      "year": 2026,
+      "date": "2026-06-01",
+      "type": "article",
+      "journal": "Cerebral Cortex",
+      "url": "https://doi.org/10.1093/cercor/bhag084",
+      "open_access_url": "https://lirias.kuleuven.be/retrieve/ae49820a-ffab-439c-8ce2-998d358482fd",
+      "authors": [
+        {
+          "name": "Elahe’ Yargholi",
+          "member": false
+        },
+        {
+          "name": "Hans Op de Beeck",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        }
+      ],
+      "author_count": 3
+    },
+    {
+      "openalex": "W7120042011",
+      "doi": "10.1007/s00415-025-13613-z",
+      "title": "Integrating functional network topology, synaptic density, and tau pathology to predict cognitive decline in amnestic mild cognitive impairment",
+      "year": 2026,
+      "date": "2026-01-01",
+      "type": "article",
+      "journal": "Journal of Neurology",
+      "url": "https://doi.org/10.1007/s00415-025-13613-z",
+      "open_access_url": "https://pubmed.ncbi.nlm.nih.gov/41518411",
+      "authors": [
+        {
+          "name": "Chih-Hao Lien",
+          "member": false
+        },
+        {
+          "name": "Greet Vanderlinden",
+          "member": false
+        },
+        {
+          "name": "Thomas Vande Casteele",
+          "member": false
+        },
+        {
+          "name": "Maarten Laroy",
+          "member": false
+        },
+        {
+          "name": "Margot Van Cauwenberge",
+          "member": false
+        },
+        {
+          "name": "Kristof Vansteelandt",
+          "member": false
+        },
+        {
+          "name": "Michel J. B. Koole",
+          "member": false
+        },
+        {
+          "name": "Ronald R. Peeters",
+          "member": false
+        },
+        {
+          "name": "Stefan G. Sunaert",
+          "member": false
+        },
+        {
+          "name": "Filip Bouckaert",
+          "member": false
+        },
+        {
+          "name": "Louise Emsell",
+          "member": false
+        },
+        {
+          "name": "Koen Van Laere",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        }
+      ],
+      "author_count": 14
+    },
+    {
+      "openalex": "W4417273442",
+      "doi": "10.1038/s43856-025-01252-4",
+      "title": "Clinical recognition of frontotemporal dementia with right temporal predominance: a consensus statement from the International Working Group",
+      "year": 2025,
+      "date": "2025-12-12",
+      "type": "article",
+      "journal": "Communications Medicine",
+      "url": "https://doi.org/10.1038/s43856-025-01252-4",
+      "open_access_url": "https://www.nature.com/articles/s43856-025-01252-4.pdf",
+      "authors": [
+        {
+          "name": "Hülya Ulugut",
+          "member": false
+        },
+        {
+          "name": "Kyan Younes",
+          "member": false
+        },
+        {
+          "name": "Maxime Montembeault",
+          "member": false
+        },
+        {
+          "name": "Maxime Bertoux",
+          "member": false
+        },
+        {
+          "name": "Muireann Irish",
+          "member": false
+        },
+        {
+          "name": "Fiona Kumfor",
+          "member": false
+        },
+        {
+          "name": "Giorgio Fumagalli",
+          "member": false
+        },
+        {
+          "name": "Bedia Samancı",
+          "member": false
+        },
+        {
+          "name": "Ignacio Illán‐Gala",
+          "member": false
+        },
+        {
+          "name": "J. C. Thompson",
+          "member": false
+        },
+        {
+          "name": "Alexander Frizell Santillo",
+          "member": false
+        },
+        {
+          "name": "Elisabet M. Englund",
+          "member": false
+        },
+        {
+          "name": "Maria Landqvist Waldö",
+          "member": false
+        },
+        {
+          "name": "Lina Riedl",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        },
+        {
+          "name": "Rik R. Vandenberghe",
+          "member": false
+        },
+        {
+          "name": "Robert Jr Laforce",
+          "member": false
+        },
+        {
+          "name": "Simon Ducharme",
+          "member": false
+        },
+        {
+          "name": "Peter Pressman",
+          "member": false
+        },
+        {
+          "name": "Paulo Caramelli",
+          "member": false
+        },
+        {
+          "name": "Leonardo Cruz de Souza",
+          "member": false
+        },
+        {
+          "name": "Leonel Tadao Takada",
+          "member": false
+        },
+        {
+          "name": "Hakan I. Gurvit",
+          "member": false
+        },
+        {
+          "name": "Janine Diehl‐Schmid",
+          "member": false
+        },
+        {
+          "name": "Daniela Galimberti",
+          "member": false
+        },
+        {
+          "name": "Florence Pasquier",
+          "member": false
+        },
+        {
+          "name": "Sandra Weıntraub",
+          "member": false
+        },
+        {
+          "name": "Bruce L. Miller",
+          "member": false
+        },
+        {
+          "name": "Virginia E. Sturm",
+          "member": false
+        },
+        {
+          "name": "Jennifer Louise Whitwell",
+          "member": false
+        },
+        {
+          "name": "Bradley F. Boeve",
+          "member": false
+        },
+        {
+          "name": "Jonathan Daniel Rohrer",
+          "member": false
+        },
+        {
+          "name": "Olivier Piguet",
+          "member": false
+        },
+        {
+          "name": "Maria Luisa Gorno Tempini",
+          "member": false
+        },
+        {
+          "name": "Keith A. Josephs",
+          "member": false
+        },
+        {
+          "name": "Julie S. Snowden",
+          "member": false
+        },
+        {
+          "name": "James Benedict Rowe",
+          "member": false
+        },
+        {
+          "name": "Jason D. Warren",
+          "member": false
+        },
+        {
+          "name": "Katherine P. Rankin",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        }
+      ],
+      "author_count": 100
+    },
+    {
+      "openalex": "W4417070016",
+      "doi": "10.1186/s13195-025-01908-2",
+      "title": "International consensus for the assessment of social cognition in neurocognitive disorders: framework definition and clinical recommendations of the SIGNATURE initiative",
+      "year": 2025,
+      "date": "2025-12-06",
+      "type": "article",
+      "journal": "Alzheimer s Research & Therapy",
+      "url": "https://doi.org/10.1186/s13195-025-01908-2",
+      "open_access_url": "https://doi.org/10.1186/s13195-025-01908-2",
+      "authors": [
+        {
+          "name": "Alessandra Dodich",
+          "member": false
+        },
+        {
+          "name": "Andrea Panzavolta",
+          "member": false
+        },
+        {
+          "name": "Giulia Funghi",
+          "member": false
+        },
+        {
+          "name": "Claudia Meli",
+          "member": false
+        },
+        {
+          "name": "Cristina Festari",
+          "member": false
+        },
+        {
+          "name": "Athanasios Chatzikostopoulos",
+          "member": false
+        },
+        {
+          "name": "Christian Chicherio",
+          "member": false
+        },
+        {
+          "name": "María Florencia Clarens",
+          "member": false
+        },
+        {
+          "name": "Fabricio Ferreira de Oliveira",
+          "member": false
+        },
+        {
+          "name": "Marco Filardi",
+          "member": false
+        },
+        {
+          "name": "Agustín M. Ibáñez",
+          "member": false
+        },
+        {
+          "name": "Laura Invernizzi",
+          "member": false
+        },
+        {
+          "name": "Thibaud Lebouvier",
+          "member": false
+        },
+        {
+          "name": "Giancarlo Logroscino",
+          "member": false
+        },
+        {
+          "name": "Sarah E. MacPherson",
+          "member": false
+        },
+        {
+          "name": "Riccardo Manca",
+          "member": false
+        },
+        {
+          "name": "Camillo Marra",
+          "member": false
+        },
+        {
+          "name": "Jordi A. Matias-Guiu",
+          "member": false
+        },
+        {
+          "name": "Maxime Montembeault",
+          "member": false
+        },
+        {
+          "name": "Costanza Papagno",
+          "member": false
+        },
+        {
+          "name": "Simone Pomati",
+          "member": false
+        },
+        {
+          "name": "Mario Possenti",
+          "member": false
+        },
+        {
+          "name": "Olivier Piguet",
+          "member": false
+        },
+        {
+          "name": "Leonardo Sacco",
+          "member": false
+        },
+        {
+          "name": "Ann‐Katrin Schild",
+          "member": false
+        },
+        {
+          "name": "Marc A. Sollberger",
+          "member": false
+        },
+        {
+          "name": "Miguel Tábuas‐Pereira",
+          "member": false
+        },
+        {
+          "name": "Marianna S. Tsatali",
+          "member": false
+        },
+        {
+          "name": "Magda Tsolaki",
+          "member": false
+        },
+        {
+          "name": "Esther van den Berg",
+          "member": false
+        },
+        {
+          "name": "Stefano Francesco Cappa",
+          "member": false
+        },
+        {
+          "name": "Maxime Bertoux",
+          "member": false
+        },
+        {
+          "name": "Fiona Kumfor",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Marina Boccardi",
+          "member": false
+        },
+        {
+          "name": "Kathleen Anne Welsh-Bohmer",
+          "member": false
+        },
+        {
+          "name": "Chiara Cerami",
+          "member": false
+        },
+        {
+          "name": "Federica Agosta",
+          "member": false
+        },
+        {
+          "name": "Elisa Canu",
+          "member": false
+        },
+        {
+          "name": "Ove Almkvist",
+          "member": false
+        }
+      ],
+      "author_count": 100
+    },
+    {
+      "openalex": "W7117255203",
+      "doi": "10.1002/alz70857_103987",
+      "title": "Genetic and Pathological Characteristics of Frontotemporal Dementia with Right Anterior Temporal Predominance: A Multicenter Retrospective Cohort Study",
+      "year": 2025,
+      "date": "2025-12-01",
+      "type": "article",
+      "journal": "Alzheimer s & Dementia",
+      "url": "https://doi.org/10.1002/alz70857_103987",
+      "open_access_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/alz70857_103987",
+      "authors": [
+        {
+          "name": "Hülya Ulugut",
+          "member": false
+        },
+        {
+          "name": "Kyan Younes",
+          "member": false
+        },
+        {
+          "name": "Maxime Bertoux",
+          "member": false
+        },
+        {
+          "name": "Maxime Montembeault",
+          "member": false
+        },
+        {
+          "name": "Giorgio Fumagalli",
+          "member": false
+        },
+        {
+          "name": "Alma Ghirelli",
+          "member": false
+        },
+        {
+          "name": "Edoardo Gioele Spinelli",
+          "member": false
+        },
+        {
+          "name": "Na‐Yeon Jung",
+          "member": false
+        },
+        {
+          "name": "Bedia Samancı",
+          "member": false
+        },
+        {
+          "name": "Ignacio Illán‐Gala",
+          "member": false
+        },
+        {
+          "name": "J. C. Thompson",
+          "member": false
+        },
+        {
+          "name": "Christopher Kobylecki",
+          "member": false
+        },
+        {
+          "name": "Alexander Frizell Santillo",
+          "member": false
+        },
+        {
+          "name": "Elisabet M. Englund",
+          "member": false
+        },
+        {
+          "name": "Maria Landqvist Waldö",
+          "member": false
+        },
+        {
+          "name": "Lina Riedl",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        },
+        {
+          "name": "Rik R. Vandenberghe",
+          "member": false
+        },
+        {
+          "name": "Robert Jr Laforce",
+          "member": false
+        },
+        {
+          "name": "Simon Ducharme",
+          "member": false
+        },
+        {
+          "name": "Peter Pressman",
+          "member": false
+        },
+        {
+          "name": "Maria Carmela Tartaglia",
+          "member": false
+        },
+        {
+          "name": "Paulo Caramelli",
+          "member": false
+        },
+        {
+          "name": "Leonardo Cruz de Souza",
+          "member": false
+        },
+        {
+          "name": "Leonel Tadao Takada",
+          "member": false
+        },
+        {
+          "name": "Alexandre Morin",
+          "member": false
+        },
+        {
+          "name": "Matthias Leopold Schroeter",
+          "member": false
+        },
+        {
+          "name": "Eun‐Joo Kim",
+          "member": false
+        },
+        {
+          "name": "So Young Moon",
+          "member": false
+        },
+        {
+          "name": "Federica Agosta",
+          "member": false
+        },
+        {
+          "name": "Elisa Canu",
+          "member": false
+        },
+        {
+          "name": "Massimo Filippi",
+          "member": false
+        },
+        {
+          "name": "Hakan I. Gurvit",
+          "member": false
+        },
+        {
+          "name": "Janine Diehl‐Schmid",
+          "member": false
+        },
+        {
+          "name": "Daniela Galimberti",
+          "member": false
+        },
+        {
+          "name": "Thibaud Lebouvier",
+          "member": false
+        },
+        {
+          "name": "Bruce L. Miller",
+          "member": false
+        },
+        {
+          "name": "Virginia E. Sturm",
+          "member": false
+        },
+        {
+          "name": "Toji Miyagawa",
+          "member": false
+        }
+      ],
+      "author_count": 50
+    },
+    {
+      "openalex": "W4415119397",
+      "doi": "10.1163/1568539x-bja10326",
+      "title": "The extended social phenotype",
+      "year": 2025,
+      "date": "2025-10-08",
+      "type": "article",
+      "journal": "Behaviour",
+      "url": "https://doi.org/10.1163/1568539x-bja10326",
+      "open_access_url": "",
+      "authors": [
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Patty Dierickx",
+          "member": false
+        },
+        {
+          "name": "Maarten J. A. Van Den Bossche",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        }
+      ],
+      "author_count": 4
+    },
+    {
+      "openalex": "W4414123062",
+      "doi": "10.1038/s41386-025-02229-6",
+      "title": "Motor signs in late life depression relate to altered subcortical synaptic density and gray matter volume: an 11C-UCB-J PET-MR study",
+      "year": 2025,
+      "date": "2025-09-11",
+      "type": "article",
+      "journal": "Neuropsychopharmacology",
+      "url": "https://doi.org/10.1038/s41386-025-02229-6",
+      "open_access_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12823573/",
+      "authors": [
+        {
+          "name": "Margot Van Cauwenberge",
+          "member": false
+        },
+        {
+          "name": "Thomas Vande Casteele",
+          "member": false
+        },
+        {
+          "name": "Maarten Laroy",
+          "member": false
+        },
+        {
+          "name": "Kristof Vansteelandt",
+          "member": false
+        },
+        {
+          "name": "Koen Van Laere",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Filip Bouckaert",
+          "member": false
+        },
+        {
+          "name": "Louise Emsell",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        }
+      ],
+      "author_count": 9
+    },
+    {
+      "openalex": "W4413093981",
+      "doi": "10.1016/j.jad.2025.120043",
+      "title": "Corrigendum to “Motor dysfunction in late life depression: A mood or movement disorder?” [J. Affect. Disord. volume 381 (2025) 680–691/ISSN 0165-0327]",
+      "year": 2025,
+      "date": "2025-08-09",
+      "type": "erratum",
+      "journal": "Journal of Affective Disorders",
+      "url": "https://doi.org/10.1016/j.jad.2025.120043",
+      "open_access_url": "https://doi.org/10.1016/j.jad.2025.120043",
+      "authors": [
+        {
+          "name": "Margot Van Cauwenberge",
+          "member": false
+        },
+        {
+          "name": "Thomas Vande Casteele",
+          "member": false
+        },
+        {
+          "name": "Maarten Laroy",
+          "member": false
+        },
+        {
+          "name": "Kristof Vansteelandt",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Filip Bouckaert",
+          "member": false
+        },
+        {
+          "name": "Louise Emsell",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        }
+      ],
+      "author_count": 8
+    },
+    {
+      "openalex": "W4412459132",
+      "doi": "10.1167/jov.25.9.2052",
+      "title": "Valence of the scene context, not the people in the scene is captured in the visual cortex and visual artificial neural networks",
+      "year": 2025,
+      "date": "2025-07-15",
+      "type": "article",
+      "journal": "Journal of Vision",
+      "url": "https://doi.org/10.1167/jov.25.9.2052",
+      "open_access_url": "https://doi.org/10.1167/jov.25.9.2052",
+      "authors": [
+        {
+          "name": "Elahe’ Yargholi",
+          "member": false
+        },
+        {
+          "name": "Laurent Mertens",
+          "member": false
+        },
+        {
+          "name": "Joost Vennekens",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Hans Op de Beeck",
+          "member": false
+        }
+      ],
+      "author_count": 5
+    },
+    {
+      "openalex": "W4410372867",
+      "doi": "10.1111/jnp.12431",
+      "title": "Understanding barriers and optimizing socio‐cognitive assessment in the diagnosis of neurocognitive disorders",
+      "year": 2025,
+      "date": "2025-05-14",
+      "type": "article",
+      "journal": "Journal of Neuropsychology",
+      "url": "https://doi.org/10.1111/jnp.12431",
+      "open_access_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jnp.12431",
+      "authors": [
+        {
+          "name": "Chiara Cerami",
+          "member": false
+        },
+        {
+          "name": "Marina Boccardi",
+          "member": false
+        },
+        {
+          "name": "Claudia Meli",
+          "member": false
+        },
+        {
+          "name": "Andrea Panzavolta",
+          "member": false
+        },
+        {
+          "name": "Giulia Funghi",
+          "member": false
+        },
+        {
+          "name": "Cristina Festari",
+          "member": false
+        },
+        {
+          "name": "Stefano Francesco Cappa",
+          "member": false
+        },
+        {
+          "name": "Thanos Chatzikostopoulos",
+          "member": false
+        },
+        {
+          "name": "Christian Chicherio",
+          "member": false
+        },
+        {
+          "name": "María Florencia Clarens",
+          "member": false
+        },
+        {
+          "name": "Fabricio Ferreira de Oliveira",
+          "member": false
+        },
+        {
+          "name": "Francesco Di Lorenzo",
+          "member": false
+        },
+        {
+          "name": "Marco Filardi",
+          "member": false
+        },
+        {
+          "name": "Agustín M. Ibáñez",
+          "member": false
+        },
+        {
+          "name": "Nicola Giovanni Girtler",
+          "member": false
+        },
+        {
+          "name": "Thibaud Lebouvier",
+          "member": false
+        },
+        {
+          "name": "Giancarlo Logroscino",
+          "member": false
+        },
+        {
+          "name": "Antonella Luca",
+          "member": false
+        },
+        {
+          "name": "Sarah E. MacPherson",
+          "member": false
+        },
+        {
+          "name": "Jordi A. Matías‐Guiu",
+          "member": false
+        },
+        {
+          "name": "Tommaso Piccoli",
+          "member": false
+        },
+        {
+          "name": "Olivier Piguet",
+          "member": false
+        },
+        {
+          "name": "Simone Pomati",
+          "member": false
+        },
+        {
+          "name": "Mirella Russo",
+          "member": false
+        },
+        {
+          "name": "Leonardo Sacco",
+          "member": false
+        },
+        {
+          "name": "Ann‐Katrin Schild",
+          "member": false
+        },
+        {
+          "name": "Stefano Luca Sensi",
+          "member": false
+        },
+        {
+          "name": "Steven D. Shirk",
+          "member": false
+        },
+        {
+          "name": "Marc A. Sollberger",
+          "member": false
+        },
+        {
+          "name": "Miguel Tábuas‐Pereira",
+          "member": false
+        },
+        {
+          "name": "Magda Tsolaki",
+          "member": false
+        },
+        {
+          "name": "Esther van den Berg",
+          "member": false
+        },
+        {
+          "name": "Maxime Bertoux",
+          "member": false
+        },
+        {
+          "name": "Fiona Kumfor",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Kathleen Anne Welsh-Bohmer",
+          "member": false
+        },
+        {
+          "name": "Alessandra Dodich",
+          "member": false
+        },
+        {
+          "name": "the SIGNATURE initiative",
+          "member": false
+        }
+      ],
+      "author_count": 38
+    },
+    {
+      "openalex": "W4410245492",
+      "doi": "10.1101/2025.05.08.651182",
+      "title": "Alignment of human behavior, brain, and AI models in the high-level valence processing of complex social scenes",
+      "year": 2025,
+      "date": "2025-05-08",
+      "type": "preprint",
+      "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "url": "https://doi.org/10.1101/2025.05.08.651182",
+      "open_access_url": "https://www.biorxiv.org/content/biorxiv/early/2025/05/08/2025.05.08.651182.full.pdf",
+      "authors": [
+        {
+          "name": "Elahe’ Yargholi",
+          "member": false
+        },
+        {
+          "name": "Laurent Mertens",
+          "member": false
+        },
+        {
+          "name": "Laura Iris Van Hove",
+          "member": false
+        },
+        {
+          "name": "Esna Mualla Gunay",
+          "member": false
+        },
+        {
+          "name": "Joost Vennekens",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Hans Op de Beeck",
+          "member": false
+        }
+      ],
+      "author_count": 7
+    },
+    {
+      "openalex": "W4409298134",
+      "doi": "10.1016/j.jad.2025.04.053",
+      "title": "Motor dysfunction in late life depression: A mood or movement disorder?",
+      "year": 2025,
+      "date": "2025-04-09",
+      "type": "article",
+      "journal": "Journal of Affective Disorders",
+      "url": "https://doi.org/10.1016/j.jad.2025.04.053",
+      "open_access_url": "https://doi.org/10.1016/j.jad.2025.04.053",
+      "authors": [
+        {
+          "name": "Margot Van Cauwenberge",
+          "member": false
+        },
+        {
+          "name": "Thomas Vande Casteele",
+          "member": false
+        },
+        {
+          "name": "Maarten Laroy",
+          "member": false
+        },
+        {
+          "name": "Kristof Vansteelandt",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Filip Bouckaert",
+          "member": false
+        },
+        {
+          "name": "Louise Emsell",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        }
+      ],
+      "author_count": 8
+    },
+    {
+      "openalex": "W4409257032",
+      "doi": "10.1016/j.bpsc.2025.03.013",
+      "title": "Accelerated Aging of White Matter in Late-Life Depression: Evidence From 18F-Flutemetamol Positron Emission Tomography Imaging",
+      "year": 2025,
+      "date": "2025-04-08",
+      "type": "article",
+      "journal": "Biological Psychiatry Cognitive Neuroscience and Neuroimaging",
+      "url": "https://doi.org/10.1016/j.bpsc.2025.03.013",
+      "open_access_url": "",
+      "authors": [
+        {
+          "name": "Akihiro Takamiya",
+          "member": false
+        },
+        {
+          "name": "Thomas Vande Casteele",
+          "member": false
+        },
+        {
+          "name": "Filip Bouckaert",
+          "member": false
+        },
+        {
+          "name": "Margot Van Cauwenberge",
+          "member": false
+        },
+        {
+          "name": "Maarten Laroy",
+          "member": false
+        },
+        {
+          "name": "François‐Laurent De Winter",
+          "member": false
+        },
+        {
+          "name": "Patrick J. Dupont",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Michel J. B. Koole",
+          "member": false
+        },
+        {
+          "name": "Koen Van Laere",
+          "member": false
+        },
+        {
+          "name": "Louise Emsell",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        }
+      ],
+      "author_count": 12
+    },
+    {
+      "openalex": "W4408230630",
+      "doi": "10.1136/jnnp-2024-335169",
+      "title": "Neural correlates of memory deficits in premanifestC9orf72-repeat expansions",
+      "year": 2025,
+      "date": "2025-03-06",
+      "type": "article",
+      "journal": "Journal of Neurology Neurosurgery & Psychiatry",
+      "url": "https://doi.org/10.1136/jnnp-2024-335169",
+      "open_access_url": "",
+      "authors": [
+        {
+          "name": "Jiaze Sun",
+          "member": false
+        },
+        {
+          "name": "Joke De Vocht",
+          "member": false
+        },
+        {
+          "name": "Daphne Stam",
+          "member": false
+        },
+        {
+          "name": "Chih-Hao Lien",
+          "member": false
+        },
+        {
+          "name": "Yun‐An Huang",
+          "member": false
+        },
+        {
+          "name": "Nikita Lamaire",
+          "member": false
+        },
+        {
+          "name": "Maarten Laroy",
+          "member": false
+        },
+        {
+          "name": "Kristof Vansteelandt",
+          "member": false
+        },
+        {
+          "name": "Ann D’Hondt",
+          "member": false
+        },
+        {
+          "name": "Maarten J. A. Van Den Bossche",
+          "member": false
+        },
+        {
+          "name": "Rik R. Vandenberghe",
+          "member": false
+        },
+        {
+          "name": "Ronald R. Peeters",
+          "member": false
+        },
+        {
+          "name": "Stefan G. Sunaert",
+          "member": false
+        },
+        {
+          "name": "Philip Van Damme",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        }
+      ],
+      "author_count": 16
+    },
+    {
+      "openalex": "W4408387858",
+      "doi": "10.1093/cercor/bhaf028",
+      "title": "Are resting-state network alterations in late-life depression related to synaptic density? Findings of a combined 11C-UCB-J PET and fMRI study",
+      "year": 2025,
+      "date": "2025-03-01",
+      "type": "article",
+      "journal": "Cerebral Cortex",
+      "url": "https://doi.org/10.1093/cercor/bhaf028",
+      "open_access_url": "",
+      "authors": [
+        {
+          "name": "Chih-Hao Lien",
+          "member": false
+        },
+        {
+          "name": "Thomas Vande Casteele",
+          "member": false
+        },
+        {
+          "name": "Maarten Laroy",
+          "member": false
+        },
+        {
+          "name": "Margot Van Cauwenberge",
+          "member": false
+        },
+        {
+          "name": "Ronald R. Peeters",
+          "member": false
+        },
+        {
+          "name": "Stefan G. Sunaert",
+          "member": false
+        },
+        {
+          "name": "Koen Van Laere",
+          "member": false
+        },
+        {
+          "name": "Patrick J. Dupont",
+          "member": false
+        },
+        {
+          "name": "Filip Bouckaert",
+          "member": false
+        },
+        {
+          "name": "Louise Emsell",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        }
+      ],
+      "author_count": 12
+    },
+    {
+      "openalex": "W4407171039",
+      "doi": "10.1093/brain/awaf050",
+      "title": "Converging cross-modal evidence for a phylogenetic age effect in neurodegenerative susceptibility",
+      "year": 2025,
+      "date": "2025-02-05",
+      "type": "article",
+      "journal": "Brain",
+      "url": "https://doi.org/10.1093/brain/awaf050",
+      "open_access_url": "https://lirias.kuleuven.be/retrieve/9b82752a-36c5-4f07-8a56-f2f67942ebfb",
+      "authors": [
+        {
+          "name": "Laura Iris Van Hove",
+          "member": false
+        },
+        {
+          "name": "François‐Laurent De Winter",
+          "member": false
+        },
+        {
+          "name": "Qi Zhu",
+          "member": false
+        },
+        {
+          "name": "Gert Cypers",
+          "member": false
+        },
+        {
+          "name": "Wim Vanduffel",
+          "member": false
+        },
+        {
+          "name": "Béatrice de Gelder",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        }
+      ],
+      "author_count": 8
+    },
+    {
+      "openalex": "W4407145685",
+      "doi": "10.1017/s0033291724003362",
+      "title": "Gray and white matter differences in the medial temporal lobe in late-life depression: a multimodal PET-MRI investigation",
+      "year": 2025,
+      "date": "2025-01-01",
+      "type": "article",
+      "journal": "Psychological Medicine",
+      "url": "https://doi.org/10.1017/s0033291724003362",
+      "open_access_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/CC9820F20DF5A8BB459CB2FF60236AE9/S0033291724003362a.pdf/div-class-title-gray-and-white-matter-differences-in-the-medial-temporal-lobe-in-late-life-depression-a-multimodal-pet-mri-investigation-div.pdf",
+      "authors": [
+        {
+          "name": "Akihiro Takamiya",
+          "member": false
+        },
+        {
+          "name": "Ahmed Radwan",
+          "member": false
+        },
+        {
+          "name": "Daan Christiaens",
+          "member": false
+        },
+        {
+          "name": "Margot Van Cauwenberge",
+          "member": false
+        },
+        {
+          "name": "Thomas Vande Casteele",
+          "member": false
+        },
+        {
+          "name": "Maarten Laroy",
+          "member": false
+        },
+        {
+          "name": "Kristof Vansteelandt",
+          "member": false
+        },
+        {
+          "name": "Stefan G. Sunaert",
+          "member": false
+        },
+        {
+          "name": "Michel J. B. Koole",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Koen Van Laere",
+          "member": false
+        },
+        {
+          "name": "Filip Bouckaert",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        },
+        {
+          "name": "Louise Emsell",
+          "member": false
+        }
+      ],
+      "author_count": 14
+    },
+    {
+      "openalex": "W4410794499",
+      "doi": "10.1093/braincomms/fcaf207",
+      "title": "Plasma vesicle-associated membrane protein 2 and glial fibrillary acidic protein associate with synaptic density in older adults without dementia",
+      "year": 2025,
+      "date": "2025-01-01",
+      "type": "article",
+      "journal": "Brain Communications",
+      "url": "https://doi.org/10.1093/braincomms/fcaf207",
+      "open_access_url": "https://academic.oup.com/braincomms/advance-article-pdf/doi/10.1093/braincomms/fcaf207/63362353/fcaf207.pdf",
+      "authors": [
+        {
+          "name": "Steffi De Meyer",
+          "member": false
+        },
+        {
+          "name": "Soha Alali",
+          "member": false
+        },
+        {
+          "name": "Maarten Laroy",
+          "member": false
+        },
+        {
+          "name": "Thomas Vande Casteele",
+          "member": false
+        },
+        {
+          "name": "Margot Van Cauwenberge",
+          "member": false
+        },
+        {
+          "name": "Julie Goossens",
+          "member": false
+        },
+        {
+          "name": "Charlotte De Rocker",
+          "member": false
+        },
+        {
+          "name": "Jeroen Vanbrabant",
+          "member": false
+        },
+        {
+          "name": "Eugeen Vanmechelen",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Filip Bouckaert",
+          "member": false
+        },
+        {
+          "name": "Koen Van Laere",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        },
+        {
+          "name": "Louise Emsell",
+          "member": false
+        },
+        {
+          "name": "Koen Poesen",
+          "member": false
+        }
+      ],
+      "author_count": 15
+    },
+    {
+      "openalex": "W4405879435",
+      "doi": "10.1007/s10072-024-07884-z",
+      "title": "Neuropsychological profile of POLR3A-related spastic ataxia",
+      "year": 2024,
+      "date": "2024-12-30",
+      "type": "article",
+      "journal": "Neurological Sciences",
+      "url": "https://doi.org/10.1007/s10072-024-07884-z",
+      "open_access_url": "",
+      "authors": [
+        {
+          "name": "Gert Cypers",
+          "member": false
+        },
+        {
+          "name": "Zoë Delaruelle",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        }
+      ],
+      "author_count": 3
+    },
+    {
+      "openalex": "W4405596040",
+      "doi": "10.1093/braincomms/fcae462",
+      "title": "Preserved social facilitation and preferential processing of partner-relevant information in Huntington’s disease",
+      "year": 2024,
+      "date": "2024-12-19",
+      "type": "article",
+      "journal": "Brain Communications",
+      "url": "https://doi.org/10.1093/braincomms/fcae462",
+      "open_access_url": "https://academic.oup.com/braincomms/advance-article-pdf/doi/10.1093/braincomms/fcae462/61239974/fcae462.pdf",
+      "authors": [
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Gert Cypers",
+          "member": false
+        },
+        {
+          "name": "François‐Laurent De Winter",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        }
+      ],
+      "author_count": 4
+    },
+    {
+      "openalex": "W4403599068",
+      "doi": "10.1101/2024.10.18.24315786",
+      "title": "Clinical Recognition of Frontotemporal Dementia with Right Temporal Predominance; Consensus Recommendations of the International Working Group",
+      "year": 2024,
+      "date": "2024-10-21",
+      "type": "preprint",
+      "journal": "medRxiv",
+      "url": "https://doi.org/10.1101/2024.10.18.24315786",
+      "open_access_url": "https://www.medrxiv.org/content/medrxiv/early/2024/10/21/2024.10.18.24315786.full.pdf",
+      "authors": [
+        {
+          "name": "Hülya Ulugut",
+          "member": false
+        },
+        {
+          "name": "Kyan Younes",
+          "member": false
+        },
+        {
+          "name": "Maxime Montembeault",
+          "member": false
+        },
+        {
+          "name": "Maxime Bertoux",
+          "member": false
+        },
+        {
+          "name": "Muireann Irish",
+          "member": false
+        },
+        {
+          "name": "Fiona Kumfor",
+          "member": false
+        },
+        {
+          "name": "Giorgio Fumagalli",
+          "member": false
+        },
+        {
+          "name": "Bedia Samancı",
+          "member": false
+        },
+        {
+          "name": "Ignacio Illán‐Gala",
+          "member": false
+        },
+        {
+          "name": "J. C. Thompson",
+          "member": false
+        },
+        {
+          "name": "Alexander Frizell Santillo",
+          "member": false
+        },
+        {
+          "name": "Elisabet M. Englund",
+          "member": false
+        },
+        {
+          "name": "Maria Landqvist Waldö",
+          "member": false
+        },
+        {
+          "name": "Lina Riedl",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        },
+        {
+          "name": "Rik R. Vandenberghe",
+          "member": false
+        },
+        {
+          "name": "Robert Jr Laforce",
+          "member": false
+        },
+        {
+          "name": "Simon Ducharme",
+          "member": false
+        },
+        {
+          "name": "Peter Pressman",
+          "member": false
+        },
+        {
+          "name": "Paulo Caramelli",
+          "member": false
+        },
+        {
+          "name": "Leonardo Cruz de Souza",
+          "member": false
+        },
+        {
+          "name": "Leonel Tadao Takada",
+          "member": false
+        },
+        {
+          "name": "Hakan I. Gurvit",
+          "member": false
+        },
+        {
+          "name": "Janine Diehl‐Schmid",
+          "member": false
+        },
+        {
+          "name": "Daniela Galimberti",
+          "member": false
+        },
+        {
+          "name": "Florence Pasquier",
+          "member": false
+        },
+        {
+          "name": "Sandra Weıntraub",
+          "member": false
+        },
+        {
+          "name": "Bruce L. Miller",
+          "member": false
+        },
+        {
+          "name": "Virginia E. Sturm",
+          "member": false
+        },
+        {
+          "name": "Jennifer Louise Whitwell",
+          "member": false
+        },
+        {
+          "name": "Bradley F. Boeve",
+          "member": false
+        },
+        {
+          "name": "Jonathan Daniel Rohrer",
+          "member": false
+        },
+        {
+          "name": "Olivier Piguet",
+          "member": false
+        },
+        {
+          "name": "Maria Luisa Gorno Tempini",
+          "member": false
+        },
+        {
+          "name": "Keith A. Josephs",
+          "member": false
+        },
+        {
+          "name": "Julie S. Snowden",
+          "member": false
+        },
+        {
+          "name": "James Benedict Rowe",
+          "member": false
+        },
+        {
+          "name": "Jason D. Warren",
+          "member": false
+        },
+        {
+          "name": "Katherine P. Rankin",
+          "member": false
+        }
+      ],
+      "author_count": 42
+    },
+    {
+      "openalex": "W4400766600",
+      "doi": "10.1016/j.jagp.2024.07.005",
+      "title": "Late Life Depression is Not Associated With Alzheimer-Type Tau: Preliminary Evidence From a Next-Generation Tau Ligand PET-MR Study",
+      "year": 2024,
+      "date": "2024-07-18",
+      "type": "article",
+      "journal": "American Journal of Geriatric Psychiatry",
+      "url": "https://doi.org/10.1016/j.jagp.2024.07.005",
+      "open_access_url": "https://doi.org/10.1016/j.jagp.2024.07.005",
+      "authors": [
+        {
+          "name": "Thomas Vande Casteele",
+          "member": false
+        },
+        {
+          "name": "Maarten Laroy",
+          "member": false
+        },
+        {
+          "name": "Margot Van Cauwenberge",
+          "member": false
+        },
+        {
+          "name": "Greet Vanderlinden",
+          "member": false
+        },
+        {
+          "name": "Kristof Vansteelandt",
+          "member": false
+        },
+        {
+          "name": "Michel J. B. Koole",
+          "member": false
+        },
+        {
+          "name": "Patrick J. Dupont",
+          "member": false
+        },
+        {
+          "name": "Maarten J. A. Van Den Bossche",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Filip Bouckaert",
+          "member": false
+        },
+        {
+          "name": "Koen Van Laere",
+          "member": false
+        },
+        {
+          "name": "Louise Emsell",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        }
+      ],
+      "author_count": 13
+    },
+    {
+      "openalex": "W4400510037",
+      "doi": "10.1002/alz.14076",
+      "title": "Clinical recognition of frontotemporal dementia with right anterior temporal predominance: A multicenter retrospective cohort study",
+      "year": 2024,
+      "date": "2024-07-10",
+      "type": "article",
+      "journal": "Alzheimer s & Dementia",
+      "url": "https://doi.org/10.1002/alz.14076",
+      "open_access_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/alz.14076",
+      "authors": [
+        {
+          "name": "Hülya Ulugut",
+          "member": false
+        },
+        {
+          "name": "Maxime Bertoux",
+          "member": false
+        },
+        {
+          "name": "Kyan Younes",
+          "member": false
+        },
+        {
+          "name": "Maxime Montembeault",
+          "member": false
+        },
+        {
+          "name": "Giorgio Fumagalli",
+          "member": false
+        },
+        {
+          "name": "Bedia Samancı",
+          "member": false
+        },
+        {
+          "name": "Ignacio Illán‐Gala",
+          "member": false
+        },
+        {
+          "name": "Grégory Kuchcinski",
+          "member": false
+        },
+        {
+          "name": "Mélanie Leroy",
+          "member": false
+        },
+        {
+          "name": "J. C. Thompson",
+          "member": false
+        },
+        {
+          "name": "Christopher Kobylecki",
+          "member": false
+        },
+        {
+          "name": "Alexander Frizell Santillo",
+          "member": false
+        },
+        {
+          "name": "Elisabet M. Englund",
+          "member": false
+        },
+        {
+          "name": "Maria Landqvist Waldö",
+          "member": false
+        },
+        {
+          "name": "Lina Riedl",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        },
+        {
+          "name": "Rik R. Vandenberghe",
+          "member": false
+        },
+        {
+          "name": "Robert Jr Laforce",
+          "member": false
+        },
+        {
+          "name": "Simon Ducharme",
+          "member": false
+        },
+        {
+          "name": "Peter Pressman",
+          "member": false
+        },
+        {
+          "name": "Paulo Caramelli",
+          "member": false
+        },
+        {
+          "name": "Leonardo Cruz de Souza",
+          "member": false
+        },
+        {
+          "name": "Leonel Tadao Takada",
+          "member": false
+        },
+        {
+          "name": "Hakan I. Gurvit",
+          "member": false
+        },
+        {
+          "name": "Oskar Hansson",
+          "member": false
+        },
+        {
+          "name": "Janine Diehl‐Schmid",
+          "member": false
+        },
+        {
+          "name": "Daniela Galimberti",
+          "member": false
+        },
+        {
+          "name": "Florence Pasquier",
+          "member": false
+        },
+        {
+          "name": "Bruce L. Miller",
+          "member": false
+        },
+        {
+          "name": "Philip Scheltens",
+          "member": false
+        },
+        {
+          "name": "Rik Ossenkoppele",
+          "member": false
+        },
+        {
+          "name": "Wiesje M. van der Flier",
+          "member": false
+        },
+        {
+          "name": "Frederik Barkhof",
+          "member": false
+        },
+        {
+          "name": "Nick C. Fox",
+          "member": false
+        },
+        {
+          "name": "Virginia E. Sturm",
+          "member": false
+        },
+        {
+          "name": "Toji Miyagawa",
+          "member": false
+        },
+        {
+          "name": "Jennifer Louise Whitwell",
+          "member": false
+        },
+        {
+          "name": "Bradley F. Boeve",
+          "member": false
+        },
+        {
+          "name": "Jonathan Daniel Rohrer",
+          "member": false
+        }
+      ],
+      "author_count": 47
+    },
+    {
+      "openalex": "W4396544740",
+      "doi": "10.1016/j.brs.2024.04.020",
+      "title": "Synaptic density changes following electroconvulsive therapy: A longitudinal pilot study with PET-MR 11C-UCB-J imaging in late-life depression",
+      "year": 2024,
+      "date": "2024-05-01",
+      "type": "article",
+      "journal": "Brain stimulation",
+      "url": "https://doi.org/10.1016/j.brs.2024.04.020",
+      "open_access_url": "https://doi.org/10.1016/j.brs.2024.04.020",
+      "authors": [
+        {
+          "name": "Maarten Laroy",
+          "member": false
+        },
+        {
+          "name": "Thomas Vande Casteele",
+          "member": false
+        },
+        {
+          "name": "Margot Van Cauwenberge",
+          "member": false
+        },
+        {
+          "name": "Michel J. B. Koole",
+          "member": false
+        },
+        {
+          "name": "Patrick J. Dupont",
+          "member": false
+        },
+        {
+          "name": "Stefan G. Sunaert",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Pascal A. Sienaert",
+          "member": false
+        },
+        {
+          "name": "Koen Van Laere",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        },
+        {
+          "name": "Louise Emsell",
+          "member": false
+        },
+        {
+          "name": "Filip Bouckaert",
+          "member": false
+        }
+      ],
+      "author_count": 12
+    },
+    {
+      "openalex": "W4390594878",
+      "doi": "10.5281/zenodo.10948848",
+      "title": "Artificial Neural Networks as Psychiatric Instrument",
+      "year": 2024,
+      "date": "2024-04-09",
+      "type": "other",
+      "journal": "PubMed",
+      "url": "https://doi.org/10.5281/zenodo.10948848",
+      "open_access_url": "https://lirias.kuleuven.be/retrieve/d2ecf7c0-4a8e-4b2e-8aaa-d9c5929101d9",
+      "authors": [
+        {
+          "name": "Mertens, Laurent",
+          "member": false
+        },
+        {
+          "name": "Joost Vennekens",
+          "member": false
+        },
+        {
+          "name": "Hans Op de Beeck",
+          "member": false
+        },
+        {
+          "name": "Elahe’ Yargholi",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        }
+      ],
+      "author_count": 5
+    },
+    {
+      "openalex": "W4392811934",
+      "doi": "10.1038/s41398-024-02837-8",
+      "title": "Preliminary evidence for preserved synaptic density in late-life depression",
+      "year": 2024,
+      "date": "2024-03-14",
+      "type": "article",
+      "journal": "Translational Psychiatry",
+      "url": "https://doi.org/10.1038/s41398-024-02837-8",
+      "open_access_url": "https://www.nature.com/articles/s41398-024-02837-8.pdf",
+      "authors": [
+        {
+          "name": "Thomas Vande Casteele",
+          "member": false
+        },
+        {
+          "name": "Maarten Laroy",
+          "member": false
+        },
+        {
+          "name": "Margot Van Cauwenberge",
+          "member": false
+        },
+        {
+          "name": "Michel J. B. Koole",
+          "member": false
+        },
+        {
+          "name": "Patrick J. Dupont",
+          "member": false
+        },
+        {
+          "name": "Stefan G. Sunaert",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Filip Bouckaert",
+          "member": false
+        },
+        {
+          "name": "Koen Van Laere",
+          "member": false
+        },
+        {
+          "name": "Louise Emsell",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        }
+      ],
+      "author_count": 11
+    },
+    {
+      "openalex": "W4391527376",
+      "doi": "10.3758/s13415-024-01160-5",
+      "title": "Facial emotion recognition in individuals with mild cognitive impairment: An exploratory study",
+      "year": 2024,
+      "date": "2024-02-05",
+      "type": "article",
+      "journal": "Cognitive Affective & Behavioral Neuroscience",
+      "url": "https://doi.org/10.3758/s13415-024-01160-5",
+      "open_access_url": "https://link.springer.com/content/pdf/10.3758/s13415-024-01160-5.pdf",
+      "authors": [
+        {
+          "name": "Francesca Burgio",
+          "member": false
+        },
+        {
+          "name": "Arianna Menardi",
+          "member": false
+        },
+        {
+          "name": "Silvia Benavides‐Varela",
+          "member": false
+        },
+        {
+          "name": "Laura Danesin",
+          "member": false
+        },
+        {
+          "name": "Andreina Giustiniani",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Roberta De Mitri",
+          "member": false
+        },
+        {
+          "name": "Roberta Biundo",
+          "member": false
+        },
+        {
+          "name": "Francesca Meneghello",
+          "member": false
+        },
+        {
+          "name": "Angelo Antonini",
+          "member": false
+        },
+        {
+          "name": "Antonino Vallesi",
+          "member": false
+        },
+        {
+          "name": "Béatrice de Gelder",
+          "member": false
+        },
+        {
+          "name": "Carlo Semenza",
+          "member": false
+        }
+      ],
+      "author_count": 13
+    },
+    {
+      "openalex": "W4390570734",
+      "doi": "10.1038/s44220-023-00174-1",
+      "title": "Clinical staging of behavioral and psychological symptoms of dementia",
+      "year": 2024,
+      "date": "2024-01-03",
+      "type": "article",
+      "journal": "Nature Mental Health",
+      "url": "https://doi.org/10.1038/s44220-023-00174-1",
+      "open_access_url": "https://lirias.kuleuven.be/retrieve/97a2a3c3-16eb-4f9e-b503-bb26971c0eef",
+      "authors": [
+        {
+          "name": "Maarten J. A. Van Den Bossche",
+          "member": false
+        },
+        {
+          "name": "Ann T. E. Van Vré",
+          "member": false
+        },
+        {
+          "name": "Laura Van den Bulcke",
+          "member": false
+        },
+        {
+          "name": "Hannah Davidoff",
+          "member": false
+        },
+        {
+          "name": "Anne-Marie Peeters",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        }
+      ],
+      "author_count": 7
+    },
+    {
+      "openalex": "W4403091263",
+      "doi": "10.2139/ssrn.4975395",
+      "title": "Plasma VAMP2 and GFAP Associate with Synaptic Density Independent of Alzheimer's Pathology in Nondemented Older Adults",
+      "year": 2024,
+      "date": "2024-01-01",
+      "type": "preprint",
+      "journal": "SSRN Electronic Journal",
+      "url": "https://doi.org/10.2139/ssrn.4975395",
+      "open_access_url": "https://doi.org/10.2139/ssrn.4975395",
+      "authors": [
+        {
+          "name": "Steffi De Meyer",
+          "member": false
+        },
+        {
+          "name": "Soha Alali",
+          "member": false
+        },
+        {
+          "name": "Maarten Laroy",
+          "member": false
+        },
+        {
+          "name": "Thomas Vande Casteele",
+          "member": false
+        },
+        {
+          "name": "Margot Van Cauwenberge",
+          "member": false
+        },
+        {
+          "name": "Julie Goossens",
+          "member": false
+        },
+        {
+          "name": "Charlotte De Rocker",
+          "member": false
+        },
+        {
+          "name": "Jeroen Vanbrabant",
+          "member": false
+        },
+        {
+          "name": "Eugeen Vanmechelen",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Filip Brouckaert",
+          "member": false
+        },
+        {
+          "name": "Koen Van Laere",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        },
+        {
+          "name": "Louise Emsell",
+          "member": false
+        },
+        {
+          "name": "Koen Poesen",
+          "member": false
+        }
+      ],
+      "author_count": 15
+    },
+    {
+      "openalex": "W4388639804",
+      "doi": "10.1016/j.jamda.2023.10.007",
+      "title": "Aggression Severity as a Predictor of Mortality in Dementia",
+      "year": 2023,
+      "date": "2023-11-13",
+      "type": "article",
+      "journal": "Journal of the American Medical Directors Association",
+      "url": "https://doi.org/10.1016/j.jamda.2023.10.007",
+      "open_access_url": "https://lirias.kuleuven.be/retrieve/a4ca06a9-a9a6-495e-a430-6d7bfb1e64e9",
+      "authors": [
+        {
+          "name": "Laura Van den Bulcke",
+          "member": false
+        },
+        {
+          "name": "Anne-Marie Peeters",
+          "member": false
+        },
+        {
+          "name": "Hannah Davidoff",
+          "member": false
+        },
+        {
+          "name": "Rebecca Vaessens",
+          "member": false
+        },
+        {
+          "name": "Kristof Vansteelandt",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Maarten De Vos",
+          "member": false
+        },
+        {
+          "name": "Dries Testelmans",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        },
+        {
+          "name": "Maarten J. A. Van Den Bossche",
+          "member": false
+        }
+      ],
+      "author_count": 10
+    },
+    {
+      "openalex": "W7111880585",
+      "doi": "",
+      "title": "Abstract: Color-Dependent Prediction Stability of Popular CNN Image Classification Architectures",
+      "year": 2023,
+      "date": "2023-11-08",
+      "type": "conference-abstract",
+      "journal": "Lirias",
+      "url": "https://lirias.kuleuven.be/handle/20.500.12942/726584",
+      "open_access_url": "https://lirias.kuleuven.be/retrieve/3302f0c1-2f80-4b38-a282-901833abbb57",
+      "authors": [
+        {
+          "name": "Mertens, Laurent",
+          "member": false
+        },
+        {
+          "name": "Yargholi, Elahe'",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Hans Op de Beeck",
+          "member": false
+        },
+        {
+          "name": "Vennekens, Joost",
+          "member": false
+        }
+      ],
+      "author_count": 5
+    },
+    {
+      "openalex": "W4386466677",
+      "doi": "10.1007/s00415-023-11927-4",
+      "title": "Facial expression recognition deficits in frontotemporal dementia and Alzheimer’s disease: a meta-analytic investigation of effects of phenotypic variant, task modality, geographical region and symptomatic specificity",
+      "year": 2023,
+      "date": "2023-09-06",
+      "type": "article",
+      "journal": "Journal of Neurology",
+      "url": "https://doi.org/10.1007/s00415-023-11927-4",
+      "open_access_url": "",
+      "authors": [
+        {
+          "name": "Daphne Stam",
+          "member": false
+        },
+        {
+          "name": "Simon Rosseel",
+          "member": false
+        },
+        {
+          "name": "François‐Laurent De Winter",
+          "member": false
+        },
+        {
+          "name": "Maarten J. A. Van Den Bossche",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        }
+      ],
+      "author_count": 6
+    },
+    {
+      "openalex": "W4385969369",
+      "doi": "10.5664/jcsm.10778",
+      "title": "Acoustic stimulation as a promising technique to enhance slow-wave sleep in Alzheimer’s disease: results of a pilot study",
+      "year": 2023,
+      "date": "2023-08-18",
+      "type": "article",
+      "journal": "Journal of Clinical Sleep Medicine",
+      "url": "https://doi.org/10.5664/jcsm.10778",
+      "open_access_url": "https://lirias.kuleuven.be/retrieve/d0c75afc-61e0-47eb-872b-c3595b0d78a5",
+      "authors": [
+        {
+          "name": "Laura Van den Bulcke",
+          "member": false
+        },
+        {
+          "name": "Anne-Marie Peeters",
+          "member": false
+        },
+        {
+          "name": "Elisabeth R. M. Heremans",
+          "member": false
+        },
+        {
+          "name": "Hannah Davidoff",
+          "member": false
+        },
+        {
+          "name": "Pascal Borzée",
+          "member": false
+        },
+        {
+          "name": "Maarten De Vos",
+          "member": false
+        },
+        {
+          "name": "Louise Emsell",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Maaike L. De Roo",
+          "member": false
+        },
+        {
+          "name": "Jos Tournoy",
+          "member": false
+        },
+        {
+          "name": "Bertien Buyse",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        },
+        {
+          "name": "Chantal Van Audenhove",
+          "member": false
+        },
+        {
+          "name": "Dries Testelmans",
+          "member": false
+        },
+        {
+          "name": "Maarten J. A. Van Den Bossche",
+          "member": false
+        }
+      ],
+      "author_count": 15
+    },
+    {
+      "openalex": "W4385795084",
+      "doi": "10.1017/s0033291723002258",
+      "title": "A voxel- and source-based morphometry analysis of grey matter volume differences in very-late-onset schizophrenia-like psychosis",
+      "year": 2023,
+      "date": "2023-08-14",
+      "type": "article",
+      "journal": "Psychological Medicine",
+      "url": "https://doi.org/10.1017/s0033291723002258",
+      "open_access_url": "",
+      "authors": [
+        {
+          "name": "Lies Van Assche",
+          "member": false
+        },
+        {
+          "name": "Akihiro Takamiya",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Luc Van de Ven",
+          "member": false
+        },
+        {
+          "name": "Patrick Luyten",
+          "member": false
+        },
+        {
+          "name": "Louise Emsell",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        }
+      ],
+      "author_count": 7
+    },
+    {
+      "openalex": "W4385798246",
+      "doi": "10.1002/mds.29570",
+      "title": "Mild Motor Signs in Healthy Aging Are Associated with Lower Synaptic Density in the Brain",
+      "year": 2023,
+      "date": "2023-08-13",
+      "type": "article",
+      "journal": "Movement Disorders",
+      "url": "https://doi.org/10.1002/mds.29570",
+      "open_access_url": "https://lirias.kuleuven.be/retrieve/f816bcd0-4358-440e-ad4b-457e0200660c",
+      "authors": [
+        {
+          "name": "Margot Van Cauwenberge",
+          "member": false
+        },
+        {
+          "name": "Aline Delva",
+          "member": false
+        },
+        {
+          "name": "Thomas Vande Casteele",
+          "member": false
+        },
+        {
+          "name": "Maarten Laroy",
+          "member": false
+        },
+        {
+          "name": "Ahmed Radwan",
+          "member": false
+        },
+        {
+          "name": "Kristof Vansteelandt",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Filip Bouckaert",
+          "member": false
+        },
+        {
+          "name": "Koen Van Laere",
+          "member": false
+        },
+        {
+          "name": "Louise Emsell",
+          "member": false
+        },
+        {
+          "name": "Wim Vandenberghe",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        }
+      ],
+      "author_count": 12
+    },
+    {
+      "openalex": "W4363648620",
+      "doi": "10.1016/j.biopsych.2023.02.309",
+      "title": "69. Lower Grey Matter Volume is not Related to Synaptic Density in Late Life Depression",
+      "year": 2023,
+      "date": "2023-04-10",
+      "type": "article",
+      "journal": "Biological Psychiatry",
+      "url": "https://doi.org/10.1016/j.biopsych.2023.02.309",
+      "open_access_url": "",
+      "authors": [
+        {
+          "name": "Thomas Vande Casteele",
+          "member": false
+        },
+        {
+          "name": "Maarten Laroy",
+          "member": false
+        },
+        {
+          "name": "Margot Van Cauwenberge",
+          "member": false
+        },
+        {
+          "name": "Michel J. B. Koole",
+          "member": false
+        },
+        {
+          "name": "Patrick J. Dupont",
+          "member": false
+        },
+        {
+          "name": "Stefan G. Sunaert",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Filip Bouckaert",
+          "member": false
+        },
+        {
+          "name": "Koen Van Laere",
+          "member": false
+        },
+        {
+          "name": "Louise Emsell",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        }
+      ],
+      "author_count": 11
+    },
+    {
+      "openalex": "W4318913043",
+      "doi": "10.1093/brain/awad023",
+      "title": "Transdiagnostic overlap in brain correlates of affective and cognitive theory of mind deficits",
+      "year": 2023,
+      "date": "2023-02-02",
+      "type": "article",
+      "journal": "Brain",
+      "url": "https://doi.org/10.1093/brain/awad023",
+      "open_access_url": "https://academic.oup.com/brain/article-pdf/146/6/e39/50460440/awad023.pdf",
+      "authors": [
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Chiara Cerami",
+          "member": false
+        },
+        {
+          "name": "Alessandra Dodich",
+          "member": false
+        },
+        {
+          "name": "Stefano Francesco Cappa",
+          "member": false
+        },
+        {
+          "name": "Rik R. Vandenberghe",
+          "member": false
+        },
+        {
+          "name": "François‐Laurent De Winter",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        }
+      ],
+      "author_count": 7
+    },
+    {
+      "openalex": "W4390223500",
+      "doi": "10.1016/j.nsa.2023.102932",
+      "title": "Altered temporal lobe white matter microstructure in late-life depression: a multi-shell diffusion MRI analysis",
+      "year": 2023,
+      "date": "2023-01-01",
+      "type": "article",
+      "journal": "Neuroscience Applied",
+      "url": "https://doi.org/10.1016/j.nsa.2023.102932",
+      "open_access_url": "https://doi.org/10.1016/j.nsa.2023.102932",
+      "authors": [
+        {
+          "name": "Akihiro Takamiya",
+          "member": false
+        },
+        {
+          "name": "Ahmed Radwan",
+          "member": false
+        },
+        {
+          "name": "Daan Christiaens",
+          "member": false
+        },
+        {
+          "name": "Margot Van Cauwenberge",
+          "member": false
+        },
+        {
+          "name": "Thomas Vande Casteele",
+          "member": false
+        },
+        {
+          "name": "Maarten Laroy",
+          "member": false
+        },
+        {
+          "name": "Stefan G. Sunaert",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Filip Bouckaert",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        },
+        {
+          "name": "Louise Emsell",
+          "member": false
+        }
+      ],
+      "author_count": 11
+    },
+    {
+      "openalex": "W4386939595",
+      "doi": "10.1007/978-3-031-44207-0_41",
+      "title": "Color-Dependent Prediction Stability of Popular CNN Image Classification Architectures",
+      "year": 2023,
+      "date": "2023-01-01",
+      "type": "conference-paper",
+      "journal": "Lecture notes in computer science",
+      "url": "https://doi.org/10.1007/978-3-031-44207-0_41",
+      "open_access_url": "https://lirias.kuleuven.be/retrieve/cf73d93b-191b-4da3-bd62-5690902b0d09",
+      "authors": [
+        {
+          "name": "Laurent Mertens",
+          "member": false
+        },
+        {
+          "name": "Elahe’ Yargholi",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Hans Op de Beeck",
+          "member": false
+        },
+        {
+          "name": "Joost Vennekens",
+          "member": false
+        }
+      ],
+      "author_count": 5
+    },
+    {
+      "openalex": "W4390222266",
+      "doi": "10.1016/j.nsa.2023.103614",
+      "title": "The neural basis of developmental prosopagnosia: a key role for memory structures",
+      "year": 2023,
+      "date": "2023-01-01",
+      "type": "article",
+      "journal": "Neuroscience Applied",
+      "url": "https://doi.org/10.1016/j.nsa.2023.103614",
+      "open_access_url": "https://doi.org/10.1016/j.nsa.2023.103614",
+      "authors": [
+        {
+          "name": "Doğa Gündem",
+          "member": false
+        },
+        {
+          "name": "Maarten Laroy",
+          "member": false
+        },
+        {
+          "name": "Kristof Vansteelandt",
+          "member": false
+        },
+        {
+          "name": "Stefan G. Sunaert",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        },
+        {
+          "name": "Louise Emsell",
+          "member": false
+        },
+        {
+          "name": "Christian Gerlach",
+          "member": false
+        },
+        {
+          "name": "Randi Starrfelt",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        }
+      ],
+      "author_count": 9
+    },
+    {
+      "openalex": "W4311688134",
+      "doi": "10.3390/brainsci12121719",
+      "title": "Age Effects in Emotional Memory and Associated Eye Movements",
+      "year": 2022,
+      "date": "2022-12-15",
+      "type": "article",
+      "journal": "Brain Sciences",
+      "url": "https://doi.org/10.3390/brainsci12121719",
+      "open_access_url": "https://www.mdpi.com/2076-3425/12/12/1719/pdf?version=1671529121",
+      "authors": [
+        {
+          "name": "Daphne Stam",
+          "member": false
+        },
+        {
+          "name": "Laura Colman",
+          "member": false
+        },
+        {
+          "name": "Kristof Vansteelandt",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        }
+      ],
+      "author_count": 5
+    },
+    {
+      "openalex": "W4311672125",
+      "doi": "10.1038/s42003-022-04324-6",
+      "title": "The neurobiological basis of affect is consistent with psychological construction theory and shares a common neural basis across emotional categories",
+      "year": 2022,
+      "date": "2022-12-09",
+      "type": "article",
+      "journal": "Communications Biology",
+      "url": "https://doi.org/10.1038/s42003-022-04324-6",
+      "open_access_url": "https://www.nature.com/articles/s42003-022-04324-6.pdf",
+      "authors": [
+        {
+          "name": "Doğa Gündem",
+          "member": false
+        },
+        {
+          "name": "Jure Potočnik",
+          "member": false
+        },
+        {
+          "name": "François‐Laurent De Winter",
+          "member": false
+        },
+        {
+          "name": "Amal El Kaddouri",
+          "member": false
+        },
+        {
+          "name": "Daphne Stam",
+          "member": false
+        },
+        {
+          "name": "Ronald R. Peeters",
+          "member": false
+        },
+        {
+          "name": "Louise Emsell",
+          "member": false
+        },
+        {
+          "name": "Stefan G. Sunaert",
+          "member": false
+        },
+        {
+          "name": "Lukas Van Oudenhove",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        },
+        {
+          "name": "Lisa Feldman Barrett",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        }
+      ],
+      "author_count": 12
+    },
+    {
+      "openalex": "W4306311501",
+      "doi": "10.1093/geroni/igac064",
+      "title": "Toward Quantification of Agitation in People With Dementia Using Multimodal Sensing",
+      "year": 2022,
+      "date": "2022-10-01",
+      "type": "article",
+      "journal": "Innovation in Aging",
+      "url": "https://doi.org/10.1093/geroni/igac064",
+      "open_access_url": "https://academic.oup.com/innovateage/article-pdf/6/7/igac064/48443709/igac064.pdf",
+      "authors": [
+        {
+          "name": "Hannah Davidoff",
+          "member": false
+        },
+        {
+          "name": "Laura Van den Bulcke",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        },
+        {
+          "name": "Maarten De Vos",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Nick Van Helleputte",
+          "member": false
+        },
+        {
+          "name": "Chris A. Van Hoof",
+          "member": false
+        },
+        {
+          "name": "Maarten J. A. Van Den Bossche",
+          "member": false
+        }
+      ],
+      "author_count": 8
+    },
+    {
+      "openalex": "W4297105298",
+      "doi": "10.1007/s00415-022-11393-4",
+      "title": "Neural compensation in manifest neurodegeneration: systems neuroscience evidence from social cognition in frontotemporal dementia",
+      "year": 2022,
+      "date": "2022-09-27",
+      "type": "article",
+      "journal": "Journal of Neurology",
+      "url": "https://doi.org/10.1007/s00415-022-11393-4",
+      "open_access_url": "",
+      "authors": [
+        {
+          "name": "Jiaze Sun",
+          "member": false
+        },
+        {
+          "name": "François‐Laurent De Winter",
+          "member": false
+        },
+        {
+          "name": "Fiona Kumfor",
+          "member": false
+        },
+        {
+          "name": "Daphne Stam",
+          "member": false
+        },
+        {
+          "name": "Kristof Vansteelandt",
+          "member": false
+        },
+        {
+          "name": "Ronald R. Peeters",
+          "member": false
+        },
+        {
+          "name": "Stefan G. Sunaert",
+          "member": false
+        },
+        {
+          "name": "Rik R. Vandenberghe",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        }
+      ],
+      "author_count": 10
+    },
+    {
+      "openalex": "W4291196688",
+      "doi": "10.1007/s11065-022-09554-3",
+      "title": "Current Potential for Clinical Optimization of Social Cognition Assessment for Frontotemporal Dementia and Primary Psychiatric Disorders",
+      "year": 2022,
+      "date": "2022-08-13",
+      "type": "article",
+      "journal": "Neuropsychology Review",
+      "url": "https://doi.org/10.1007/s11065-022-09554-3",
+      "open_access_url": "https://pure.amsterdamumc.nl/ws/files/156764230/Current-potential-for-clinical-optimization-of-social-cognition-assessment-for-frontotemporal-dementia-and-primary-psych.pdf",
+      "authors": [
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Maxime Bertoux",
+          "member": false
+        },
+        {
+          "name": "Janine Diehl‐Schmid",
+          "member": false
+        },
+        {
+          "name": "Olivier Piguet",
+          "member": false
+        },
+        {
+          "name": "Katherine P. Rankin",
+          "member": false
+        },
+        {
+          "name": "Florence Pasquier",
+          "member": false
+        },
+        {
+          "name": "Simon Ducharme",
+          "member": false
+        },
+        {
+          "name": "Yolande A.L. Pijnenburg",
+          "member": false
+        },
+        {
+          "name": "Fiona Kumfor",
+          "member": false
+        }
+      ],
+      "author_count": 9
+    },
+    {
+      "openalex": "W4211032632",
+      "doi": "10.1093/cercor/bhac089",
+      "title": "A paleo-neurologic investigation of the social brain hypothesis in frontotemporal dementia",
+      "year": 2022,
+      "date": "2022-02-11",
+      "type": "article",
+      "journal": "Cerebral Cortex",
+      "url": "https://doi.org/10.1093/cercor/bhac089",
+      "open_access_url": "https://lirias.kuleuven.be/retrieve/b5805484-b1a7-4357-ac42-e3fa0f399db2",
+      "authors": [
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        },
+        {
+          "name": "Laura Van de Vliet",
+          "member": false
+        },
+        {
+          "name": "Jiaze Sun",
+          "member": false
+        },
+        {
+          "name": "Yun‐An Huang",
+          "member": false
+        },
+        {
+          "name": "Maarten J. A. Van Den Bossche",
+          "member": false
+        },
+        {
+          "name": "Stefan G. Sunaert",
+          "member": false
+        },
+        {
+          "name": "Ronald R. Peeters",
+          "member": false
+        },
+        {
+          "name": "Qi Zhu",
+          "member": false
+        },
+        {
+          "name": "Wim Vanduffel",
+          "member": false
+        },
+        {
+          "name": "Béatrice de Gelder",
+          "member": false
+        },
+        {
+          "name": "François‐Laurent De Winter",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        }
+      ],
+      "author_count": 12
+    },
+    {
+      "openalex": "W4210399485",
+      "doi": "10.1093/cercor/bhab509",
+      "title": "Acquired prosopagnosia with structurally intact and functional fusiform face area and with face identity-specific configuration processing deficits",
+      "year": 2022,
+      "date": "2022-01-28",
+      "type": "article",
+      "journal": "Cerebral Cortex",
+      "url": "https://doi.org/10.1093/cercor/bhab509",
+      "open_access_url": "https://lirias.kuleuven.be/retrieve/4beeec23-b8f3-43f0-906b-8b4a8ffb7836",
+      "authors": [
+        {
+          "name": "Béatrice de Gelder",
+          "member": false
+        },
+        {
+          "name": "Elizabeth Huis in ‘t Veldt",
+          "member": false
+        },
+        {
+          "name": "Minye Zhan",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        }
+      ],
+      "author_count": 4
+    },
+    {
+      "openalex": "W4226023187",
+      "doi": "10.1016/j.pscychresns.2022.111443",
+      "title": "An optimized MRI and PET based clinical protocol for improving the differential diagnosis of geriatric depression and Alzheimer's disease",
+      "year": 2022,
+      "date": "2022-01-21",
+      "type": "article",
+      "journal": "Psychiatry Research Neuroimaging",
+      "url": "https://doi.org/10.1016/j.pscychresns.2022.111443",
+      "open_access_url": "https://www.medrxiv.org/content/medrxiv/early/2021/02/09/2021.02.08.21251205.full.pdf",
+      "authors": [
+        {
+          "name": "Louise Emsell",
+          "member": false
+        },
+        {
+          "name": "Heleen Vanhaute",
+          "member": false
+        },
+        {
+          "name": "Kristof Vansteelandt",
+          "member": false
+        },
+        {
+          "name": "François‐Laurent De Winter",
+          "member": false
+        },
+        {
+          "name": "Danny Christiaens",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Rik R. Vandenberghe",
+          "member": false
+        },
+        {
+          "name": "Koen Van Laere",
+          "member": false
+        },
+        {
+          "name": "Stefan G. Sunaert",
+          "member": false
+        },
+        {
+          "name": "Filip Bouckaert",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        }
+      ],
+      "author_count": 11
+    },
+    {
+      "openalex": "W4313200643",
+      "doi": "10.1016/j.nsa.2022.100208",
+      "title": "Characterizing the course of gray matter volume change from one week to 6 months after electroconvulsive therapy in depressed patients",
+      "year": 2022,
+      "date": "2022-01-01",
+      "type": "article",
+      "journal": "Neuroscience Applied",
+      "url": "https://doi.org/10.1016/j.nsa.2022.100208",
+      "open_access_url": "https://www.sciencedirect.com/science/article/pii/S2772408522002083/pdf",
+      "authors": [
+        {
+          "name": "Maarten Laroy",
+          "member": false
+        },
+        {
+          "name": "Olga Therese Ousdal",
+          "member": false
+        },
+        {
+          "name": "Hauke Bartsch",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Pascal A. Sienaert",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        },
+        {
+          "name": "Pia Nordanskog",
+          "member": false
+        },
+        {
+          "name": "Martin Balslev Jørgensen",
+          "member": false
+        },
+        {
+          "name": "Annemiek Dols",
+          "member": false
+        },
+        {
+          "name": "Guido Alexander van Wingen",
+          "member": false
+        },
+        {
+          "name": "Joan Prudic",
+          "member": false
+        },
+        {
+          "name": "Filip Bouckaert",
+          "member": false
+        },
+        {
+          "name": "Leif Oltedal",
+          "member": false
+        },
+        {
+          "name": "Louise Emsell",
+          "member": false
+        }
+      ],
+      "author_count": 14
+    },
+    {
+      "openalex": "W3216534233",
+      "doi": "10.1002/alz.12475",
+      "title": "Social cognition assessment for mild neurocognitive disorders",
+      "year": 2021,
+      "date": "2021-12-02",
+      "type": "article",
+      "journal": "Alzheimer s & Dementia",
+      "url": "https://doi.org/10.1002/alz.12475",
+      "open_access_url": "https://lirias.kuleuven.be/handle/20.500.12942/689293",
+      "authors": [
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        }
+      ],
+      "author_count": 1
+    },
+    {
+      "openalex": "W3203674793",
+      "doi": "10.1136/jnnp-2021-327774",
+      "title": "Psychopathology in premanifest C9orf72 repeat expansion carriers",
+      "year": 2021,
+      "date": "2021-09-28",
+      "type": "article",
+      "journal": "Journal of Neurology Neurosurgery & Psychiatry",
+      "url": "https://doi.org/10.1136/jnnp-2021-327774",
+      "open_access_url": "",
+      "authors": [
+        {
+          "name": "Joke De Vocht",
+          "member": false
+        },
+        {
+          "name": "Daphne Stam",
+          "member": false
+        },
+        {
+          "name": "Marie Nicolini",
+          "member": false
+        },
+        {
+          "name": "Nikita Lamaire",
+          "member": false
+        },
+        {
+          "name": "Maarten Laroy",
+          "member": false
+        },
+        {
+          "name": "Thomas Vande Casteele",
+          "member": false
+        },
+        {
+          "name": "Laura Van de Vliet",
+          "member": false
+        },
+        {
+          "name": "Kristof Vansteelandt",
+          "member": false
+        },
+        {
+          "name": "Ann D’Hondt",
+          "member": false
+        },
+        {
+          "name": "Louise Emsell",
+          "member": false
+        },
+        {
+          "name": "Ronny Bruffaerts",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        },
+        {
+          "name": "Philip Van Damme",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        }
+      ],
+      "author_count": 14
+    },
+    {
+      "openalex": "W3188053261",
+      "doi": "10.1038/s41598-021-95206-0",
+      "title": "Lower regional gray matter volume in the absence of higher cortical amyloid burden in late-life depression",
+      "year": 2021,
+      "date": "2021-08-05",
+      "type": "article",
+      "journal": "Scientific Reports",
+      "url": "https://doi.org/10.1038/s41598-021-95206-0",
+      "open_access_url": "https://www.nature.com/articles/s41598-021-95206-0.pdf",
+      "authors": [
+        {
+          "name": "Akihiro Takamiya",
+          "member": false
+        },
+        {
+          "name": "Thomas Vande Casteele",
+          "member": false
+        },
+        {
+          "name": "Michel J. B. Koole",
+          "member": false
+        },
+        {
+          "name": "François‐Laurent De Winter",
+          "member": false
+        },
+        {
+          "name": "Filip Bouckaert",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Stefan G. Sunaert",
+          "member": false
+        },
+        {
+          "name": "Patrick J. Dupont",
+          "member": false
+        },
+        {
+          "name": "Rik R. Vandenberghe",
+          "member": false
+        },
+        {
+          "name": "Koen Van Laere",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        },
+        {
+          "name": "Louise Emsell",
+          "member": false
+        }
+      ],
+      "author_count": 12
+    },
+    {
+      "openalex": "W3185599635",
+      "doi": "10.1093/brain/awab276",
+      "title": "Looking beyond indirect lesion network mapping of prosopagnosia: direct measures required",
+      "year": 2021,
+      "date": "2021-07-16",
+      "type": "article",
+      "journal": "Brain",
+      "url": "https://doi.org/10.1093/brain/awab276",
+      "open_access_url": "https://academic.oup.com/brain/article-pdf/144/9/e75/40880414/awab276.pdf",
+      "authors": [
+        {
+          "name": "María A. Bobes",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Minye Zhan",
+          "member": false
+        },
+        {
+          "name": "Mitchell Joseph Valdés-Sosa",
+          "member": false
+        },
+        {
+          "name": "Béatrice de Gelder",
+          "member": false
+        }
+      ],
+      "author_count": 5
+    },
+    {
+      "openalex": "W3174186083",
+      "doi": "10.1016/j.brs.2021.06.011",
+      "title": "Biophysical mechanisms of electroconvulsive therapy-induced volume expansion in the medial temporal lobe: A longitudinal in vivo human imaging study",
+      "year": 2021,
+      "date": "2021-06-25",
+      "type": "article",
+      "journal": "Brain stimulation",
+      "url": "https://doi.org/10.1016/j.brs.2021.06.011",
+      "open_access_url": "https://doi.org/10.1016/j.brs.2021.06.011",
+      "authors": [
+        {
+          "name": "Akihiro Takamiya",
+          "member": false
+        },
+        {
+          "name": "Filip Bouckaert",
+          "member": false
+        },
+        {
+          "name": "Maarten Laroy",
+          "member": false
+        },
+        {
+          "name": "Jeroen Blommaert",
+          "member": false
+        },
+        {
+          "name": "Ahmed Radwan",
+          "member": false
+        },
+        {
+          "name": "Ahmad Khatoun",
+          "member": false
+        },
+        {
+          "name": "Zhi‐De Deng",
+          "member": false
+        },
+        {
+          "name": "Myles Mc Laughlin",
+          "member": false
+        },
+        {
+          "name": "Wim Van Paesschen",
+          "member": false
+        },
+        {
+          "name": "François‐Laurent De Winter",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Stefan G. Sunaert",
+          "member": false
+        },
+        {
+          "name": "Pascal A. Sienaert",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        },
+        {
+          "name": "Louise Emsell",
+          "member": false
+        }
+      ],
+      "author_count": 15
+    },
+    {
+      "openalex": "W3171182492",
+      "doi": "10.1038/s42003-021-02235-6",
+      "title": "Long term fMRI adaptation depends on adapter response in face-selective cortex",
+      "year": 2021,
+      "date": "2021-06-10",
+      "type": "article",
+      "journal": "Communications Biology",
+      "url": "https://doi.org/10.1038/s42003-021-02235-6",
+      "open_access_url": "https://www.nature.com/articles/s42003-021-02235-6.pdf",
+      "authors": [
+        {
+          "name": "Daphne Stam",
+          "member": false
+        },
+        {
+          "name": "Yun‐An Huang",
+          "member": false
+        },
+        {
+          "name": "Kristof Vansteelandt",
+          "member": false
+        },
+        {
+          "name": "Stefan G. Sunaert",
+          "member": false
+        },
+        {
+          "name": "Ronald R. Peeters",
+          "member": false
+        },
+        {
+          "name": "Charlotte Sleurs",
+          "member": false
+        },
+        {
+          "name": "Leia Vrancken",
+          "member": false
+        },
+        {
+          "name": "Louise Emsell",
+          "member": false
+        },
+        {
+          "name": "Rufin Vogels",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        }
+      ],
+      "author_count": 11
+    },
+    {
+      "openalex": "W3145427337",
+      "doi": "10.1038/s41398-021-01314-w",
+      "title": "A longitudinal study of the association between basal ganglia volumes and psychomotor symptoms in subjects with late life depression undergoing ECT",
+      "year": 2021,
+      "date": "2021-04-01",
+      "type": "article",
+      "journal": "Translational Psychiatry",
+      "url": "https://doi.org/10.1038/s41398-021-01314-w",
+      "open_access_url": "https://www.nature.com/articles/s41398-021-01314-w.pdf",
+      "authors": [
+        {
+          "name": "Margot Van Cauwenberge",
+          "member": false
+        },
+        {
+          "name": "Filip Bouckaert",
+          "member": false
+        },
+        {
+          "name": "Kristof Vansteelandt",
+          "member": false
+        },
+        {
+          "name": "Chris L. Adamson",
+          "member": false
+        },
+        {
+          "name": "François‐Laurent De Winter",
+          "member": false
+        },
+        {
+          "name": "Pascal A. Sienaert",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Annemiek Dols",
+          "member": false
+        },
+        {
+          "name": "Didi Rhebergen",
+          "member": false
+        },
+        {
+          "name": "Max L. Stek",
+          "member": false
+        },
+        {
+          "name": "Louise Emsell",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        }
+      ],
+      "author_count": 12
+    },
+    {
+      "openalex": "W3125551829",
+      "doi": "10.1186/s12888-021-03063-y",
+      "title": "The Leuven late life depression (L3D) study: PET-MRI biomarkers of pathological brain ageing in late-life depression: study protocol",
+      "year": 2021,
+      "date": "2021-01-28",
+      "type": "article",
+      "journal": "BMC Psychiatry",
+      "url": "https://doi.org/10.1186/s12888-021-03063-y",
+      "open_access_url": "https://bmcpsychiatry.biomedcentral.com/track/pdf/10.1186/s12888-021-03063-y",
+      "authors": [
+        {
+          "name": "Louise Emsell",
+          "member": false
+        },
+        {
+          "name": "Maarten Laroy",
+          "member": false
+        },
+        {
+          "name": "Margot Van Cauwenberge",
+          "member": false
+        },
+        {
+          "name": "Thomas Vande Casteele",
+          "member": false
+        },
+        {
+          "name": "Kristof Vansteelandt",
+          "member": false
+        },
+        {
+          "name": "Koen Van Laere",
+          "member": false
+        },
+        {
+          "name": "Stefan G. Sunaert",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Filip Bouckaert",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        }
+      ],
+      "author_count": 10
+    },
+    {
+      "openalex": "W3183453765",
+      "doi": "10.1093/braincomms/fcab161",
+      "title": "The Interplay of Social Cognition Sub-domains in Frontotemporal Dementia",
+      "year": 2021,
+      "date": "2021-01-01",
+      "type": "article",
+      "journal": "Brain Communications",
+      "url": "https://doi.org/10.1093/braincomms/fcab161",
+      "open_access_url": "https://academic.oup.com/braincomms/article-pdf/3/3/fcab161/40431902/fcab161.pdf",
+      "authors": [
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Jiaze Sun",
+          "member": false
+        },
+        {
+          "name": "François‐Laurent De Winter",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        }
+      ],
+      "author_count": 4
+    },
+    {
+      "openalex": "W3111802852",
+      "doi": "10.1002/alz.041564",
+      "title": "Regional distribution of amyloid deposition and grey matter atrophy in late‐life depression",
+      "year": 2020,
+      "date": "2020-12-01",
+      "type": "article",
+      "journal": "Alzheimer s & Dementia",
+      "url": "https://doi.org/10.1002/alz.041564",
+      "open_access_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/alz.041564",
+      "authors": [
+        {
+          "name": "Akihiro Takamiya",
+          "member": false
+        },
+        {
+          "name": "Thomas Vande Casteele",
+          "member": false
+        },
+        {
+          "name": "Michel J. B. Koole",
+          "member": false
+        },
+        {
+          "name": "François‐Laurent De Winter",
+          "member": false
+        },
+        {
+          "name": "Filip Bouckaert",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Koen Van Laere",
+          "member": false
+        },
+        {
+          "name": "Louise Emsell",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        }
+      ],
+      "author_count": 9
+    },
+    {
+      "openalex": "W3107274096",
+      "doi": "10.1016/j.euroneuro.2020.09.284",
+      "title": "P.378 Out with the new: structural and functional deterioration of subspecialised areas of the social brain in behavioural variant frontotemporal dementia",
+      "year": 2020,
+      "date": "2020-11-01",
+      "type": "article",
+      "journal": "European Neuropsychopharmacology",
+      "url": "https://doi.org/10.1016/j.euroneuro.2020.09.284",
+      "open_access_url": "",
+      "authors": [
+        {
+          "name": "L. van Vliet",
+          "member": false
+        },
+        {
+          "name": "François‐Laurent De Winter",
+          "member": false
+        },
+        {
+          "name": "Yun‐An Huang",
+          "member": false
+        },
+        {
+          "name": "Qi Zhu",
+          "member": false
+        },
+        {
+          "name": "Wim Vanduffel",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        }
+      ],
+      "author_count": 7
+    },
+    {
+      "openalex": "W3085914696",
+      "doi": "10.1097/yct.0000000000000715",
+      "title": "Response to Volume Increase in the Dentate Gyrus Induced by Electroconvulsive Therapy",
+      "year": 2020,
+      "date": "2020-09-13",
+      "type": "article",
+      "journal": "Journal of Ect",
+      "url": "https://doi.org/10.1097/yct.0000000000000715",
+      "open_access_url": "",
+      "authors": [
+        {
+          "name": "Maarten Laroy",
+          "member": false
+        },
+        {
+          "name": "Kristof Vansteelandt",
+          "member": false
+        },
+        {
+          "name": "Louise Emsell",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        },
+        {
+          "name": "Filip Bouckaert",
+          "member": false
+        }
+      ],
+      "author_count": 6
+    },
+    {
+      "openalex": "W3075955310",
+      "doi": "10.1016/j.schres.2020.08.004",
+      "title": "Hippocampal volume as a vulnerability marker for late onset psychosis: Associations with memory function and childhood trauma",
+      "year": 2020,
+      "date": "2020-08-17",
+      "type": "article",
+      "journal": "Schizophrenia Research",
+      "url": "https://doi.org/10.1016/j.schres.2020.08.004",
+      "open_access_url": "https://lirias.kuleuven.be/handle/123456789/664135",
+      "authors": [
+        {
+          "name": "Lies Van Assche",
+          "member": false
+        },
+        {
+          "name": "Louise Emsell",
+          "member": false
+        },
+        {
+          "name": "Lene Claes",
+          "member": false
+        },
+        {
+          "name": "Luc Van de Ven",
+          "member": false
+        },
+        {
+          "name": "Patrick Luyten",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "François‐Laurent De Winter",
+          "member": false
+        },
+        {
+          "name": "Filip Bouckaert",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        }
+      ],
+      "author_count": 9
+    },
+    {
+      "openalex": "W3033495712",
+      "doi": "10.1111/ejn.14849",
+      "title": "Network level characteristics in the emotion recognition network after unilateral temporal lobe surgery",
+      "year": 2020,
+      "date": "2020-06-03",
+      "type": "article",
+      "journal": "European Journal of Neuroscience",
+      "url": "https://doi.org/10.1111/ejn.14849",
+      "open_access_url": "",
+      "authors": [
+        {
+          "name": "Yun‐An Huang",
+          "member": false
+        },
+        {
+          "name": "Patrick J. Dupont",
+          "member": false
+        },
+        {
+          "name": "Laura Van de Vliet",
+          "member": false
+        },
+        {
+          "name": "Jan Jastorff",
+          "member": false
+        },
+        {
+          "name": "Ronald R. Peeters",
+          "member": false
+        },
+        {
+          "name": "Tom Theys",
+          "member": false
+        },
+        {
+          "name": "Johannes Van Loon",
+          "member": false
+        },
+        {
+          "name": "Wim Van Paesschen",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        }
+      ],
+      "author_count": 10
+    },
+    {
+      "openalex": "W3024794599",
+      "doi": "10.1001/jamaneurol.2020.1087",
+      "title": "Use of Multimodal Imaging and Clinical Biomarkers in Presymptomatic Carriers of C9orf72 Repeat Expansion",
+      "year": 2020,
+      "date": "2020-05-18",
+      "type": "article",
+      "journal": "JAMA Neurology",
+      "url": "https://doi.org/10.1001/jamaneurol.2020.1087",
+      "open_access_url": "https://jamanetwork.com/journals/jamaneurology/articlepdf/2765969/jamaneurology_de_vocht_2020_oi_200023_1596744488.67938.pdf",
+      "authors": [
+        {
+          "name": "Joke De Vocht",
+          "member": false
+        },
+        {
+          "name": "Jeroen Blommaert",
+          "member": false
+        },
+        {
+          "name": "Martijn Devrome",
+          "member": false
+        },
+        {
+          "name": "Ahmed Radwan",
+          "member": false
+        },
+        {
+          "name": "Donatienne Van Weehaeghe",
+          "member": false
+        },
+        {
+          "name": "Maxim De Schaepdryver",
+          "member": false
+        },
+        {
+          "name": "Jenny Ceccarini",
+          "member": false
+        },
+        {
+          "name": "Ahmadreza Rezaei",
+          "member": false
+        },
+        {
+          "name": "Georg Schramm",
+          "member": false
+        },
+        {
+          "name": "June van Aalst",
+          "member": false
+        },
+        {
+          "name": "Adriano Chiò",
+          "member": false
+        },
+        {
+          "name": "Marco Pagani",
+          "member": false
+        },
+        {
+          "name": "Daphne Stam",
+          "member": false
+        },
+        {
+          "name": "Hilde Van Esch",
+          "member": false
+        },
+        {
+          "name": "Nikita Lamaire",
+          "member": false
+        },
+        {
+          "name": "Marianne Verhaegen",
+          "member": false
+        },
+        {
+          "name": "Nathalie Mertens",
+          "member": false
+        },
+        {
+          "name": "Koen Poesen",
+          "member": false
+        },
+        {
+          "name": "Leonard H. van den Berg",
+          "member": false
+        },
+        {
+          "name": "Michael A. van Es",
+          "member": false
+        },
+        {
+          "name": "Rik R. Vandenberghe",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Michel J. B. Koole",
+          "member": false
+        },
+        {
+          "name": "Patrick J. Dupont",
+          "member": false
+        },
+        {
+          "name": "Koen Van Laere",
+          "member": false
+        },
+        {
+          "name": "Philip Van Damme",
+          "member": false
+        }
+      ],
+      "author_count": 27
+    },
+    {
+      "openalex": "W3009452141",
+      "doi": "10.1093/brain/awaa018",
+      "title": "Recommendations to distinguish behavioural variant frontotemporal dementia from psychiatric disorders",
+      "year": 2020,
+      "date": "2020-01-16",
+      "type": "article",
+      "journal": "Brain",
+      "url": "https://doi.org/10.1093/brain/awaa018",
+      "open_access_url": "https://academic.oup.com/brain/article-pdf/143/6/1632/36145622/awaa018.pdf",
+      "authors": [
+        {
+          "name": "Simon Ducharme",
+          "member": false
+        },
+        {
+          "name": "Annemiek Dols",
+          "member": false
+        },
+        {
+          "name": "Robert Jr Laforce",
+          "member": false
+        },
+        {
+          "name": "Emma M. Devenney",
+          "member": false
+        },
+        {
+          "name": "Fiona Kumfor",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Caroline Dallaire‐Théroux",
+          "member": false
+        },
+        {
+          "name": "Harro Seelaar",
+          "member": false
+        },
+        {
+          "name": "Flora T. Gossink",
+          "member": false
+        },
+        {
+          "name": "Everard G.B. Vijverberg",
+          "member": false
+        },
+        {
+          "name": "Edward D. Huey",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        },
+        {
+          "name": "Mario Masellis",
+          "member": false
+        },
+        {
+          "name": "Calvin Trieu",
+          "member": false
+        },
+        {
+          "name": "Chiadi U. Onyike",
+          "member": false
+        },
+        {
+          "name": "Paulo Caramelli",
+          "member": false
+        },
+        {
+          "name": "Leonardo Cruz de Souza",
+          "member": false
+        },
+        {
+          "name": "Alexander Frizell Santillo",
+          "member": false
+        },
+        {
+          "name": "Maria Landqvist Waldö",
+          "member": false
+        },
+        {
+          "name": "Ramón Landín-Romero",
+          "member": false
+        },
+        {
+          "name": "Olivier Piguet",
+          "member": false
+        },
+        {
+          "name": "Wendy M. Kelso",
+          "member": false
+        },
+        {
+          "name": "Dhamidhu Eratne",
+          "member": false
+        },
+        {
+          "name": "Dennis Velakoulis",
+          "member": false
+        },
+        {
+          "name": "Manabu Ikeda",
+          "member": false
+        },
+        {
+          "name": "David C. Perry",
+          "member": false
+        },
+        {
+          "name": "Peter Pressman",
+          "member": false
+        },
+        {
+          "name": "Bradley F. Boeve",
+          "member": false
+        },
+        {
+          "name": "Rik R. Vandenberghe",
+          "member": false
+        },
+        {
+          "name": "Mario F. Mendez",
+          "member": false
+        },
+        {
+          "name": "Carole Azuar",
+          "member": false
+        },
+        {
+          "name": "Richard Lévy",
+          "member": false
+        },
+        {
+          "name": "Isabelle Le Ber",
+          "member": false
+        },
+        {
+          "name": "Sandra Báez",
+          "member": false
+        },
+        {
+          "name": "Alan Jay Lerner",
+          "member": false
+        },
+        {
+          "name": "Ratnavalli Ellajosyula",
+          "member": false
+        },
+        {
+          "name": "Florence Pasquier",
+          "member": false
+        },
+        {
+          "name": "Daniela Galimberti",
+          "member": false
+        },
+        {
+          "name": "Elio Angelo Scarpini",
+          "member": false
+        },
+        {
+          "name": "John Cornelis Van Swieten",
+          "member": false
+        }
+      ],
+      "author_count": 45
+    },
+    {
+      "openalex": "W3004119331",
+      "doi": "10.1093/brain/awaa005",
+      "title": "Brain-behaviour associations and neural representations of emotions in frontotemporal dementia",
+      "year": 2020,
+      "date": "2020-01-06",
+      "type": "article",
+      "journal": "Brain",
+      "url": "https://doi.org/10.1093/brain/awaa005",
+      "open_access_url": "https://lirias.kuleuven.be/handle/123456789/650183",
+      "authors": [
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "François‐Laurent De Winter",
+          "member": false
+        },
+        {
+          "name": "Louise Emsell",
+          "member": false
+        },
+        {
+          "name": "Fiona Kumfor",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        }
+      ],
+      "author_count": 5
+    },
+    {
+      "openalex": "W2969932687",
+      "doi": "10.1016/j.neubiorev.2019.08.017",
+      "title": "Neural correlates of emotion-attention interactions: From perception, learning, and memory to social cognition, individual differences, and training interventions",
+      "year": 2019,
+      "date": "2019-08-22",
+      "type": "article",
+      "journal": "Neuroscience & Biobehavioral Reviews",
+      "url": "https://doi.org/10.1016/j.neubiorev.2019.08.017",
+      "open_access_url": "https://www.sciencedirect.com/science/article/pii/S0149763418310005/pdf",
+      "authors": [
+        {
+          "name": "Florin Dolcos",
+          "member": false
+        },
+        {
+          "name": "Yuta Katsumi",
+          "member": false
+        },
+        {
+          "name": "Matthew Moore",
+          "member": false
+        },
+        {
+          "name": "Nick Berggren",
+          "member": false
+        },
+        {
+          "name": "Béatrice de Gelder",
+          "member": false
+        },
+        {
+          "name": "Nazanin Derakshan",
+          "member": false
+        },
+        {
+          "name": "Alfons O. Hamm",
+          "member": false
+        },
+        {
+          "name": "Ernst H. W. Koster",
+          "member": false
+        },
+        {
+          "name": "Cecile D. Ladouceur",
+          "member": false
+        },
+        {
+          "name": "Hadas Okon‐Singer",
+          "member": false
+        },
+        {
+          "name": "Alan John Pegna",
+          "member": false
+        },
+        {
+          "name": "Thalia Richter",
+          "member": false
+        },
+        {
+          "name": "Susanne Schweizer",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Carlos Ventura‐Bort",
+          "member": false
+        },
+        {
+          "name": "Mathias Weymar",
+          "member": false
+        },
+        {
+          "name": "Sanda M. Dolcos",
+          "member": false
+        }
+      ],
+      "author_count": 17
+    },
+    {
+      "openalex": "W2969695677",
+      "doi": "10.1038/s41398-019-0530-6",
+      "title": "Hippocampal volume change following ECT is mediated by rs699947 in the promotor region of VEGF",
+      "year": 2019,
+      "date": "2019-08-20",
+      "type": "article",
+      "journal": "Translational Psychiatry",
+      "url": "https://doi.org/10.1038/s41398-019-0530-6",
+      "open_access_url": "https://www.nature.com/articles/s41398-019-0530-6.pdf",
+      "authors": [
+        {
+          "name": "Maarten J. A. Van Den Bossche",
+          "member": false
+        },
+        {
+          "name": "Louise Emsell",
+          "member": false
+        },
+        {
+          "name": "Annemiek Dols",
+          "member": false
+        },
+        {
+          "name": "Kristof Vansteelandt",
+          "member": false
+        },
+        {
+          "name": "François‐Laurent De Winter",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Pascal A. Sienaert",
+          "member": false
+        },
+        {
+          "name": "Max L. Stek",
+          "member": false
+        },
+        {
+          "name": "Filip Bouckaert",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        }
+      ],
+      "author_count": 10
+    },
+    {
+      "openalex": "W2941495460",
+      "doi": "10.3389/fpsyg.2019.00904",
+      "title": "Non-overlapping and Inverse Associations Between the Sexes in Structural Brain-Trait Associations",
+      "year": 2019,
+      "date": "2019-04-24",
+      "type": "article",
+      "journal": "Frontiers in Psychology",
+      "url": "https://doi.org/10.3389/fpsyg.2019.00904",
+      "open_access_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2019.00904/pdf",
+      "authors": [
+        {
+          "name": "Daphne Stam",
+          "member": false
+        },
+        {
+          "name": "Yun‐An Huang",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        }
+      ],
+      "author_count": 3
+    },
+    {
+      "openalex": "W2924404957",
+      "doi": "10.1016/j.jad.2019.03.055",
+      "title": "Electroconvulsive therapy response in late-life depression unaffected by age-related brain changes",
+      "year": 2019,
+      "date": "2019-03-20",
+      "type": "article",
+      "journal": "Journal of Affective Disorders",
+      "url": "https://doi.org/10.1016/j.jad.2019.03.055",
+      "open_access_url": "https://pure.amsterdamumc.nl/ws/files/221238564/Electroconvulsive-therapy-response-in-late-life-depression-unaffected-by-age-related-brain-changes.pdf",
+      "authors": [
+        {
+          "name": "Filip Bouckaert",
+          "member": false
+        },
+        {
+          "name": "Louise Emsell",
+          "member": false
+        },
+        {
+          "name": "Kristof Vansteelandt",
+          "member": false
+        },
+        {
+          "name": "François‐Laurent De Winter",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Jasmien Obbels",
+          "member": false
+        },
+        {
+          "name": "Annemiek Dols",
+          "member": false
+        },
+        {
+          "name": "Max L. Stek",
+          "member": false
+        },
+        {
+          "name": "Katarzyna Adamczuk",
+          "member": false
+        },
+        {
+          "name": "Stefan G. Sunaert",
+          "member": false
+        },
+        {
+          "name": "Koen Van Laere",
+          "member": false
+        },
+        {
+          "name": "Pascal A. Sienaert",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        }
+      ],
+      "author_count": 13
+    },
+    {
+      "openalex": "W2921995919",
+      "doi": "10.1016/j.nicl.2019.101770",
+      "title": "Reduced tendency to attribute mental states to abstract shapes in behavioral variant frontotemporal dementia links with cerebellar structural integrity",
+      "year": 2019,
+      "date": "2019-01-01",
+      "type": "article",
+      "journal": "NeuroImage Clinical",
+      "url": "https://doi.org/10.1016/j.nicl.2019.101770",
+      "open_access_url": "https://www.sciencedirect.com/science/article/pii/S2213158219301202/pdf",
+      "authors": [
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "François‐Laurent De Winter",
+          "member": false
+        },
+        {
+          "name": "Daphne Stam",
+          "member": false
+        },
+        {
+          "name": "Laura Van de Vliet",
+          "member": false
+        },
+        {
+          "name": "Yun‐An Huang",
+          "member": false
+        },
+        {
+          "name": "Eva Dries",
+          "member": false
+        },
+        {
+          "name": "Lies Van Assche",
+          "member": false
+        },
+        {
+          "name": "Louise Emsell",
+          "member": false
+        },
+        {
+          "name": "Filip Bouckaert",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        }
+      ],
+      "author_count": 10
+    },
+    {
+      "openalex": "W2890883242",
+      "doi": "10.1523/jneurosci.0634-18.2018",
+      "title": "Anterior Temporal Lobectomy Impairs Neural Classification of Body Emotions in Right Superior Temporal Sulcus and Reduces Emotional Enhancement in Distributed Brain Areas without Affecting Behavioral Classification",
+      "year": 2018,
+      "date": "2018-09-18",
+      "type": "article",
+      "journal": "Journal of Neuroscience",
+      "url": "https://doi.org/10.1523/jneurosci.0634-18.2018",
+      "open_access_url": "https://www.jneurosci.org/content/jneuro/38/43/9263.full.pdf",
+      "authors": [
+        {
+          "name": "Laura Van de Vliet",
+          "member": false
+        },
+        {
+          "name": "Jan Jastorff",
+          "member": false
+        },
+        {
+          "name": "Yun‐An Huang",
+          "member": false
+        },
+        {
+          "name": "Wim Van Paesschen",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        }
+      ],
+      "author_count": 6
+    },
+    {
+      "openalex": "W2800686099",
+      "doi": "10.1186/s13550-018-0385-5",
+      "title": "Correlation of neuropsychological and metabolic changes after epilepsy surgery in patients with left mesial temporal lobe epilepsy with hippocampal sclerosis",
+      "year": 2018,
+      "date": "2018-04-12",
+      "type": "article",
+      "journal": "EJNMMI Research",
+      "url": "https://doi.org/10.1186/s13550-018-0385-5",
+      "open_access_url": "https://ejnmmires.springeropen.com/track/pdf/10.1186/s13550-018-0385-5",
+      "authors": [
+        {
+          "name": "Canan Güvenç",
+          "member": false
+        },
+        {
+          "name": "Patrick J. Dupont",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Laura Seynaeve",
+          "member": false
+        },
+        {
+          "name": "Kathleen Porke",
+          "member": false
+        },
+        {
+          "name": "Eva Dries",
+          "member": false
+        },
+        {
+          "name": "Karen Van Bouwel",
+          "member": false
+        },
+        {
+          "name": "Johannes Van Loon",
+          "member": false
+        },
+        {
+          "name": "Tom Theys",
+          "member": false
+        },
+        {
+          "name": "Karolien E. Goffin",
+          "member": false
+        },
+        {
+          "name": "Wim Van Paesschen",
+          "member": false
+        }
+      ],
+      "author_count": 11
+    },
+    {
+      "openalex": "W2796838017",
+      "doi": "10.1016/j.biopsych.2018.02.464",
+      "title": "T128. Medial Temporal Lobe and Subcortical Shape Changes Following Electroconvulsive Therapy in Late-Life Depression",
+      "year": 2018,
+      "date": "2018-04-09",
+      "type": "conference-abstract",
+      "journal": "Biological Psychiatry",
+      "url": "https://doi.org/10.1016/j.biopsych.2018.02.464",
+      "open_access_url": "",
+      "authors": [
+        {
+          "name": "Filip Bouckaert",
+          "member": false
+        },
+        {
+          "name": "Jürgen Germann",
+          "member": false
+        },
+        {
+          "name": "M. Mallar Chakravarty",
+          "member": false
+        },
+        {
+          "name": "Annemiek Dols",
+          "member": false
+        },
+        {
+          "name": "François‐Laurent De Winter",
+          "member": false
+        },
+        {
+          "name": "Lies Van Assche",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Stefan G. Sunaert",
+          "member": false
+        },
+        {
+          "name": "Pascal A. Sienaert",
+          "member": false
+        },
+        {
+          "name": "Max L. Stek",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        },
+        {
+          "name": "Louise Emsell",
+          "member": false
+        }
+      ],
+      "author_count": 12
+    },
+    {
+      "openalex": "W2788896920",
+      "doi": "10.3389/fpsyg.2018.00203",
+      "title": "Gray Matter Volume of a Region in the Thalamic Pulvinar Is Specifically Associated with Novelty Seeking",
+      "year": 2018,
+      "date": "2018-02-27",
+      "type": "article",
+      "journal": "Frontiers in Psychology",
+      "url": "https://doi.org/10.3389/fpsyg.2018.00203",
+      "open_access_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2018.00203/pdf",
+      "authors": [
+        {
+          "name": "Daphne Stam",
+          "member": false
+        },
+        {
+          "name": "Yun‐An Huang",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        }
+      ],
+      "author_count": 3
+    },
+    {
+      "openalex": "W2799974202",
+      "doi": "10.1080/02643294.2018.1441818",
+      "title": "Face specificity of developmental prosopagnosia, moving beyond the debate on face specificity",
+      "year": 2018,
+      "date": "2018-02-17",
+      "type": "article",
+      "journal": "Cognitive Neuropsychology",
+      "url": "https://doi.org/10.1080/02643294.2018.1441818",
+      "open_access_url": "",
+      "authors": [
+        {
+          "name": "Béatrice de Gelder",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        }
+      ],
+      "author_count": 2
+    },
+    {
+      "openalex": "W2784229034",
+      "doi": "10.1016/j.neuroimage.2018.01.026",
+      "title": "Studying emotion theories through connectivity analysis: Evidence from generalized psychophysiological interactions and graph theory",
+      "year": 2018,
+      "date": "2018-01-12",
+      "type": "article",
+      "journal": "NeuroImage",
+      "url": "https://doi.org/10.1016/j.neuroimage.2018.01.026",
+      "open_access_url": "https://cris.maastrichtuniversity.nl/en/publications/485bfa8e-f074-4bda-8701-33c496141048",
+      "authors": [
+        {
+          "name": "Yun‐An Huang",
+          "member": false
+        },
+        {
+          "name": "Jan Jastorff",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Laura Van de Vliet",
+          "member": false
+        },
+        {
+          "name": "Patrick J. Dupont",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        }
+      ],
+      "author_count": 6
+    }
+  ]
 }
