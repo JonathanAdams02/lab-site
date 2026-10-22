@@ -1,0 +1,33 @@
+---
+layout: base.njk
+navKey: code
+permalink: /code/
+---
+{%- set p = lab.pages.code -%}
+<section class="wrap page-section code-section">
+  {% if p.eyebrow %}<div class="eyebrow">{{ p.eyebrow }}</div>{% endif %}
+  <h1 class="page-title">{{ p.title }}</h1>
+  {% if p.intro %}<p class="lede">{{ p.intro }}</p>{% endif %}
+  <div class="repo-grid">
+    {%- for repo in p.repos %}
+    <article class="repo">
+      <div class="repo-top">
+        <h2>{{ repo.name }}</h2>
+        {% if repo.license %}<span class="repo-license">{{ repo.license }}</span>{% endif %}
+      </div>
+      <p>{{ repo.description }}</p>
+      <div class="repo-foot">
+        {% if repo.language %}<span class="repo-lang">{{ repo.language }}</span>{% endif %}
+        {% if repo.updated %}<span class="repo-updated">Updated {{ repo.updated }}</span>{% endif %}
+        {% if repo.url %}<a class="repo-link" href="{{ repo.url }}">View repository →</a>{% endif %}
+      </div>
+    </article>
+    {%- endfor %}
+  </div>
+  {% if p.footer_text %}
+  <div class="panel code-footer">
+    <div class="code-footer-text">{{ p.footer_text }}</div>
+    {% if p.footer_link %}<a href="{{ lab.settings.github_url }}">{{ p.footer_link }} →</a>{% endif %}
+  </div>
+  {% endif %}
+</section>

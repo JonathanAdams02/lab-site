@@ -1,0 +1,325 @@
+# Pages CMS configuration — this file defines the editing forms colleagues see
+# at https://app.pagescms.org. Docs: https://pagescms.org/docs/configuration/
+
+media:
+  input: media
+  output: /media
+  extensions: [jpg, jpeg, png, webp, gif, svg]
+
+content:
+  # ------------------------------------------------------------------
+  # Page texts (one form per page)
+  # ------------------------------------------------------------------
+  - name: pages
+    label: Page texts
+    type: group
+    items:
+      - name: home
+        label: Home
+        type: file
+        path: content/pages/home.md
+        fields:
+          - { name: eyebrow, label: Small label above the title, type: string }
+          - { name: title, label: Title, type: string, required: true }
+          - { name: intro, label: Introduction, type: text }
+          - { name: primary_button, label: Blue button text (goes to Research output), type: string }
+          - { name: secondary_button, label: Outline button text (goes to People), type: string }
+          - { name: show_atlas, label: Show the Output Atlas, type: boolean, default: true }
+          - { name: themes_title, label: Research themes heading, type: string }
+          - name: themes
+            label: Research themes
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{title}"
+            fields:
+              - { name: title, label: Title, type: string }
+              - { name: body, label: Description, type: text }
+
+      - name: about
+        label: About
+        type: file
+        path: content/pages/about.md
+        fields:
+          - { name: eyebrow, label: Small label above the title, type: string }
+          - { name: title, label: Title, type: string, required: true }
+          - { name: lead, label: Opening paragraph (larger text), type: text }
+          - name: body
+            label: Further text
+            type: rich-text
+            options:
+              format: markdown
+              media: false
+          - name: facts
+            label: Key facts (right-hand column)
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{label}: {value}"
+            fields:
+              - { name: label, label: Label, type: string }
+              - { name: value, label: Value, type: string }
+          - { name: approach_title, label: '"How we work" heading', type: string }
+          - name: approach
+            label: How we work
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{num} {title}"
+            fields:
+              - { name: num, label: Number, type: string, description: "e.g. 01" }
+              - { name: title, label: Title, type: string }
+              - { name: body, label: Description, type: text }
+
+      - name: people_page
+        label: People
+        type: file
+        path: content/pages/people.md
+        fields:
+          - { name: eyebrow, label: Small label above the title, type: string }
+          - { name: title, label: Title, type: string, required: true }
+          - { name: intro, label: Introduction, type: text }
+          - name: groups
+            label: Team groups (in display order)
+            description: Rename or reorder groups here. To add a new group, also add it to the "Group" choices in .pages.yml.
+            type: object
+            list: true
+            fields:
+              - { name: id, label: Internal ID (don't change), type: string, readonly: true }
+              - { name: title, label: Heading shown on the site, type: string }
+
+      - name: research_page
+        label: Research output
+        type: file
+        path: content/pages/research.md
+        fields:
+          - { name: eyebrow, label: Small label above the title, type: string }
+          - { name: title, label: Title, type: string, required: true }
+          - { name: intro, label: Introduction, type: text }
+          - { name: show_atlas, label: Show the Output Atlas, type: boolean, default: true }
+          - { name: publications_title, label: Publications heading, type: string }
+          - { name: note, label: Note under the publication list (leave empty to hide), type: string }
+
+      - name: projects_page
+        label: Projects
+        type: file
+        path: content/pages/projects.md
+        fields:
+          - { name: eyebrow, label: Small label above the title, type: string }
+          - { name: title, label: Title, type: string, required: true }
+          - { name: intro, label: Introduction, type: text }
+          - { name: cta_title, label: Bottom box heading (leave empty to hide the box), type: string }
+          - { name: cta_text, label: Bottom box text, type: text }
+          - { name: cta_button, label: Bottom box button (goes to Participate), type: string }
+
+      - name: code_page
+        label: Code
+        type: file
+        path: content/pages/code.md
+        fields:
+          - { name: eyebrow, label: Small label above the title, type: string }
+          - { name: title, label: Title, type: string, required: true }
+          - { name: intro, label: Introduction, type: text }
+          - name: repos
+            label: Repositories
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{name}"
+            fields:
+              - { name: name, label: Repository name, type: string }
+              - { name: description, label: Description, type: text }
+              - { name: url, label: Link, type: string }
+              - { name: language, label: Language, type: string, description: "e.g. Python, R, MATLAB" }
+              - { name: license, label: Licence, type: string, description: "e.g. MIT, GPL-3.0" }
+              - { name: updated, label: Last updated, type: string, description: "e.g. March 2026" }
+          - { name: footer_text, label: Box text under the repositories, type: text }
+          - { name: footer_link, label: Box link text (goes to the GitHub address in Site settings), type: string }
+
+      - name: participate_page
+        label: Participate
+        type: file
+        path: content/pages/participate.md
+        fields:
+          - { name: eyebrow, label: Small label above the title, type: string }
+          - { name: title, label: Title, type: string, required: true }
+          - { name: intro, label: Introduction, type: text }
+          - { name: button, label: Button text (emails the participation address), type: string }
+          - { name: studies_title, label: Recruiting studies heading, type: string }
+          - { name: no_studies, label: Message when no study is recruiting, type: text }
+          - { name: steps_title, label: Steps heading, type: string }
+          - name: steps
+            label: Steps
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{num} {title}"
+            fields:
+              - { name: num, label: Number, type: string }
+              - { name: title, label: Title, type: string }
+              - { name: body, label: Description, type: text }
+          - { name: notes_title, label: '"Good to know" heading', type: string }
+          - name: notes
+            label: Good to know
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{title}"
+            fields:
+              - { name: title, label: Title, type: string }
+              - { name: body, label: Text, type: text }
+          - { name: questions_text, label: Text before the email address at the bottom of the box, type: string }
+
+      - name: contact_page
+        label: Contact
+        type: file
+        path: content/pages/contact.md
+        fields:
+          - { name: eyebrow, label: Small label above the title, type: string }
+          - { name: title, label: Title, type: string, required: true }
+          - { name: address, label: Visiting address, type: text, description: One line per address line. }
+          - { name: joining_text, label: '"Joining the group" text', type: text }
+          - { name: image, label: Photo or map (right-hand side), type: image }
+
+  # ------------------------------------------------------------------
+  # Lists that grow over time (one file per entry)
+  # ------------------------------------------------------------------
+  - name: people
+    label: People
+    type: collection
+    path: content/people
+    filename: "{fields.name}.md"
+    view:
+      fields: [name, role, group]
+      primary: name
+      sort: [group, order, name]
+      default:
+        sort: group
+        order: asc
+    fields:
+      - { name: name, label: Name, type: string, required: true }
+      - { name: role, label: Role, type: string, description: "e.g. PhD candidate" }
+      - name: group
+        label: Group
+        type: select
+        required: true
+        options:
+          values:
+            - { name: pi, label: Principal investigators }
+            - { name: postdoc, label: Postdoctoral researchers }
+            - { name: phd, label: PhD candidates }
+            - { name: support, label: Support and affiliated staff }
+      - { name: focus, label: Research focus, type: string }
+      - { name: photo, label: Portrait photo, type: image, description: Square photos look best. Without a photo the initials are shown. }
+      - { name: link, label: Personal page or profile link (optional), type: string }
+      - { name: order, label: Position within the group, type: number, description: Lower numbers come first. Leave empty to sort alphabetically at the end. }
+
+  - name: publications
+    label: Publications
+    type: collection
+    path: content/publications
+    filename: "{fields.year}-{fields.title}.md"
+    view:
+      fields: [title, year, journal]
+      primary: title
+      sort: [year, title]
+      default:
+        sort: year
+        order: desc
+    fields:
+      - { name: title, label: Title, type: string, required: true }
+      - { name: authors, label: Authors, type: text }
+      - { name: journal, label: Journal, type: string }
+      - { name: year, label: Year, type: number, required: true }
+      - { name: link, label: Link (DOI or publisher page, optional), type: string }
+      - { name: order, label: Position within the year (optional), type: number }
+
+  - name: projects
+    label: Projects
+    type: collection
+    path: content/projects
+    filename: "{fields.title}.md"
+    view:
+      fields: [title, status]
+      primary: title
+      sort: [order, title]
+      default:
+        sort: order
+        order: asc
+    fields:
+      - { name: title, label: Title, type: string, required: true }
+      - name: status
+        label: Status
+        type: select
+        options:
+          values: [Recruiting, Ongoing, Completed]
+      - { name: period, label: Period, type: string, description: "e.g. 2024–2028" }
+      - { name: lead, label: Lead, type: string }
+      - { name: funder, label: Funding, type: string }
+      - name: body
+        label: Description
+        type: rich-text
+        options:
+          format: markdown
+          media: false
+      - { name: order, label: Position in the list, type: number, description: Lower numbers come first. }
+
+  - name: studies
+    label: Recruiting studies
+    type: collection
+    path: content/studies
+    filename: "{fields.title}.md"
+    view:
+      fields: [title, recruiting]
+      primary: title
+      sort: [order, title]
+      default:
+        sort: order
+        order: asc
+    fields:
+      - { name: title, label: Title, type: string, required: true }
+      - { name: recruiting, label: Currently recruiting (untick to hide from the site), type: boolean, default: true }
+      - name: body
+        label: Description
+        type: rich-text
+        options:
+          format: markdown
+          media: false
+      - { name: who, label: Who can take part, type: text }
+      - { name: time, label: Time commitment, type: string }
+      - { name: order, label: Position in the list, type: number }
+
+  # ------------------------------------------------------------------
+  # Site-wide settings
+  # ------------------------------------------------------------------
+  - name: settings
+    label: Site settings
+    type: file
+    path: content/settings.yml
+    format: yaml
+    fields:
+      - { name: site_title, label: Site name (browser tab), type: string }
+      - { name: description, label: Short description (search engines), type: text }
+      - { name: logo_header, label: Header logo, type: image }
+      - { name: logo_round, label: Round badge logo, type: image }
+      - { name: atlas_url, label: Output Atlas address, type: string }
+      - { name: atlas_height, label: Output Atlas height on desktop (pixels), type: number }
+      - { name: general_email, label: General enquiries email, type: string }
+      - { name: participate_email, label: Study participation email, type: string }
+      - { name: vacancies_email, label: Vacancies email, type: string }
+      - { name: github_url, label: GitHub organisation address, type: string }
+      - { name: footer_text, label: Footer text, type: text }
+      - name: elsewhere
+        label: Footer links ("Elsewhere")
+        type: object
+        list: true
+        fields:
+          - { name: label, label: Text, type: string }
+          - { name: url, label: Link, type: string }
+      - { name: copyright, label: Copyright line (the year is added automatically), type: string }

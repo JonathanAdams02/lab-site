@@ -1,0 +1,47 @@
+---
+layout: base.njk
+navKey: projects
+permalink: /projects/
+---
+{%- set p = lab.pages.projects -%}
+<section class="wrap projects-head">
+  {% if p.eyebrow %}<div class="eyebrow">{{ p.eyebrow }}</div>{% endif %}
+  <h1 class="page-title">{{ p.title }}</h1>
+  {% if p.intro %}<p class="lede">{{ p.intro }}</p>{% endif %}
+  <div>
+    {%- for project in lab.projects %}
+    <article class="project">
+      <div>
+        {% if project.status %}<div class="status">{{ project.status }}</div>{% endif %}
+        {% if project.period %}<div class="project-period">{{ project.period }}</div>{% endif %}
+      </div>
+      <div>
+        <h2>{{ project.title }}</h2>
+        <div class="project-body rich">{{ project.html | safe }}</div>
+      </div>
+      <div class="project-meta">
+        {% if project.lead %}<div>
+          <div class="label">Lead</div>
+          <div class="value-strong">{{ project.lead }}</div>
+        </div>{% endif %}
+        {% if project.funder %}<div>
+          <div class="label">Funding</div>
+          <div>{{ project.funder }}</div>
+        </div>{% endif %}
+      </div>
+    </article>
+    {%- endfor %}
+  </div>
+</section>
+
+{% if p.cta_title %}
+<section class="wrap cta-section">
+  <div class="panel cta">
+    <div>
+      <h2>{{ p.cta_title }}</h2>
+      {% if p.cta_text %}<p>{{ p.cta_text }}</p>{% endif %}
+    </div>
+    {% if p.cta_button %}<a class="btn btn-primary" href="/participate/">{{ p.cta_button }}</a>{% endif %}
+  </div>
+</section>
+{% endif %}

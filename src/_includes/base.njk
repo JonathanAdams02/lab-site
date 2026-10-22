@@ -1,0 +1,81 @@
+{%- set s = lab.settings -%}
+{%- set p = lab.pages[navKey] or {} -%}
+{%- set navLabel = "" -%}
+{%- for item in navigation %}{% if item.key == navKey %}{% set navLabel = item.label %}{% endif %}{% endfor -%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if navKey == "home" %}{{ s.site_title }}{% else %}{{ navLabel }} · {{ s.site_title }}{% endif %}</title>
+  <meta name="description" content="{{ p.intro or p.lead or s.description }}">
+  <meta property="og:title" content="{% if navKey == 'home' %}{{ s.site_title }}{% else %}{{ navLabel }} · {{ s.site_title }}{% endif %}">
+  <meta property="og:description" content="{{ p.intro or p.lead or s.description }}">
+  <meta property="og:image" content="{{ s.logo_round }}">
+  <link rel="icon" type="image/png" href="{{ s.logo_round }}">
+  <link rel="stylesheet" href="/assets/css/fonts.css">
+  <link rel="stylesheet" href="/assets/css/site.css">
+  {%- if s.atlas_height %}
+  <style>:root { --atlas-height: {{ s.atlas_height | int }}px; }</style>
+  {%- endif %}
+</head>
+<body>
+
+<header class="site-header" id="top">
+  <div class="wrap">
+    <a class="site-logo" href="/" aria-label="Home">
+      <img src="{{ s.logo_header }}" alt="KU Leuven — Leuven Brain Institute — Neuropsychiatry">
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span class="nav-toggle-bars" aria-hidden="true"><span></span><span></span><span></span></span>
+      Menu
+    </button>
+    <nav class="site-nav" id="site-nav" aria-label="Main">
+      {%- for item in navigation %}
+      <a href="{{ item.url }}"{% if item.key == navKey %} aria-current="page"{% endif %}>{{ item.label }}</a>
+      {%- endfor %}
+    </nav>
+  </div>
+</header>
+
+<main>
+{{ content | safe }}
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <img class="footer-badge" src="{{ s.logo_round }}" alt="Neuropsychiatry KU Leuven">
+      <div class="footer-text">{{ s.footer_text }}</div>
+    </div>
+    <div class="footer-col">
+      <div class="footer-col-title">Pages</div>
+      {%- for item in navigation %}{% if item.key != "home" %}
+      <a href="{{ item.url }}">{{ item.label }}</a>
+      {%- endif %}{% endfor %}
+    </div>
+    <div class="footer-col">
+      <div class="footer-col-title">Elsewhere</div>
+      {%- for link in s.elsewhere %}
+      <a href="{{ link.url }}">{{ link.label }}</a>
+      {%- endfor %}
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="wrap">© {{ lab.year }} {{ s.copyright }}</div>
+  </div>
+</footer>
+
+<script>
+  (function () {
+    var header = document.querySelector('.site-header');
+    var btn = document.querySelector('.nav-toggle');
+    if (!header || !btn) return;
+    btn.addEventListener('click', function () {
+      var open = header.classList.toggle('nav-open');
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+  })();
+</script>
+</body>
+</html>

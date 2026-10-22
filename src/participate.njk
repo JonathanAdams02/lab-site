@@ -1,0 +1,74 @@
+---
+layout: base.njk
+navKey: participate
+permalink: /participate/
+---
+{%- set p = lab.pages.participate -%}
+{%- set email = lab.settings.participate_email -%}
+<section class="participate-hero">
+  <div class="wrap">
+    {% if p.eyebrow %}<div class="eyebrow">{{ p.eyebrow }}</div>{% endif %}
+    <h1 class="page-title">{{ p.title }}</h1>
+    {% if p.intro %}<p>{{ p.intro }}</p>{% endif %}
+    {% if p.button and email %}<a class="btn btn-primary" href="mailto:{{ email }}">{{ p.button }}</a>{% endif %}
+  </div>
+</section>
+
+<section class="wrap studies">
+  <h2 class="section-title">{{ p.studies_title }}</h2>
+  <div>
+    {%- for study in lab.studies %}
+    <article class="study">
+      <div>
+        <h3>{{ study.title }}</h3>
+        <div class="study-body rich">{{ study.html | safe }}</div>
+      </div>
+      <div class="study-meta">
+        {% if study.who %}<div>
+          <div class="label">Who can take part</div>
+          <div class="study-meta-value">{{ study.who }}</div>
+        </div>{% endif %}
+        {% if study.time %}<div>
+          <div class="label">Time commitment</div>
+          <div class="study-meta-value">{{ study.time }}</div>
+        </div>{% endif %}
+      </div>
+    </article>
+    {%- else %}
+    <p class="studies-empty">{{ p.no_studies }}</p>
+    {%- endfor %}
+  </div>
+</section>
+
+<section class="wrap involve-section">
+  <div class="involve-grid">
+    <div class="involve-steps">
+      <h2>{{ p.steps_title }}</h2>
+      <div class="steps">
+        {%- for step in p.steps %}
+        <div class="step">
+          <div class="num">{{ step.num }}</div>
+          <div>
+            <h3>{{ step.title }}</h3>
+            <p>{{ step.body }}</p>
+          </div>
+        </div>
+        {%- endfor %}
+      </div>
+    </div>
+    <div class="panel notes">
+      <h2>{{ p.notes_title }}</h2>
+      <div class="notes-list">
+        {%- for note in p.notes %}
+        <div class="note">
+          <div class="note-title">{{ note.title }}</div>
+          <div class="note-body">{{ note.body }}</div>
+        </div>
+        {%- endfor %}
+      </div>
+      {% if p.questions_text and email %}
+      <div class="notes-foot">{{ p.questions_text }} <a href="mailto:{{ email }}">{{ email }}</a>.</div>
+      {% endif %}
+    </div>
+  </div>
+</section>

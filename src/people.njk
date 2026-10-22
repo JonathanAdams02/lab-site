@@ -1,0 +1,33 @@
+---
+layout: base.njk
+navKey: people
+permalink: /people/
+---
+{%- set p = lab.pages.people -%}
+<section class="wrap page-section">
+  {% if p.eyebrow %}<div class="eyebrow">{{ p.eyebrow }}</div>{% endif %}
+  <h1 class="page-title">{{ p.title }}</h1>
+  {% if p.intro %}<p class="lede">{{ p.intro }}</p>{% endif %}
+
+  {%- for group in lab.peopleGroups %}
+  <div class="people-group">
+    <h2 class="group-title">{{ group.title }}</h2>
+    <div class="people-grid">
+      {%- for person in group.members %}
+      <article class="person">
+        <div class="portrait">
+          {%- if person.photo %}
+          <img src="{{ person.photo }}" alt="{{ person.name }}" loading="lazy">
+          {%- else %}
+          <span class="portrait-initials" aria-hidden="true">{{ person.name | initials }}</span>
+          {%- endif %}
+        </div>
+        <h3>{% if person.link %}<a href="{{ person.link }}">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</h3>
+        {% if person.role %}<div class="person-role">{{ person.role }}</div>{% endif %}
+        {% if person.focus %}<div class="person-focus">{{ person.focus }}</div>{% endif %}
+      </article>
+      {%- endfor %}
+    </div>
+  </div>
+  {%- endfor %}
+</section>

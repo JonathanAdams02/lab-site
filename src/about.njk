@@ -1,0 +1,43 @@
+---
+layout: base.njk
+navKey: about
+permalink: /about/
+---
+{%- set p = lab.pages.about -%}
+<section class="wrap about-head">
+  {% if p.eyebrow %}<div class="eyebrow">{{ p.eyebrow }}</div>{% endif %}
+  <h1 class="page-title">{{ p.title }}</h1>
+  <div class="about-grid">
+    <div class="about-text">
+      {% if p.lead %}<p class="about-lead">{{ p.lead }}</p>{% endif %}
+      <div class="about-body rich">{{ p.html | safe }}</div>
+    </div>
+    {% if p.facts and p.facts.length %}
+    <aside class="facts">
+      {%- for fact in p.facts %}
+      <div class="fact">
+        <div class="label">{{ fact.label }}</div>
+        <div class="fact-value">{{ fact.value }}</div>
+      </div>
+      {%- endfor %}
+    </aside>
+    {% endif %}
+  </div>
+</section>
+
+{% if p.approach and p.approach.length %}
+<section class="wrap approach-section">
+  <div class="panel approach">
+    <h2>{{ p.approach_title }}</h2>
+    <div class="approach-grid">
+      {%- for item in p.approach %}
+      <div>
+        <div class="num">{{ item.num }}</div>
+        <h3>{{ item.title }}</h3>
+        <p>{{ item.body }}</p>
+      </div>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}

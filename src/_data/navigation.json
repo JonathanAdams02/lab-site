@@ -1,0 +1,10 @@
+[
+  { "key": "home", "label": "Home", "url": "/" },
+  { "key": "about", "label": "About", "url": "/about/" },
+  { "key": "people", "label": "People", "url": "/people/" },
+  { "key": "projects", "label": "Projects", "url": "/projects/" },
+  { "key": "research", "label": "Research output", "url": "/research/" },
+  { "key": "code", "label": "Code", "url": "/code/" },
+  { "key": "participate", "label": "Participate", "url": "/participate/" },
+  { "key": "contact", "label": "Contact", "url": "/contact/" }
+]

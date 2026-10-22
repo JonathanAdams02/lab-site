@@ -1,0 +1,31 @@
+---
+layout: base.njk
+navKey: research
+permalink: /research/
+---
+{%- set p = lab.pages.research -%}
+<section class="wrap research-head">
+  {% if p.eyebrow %}<div class="eyebrow">{{ p.eyebrow }}</div>{% endif %}
+  <h1 class="page-title">{{ p.title }}</h1>
+  {% if p.intro %}<p class="lede">{{ p.intro }}</p>{% endif %}
+  {% if lab.isTrue(p.show_atlas, true) %}{% include "atlas.njk" %}{% endif %}
+</section>
+
+<section class="wrap pubs">
+  <h2 class="section-title">{{ p.publications_title }}</h2>
+  {%- for year in lab.pubYears %}
+  <div class="pub-year">
+    <div class="pub-year-label">{{ year.year }}</div>
+    <div class="pub-list">
+      {%- for pub in year.items %}
+      <article class="pub">
+        <h3>{% if pub.link %}<a href="{{ pub.link }}">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}</h3>
+        {% if pub.authors %}<div class="pub-authors">{{ pub.authors }}</div>{% endif %}
+        {% if pub.journal %}<div class="pub-journal"><em>{{ pub.journal }}</em></div>{% endif %}
+      </article>
+      {%- endfor %}
+    </div>
+  </div>
+  {%- endfor %}
+  {% if p.note %}<div class="pubs-note">{{ p.note }}</div>{% endif %}
+</section>

@@ -1,0 +1,43 @@
+---
+layout: base.njk
+navKey: home
+permalink: /
+---
+{%- set p = lab.pages.home -%}
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      {% if p.eyebrow %}<div class="eyebrow">{{ p.eyebrow }}</div>{% endif %}
+      <h1>{{ p.title }}</h1>
+      {% if p.intro %}<p>{{ p.intro }}</p>{% endif %}
+      <div class="btn-row">
+        {% if p.primary_button %}<a class="btn btn-primary" href="/research/">{{ p.primary_button }}</a>{% endif %}
+        {% if p.secondary_button %}<a class="btn btn-secondary" href="/people/">{{ p.secondary_button }}</a>{% endif %}
+      </div>
+    </div>
+    <img class="hero-badge" src="{{ lab.settings.logo_round }}" alt="Neuropsychiatry KU Leuven">
+  </div>
+</section>
+
+{% if lab.isTrue(p.show_atlas, true) %}
+<section class="wrap atlas-section">
+  {% include "atlas.njk" %}
+</section>
+{% endif %}
+
+{% if p.themes and p.themes.length %}
+<section class="themes">
+  <div class="wrap">
+    <h2 class="section-title">{{ p.themes_title }}</h2>
+    <div class="card-grid-3">
+      {%- for theme in p.themes %}
+      <article class="theme-card">
+        <div class="theme-card-bar"></div>
+        <h3>{{ theme.title }}</h3>
+        <p>{{ theme.body }}</p>
+      </article>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}

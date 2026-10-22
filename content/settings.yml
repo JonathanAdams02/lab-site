@@ -1,0 +1,21 @@
+site_title: Neuropsychiatry · KU Leuven
+description: Research group at KU Leuven studying the brain mechanisms underlying psychiatric illness, at the Leuven Brain Institute.
+logo_header: /assets/img/logo-header.png
+logo_round: /assets/img/logo-round.png
+atlas_url: https://jonathanadams02.github.io/Output_Atlas/atlas
+atlas_height: 950
+general_email: neuropsychiatry@kuleuven.be
+participate_email: participate@kuleuven.be
+vacancies_email: vacancies@kuleuven.be
+github_url: https://github.com
+footer_text: |-
+  Neuropsychiatry · KU Leuven
+  Leuven Brain Institute
+elsewhere:
+  - label: KU Leuven
+    url: https://www.kuleuven.be
+  - label: Leuven Brain Institute
+    url: https://gbiomed.kuleuven.be
+  - label: UZ Leuven
+    url: https://www.uzleuven.be
+copyright: KU Leuven. All rights reserved.

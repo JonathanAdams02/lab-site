@@ -1,0 +1,31 @@
+---
+layout: base.njk
+navKey: contact
+permalink: /contact/
+---
+{%- set p = lab.pages.contact -%}
+{%- set s = lab.settings -%}
+<section class="wrap page-section contact-section">
+  {% if p.eyebrow %}<div class="eyebrow">{{ p.eyebrow }}</div>{% endif %}
+  <h1 class="page-title">{{ p.title }}</h1>
+  <div class="contact-grid">
+    <div class="contact-col">
+      {% if p.address %}<div>
+        <div class="label-lg">Visiting address</div>
+        <div class="contact-address">{{ p.address }}</div>
+      </div>{% endif %}
+      {% if s.general_email %}<div>
+        <div class="label-lg">General enquiries</div>
+        <a class="contact-email" href="mailto:{{ s.general_email }}">{{ s.general_email }}</a>
+      </div>{% endif %}
+      {% if p.joining_text or s.vacancies_email %}<div>
+        <div class="label-lg">Joining the group</div>
+        {% if p.joining_text %}<p class="contact-join">{{ p.joining_text }}</p>{% endif %}
+        {% if s.vacancies_email %}<a href="mailto:{{ s.vacancies_email }}" style="font-size: 16px">{{ s.vacancies_email }}</a>{% endif %}
+      </div>{% endif %}
+    </div>
+    <div class="contact-image">
+      {% if p.image %}<img src="{{ p.image }}" alt="">{% endif %}
+    </div>
+  </div>
+</section>

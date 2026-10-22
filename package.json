@@ -1,0 +1,17 @@
+{
+  "name": "lab-website",
+  "version": "1.0.0",
+  "description": "Neuropsychiatry KU Leuven website",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.7",
+    "gray-matter": "^4.0.3",
+    "js-yaml": "^5.5.0",
+    "markdown-it": "^15.0.3"
+  },
+  "private": true,
+  "type": "module"
+}
