@@ -4,7 +4,7 @@
     "name": "Neuropsychiatry",
     "uuid": "66b08b71-ed04-461b-bcd2-e35523a1b624"
   },
-  "updated": "2026-10-22T14:42:49.600Z",
+  "updated": "2026-10-22T14:53:44.061Z",
   "projects": [
     {
       "uuid": "abd15368-c687-4da1-9ab3-0f82d9411f39",
@@ -20,7 +20,16 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/59074371",
+      "url": "",
+      "fris_id": "59074371",
+      "fris_uri": "",
+      "identifiers": [
+        {
+          "kind": "funding",
+          "authority": "FWO Contract Id",
+          "value": "1286227N"
+        }
+      ],
       "keywords": [
         "Late Life Depression",
         "motor symptons",
@@ -41,7 +50,10 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/59177517",
+      "url": "",
+      "fris_id": "59177517",
+      "fris_uri": "",
+      "identifiers": [],
       "keywords": [
         "neuroimaging",
         "machine learning",
@@ -65,7 +77,10 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/59249955",
+      "url": "",
+      "fris_id": "59249955",
+      "fris_uri": "",
+      "identifiers": [],
       "keywords": [
         "implementation science",
         "mental health care",
@@ -88,7 +103,10 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/59156040",
+      "url": "",
+      "fris_id": "59156040",
+      "fris_uri": "",
+      "identifiers": [],
       "keywords": [
         "Late-Life Depression",
         "Waste Clearance",
@@ -97,7 +115,7 @@
     },
     {
       "uuid": "7e35f66f-be44-4f0c-b65e-edeb2cdf5473",
-      "title": "\"A multimodal PET-MR brain imaging follow-up study of accelerated ageing in late life depression \"",
+      "title": "A multimodal PET-MR brain imaging follow-up study of accelerated ageing in late life depression",
       "acronym": "",
       "abstract": "Late-life depression (LLD) is a common and debilitating psychiatric disorder associated with reduced life expectancy and substantial socioeconomic burden. This study will investigate accelerated ageing in brain micro- and macrostructure in non amyloid-associated LLD and how it impacts upon short- (5 year) and long-term (12 year) clinical outcomes. It will combine state-of-the art magnetic resonance imaging (MRI) techniques, including advanced diffusion MRI, with novel positron emission tomography (PET) techniques to assess myelin, tau and synaptic density. It will provide new fundamental knowledge about brain structural alterations, as well as clinically important knowledge about the prognosis of LLD not associated with Alzheimer’s disease, and identify potential modifiable intervention targets (e.g. cerebral vascular risk factors)",
       "start": "2026-01-01",
@@ -109,7 +127,16 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/58870462",
+      "url": "",
+      "fris_id": "58870462",
+      "fris_uri": "",
+      "identifiers": [
+        {
+          "kind": "funding",
+          "authority": "FWO Contract Id",
+          "value": "G035926N"
+        }
+      ],
       "keywords": [
         "Biological ageing",
         "Late life depression",
@@ -130,7 +157,16 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/58585865",
+      "url": "",
+      "fris_id": "58585865",
+      "fris_uri": "",
+      "identifiers": [
+        {
+          "kind": "funding",
+          "authority": "FWO Contract Id",
+          "value": "1208826N"
+        }
+      ],
       "keywords": [
         "Cognition",
         "Depression",
@@ -151,7 +187,16 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/58777265",
+      "url": "",
+      "fris_id": "58777265",
+      "fris_uri": "",
+      "identifiers": [
+        {
+          "kind": "funding",
+          "authority": "FWO Contract Id",
+          "value": "11B6C27N"
+        }
+      ],
       "keywords": [
         "Social cognition"
       ]
@@ -170,7 +215,10 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/58769010",
+      "url": "",
+      "fris_id": "58769010",
+      "fris_uri": "",
+      "identifiers": [],
       "keywords": [
         "etiology",
         "late-onset psychiatric disorders"
@@ -190,7 +238,10 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/58659209",
+      "url": "",
+      "fris_id": "58659209",
+      "fris_uri": "",
+      "identifiers": [],
       "keywords": [
         "Ultra-high-resolution PET",
         "Papez circuit",
@@ -212,7 +263,10 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/58607198",
+      "url": "",
+      "fris_id": "58607198",
+      "fris_uri": "",
+      "identifiers": [],
       "keywords": [
         "social cognition"
       ]
@@ -240,7 +294,10 @@
           "role": "Co-promoter"
         }
       ],
-      "url": "https://research.kuleuven.be/portal/en/project/58542626",
+      "url": "",
+      "fris_id": "58542626",
+      "fris_uri": "",
+      "identifiers": [],
       "keywords": [
         "Dementia"
       ]
@@ -259,7 +316,10 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/58550272",
+      "url": "",
+      "fris_id": "58550272",
+      "fris_uri": "",
+      "identifiers": [],
       "keywords": [
         "mental health disorders, organ transplantation, suicidal thoughts and behaviours"
       ]
@@ -278,7 +338,16 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/58376793",
+      "url": "",
+      "fris_id": "58376793",
+      "fris_uri": "",
+      "identifiers": [
+        {
+          "kind": "funding",
+          "authority": "FWO Contract Id",
+          "value": "G030025N"
+        }
+      ],
       "keywords": [
         "neuropsychiatry",
         "neurosymbolic artificial intelligence",
@@ -299,7 +368,16 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/58376749",
+      "url": "",
+      "fris_id": "58376749",
+      "fris_uri": "",
+      "identifiers": [
+        {
+          "kind": "funding",
+          "authority": "FWO Contract Id",
+          "value": "G019625N"
+        }
+      ],
       "keywords": [
         "insula",
         "interoception",
@@ -320,7 +398,10 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/58367563",
+      "url": "",
+      "fris_id": "58367563",
+      "fris_uri": "",
+      "identifiers": [],
       "keywords": [
         "mental health care",
         "quality of care",
@@ -344,7 +425,16 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/58117215",
+      "url": "",
+      "fris_id": "58117215",
+      "fris_uri": "",
+      "identifiers": [
+        {
+          "kind": "funding",
+          "authority": "BOF contract id",
+          "value": "PDMT2/24/089"
+        }
+      ],
       "keywords": [
         "Late Life Depression",
         "Psychomotor Symptoms",
@@ -367,7 +457,10 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/58283517",
+      "url": "",
+      "fris_id": "58283517",
+      "fris_uri": "",
+      "identifiers": [],
       "keywords": [
         "Electroconvulsive therapy",
         "Subjective memory",
@@ -389,7 +482,16 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/58105315",
+      "url": "",
+      "fris_id": "58105315",
+      "fris_uri": "",
+      "identifiers": [
+        {
+          "kind": "funding",
+          "authority": "FWO Contract Id",
+          "value": "1299125N"
+        }
+      ],
       "keywords": [
         "dementia",
         "measurement",
@@ -415,7 +517,10 @@
           "role": "Co-promoter"
         }
       ],
-      "url": "https://research.kuleuven.be/portal/en/project/58270043",
+      "url": "",
+      "fris_id": "58270043",
+      "fris_uri": "",
+      "identifiers": [],
       "keywords": [
         "Artificial Intelligence",
         "Dementia",
@@ -438,7 +543,16 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/58089595",
+      "url": "",
+      "fris_id": "58089595",
+      "fris_uri": "",
+      "identifiers": [
+        {
+          "kind": "funding",
+          "authority": "BOF contract id",
+          "value": "CELSA/24/019"
+        }
+      ],
       "keywords": [
         "sleep",
         "aggression",
@@ -465,7 +579,10 @@
           "role": "Promoter"
         }
       ],
-      "url": "https://research.kuleuven.be/portal/en/project/58066401",
+      "url": "",
+      "fris_id": "58066401",
+      "fris_uri": "",
+      "identifiers": [],
       "keywords": [
         "agitation",
         "sleep",
@@ -486,7 +603,10 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/57917904",
+      "url": "",
+      "fris_id": "57917904",
+      "fris_uri": "",
+      "identifiers": [],
       "keywords": [
         "frontotemporal dementia"
       ]
@@ -505,7 +625,16 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/57836127",
+      "url": "",
+      "fris_id": "57836127",
+      "fris_uri": "",
+      "identifiers": [
+        {
+          "kind": "funding",
+          "authority": "FWO Contract Id",
+          "value": "1283524N"
+        }
+      ],
       "keywords": [
         "white matter",
         "late-life depression"
@@ -525,7 +654,16 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/57489334",
+      "url": "",
+      "fris_id": "57489334",
+      "fris_uri": "",
+      "identifiers": [
+        {
+          "kind": "funding",
+          "authority": "BOF contract id",
+          "value": "GPUCL/23/006"
+        }
+      ],
       "keywords": [
         "insula",
         "fMRI",
@@ -547,7 +685,10 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/57631624",
+      "url": "",
+      "fris_id": "57631624",
+      "fris_uri": "",
+      "identifiers": [],
       "keywords": [
         "Dementia",
         "Sexuality"
@@ -567,7 +708,16 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/57594336",
+      "url": "",
+      "fris_id": "57594336",
+      "fris_uri": "",
+      "identifiers": [
+        {
+          "kind": "funding",
+          "authority": "BOF contract id",
+          "value": "DOA - C2M/23/053"
+        }
+      ],
       "keywords": [
         "agitation",
         "dementia",
@@ -597,7 +747,10 @@
           "role": "Co-promoter"
         }
       ],
-      "url": "https://research.kuleuven.be/portal/en/project/57851565",
+      "url": "",
+      "fris_id": "57851565",
+      "fris_uri": "",
+      "identifiers": [],
       "keywords": [
         "Electroconvulsive therapy",
         "Major depressive disorder"
@@ -617,7 +770,10 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/57646376",
+      "url": "",
+      "fris_id": "57646376",
+      "fris_uri": "",
+      "identifiers": [],
       "keywords": [
         "PET/MR",
         "synaptic density",
@@ -638,7 +794,16 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/57613462",
+      "url": "",
+      "fris_id": "57613462",
+      "fris_uri": "",
+      "identifiers": [
+        {
+          "kind": "funding",
+          "authority": "BOF contract id",
+          "value": "PDMT1/23/012"
+        }
+      ],
       "keywords": [
         "white matter",
         "late-life depression",
@@ -668,7 +833,10 @@
           "role": "Co-promoter"
         }
       ],
-      "url": "https://research.kuleuven.be/portal/en/project/57717809",
+      "url": "",
+      "fris_id": "57717809",
+      "fris_uri": "",
+      "identifiers": [],
       "keywords": [
         "Chronic low back pain",
         "Acute and chronic sleep disturbances",
@@ -689,7 +857,10 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/57782913",
+      "url": "",
+      "fris_id": "57782913",
+      "fris_uri": "",
+      "identifiers": [],
       "keywords": [
         "Insula",
         "Interoception",
@@ -711,7 +882,10 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/57782072",
+      "url": "",
+      "fris_id": "57782072",
+      "fris_uri": "",
+      "identifiers": [],
       "keywords": [
         "nighly agitation",
         "dementia",
@@ -733,7 +907,16 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/57631196",
+      "url": "",
+      "fris_id": "57631196",
+      "fris_uri": "",
+      "identifiers": [
+        {
+          "kind": "funding",
+          "authority": "FWO Contract Id",
+          "value": "1170526N"
+        }
+      ],
       "keywords": [
         "social cognition",
         "behavioural variant frontotemporal dementia",
@@ -763,7 +946,10 @@
           "role": "Promoter"
         }
       ],
-      "url": "https://research.kuleuven.be/portal/en/project/57358639",
+      "url": "",
+      "fris_id": "57358639",
+      "fris_uri": "",
+      "identifiers": [],
       "keywords": [
         "Alzheimer's disease",
         "Sleep-wake system",
@@ -788,7 +974,16 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/57358551",
+      "url": "",
+      "fris_id": "57358551",
+      "fris_uri": "",
+      "identifiers": [
+        {
+          "kind": "funding",
+          "authority": "BOF contract id",
+          "value": "KA/22/054"
+        }
+      ],
       "keywords": [
         "emotion",
         "social cognition",
@@ -812,7 +1007,16 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/56884272",
+      "url": "",
+      "fris_id": "56884272",
+      "fris_uri": "",
+      "identifiers": [
+        {
+          "kind": "funding",
+          "authority": "BOF contract id",
+          "value": "GPPKU/22/059"
+        }
+      ],
       "keywords": [
         "social cognition",
         "cross-cultural",
@@ -839,7 +1043,10 @@
           "role": "Promoter"
         }
       ],
-      "url": "https://research.kuleuven.be/portal/en/project/57074110",
+      "url": "",
+      "fris_id": "57074110",
+      "fris_uri": "",
+      "identifiers": [],
       "keywords": [
         "social cognition",
         "cultural differences"
@@ -859,7 +1066,21 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/57288136",
+      "url": "",
+      "fris_id": "57288136",
+      "fris_uri": "",
+      "identifiers": [
+        {
+          "kind": "funding",
+          "authority": "FWO Contract Id",
+          "value": "11M4625N"
+        },
+        {
+          "kind": "funding",
+          "authority": "FWO Contract Id",
+          "value": "11M4623N"
+        }
+      ],
       "keywords": [
         "EEG",
         "Eye tracking",
@@ -880,7 +1101,16 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/57346656",
+      "url": "",
+      "fris_id": "57346656",
+      "fris_uri": "",
+      "identifiers": [
+        {
+          "kind": "funding",
+          "authority": "FWO Contract Id",
+          "value": "T003222N"
+        }
+      ],
       "keywords": [
         "antidepressant efficacy",
         "cognitive effects",
@@ -901,7 +1131,10 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/57219297",
+      "url": "",
+      "fris_id": "57219297",
+      "fris_uri": "",
+      "identifiers": [],
       "keywords": [
         "Depression",
         "Lithium",
@@ -922,7 +1155,16 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/57349694",
+      "url": "",
+      "fris_id": "57349694",
+      "fris_uri": "",
+      "identifiers": [
+        {
+          "kind": "funding",
+          "authority": "EU Contract ID",
+          "value": "101057454"
+        }
+      ],
       "keywords": [
         "mental disorders",
         "treatment resistance",
@@ -946,7 +1188,16 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/56781743",
+      "url": "",
+      "fris_id": "56781743",
+      "fris_uri": "",
+      "identifiers": [
+        {
+          "kind": "funding",
+          "authority": "BOF contract id",
+          "value": "GPUM/22/022"
+        }
+      ],
       "keywords": [
         "Alzheimer's disease",
         "Sleep-wake system",
@@ -976,7 +1227,10 @@
           "role": "Promoter"
         }
       ],
-      "url": "https://research.kuleuven.be/portal/en/project/57128806",
+      "url": "",
+      "fris_id": "57128806",
+      "fris_uri": "",
+      "identifiers": [],
       "keywords": [
         "Alzheimer's disease",
         "sleep"
@@ -996,7 +1250,10 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/57357770",
+      "url": "",
+      "fris_id": "57357770",
+      "fris_uri": "",
+      "identifiers": [],
       "keywords": [
         "agressie",
         "dementie",
@@ -1018,7 +1275,16 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/56346624",
+      "url": "",
+      "fris_id": "56346624",
+      "fris_uri": "",
+      "identifiers": [
+        {
+          "kind": "funding",
+          "authority": "BOF contract id",
+          "value": "PDMT2/21/083"
+        }
+      ],
       "keywords": [
         "C9orf72",
         "Neuroimaging",
@@ -1041,7 +1307,10 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/56505591",
+      "url": "",
+      "fris_id": "56505591",
+      "fris_uri": "",
+      "identifiers": [],
       "keywords": [
         "social cognition"
       ]
@@ -1060,7 +1329,16 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/56337372",
+      "url": "",
+      "fris_id": "56337372",
+      "fris_uri": "",
+      "identifiers": [
+        {
+          "kind": "funding",
+          "authority": "BOF contract id",
+          "value": "IDN/21/010"
+        }
+      ],
       "keywords": [
         "Artificial Neural Networks",
         "Neuroscience",
@@ -1085,7 +1363,10 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/56497673",
+      "url": "",
+      "fris_id": "56497673",
+      "fris_uri": "",
+      "identifiers": [],
       "keywords": [
         "Artificial Neural Networks",
         "Neuroscience",
@@ -1110,7 +1391,10 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/56441758",
+      "url": "",
+      "fris_id": "56441758",
+      "fris_uri": "",
+      "identifiers": [],
       "keywords": [
         "Alzheimer's disease",
         "slow wave sleep",
@@ -1131,7 +1415,10 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/56413754",
+      "url": "",
+      "fris_id": "56413754",
+      "fris_uri": "",
+      "identifiers": [],
       "keywords": [
         "collaborative care",
         "psychological",
@@ -1153,7 +1440,10 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/56344690",
+      "url": "",
+      "fris_id": "56344690",
+      "fris_uri": "",
+      "identifiers": [],
       "keywords": [
         "old age",
         "imaging",
@@ -1176,7 +1466,10 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/56325804",
+      "url": "",
+      "fris_id": "56325804",
+      "fris_uri": "",
+      "identifiers": [],
       "keywords": [
         "slow wave activity",
         "alzheimer's disease"
@@ -1196,7 +1489,16 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/56130158",
+      "url": "",
+      "fris_id": "56130158",
+      "fris_uri": "",
+      "identifiers": [
+        {
+          "kind": "funding",
+          "authority": "BOF contract id",
+          "value": "KA/20/080"
+        }
+      ],
       "keywords": [
         "multimodal",
         "dyadic interaction",
@@ -1222,7 +1524,10 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/56005605",
+      "url": "",
+      "fris_id": "56005605",
+      "fris_uri": "",
+      "identifiers": [],
       "keywords": [
         "emotion",
         "social cognition",
@@ -1245,7 +1550,10 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/55955615",
+      "url": "",
+      "fris_id": "55955615",
+      "fris_uri": "",
+      "identifiers": [],
       "keywords": [
         "Epilepsy",
         "Alzheimer's Disease",
@@ -1266,7 +1574,16 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/55759037",
+      "url": "",
+      "fris_id": "55759037",
+      "fris_uri": "",
+      "identifiers": [
+        {
+          "kind": "funding",
+          "authority": "BOF contract id",
+          "value": "PDM/20/064"
+        }
+      ],
       "keywords": [
         "meaning in life",
         "old age",
@@ -1289,7 +1606,21 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/55964251",
+      "url": "",
+      "fris_id": "55964251",
+      "fris_uri": "",
+      "identifiers": [
+        {
+          "kind": "funding",
+          "authority": "FWO Contract Id",
+          "value": "11K1924N"
+        },
+        {
+          "kind": "funding",
+          "authority": "FWO Contract Id",
+          "value": "11K1922N"
+        }
+      ],
       "keywords": [
         "neuroscience",
         "neuromodulation",
@@ -1311,7 +1642,10 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/56121097",
+      "url": "",
+      "fris_id": "56121097",
+      "fris_uri": "",
+      "identifiers": [],
       "keywords": [
         "neural emotion circuits",
         "neuropsychiatric disorders"
@@ -1331,7 +1665,10 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/55814259",
+      "url": "",
+      "fris_id": "55814259",
+      "fris_uri": "",
+      "identifiers": [],
       "keywords": [
         "Artificial Intelligence",
         "Dementia",
@@ -1353,7 +1690,10 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/55770266",
+      "url": "",
+      "fris_id": "55770266",
+      "fris_uri": "",
+      "identifiers": [],
       "keywords": [
         "tau protein"
       ]
@@ -1376,7 +1716,26 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/55580279",
+      "url": "",
+      "fris_id": "55580279",
+      "fris_uri": "",
+      "identifiers": [
+        {
+          "kind": "funding",
+          "authority": "BOF contract id",
+          "value": "LBI INCUBATIEFINANC"
+        },
+        {
+          "kind": "funding",
+          "authority": "BOF contract id",
+          "value": "LBI INCUBATIEFINANCI"
+        },
+        {
+          "kind": "funding",
+          "authority": "BOF contract id",
+          "value": "LBI INCUB FINAN23-25"
+        }
+      ],
       "keywords": [
         "neuroscience",
         "cognition",
@@ -1402,7 +1761,10 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/55344068",
+      "url": "",
+      "fris_id": "55344068",
+      "fris_uri": "",
+      "identifiers": [],
       "keywords": [
         "neuroimaging",
         "late life depression",
@@ -1424,7 +1786,21 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/55036732",
+      "url": "",
+      "fris_id": "55036732",
+      "fris_uri": "",
+      "identifiers": [
+        {
+          "kind": "funding",
+          "authority": "FWO Contract Id",
+          "value": "1168823N"
+        },
+        {
+          "kind": "funding",
+          "authority": "FWO Contract Id",
+          "value": "1168821N"
+        }
+      ],
       "keywords": [
         "Depression",
         "Electroconvulsve therapy",
@@ -1445,7 +1821,16 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/54970008",
+      "url": "",
+      "fris_id": "54970008",
+      "fris_uri": "",
+      "identifiers": [
+        {
+          "kind": "funding",
+          "authority": "FWO Contract Id",
+          "value": "G0C0319N"
+        }
+      ],
       "keywords": [
         "Neurology and neurosciences"
       ]
@@ -1464,7 +1849,10 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/54959856",
+      "url": "",
+      "fris_id": "54959856",
+      "fris_uri": "",
+      "identifiers": [],
       "keywords": [
         "PET",
         "MRI",
@@ -1487,7 +1875,16 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/54689715",
+      "url": "",
+      "fris_id": "54689715",
+      "fris_uri": "",
+      "identifiers": [
+        {
+          "kind": "funding",
+          "authority": "BOF contract id",
+          "value": "C24/18/095"
+        }
+      ],
       "keywords": [
         "hippocampal volume",
         "tau pathology",
@@ -1511,7 +1908,16 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/55031475",
+      "url": "",
+      "fris_id": "55031475",
+      "fris_uri": "",
+      "identifiers": [
+        {
+          "kind": "funding",
+          "authority": "FWO Contract Id",
+          "value": "T000218N"
+        }
+      ],
       "keywords": [
         "Laboratory medicine"
       ]
@@ -1530,7 +1936,16 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/54548769",
+      "url": "",
+      "fris_id": "54548769",
+      "fris_uri": "",
+      "identifiers": [
+        {
+          "kind": "funding",
+          "authority": "FWO Contract Id",
+          "value": "1S72520N"
+        }
+      ],
       "keywords": [
         "aMCI/MBI",
         "PET/MR"
@@ -1550,7 +1965,10 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/54613847",
+      "url": "",
+      "fris_id": "54613847",
+      "fris_uri": "",
+      "identifiers": [],
       "keywords": [
         "electroconvulsive therapy (ECT)",
         "miroglial"
@@ -1575,7 +1993,10 @@
           "role": "Co-promoter"
         }
       ],
-      "url": "https://research.kuleuven.be/portal/en/project/54499441",
+      "url": "",
+      "fris_id": "54499441",
+      "fris_uri": "",
+      "identifiers": [],
       "keywords": [
         "Exergaming"
       ]
@@ -1594,7 +2015,16 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/54520141",
+      "url": "",
+      "fris_id": "54520141",
+      "fris_uri": "",
+      "identifiers": [
+        {
+          "kind": "funding",
+          "authority": "FWO Contract Id",
+          "value": "G093218N"
+        }
+      ],
       "keywords": [
         "Synaptic density",
         "Tau deposits",
@@ -1617,7 +2047,10 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/56815814",
+      "url": "",
+      "fris_id": "56815814",
+      "fris_uri": "",
+      "identifiers": [],
       "keywords": [
         "neurodegeneration",
         "emotion perception abilities",
@@ -1639,7 +2072,10 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/54269993",
+      "url": "",
+      "fris_id": "54269993",
+      "fris_uri": "",
+      "identifiers": [],
       "keywords": [
         "Exergame",
         "dance",
@@ -1664,7 +2100,10 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/54023364",
+      "url": "",
+      "fris_id": "54023364",
+      "fris_uri": "",
+      "identifiers": [],
       "keywords": [
         "Emotion",
         "Memory",
@@ -1687,7 +2126,10 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/53814843",
+      "url": "",
+      "fris_id": "53814843",
+      "fris_uri": "",
+      "identifiers": [],
       "keywords": [
         "Eye-tracking"
       ]
@@ -1706,7 +2148,10 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/54007392",
+      "url": "",
+      "fris_id": "54007392",
+      "fris_uri": "",
+      "identifiers": [],
       "keywords": [
         "neurodegenerative disorders"
       ]
@@ -1725,7 +2170,10 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/53301256",
+      "url": "",
+      "fris_id": "53301256",
+      "fris_uri": "",
+      "identifiers": [],
       "keywords": [
         "action recognition",
         "brain",
@@ -1746,7 +2194,16 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/53229364",
+      "url": "",
+      "fris_id": "53229364",
+      "fris_uri": "",
+      "identifiers": [
+        {
+          "kind": "funding",
+          "authority": "FWO Contract Id",
+          "value": "G065715N"
+        }
+      ],
       "keywords": [
         "Comparatieve functionele MRI studie"
       ]
@@ -1765,7 +2222,10 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/53241913",
+      "url": "",
+      "fris_id": "53241913",
+      "fris_uri": "",
+      "identifiers": [],
       "keywords": [
         "early bv-FTD",
         "AD",
@@ -1791,7 +2251,26 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/52645855",
+      "url": "",
+      "fris_id": "52645855",
+      "fris_uri": "",
+      "identifiers": [
+        {
+          "kind": "funding",
+          "authority": "BOF contract id",
+          "value": "DB/13/001/BM"
+        },
+        {
+          "kind": "funding",
+          "authority": "FWO Contract Id",
+          "value": "11Z8917N"
+        },
+        {
+          "kind": "funding",
+          "authority": "FWO Contract Id",
+          "value": "11Z8915N"
+        }
+      ],
       "keywords": [
         "Parkinson"
       ]
@@ -1810,7 +2289,16 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/52412751",
+      "url": "",
+      "fris_id": "52412751",
+      "fris_uri": "",
+      "identifiers": [
+        {
+          "kind": "funding",
+          "authority": "FWO Contract Id",
+          "value": "1507213N"
+        }
+      ],
       "keywords": [
         "Brains",
         "Motion and eccentricity",
@@ -1831,7 +2319,16 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/52318302",
+      "url": "",
+      "fris_id": "52318302",
+      "fris_uri": "",
+      "identifiers": [
+        {
+          "kind": "funding",
+          "authority": "FWO Contract Id",
+          "value": "G088813N"
+        }
+      ],
       "keywords": [
         "reward",
         "dopaminergic"
@@ -1851,7 +2348,16 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/51670179",
+      "url": "",
+      "fris_id": "51670179",
+      "fris_uri": "",
+      "identifiers": [
+        {
+          "kind": "funding",
+          "authority": "FWO Contract Id",
+          "value": "12L1915N"
+        }
+      ],
       "keywords": [
         "Emotion",
         "Movement",
@@ -1877,7 +2383,10 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/51317837",
+      "url": "",
+      "fris_id": "51317837",
+      "fris_uri": "",
+      "identifiers": [],
       "keywords": [
         "Neurophysiology"
       ]
@@ -1896,7 +2405,16 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/51316610",
+      "url": "",
+      "fris_id": "51316610",
+      "fris_uri": "",
+      "identifiers": [
+        {
+          "kind": "funding",
+          "authority": "FWO Contract Id",
+          "value": "1265714N"
+        }
+      ],
       "keywords": [
         "Functional imaging",
         "Human",
@@ -1922,7 +2440,10 @@
         }
       ],
       "participants": [],
-      "url": "https://research.kuleuven.be/portal/en/project/51476263",
+      "url": "",
+      "fris_id": "51476263",
+      "fris_uri": "",
+      "identifiers": [],
       "keywords": [
         "psychosis",
         "old age"
