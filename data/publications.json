@@ -1,6 +1,6 @@
 {
   "source": "OpenAlex (https://openalex.org)",
-  "updated": "2026-10-22T13:15:30.087Z",
+  "updated": "2026-10-22T13:21:01.681Z",
   "works": [
     {
       "openalex": "W7212119714",
@@ -15,7 +15,7 @@
       "authors": [
         {
           "name": "Jonathan Adams",
-          "member": false
+          "member": true
         },
         {
           "name": "Doğa Gündem",
