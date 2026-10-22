@@ -143,15 +143,19 @@ function buildProjects(settings, manualEntries) {
       const people = p.participants || [];
       const main = people.filter((x) => leadRe.test(x.role) && !/\bco-?/i.test(x.role));
       const leads = (main.length ? main : people.filter((x) => leadRe.test(x.role))).map((x) => x.name);
-      const funders = (p.funding || []).map((f) => f.code || f.funders.join(", ")).filter(Boolean);
+      // "Own budget, for example: patrimony…" -> "Own budget"; "(including WEAVE projects)" dropped.
+      const tidy = (t) => String(t).split(/,\s*for example/i)[0].replace(/\s*\((incl\.?|including)[^)]*\)/i, "").trim();
+      const funders = (p.funding || []).map((f) => tidy(f.code || f.funders.join(", "))).filter(Boolean);
       return {
-        title: p.title,
+        title: String(p.title).replace(/^["“'\s]+|["”'\s]+$/g, ""),
         status: p.start && p.start > today ? "Upcoming" : p.end && p.end < today ? "Completed" : "Ongoing",
         period: p.end ? `${year(p.start)} – ${year(p.end)}` : p.start ? `Since ${year(p.start)}` : "",
         html: short ? `<p>${escapeHtml(short)}</p>` : "",
         lead: [...new Set(leads)].join(", "),
         funder: [...new Set(funders)].join(", "),
-        url: p.url,
+        // Older imports built links from FRIS's internal number, which the
+        // KU Leuven portal doesn't recognise (…/project/59074371) — skip those.
+        url: /research\.kuleuven\.be\/portal\/en\/project\/\d+$/.test(p.url || "") ? "" : p.url,
         start: p.start || "",
       };
     });

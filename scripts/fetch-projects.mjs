@@ -161,6 +161,7 @@ const raw = await fetchAll(
   "projects", "entity.created", "project"
 );
 
+const KUL_CODE_RE = /^[0-9][A-Z][0-9]{6}$/; // e.g. 3M230323, 3E220123
 const isoDate = (d) => (d ? String(d).slice(0, 10) : "");
 const projects = raw
   .filter((p) => String(p.hidden) !== "true" && (!p.state || p.state === "PUBLIC"))
@@ -181,13 +182,19 @@ const projects = raw
       return { code: localized(fc.description) || fc.acronym || "", funders };
     }).filter((f) => f.code || f.funders.length);
 
-    const provider = JSON.stringify(p.dataProvider || "").toLowerCase();
-    const dpId = String(p.dataProviderId || "").trim();
-    const kuleuvenUrl = dpId && provider.includes("leuven") ? `https://research.kuleuven.be/portal/en/project/${encodeURIComponent(dpId)}` : "";
+    // All identifiers FRIS gives for the project. The KU Leuven research
+    // portal addresses projects by their KU Leuven project code (e.g. 3M230323),
+    // which is not the FRIS dataProviderId — so look for a code of that shape.
+    const identifiers = [
+      ...arr(p.sources?.source).map((x) => ({ kind: "source", authority: x?.["@authority"] || "", value: String(x?.["#text"] ?? x ?? "").trim() })),
+      ...arr(p.fundingIdentifiers?.fundingIdentifier).map((x) => ({ kind: "funding", authority: x?.["@authority"] || "", value: String(x?.["#text"] ?? x ?? "").trim() })),
+    ].filter((x) => x.value);
+    const kulCode = identifiers.map((x) => x.value).find((v) => KUL_CODE_RE.test(v));
+    const kuleuvenUrl = kulCode ? `https://research.kuleuven.be/portal/en/project/${encodeURIComponent(kulCode)}` : "";
 
     return {
       uuid: p["@uuid"],
-      title: localized(p.name),
+      title: localized(p.name).replace(/^["“'\s]+|["”'\s]+$/g, ""),
       acronym: p.acronym || "",
       abstract: localized(p.projectAbstract),
       start: isoDate(p.startDate),
@@ -195,11 +202,21 @@ const projects = raw
       funding,
       participants,
       url: kuleuvenUrl || (p.homepage ? String(p.homepage) : ""),
+      fris_id: String(p.dataProviderId || ""),
+      fris_uri: p["@uri"] || "",
+      identifiers,
       keywords: arr(p.keywords?.keyword).map((k) => clean(typeof k === "string" ? k : k?.["#text"])).filter(Boolean),
     };
   })
   .filter((p) => p.title)
   .sort((a, b) => (b.start || "").localeCompare(a.start || "") || a.title.localeCompare(b.title));
+
+// Show a few examples in the log, to help check identifiers and links.
+for (const p of projects.slice(0, 3)) {
+  console.log(`  e.g. "${p.title.slice(0, 60)}" → link: ${p.url || "(none)"} | ids: ${p.identifiers.map((x) => `${x.kind}:${x.authority}:${x.value}`).join(", ") || "(none)"} | uri: ${p.fris_uri || "(none)"}`);
+}
+const linked = projects.filter((p) => p.url).length;
+console.log(`${linked} of ${projects.length} projects have a link to their portal page.`);
 
 // ---------- 3. Save (keep the old timestamp when nothing changed) ----------
 let previous = null;
