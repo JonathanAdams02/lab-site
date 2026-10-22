@@ -1,0 +1,53 @@
+# Refreshes the project list from FRIS (Flemish research portal) every Monday
+# morning, and whenever the project settings change. If anything changed, it
+# saves data/projects.json, which then republishes the site.
+name: Update projects
+
+on:
+  schedule:
+    - cron: "37 4 * * 1" # Mondays 04:37 UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "content/projects-settings.yml"
+      - "scripts/fetch-projects.mjs"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: projects
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Fetch from FRIS
+        run: node scripts/fetch-projects.mjs
+      - name: Keep the raw FRIS answers if something went wrong
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: fris-debug
+          path: fris-debug/
+          retention-days: 7
+      - name: Save changes
+        run: |
+          if git diff --quiet -- data/projects.json; then
+            echo "Project list unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/projects.json
+          git commit -m "Update project list from FRIS"
+          git pull --rebase
+          git push

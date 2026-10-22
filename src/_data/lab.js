@@ -107,6 +107,59 @@ function buildPublications(settings, manualEntries) {
   return all.sort((a, b) => String(b.date || b.year).localeCompare(String(a.date || a.year)));
 }
 
+// Projects: those fetched from FRIS (data/projects.json, refreshed weekly)
+// plus any added by hand, filtered by the Project list settings.
+function buildProjects(settings, manualEntries) {
+  const today = new Date().toISOString().slice(0, 10);
+  const completedYears = settings.show_completed_years === undefined || settings.show_completed_years === ""
+    ? 2 : Number(settings.show_completed_years) || 0;
+  const cutoff = `${new Date().getFullYear() - completedYears}-01-01`;
+  const hideInternal = settings.hide_internal !== false;
+  const internalWords = (settings.internal_keywords || ["own budget", "eigen budget", "own funds"])
+    .map((w) => String(w).toLowerCase()).filter(Boolean);
+  const leadRe = /promot|principal|coordinat|supervis|spokes|lead|hoofd/i;
+  const maxWords = Number(settings.max_description_words) || 70;
+  const excluded = (settings.exclude || [])
+    .map((e) => String(typeof e === "string" ? e : e?.id || "").trim().toLowerCase())
+    .filter(Boolean);
+
+  let fris = [];
+  try {
+    fris = JSON.parse(fs.readFileSync(path.resolve("data", "projects.json"), "utf8")).projects || [];
+  } catch {}
+
+  const year = (d) => (d ? String(d).slice(0, 4) : "");
+  fris = fris
+    .filter((p) => !excluded.some((e) => e === String(p.uuid).toLowerCase() || e === p.title.toLowerCase() || (p.url && p.url.toLowerCase().endsWith(e))))
+    .filter((p) => {
+      if (!hideInternal) return true;
+      const codes = (p.funding || []).map((f) => `${f.code} ${f.funders.join(" ")}`.toLowerCase());
+      return !codes.length || !codes.every((c) => internalWords.some((w) => c.includes(w)));
+    })
+    .filter((p) => !p.end || p.end >= today || (completedYears > 0 && p.end >= cutoff))
+    .map((p) => {
+      const words = (p.abstract || "").split(/\s+/).filter(Boolean);
+      const short = words.length > maxWords ? words.slice(0, maxWords).join(" ") + " …" : words.join(" ");
+      const people = p.participants || [];
+      const main = people.filter((x) => leadRe.test(x.role) && !/\bco-?/i.test(x.role));
+      const leads = (main.length ? main : people.filter((x) => leadRe.test(x.role))).map((x) => x.name);
+      const funders = (p.funding || []).map((f) => f.code || f.funders.join(", ")).filter(Boolean);
+      return {
+        title: p.title,
+        status: p.start && p.start > today ? "Upcoming" : p.end && p.end < today ? "Completed" : "Ongoing",
+        period: p.end ? `${year(p.start)} – ${year(p.end)}` : p.start ? `Since ${year(p.start)}` : "",
+        html: short ? `<p>${escapeHtml(short)}</p>` : "",
+        lead: [...new Set(leads)].join(", "),
+        funder: [...new Set(funders)].join(", "),
+        url: p.url,
+        start: p.start || "",
+      };
+    });
+
+  const manual = manualEntries.filter((p) => p.title).sort(byOrder("title"));
+  return [...manual, ...fris];
+}
+
 function isTrue(value, fallback) {
   if (value === undefined || value === null || value === "") return fallback;
   return value === true || value === "true";
@@ -143,7 +196,13 @@ export default function () {
     items: pubs.filter((p) => String(p.year ?? "") === year),
   }));
 
-  const projects = readFolder("projects").filter((p) => p.title).sort(byOrder("title"));
+  const projectSettings = readYaml(path.join(root, "projects-settings.yml"));
+  const projects = buildProjects(projectSettings, readFolder("projects"));
+  let projectsUpdated = null;
+  try {
+    const u = JSON.parse(fs.readFileSync(path.resolve("data", "projects.json"), "utf8")).updated;
+    if (u) projectsUpdated = new Date(u).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" });
+  } catch {}
   const studies = readFolder("studies")
     .filter((s) => s.title && isTrue(s.recruiting, true))
     .sort(byOrder("title"));
@@ -161,6 +220,8 @@ export default function () {
     pubYears,
     pubsUpdated,
     projects,
+    projectSettings,
+    projectsUpdated,
     studies,
     isTrue,
     year: new Date().getFullYear(),

@@ -11,8 +11,9 @@ content/      ← everything editors change (Pages CMS edits these files)
   studies/      one file per recruiting study
   settings.yml  emails, logos, atlas address, footer links
   publications.yml  settings for the automatic publication list
-data/publications.json  ← publication list fetched from OpenAlex (updated automatically)
-scripts/      ← the OpenAlex fetch script
+  projects-settings.yml  settings for the automatic project list
+data/         ← lists fetched automatically: publications (OpenAlex), projects (FRIS)
+scripts/      ← the fetch scripts
 media/        ← photos uploaded through Pages CMS
 src/          ← design: page templates, stylesheet, fonts, logos
 .pages.yml    ← defines the editing forms
@@ -76,6 +77,22 @@ Lab members are shown in **bold** in author lists. Because the update runs on Gi
 >
 > GitHub pauses scheduled jobs in repositories with no activity for 60 days. If the list stops updating, open Actions → *Update publications* and re-enable it, or just save any change in Pages CMS.
 
+## 5 · Automatic project list
+
+The *Projects* page fills itself from **FRIS**, the Flemish research portal. It holds the same project records as the KU Leuven research portal, offered as open data (source: Flemish government, Department of Economy, Science and Innovation).
+
+1. In GitHub, go to the **Actions** tab → *Update projects* → **Run workflow** once. After that it runs **every Monday**, and republishes the site when something changed.
+2. In Pages CMS → **Extra projects (manual)**, **delete the four placeholder projects**.
+
+How the list behaves, adjustable in Pages CMS → **Project list settings**:
+- **Internal "own budget" research lines are hidden.** Only funded projects show. Untick to show everything.
+- **Completed projects** stay visible for 2 years (set 0 to show only current and upcoming ones).
+- Descriptions are shortened to 70 words, with a link to the full project page on the KU Leuven research portal.
+- **Hide these projects**: paste the title of any project that shouldn't appear.
+- Anything missing from FRIS can be added under **Extra projects (manual)**. These appear at the top.
+
+If the job can't decide which FRIS unit is yours (there may be several units called "Neuropsychiatry"), it stops and lists the candidates in its log. Copy the right ID into *FRIS unit ID* in Project list settings. If it fails for another reason, the run page has a **fris-debug** download with FRIS's raw answers, which helps whoever fixes it.
+
 ---
 
 ## Editing guide (for everyone)
@@ -88,7 +105,7 @@ Log in at **app.pagescms.org**, open the site, then:
 | Get someone's **publications** listed | **People** → their entry → fill in the **ORCID iD**. Papers appear automatically (see section 4). |
 | Add a publication OpenAlex missed | **Extra publications (manual)** → *Add an entry*. |
 | Hide a wrong publication | **Publication list settings** → *Hide these publications* → paste its DOI. |
-| Add or update a **project** | **Projects**. Use *Position in the list* to set the order. |
+| Change which **projects** show | **Project list settings** (they come from FRIS automatically, see section 5). Add one by hand under **Extra projects (manual)**. |
 | Open or close a **recruiting study** | **Recruiting studies**. Untick *Currently recruiting* to hide a study without deleting it. |
 | Change **page texts** (intro, About, Contact…) | **Page texts** → the page. |
 | Change **emails, logos, footer links, atlas address** | **Site settings** |

@@ -301,8 +301,54 @@ content:
       - { name: link, label: Link (DOI or publisher page, optional), type: string }
       - { name: order, label: Position within the year (optional), type: number }
 
+  - name: project_settings
+    label: Project list settings
+    type: file
+    path: content/projects-settings.yml
+    format: yaml
+    fields:
+      - name: hide_internal
+        label: Hide internally funded research lines ("own budget")
+        type: boolean
+        default: true
+      - name: show_completed_years
+        label: Keep completed projects visible for this many years
+        type: number
+        description: 0 = only current and upcoming projects.
+      - name: max_description_words
+        label: Words of the project description to show
+        type: number
+      - name: exclude
+        label: Hide these projects
+        description: Paste the project title exactly as shown on the site, or the link of its KU Leuven research portal page.
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{id}"
+        fields:
+          - { name: id, label: Project title or portal link, type: string }
+          - { name: note, label: Reason (optional), type: string }
+      - { name: portal_link, label: Link to the full project list, type: string }
+      - { name: portal_link_text, label: Text for that link, type: string }
+      - name: fris_unit_name
+        label: Unit name in FRIS (advanced)
+        type: string
+      - name: fris_unit_uuid
+        label: FRIS unit ID (advanced, optional)
+        type: string
+        description: Only needed if the automatic lookup picks the wrong unit — the weekly job's log lists the candidates.
+      - name: fris_parent_keywords
+        label: Words identifying the parent institution (advanced)
+        type: string
+        list: true
+      - name: internal_keywords
+        label: Funding words that count as internal (advanced)
+        type: string
+        list: true
+
   - name: projects
-    label: Projects
+    label: Extra projects (manual)
     type: collection
     path: content/projects
     filename: "{fields.title}.md"

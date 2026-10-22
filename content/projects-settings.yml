@@ -1,0 +1,15 @@
+# Settings for the automatic project list from FRIS (edited through Pages CMS).
+fris_unit_name: Neuropsychiatry
+fris_unit_uuid: ""
+fris_parent_keywords:
+  - Leuven
+hide_internal: true
+internal_keywords:
+  - own budget
+  - eigen budget
+  - own funds
+show_completed_years: 2
+max_description_words: 70
+portal_link: https://research.kuleuven.be/portal/en/unit/54467725#research_projects
+portal_link_text: All our projects on the KU Leuven research portal
+exclude: []
