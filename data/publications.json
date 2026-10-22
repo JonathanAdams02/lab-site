@@ -1,6 +1,6 @@
 {
   "source": "OpenAlex (https://openalex.org)",
-  "updated": "2026-10-22T13:14:21.755Z",
+  "updated": "2026-10-22T13:15:30.087Z",
   "works": [
     {
       "openalex": "W7212119714",
@@ -4945,6 +4945,1410 @@
         }
       ],
       "author_count": 6
+    },
+    {
+      "openalex": "W2769670361",
+      "doi": "10.1002/brb3.843",
+      "title": "Moral processing deficit in behavioral variant frontotemporal dementia is associated with facial emotion recognition and brain changes in default mode and salience network areas",
+      "year": 2017,
+      "date": "2017-11-29",
+      "type": "article",
+      "journal": "Brain and Behavior",
+      "url": "https://doi.org/10.1002/brb3.843",
+      "open_access_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/brb3.843",
+      "authors": [
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Daphne Stam",
+          "member": false
+        },
+        {
+          "name": "François‐Laurent De Winter",
+          "member": false
+        },
+        {
+          "name": "Dante Mantini",
+          "member": false
+        },
+        {
+          "name": "Benedikt Szmrecsanyi",
+          "member": false
+        },
+        {
+          "name": "Koen Van Laere",
+          "member": false
+        },
+        {
+          "name": "Rik R. Vandenberghe",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        }
+      ],
+      "author_count": 8
+    },
+    {
+      "openalex": "W2749257472",
+      "doi": "10.1016/j.cortex.2017.08.013",
+      "title": "Behavioural variant frontotemporal dementia: At the interface of interoception, emotion and social cognition?",
+      "year": 2017,
+      "date": "2017-08-16",
+      "type": "article",
+      "journal": "Cortex",
+      "url": "https://doi.org/10.1016/j.cortex.2017.08.013",
+      "open_access_url": "https://cris.maastrichtuniversity.nl/en/publications/76e86202-05d8-4e08-bf9d-2765d7570465",
+      "authors": [
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Fiona Kumfor",
+          "member": false
+        }
+      ],
+      "author_count": 2
+    },
+    {
+      "openalex": "W2598157497",
+      "doi": "10.1016/j.cortex.2017.03.003",
+      "title": "Interaction between identity and emotion versus visual basic object recognition deficits: A commentary on Biotti & Cook",
+      "year": 2017,
+      "date": "2017-03-21",
+      "type": "article",
+      "journal": "Cortex",
+      "url": "https://doi.org/10.1016/j.cortex.2017.03.003",
+      "open_access_url": "",
+      "authors": [
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        }
+      ],
+      "author_count": 1
+    },
+    {
+      "openalex": "W2605892591",
+      "doi": "10.1007/978-3-319-68421-5_12",
+      "title": "Clinical Studies of Social Neuroscience: A Lesion Model Approach",
+      "year": 2017,
+      "date": "2017-01-01",
+      "type": "book-chapter",
+      "journal": "Springer eBooks",
+      "url": "https://doi.org/10.1007/978-3-319-68421-5_12",
+      "open_access_url": "",
+      "authors": [
+        {
+          "name": "Fiona Kumfor",
+          "member": false
+        },
+        {
+          "name": "Jessica L. Hazelton",
+          "member": false
+        },
+        {
+          "name": "François‐Laurent De Winter",
+          "member": false
+        },
+        {
+          "name": "Laurent Cleret de Langavant",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        }
+      ],
+      "author_count": 5
+    },
+    {
+      "openalex": "W2515590939",
+      "doi": "10.1176/appi.ajp.2016.16030319",
+      "title": "No Association of Lower Hippocampal Volume With Alzheimer’s Disease Pathology in Late-Life Depression",
+      "year": 2016,
+      "date": "2016-08-19",
+      "type": "article",
+      "journal": "American Journal of Psychiatry",
+      "url": "https://doi.org/10.1176/appi.ajp.2016.16030319",
+      "open_access_url": "https://ajp.psychiatryonline.org/doi/pdf/10.1176/appi.ajp.2016.16030319",
+      "authors": [
+        {
+          "name": "François‐Laurent De Winter",
+          "member": false
+        },
+        {
+          "name": "Louise Emsell",
+          "member": false
+        },
+        {
+          "name": "Filip Bouckaert",
+          "member": false
+        },
+        {
+          "name": "Lene Claes",
+          "member": false
+        },
+        {
+          "name": "Saurabh Jain",
+          "member": false
+        },
+        {
+          "name": "Gill Farrar",
+          "member": false
+        },
+        {
+          "name": "Thibo Billiet",
+          "member": false
+        },
+        {
+          "name": "Stephan Evers",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Pascal A. Sienaert",
+          "member": false
+        },
+        {
+          "name": "Jasmien Obbels",
+          "member": false
+        },
+        {
+          "name": "Stefan G. Sunaert",
+          "member": false
+        },
+        {
+          "name": "Katarzyna Adamczuk",
+          "member": false
+        },
+        {
+          "name": "Rik R. Vandenberghe",
+          "member": false
+        },
+        {
+          "name": "Koen Van Laere",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        }
+      ],
+      "author_count": 16
+    },
+    {
+      "openalex": "W2520564956",
+      "doi": "10.1002/hbm.23322",
+      "title": "Functional dissociation between anterior temporal lobe and inferior frontal gyrus in the processing of dynamic body expressions: Insights from behavioral variant frontotemporal dementia",
+      "year": 2016,
+      "date": "2016-08-11",
+      "type": "article",
+      "journal": "Human Brain Mapping",
+      "url": "https://doi.org/10.1002/hbm.23322",
+      "open_access_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6867423",
+      "authors": [
+        {
+          "name": "Jan Jastorff",
+          "member": false
+        },
+        {
+          "name": "François‐Laurent De Winter",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Rik R. Vandenberghe",
+          "member": false
+        },
+        {
+          "name": "Martin A. Giese",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        }
+      ],
+      "author_count": 6
+    },
+    {
+      "openalex": "W2416695168",
+      "doi": "10.1016/j.cortex.2016.06.001",
+      "title": "Amygdala atrophy affects emotion-related activity in face-responsive regions in frontotemporal degeneration",
+      "year": 2016,
+      "date": "2016-06-11",
+      "type": "article",
+      "journal": "Cortex",
+      "url": "https://doi.org/10.1016/j.cortex.2016.06.001",
+      "open_access_url": "https://doi.org/10.1016/j.cortex.2016.06.001",
+      "authors": [
+        {
+          "name": "François‐Laurent De Winter",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Béatrice de Gelder",
+          "member": false
+        },
+        {
+          "name": "Ronald R. Peeters",
+          "member": false
+        },
+        {
+          "name": "Jan Jastorff",
+          "member": false
+        },
+        {
+          "name": "Stefan G. Sunaert",
+          "member": false
+        },
+        {
+          "name": "Wim Vanduffel",
+          "member": false
+        },
+        {
+          "name": "Rik R. Vandenberghe",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        }
+      ],
+      "author_count": 9
+    },
+    {
+      "openalex": "W2409804970",
+      "doi": "10.2967/jnumed.116.176032",
+      "title": "Positive Association Between Limbic Metabotropic Glutamate Receptor 5 Availability and Novelty-Seeking Temperament in Humans: An 18F-FPEB PET Study",
+      "year": 2016,
+      "date": "2016-06-09",
+      "type": "article",
+      "journal": "Journal of Nuclear Medicine",
+      "url": "https://doi.org/10.2967/jnumed.116.176032",
+      "open_access_url": "http://jnm.snmjournals.org/content/57/11/1746.full.pdf",
+      "authors": [
+        {
+          "name": "Gil Leurquin‐Sterk",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Cleo Lina Crunelle",
+          "member": false
+        },
+        {
+          "name": "Bart de Laat",
+          "member": false
+        },
+        {
+          "name": "Akila Weerasekera",
+          "member": false
+        },
+        {
+          "name": "Uwe Himmelreich",
+          "member": false
+        },
+        {
+          "name": "Guy M Bormans",
+          "member": false
+        },
+        {
+          "name": "Koen Van Laere",
+          "member": false
+        }
+      ],
+      "author_count": 8
+    },
+    {
+      "openalex": "W2296277443",
+      "doi": "10.1016/j.nicl.2016.03.001",
+      "title": "Face shape and face identity processing in behavioral variant fronto-temporal dementia: A specific deficit for familiarity and name recognition of famous faces",
+      "year": 2016,
+      "date": "2016-01-01",
+      "type": "article",
+      "journal": "NeuroImage Clinical",
+      "url": "https://doi.org/10.1016/j.nicl.2016.03.001",
+      "open_access_url": "https://www.sciencedirect.com/science/article/pii/S2213158216300432/pdf",
+      "authors": [
+        {
+          "name": "François‐Laurent De Winter",
+          "member": false
+        },
+        {
+          "name": "Dorien Timmers",
+          "member": false
+        },
+        {
+          "name": "Béatrice de Gelder",
+          "member": false
+        },
+        {
+          "name": "Marc Van Orshoven",
+          "member": false
+        },
+        {
+          "name": "Marleen Vieren",
+          "member": false
+        },
+        {
+          "name": "Miriam Bouckaert",
+          "member": false
+        },
+        {
+          "name": "Gert Cypers",
+          "member": false
+        },
+        {
+          "name": "J.F.V. Caekebeke",
+          "member": false
+        },
+        {
+          "name": "Laura Van de Vliet",
+          "member": false
+        },
+        {
+          "name": "Karolien E. Goffin",
+          "member": false
+        },
+        {
+          "name": "Koen Van Laere",
+          "member": false
+        },
+        {
+          "name": "Stefan G. Sunaert",
+          "member": false
+        },
+        {
+          "name": "Rik R. Vandenberghe",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        }
+      ],
+      "author_count": 15
+    },
+    {
+      "openalex": "W1821433401",
+      "doi": "10.3389/fpsyg.2015.01609",
+      "title": "The Facial Expressive Action Stimulus Test. A test battery for the assessment of face memory, face and object perception, configuration processing, and facial expression recognition",
+      "year": 2015,
+      "date": "2015-10-29",
+      "type": "article",
+      "journal": "Frontiers in Psychology",
+      "url": "https://doi.org/10.3389/fpsyg.2015.01609",
+      "open_access_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2015.01609/pdf",
+      "authors": [
+        {
+          "name": "Béatrice de Gelder",
+          "member": false
+        },
+        {
+          "name": "Elisabeth M.J. Huis in ’t Veld",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        }
+      ],
+      "author_count": 3
+    },
+    {
+      "openalex": "W2280719442",
+      "doi": "10.1038/srep13779",
+      "title": "Personality traits predict brain activation and connectivity when witnessing a violent conflict",
+      "year": 2015,
+      "date": "2015-09-04",
+      "type": "article",
+      "journal": "Scientific Reports",
+      "url": "https://doi.org/10.1038/srep13779",
+      "open_access_url": "https://www.nature.com/articles/srep13779.pdf",
+      "authors": [
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Ruud Hortensius",
+          "member": false
+        },
+        {
+          "name": "Charlotte B. A. Sinke",
+          "member": false
+        },
+        {
+          "name": "Rainer Goebel",
+          "member": false
+        },
+        {
+          "name": "Béatrice de Gelder",
+          "member": false
+        }
+      ],
+      "author_count": 5
+    },
+    {
+      "openalex": "W843013333",
+      "doi": "10.1016/j.neuropsychologia.2015.06.035",
+      "title": "Impaired recognition of body expressions in the behavioral variant of frontotemporal dementia",
+      "year": 2015,
+      "date": "2015-07-08",
+      "type": "article",
+      "journal": "Neuropsychologia",
+      "url": "https://doi.org/10.1016/j.neuropsychologia.2015.06.035",
+      "open_access_url": "https://lirias.kuleuven.be/handle/123456789/505855",
+      "authors": [
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "François‐Laurent De Winter",
+          "member": false
+        },
+        {
+          "name": "Béatrice de Gelder",
+          "member": false
+        },
+        {
+          "name": "Janaki Raman Rangarajan",
+          "member": false
+        },
+        {
+          "name": "Gert Cypers",
+          "member": false
+        },
+        {
+          "name": "Frederik Maes",
+          "member": false
+        },
+        {
+          "name": "Stefan G. Sunaert",
+          "member": false
+        },
+        {
+          "name": "Karolien E. Goffin",
+          "member": false
+        },
+        {
+          "name": "Rik R. Vandenberghe",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        }
+      ],
+      "author_count": 10
+    },
+    {
+      "openalex": "W1951838487",
+      "doi": "10.1002/hbm.22799",
+      "title": "Functional brain changes underlying irritability in premanifest H untington's disease",
+      "year": 2015,
+      "date": "2015-04-08",
+      "type": "article",
+      "journal": "Human Brain Mapping",
+      "url": "https://doi.org/10.1002/hbm.22799",
+      "open_access_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6869704",
+      "authors": [
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "François‐Laurent De Winter",
+          "member": false
+        },
+        {
+          "name": "Rawaha U. Ahmad",
+          "member": false
+        },
+        {
+          "name": "Stefan G. Sunaert",
+          "member": false
+        },
+        {
+          "name": "Koen Van Laere",
+          "member": false
+        },
+        {
+          "name": "Wim Vandenberghe",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        }
+      ],
+      "author_count": 7
+    },
+    {
+      "openalex": "W4246677773",
+      "doi": "10.1016/b978-0-08-097086-8.56015-2",
+      "title": "Prosopagnosia",
+      "year": 2015,
+      "date": "2015-01-01",
+      "type": "reference-entry",
+      "journal": "Elsevier eBooks",
+      "url": "https://doi.org/10.1016/b978-0-08-097086-8.56015-2",
+      "open_access_url": "",
+      "authors": [
+        {
+          "name": "Béatrice de Gelder",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        }
+      ],
+      "author_count": 2
+    },
+    {
+      "openalex": "W2154986157",
+      "doi": "10.1016/j.cortex.2014.11.009",
+      "title": "Visual imagery influences brain responses to visual stimulation in bilateral cortical blindness",
+      "year": 2014,
+      "date": "2014-12-01",
+      "type": "article",
+      "journal": "Cortex",
+      "url": "https://doi.org/10.1016/j.cortex.2014.11.009",
+      "open_access_url": "https://cris.maastrichtuniversity.nl/en/publications/9e5a8bd4-b18b-4270-9bf3-128f27fd18a9",
+      "authors": [
+        {
+          "name": "Béatrice de Gelder",
+          "member": false
+        },
+        {
+          "name": "Marco Tamietto",
+          "member": false
+        },
+        {
+          "name": "Alan John Pegna",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        }
+      ],
+      "author_count": 4
+    },
+    {
+      "openalex": "W2104829875",
+      "doi": "10.1016/j.neuroimage.2014.11.020",
+      "title": "Lateralization for dynamic facial expressions in human superior temporal sulcus",
+      "year": 2014,
+      "date": "2014-11-17",
+      "type": "article",
+      "journal": "NeuroImage",
+      "url": "https://doi.org/10.1016/j.neuroimage.2014.11.020",
+      "open_access_url": "https://cris.maastrichtuniversity.nl/en/publications/765a1d71-b497-42c2-bd91-9c9cce31f232",
+      "authors": [
+        {
+          "name": "François‐Laurent De Winter",
+          "member": false
+        },
+        {
+          "name": "Qi Zhu",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Koen Nelissen",
+          "member": false
+        },
+        {
+          "name": "Ronald R. Peeters",
+          "member": false
+        },
+        {
+          "name": "Béatrice de Gelder",
+          "member": false
+        },
+        {
+          "name": "Wim Vanduffel",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        }
+      ],
+      "author_count": 8
+    },
+    {
+      "openalex": "W2006199651",
+      "doi": "10.3389/fnhum.2014.00053",
+      "title": "Face identity matching is influenced by emotions conveyed by face and body",
+      "year": 2014,
+      "date": "2014-01-01",
+      "type": "article",
+      "journal": "Frontiers in Human Neuroscience",
+      "url": "https://doi.org/10.3389/fnhum.2014.00053",
+      "open_access_url": "https://www.frontiersin.org/articles/10.3389/fnhum.2014.00053/pdf",
+      "authors": [
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Béatrice de Gelder",
+          "member": false
+        }
+      ],
+      "author_count": 2
+    },
+    {
+      "openalex": "W2161641728",
+      "doi": "10.3389/fnbeh.2014.00030",
+      "title": "Neural correlates of body and face perception following bilateral destruction of the primary visual cortices",
+      "year": 2014,
+      "date": "2014-01-01",
+      "type": "article",
+      "journal": "Frontiers in Behavioral Neuroscience",
+      "url": "https://doi.org/10.3389/fnbeh.2014.00030",
+      "open_access_url": "https://www.frontiersin.org/articles/10.3389/fnbeh.2014.00030/pdf",
+      "authors": [
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Marco Tamietto",
+          "member": false
+        },
+        {
+          "name": "Minye Zhan",
+          "member": false
+        },
+        {
+          "name": "Armin Heinecke",
+          "member": false
+        },
+        {
+          "name": "Alexis Hervais‐Adelman",
+          "member": false
+        },
+        {
+          "name": "Lore B. Legrand",
+          "member": false
+        },
+        {
+          "name": "Alan John Pegna",
+          "member": false
+        },
+        {
+          "name": "Béatrice de Gelder",
+          "member": false
+        }
+      ],
+      "author_count": 8
+    },
+    {
+      "openalex": "W1823117979",
+      "doi": "10.1016/j.euroneuro.2013.10.002",
+      "title": "In vivo type 1 cannabinoid receptor availability in Alzheimer's disease",
+      "year": 2013,
+      "date": "2013-10-17",
+      "type": "article",
+      "journal": "European Neuropsychopharmacology",
+      "url": "https://doi.org/10.1016/j.euroneuro.2013.10.002",
+      "open_access_url": "",
+      "authors": [
+        {
+          "name": "Rawaha U. Ahmad",
+          "member": false
+        },
+        {
+          "name": "Karolien E. Goffin",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "François‐Laurent De Winter",
+          "member": false
+        },
+        {
+          "name": "Evy Cleeren",
+          "member": false
+        },
+        {
+          "name": "Guy M Bormans",
+          "member": false
+        },
+        {
+          "name": "Jos Tournoy",
+          "member": false
+        },
+        {
+          "name": "Philippe Persoons",
+          "member": false
+        },
+        {
+          "name": "Koen Van Laere",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        }
+      ],
+      "author_count": 10
+    },
+    {
+      "openalex": "W2032580569",
+      "doi": "10.1176/appi.neuropsych.12120390",
+      "title": "Face-Selective Hyper-Animacy and Hyper-Familiarity Misperception in a Patient With Moderate Alzheimer’s Disease",
+      "year": 2013,
+      "date": "2013-10-01",
+      "type": "article",
+      "journal": "Journal of Neuropsychiatry",
+      "url": "https://doi.org/10.1176/appi.neuropsych.12120390",
+      "open_access_url": "",
+      "authors": [
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Béatrice de Gelder",
+          "member": false
+        },
+        {
+          "name": "Koen Van Laere",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        }
+      ],
+      "author_count": 4
+    },
+    {
+      "openalex": "W2108436957",
+      "doi": "10.1016/j.biopsych.2013.06.023",
+      "title": "Body Recognition in a Patient with Bilateral Primary Visual Cortex Lesions",
+      "year": 2013,
+      "date": "2013-08-28",
+      "type": "article",
+      "journal": "Biological Psychiatry",
+      "url": "https://doi.org/10.1016/j.biopsych.2013.06.023",
+      "open_access_url": "http://hdl.handle.net/11858/00-001M-0000-002A-DA4E-4",
+      "authors": [
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Marco Tamietto",
+          "member": false
+        },
+        {
+          "name": "Alexis Hervais‐Adelman",
+          "member": false
+        },
+        {
+          "name": "Alan John Pegna",
+          "member": false
+        },
+        {
+          "name": "Béatrice de Gelder",
+          "member": false
+        }
+      ],
+      "author_count": 5
+    },
+    {
+      "openalex": "W2118573924",
+      "doi": "10.1093/scan/nst138",
+      "title": "How affective information from faces and scenes interacts in the brain",
+      "year": 2013,
+      "date": "2013-08-17",
+      "type": "article",
+      "journal": "Social Cognitive and Affective Neuroscience",
+      "url": "https://doi.org/10.1093/scan/nst138",
+      "open_access_url": "https://doi.org/10.1093/scan/nst138",
+      "authors": [
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        },
+        {
+          "name": "Charlotte B. A. Sinke",
+          "member": false
+        },
+        {
+          "name": "Rainer Goebel",
+          "member": false
+        },
+        {
+          "name": "Béatrice de Gelder",
+          "member": false
+        }
+      ],
+      "author_count": 5
+    },
+    {
+      "openalex": "W2133598684",
+      "doi": "10.1016/j.neuroimage.2012.10.083",
+      "title": "Dissimilar processing of emotional facial expressions in human and monkey temporal cortex",
+      "year": 2012,
+      "date": "2012-11-08",
+      "type": "article",
+      "journal": "NeuroImage",
+      "url": "https://doi.org/10.1016/j.neuroimage.2012.10.083",
+      "open_access_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3625447",
+      "authors": [
+        {
+          "name": "Qi Zhu",
+          "member": false
+        },
+        {
+          "name": "Koen Nelissen",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "François‐Laurent De Winter",
+          "member": false
+        },
+        {
+          "name": "Karl Pauwels",
+          "member": false
+        },
+        {
+          "name": "Béatrice de Gelder",
+          "member": false
+        },
+        {
+          "name": "Wim Vanduffel",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        }
+      ],
+      "author_count": 8
+    },
+    {
+      "openalex": "W2119927536",
+      "doi": "10.1002/hbm.22195",
+      "title": "Affective scenes influence fear perception of individual body expressions",
+      "year": 2012,
+      "date": "2012-10-25",
+      "type": "article",
+      "journal": "Human Brain Mapping",
+      "url": "https://doi.org/10.1002/hbm.22195",
+      "open_access_url": "https://cris.maastrichtuniversity.nl/en/publications/e4784fe6-52d3-41b7-b4a7-fd30f145ca02",
+      "authors": [
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        },
+        {
+          "name": "Charlotte B. A. Sinke",
+          "member": false
+        },
+        {
+          "name": "Béatrice de Gelder",
+          "member": false
+        }
+      ],
+      "author_count": 4
+    },
+    {
+      "openalex": "W2127665147",
+      "doi": "10.1080/02643294.2012.732051",
+      "title": "Configuration perception and face memory, and face context effects in developmental prosopagnosia",
+      "year": 2012,
+      "date": "2012-09-01",
+      "type": "article",
+      "journal": "Cognitive Neuropsychology",
+      "url": "https://doi.org/10.1080/02643294.2012.732051",
+      "open_access_url": "",
+      "authors": [
+        {
+          "name": "Elisabeth M.J. Huis in ’t Veld",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Béatrice de Gelder",
+          "member": false
+        }
+      ],
+      "author_count": 3
+    },
+    {
+      "openalex": "W2165736116",
+      "doi": "10.1212/wnl.0b013e3182575130",
+      "title": "Developmental prosopagnosia in a patient with hypoplasia of the vermis cerebelli",
+      "year": 2012,
+      "date": "2012-05-10",
+      "type": "article",
+      "journal": "Neurology",
+      "url": "https://doi.org/10.1212/wnl.0b013e3182575130",
+      "open_access_url": "https://n.neurology.org/content/neurology/78/21/1700.full.pdf",
+      "authors": [
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        },
+        {
+          "name": "Qi Zhu",
+          "member": false
+        },
+        {
+          "name": "Nouchine K. Hadjikhani",
+          "member": false
+        },
+        {
+          "name": "Béatrice de Gelder",
+          "member": false
+        }
+      ],
+      "author_count": 5
+    },
+    {
+      "openalex": "W2015047094",
+      "doi": "10.1016/j.cortex.2012.03.003",
+      "title": "A strange face in the mirror. Face-selective self-misidentification in a patient with right lateralized occipito-temporal hypo-metabolism",
+      "year": 2012,
+      "date": "2012-03-10",
+      "type": "article",
+      "journal": "Cortex",
+      "url": "https://doi.org/10.1016/j.cortex.2012.03.003",
+      "open_access_url": "",
+      "authors": [
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Béatrice de Gelder",
+          "member": false
+        },
+        {
+          "name": "François‐Laurent De Winter",
+          "member": false
+        },
+        {
+          "name": "Koen Van Laere",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        }
+      ],
+      "author_count": 5
+    },
+    {
+      "openalex": "W2135243263",
+      "doi": "10.1016/j.nlm.2012.01.007",
+      "title": "Emotional information in body and background hampers recognition memory for faces",
+      "year": 2012,
+      "date": "2012-03-01",
+      "type": "article",
+      "journal": "Neurobiology of Learning and Memory",
+      "url": "https://doi.org/10.1016/j.nlm.2012.01.007",
+      "open_access_url": "https://lirias.kuleuven.be/handle/123456789/349349",
+      "authors": [
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Béatrice de Gelder",
+          "member": false
+        }
+      ],
+      "author_count": 2
+    },
+    {
+      "openalex": "W2127891810",
+      "doi": "10.1073/pnas.1107214108",
+      "title": "Cortico-subcortical visual, somatosensory, and motor activations for perceiving dynamic whole-body emotional expressions with and without striate cortex (V1)",
+      "year": 2011,
+      "date": "2011-09-12",
+      "type": "article",
+      "journal": "Proceedings of the National Academy of Sciences",
+      "url": "https://doi.org/10.1073/pnas.1107214108",
+      "open_access_url": "https://www.pnas.org/content/pnas/108/39/16188.full.pdf",
+      "authors": [
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Marco Tamietto",
+          "member": false
+        },
+        {
+          "name": "Bettina Sorger",
+          "member": false
+        },
+        {
+          "name": "Swann Pichon",
+          "member": false
+        },
+        {
+          "name": "Julie Grèzes",
+          "member": false
+        },
+        {
+          "name": "Béatrice de Gelder",
+          "member": false
+        }
+      ],
+      "author_count": 6
+    },
+    {
+      "openalex": "W37181017",
+      "doi": "10.1093/oxfordhb/9780199559053.013.0027",
+      "title": "Real Faces, Real Emotions: perceiving Facial Expressions in Naturalistic Contexts of Voices, Bodies, and Scenes",
+      "year": 2011,
+      "date": "2011-07-28",
+      "type": "book",
+      "journal": "Oxford University Press eBooks",
+      "url": "https://doi.org/10.1093/oxfordhb/9780199559053.013.0027",
+      "open_access_url": "",
+      "authors": [
+        {
+          "name": "Béatrice de Gelder",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        }
+      ],
+      "author_count": 2
+    },
+    {
+      "openalex": "W2162999656",
+      "doi": "10.1080/17470919.2011.568790",
+      "title": "Perceiving emotions from bodily expressions and multisensory integration of emotion cues in schizophrenia",
+      "year": 2011,
+      "date": "2011-07-22",
+      "type": "article",
+      "journal": "Social Neuroscience",
+      "url": "https://doi.org/10.1080/17470919.2011.568790",
+      "open_access_url": "https://zenodo.org/record/3428375",
+      "authors": [
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Sjakko J. de Jong",
+          "member": false
+        },
+        {
+          "name": "P.P.G. Hodiamont",
+          "member": false
+        },
+        {
+          "name": "Béatrice de Gelder",
+          "member": false
+        }
+      ],
+      "author_count": 4
+    },
+    {
+      "openalex": "W1995322500",
+      "doi": "10.3389/fpsyg.2011.00181",
+      "title": "The Bodily Expressive Action Stimulus Test (BEAST). Construction and Validation of a Stimulus Basis for Measuring Perception of Whole Body Expression of Emotions",
+      "year": 2011,
+      "date": "2011-01-01",
+      "type": "article",
+      "journal": "Frontiers in Psychology",
+      "url": "https://doi.org/10.3389/fpsyg.2011.00181",
+      "open_access_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2011.00181/pdf",
+      "authors": [
+        {
+          "name": "Béatrice de Gelder",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        }
+      ],
+      "author_count": 2
+    },
+    {
+      "openalex": "W1986359861",
+      "doi": "10.1002/hbm.21033",
+      "title": "Chemotherapy‐induced structural changes in cerebral white matter and its correlation with impaired cognitive functioning in breast cancer patients",
+      "year": 2010,
+      "date": "2010-05-14",
+      "type": "article",
+      "journal": "Human Brain Mapping",
+      "url": "https://doi.org/10.1002/hbm.21033",
+      "open_access_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6870393",
+      "authors": [
+        {
+          "name": "Sabine Deprez",
+          "member": false
+        },
+        {
+          "name": "Frédéric C. Amant",
+          "member": false
+        },
+        {
+          "name": "Refika Yigit",
+          "member": false
+        },
+        {
+          "name": "Kathleen Porke",
+          "member": false
+        },
+        {
+          "name": "Judith S. Verhoeven",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Ann Smeets",
+          "member": false
+        },
+        {
+          "name": "Marie‐Rose Christiaens",
+          "member": false
+        },
+        {
+          "name": "Alexander Leemans",
+          "member": false
+        },
+        {
+          "name": "Wim Van Hecke",
+          "member": false
+        },
+        {
+          "name": "Joris U. Vandenberghe",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": false
+        },
+        {
+          "name": "Stefan G. Sunaert",
+          "member": false
+        }
+      ],
+      "author_count": 13
+    },
+    {
+      "openalex": "W2006649396",
+      "doi": "10.1016/j.neubiorev.2009.10.008",
+      "title": "Standing up for the body. Recent progress in uncovering the networks involved in the perception of bodies and bodily expressions",
+      "year": 2009,
+      "date": "2009-10-25",
+      "type": "article",
+      "journal": "Neuroscience & Biobehavioral Reviews",
+      "url": "https://doi.org/10.1016/j.neubiorev.2009.10.008",
+      "open_access_url": "",
+      "authors": [
+        {
+          "name": "Béatrice de Gelder",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Hanneke K. M. Meeren",
+          "member": false
+        },
+        {
+          "name": "Charlotte B. A. Sinke",
+          "member": false
+        },
+        {
+          "name": "Mariska Esther Kret",
+          "member": false
+        },
+        {
+          "name": "Marco Tamietto",
+          "member": false
+        }
+      ],
+      "author_count": 6
+    },
+    {
+      "openalex": "W2118000934",
+      "doi": "10.1007/s10548-009-0099-0",
+      "title": "Instrumental Music Influences Recognition of Emotional Body Language",
+      "year": 2009,
+      "date": "2009-05-01",
+      "type": "article",
+      "journal": "Brain Topography",
+      "url": "https://doi.org/10.1007/s10548-009-0099-0",
+      "open_access_url": "https://link.springer.com/content/pdf/10.1007/s10548-009-0099-0.pdf",
+      "authors": [
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Isabelle Peretz",
+          "member": false
+        },
+        {
+          "name": "Julie Grèzes",
+          "member": false
+        },
+        {
+          "name": "Béatrice de Gelder",
+          "member": false
+        }
+      ],
+      "author_count": 4
+    },
+    {
+      "openalex": "W2164774099",
+      "doi": "10.1016/j.schres.2008.10.001",
+      "title": "Audiovisual emotion recognition in schizophrenia: Reduced integration of facial and vocal affect",
+      "year": 2008,
+      "date": "2008-11-08",
+      "type": "article",
+      "journal": "Schizophrenia Research",
+      "url": "https://doi.org/10.1016/j.schres.2008.10.001",
+      "open_access_url": "",
+      "authors": [
+        {
+          "name": "J.J. de Jong",
+          "member": false
+        },
+        {
+          "name": "P.P.G. Hodiamont",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Béatrice de Gelder",
+          "member": false
+        }
+      ],
+      "author_count": 4
+    },
+    {
+      "openalex": "W2149509826",
+      "doi": "10.1371/journal.pone.0003195",
+      "title": "Neural Correlates of Perceiving Emotional Faces and Bodies in Developmental Prosopagnosia: An Event-Related fMRI-Study",
+      "year": 2008,
+      "date": "2008-09-16",
+      "type": "article",
+      "journal": "PLoS ONE",
+      "url": "https://doi.org/10.1371/journal.pone.0003195",
+      "open_access_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0003195&type=printable",
+      "authors": [
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Wim A. C. van de Riet",
+          "member": false
+        },
+        {
+          "name": "Ruthger Righart",
+          "member": false
+        },
+        {
+          "name": "Béatrice de Gelder",
+          "member": false
+        }
+      ],
+      "author_count": 4
+    },
+    {
+      "openalex": "W2163671506",
+      "doi": "10.1016/j.brainres.2008.05.040",
+      "title": "Human and animal sounds influence recognition of body language",
+      "year": 2008,
+      "date": "2008-05-27",
+      "type": "article",
+      "journal": "Brain Research",
+      "url": "https://doi.org/10.1016/j.brainres.2008.05.040",
+      "open_access_url": "",
+      "authors": [
+        {
+          "name": "Jan Van den Stock",
+          "member": true
+        },
+        {
+          "name": "Julie Grèzes",
+          "member": false
+        },
+        {
+          "name": "Béatrice de Gelder",
+          "member": false
+        }
+      ],
+      "author_count": 3
     }
   ]
 }
