@@ -1,9 +1,7 @@
 ---
-name: Name Surname
-role: Clinical fellow
+name: Kristof Vansteelandt
+role: Statistician
 group: postdoc
-focus: Placeholder
-order: 4
-photo: ""
-link: ""
+orcid: " 0000-0002-2562-0447"
+openalex_id: A5068078315
 ---
