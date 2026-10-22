@@ -1,16 +1,17 @@
 ---
 eyebrow: About
 title: About the research group
-lead: The Neuropsychiatry group at KU Leuven investigates the biological mechanisms of psychiatric disorders and translates those findings into better diagnosis and treatment. Our work spans clinical cohorts, neuroimaging, electrophysiology and computational modelling.
+lead: The Neuropsychiatry group at KU Leuven investigates the biological
+  mechanisms of psychiatric disorders and translates those findings into better
+  diagnosis and treatment. Our work spans clinical cohorts, neuroimaging,
+  electrophysiology and computational modelling.
 facts:
   - label: Institute
     value: Leuven Brain Institute
-  - label: Faculty
+  - label: Department
     value: Biomedical Sciences, KU Leuven
   - label: Clinical partner
     value: UZ Leuven
-  - label: Group size
-    value: 00 researchers
 approach_title: How we work
 approach:
   - num: "01"
