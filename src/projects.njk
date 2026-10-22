@@ -8,6 +8,19 @@ permalink: /projects/
   {% if p.eyebrow %}<div class="eyebrow">{{ p.eyebrow }}</div>{% endif %}
   <h1 class="page-title">{{ p.title }}</h1>
   {% if p.intro %}<p class="lede">{{ p.intro }}</p>{% endif %}
+
+  {% if p.cta_title %}
+  <div style="margin-bottom: 56px">
+    <div class="panel cta">
+      <div>
+        <h2>{{ p.cta_title }}</h2>
+        {% if p.cta_text %}<p>{{ p.cta_text }}</p>{% endif %}
+      </div>
+      {% if p.cta_button %}<a class="btn btn-primary" href="/participate/">{{ p.cta_button }}</a>{% endif %}
+    </div>
+  </div>
+  {% endif %}
+
   <div>
     {%- for project in lab.projects %}
     <article class="project">
@@ -42,14 +55,4 @@ permalink: /projects/
   {% endif %}
 </section>
 
-{% if p.cta_title %}
-<section class="wrap cta-section">
-  <div class="panel cta">
-    <div>
-      <h2>{{ p.cta_title }}</h2>
-      {% if p.cta_text %}<p>{{ p.cta_text }}</p>{% endif %}
-    </div>
-    {% if p.cta_button %}<a class="btn btn-primary" href="/participate/">{{ p.cta_button }}</a>{% endif %}
-  </div>
-</section>
-{% endif %}
+<div style="height: 56px"></div>
