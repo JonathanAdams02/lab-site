@@ -29,9 +29,9 @@ permalink: /projects/
         {% if project.period %}<div class="project-period">{{ project.period }}</div>{% endif %}
       </div>
       <div>
-        <h2>{% if project.url %}<a href="{{ project.url }}">{{ project.title }}</a>{% else %}{{ project.title }}{% endif %}</h2>
+        <h2>{% if project.url %}<a href="{{ project.url }}" target="_blank" rel="noopener">{{ project.title }}</a>{% else %}{{ project.title }}{% endif %}</h2>
         <div class="project-body rich">{{ project.html | safe }}</div>
-        {% if project.url %}<a class="project-more" href="{{ project.url }}">Read more on the KU Leuven research portal →</a>{% endif %}
+        {% if project.url %}<a class="project-more" href="{{ project.url }}" target="_blank" rel="noopener">Read more on the KU Leuven research portal →</a>{% endif %}
       </div>
       <div class="project-meta">
         {% if project.lead %}<div>
@@ -49,8 +49,8 @@ permalink: /projects/
   {%- set ps = lab.projectSettings %}
   {% if ps.portal_link or lab.projectsUpdated %}
   <div class="projects-foot">
-    {% if ps.portal_link %}<a href="{{ ps.portal_link }}">{{ ps.portal_link_text or "All our projects on the KU Leuven research portal" }} →</a>{% endif %}
-    {% if lab.projectsUpdated %}<span class="pubs-note-inline">Updated automatically from <a href="https://www.researchportal.be">FRIS</a> · last change {{ lab.projectsUpdated }}</span>{% endif %}
+    {% if ps.portal_link %}<a href="{{ ps.portal_link }}" target="_blank" rel="noopener">{{ ps.portal_link_text or "All our projects on the KU Leuven research portal" }} →</a>{% endif %}
+    {% if lab.projectsUpdated %}<span class="pubs-note-inline">Updated automatically from <a href="https://www.researchportal.be" target="_blank" rel="noopener">FRIS</a> · last change {{ lab.projectsUpdated }}</span>{% endif %}
   </div>
   {% endif %}
 </section>
