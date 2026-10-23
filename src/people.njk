@@ -14,7 +14,7 @@ permalink: /people/
     <h2 class="group-title">{{ group.title }}</h2>
     <div class="people-grid">
       {%- for person in group.members %}
-      <article class="person">
+      <a class="person person-card" href="{{ person.profileUrl }}">
         <div class="portrait">
           {%- if person.photo %}
           <img src="{{ person.photo }}" alt="{{ person.name }}" loading="lazy">
@@ -22,10 +22,10 @@ permalink: /people/
           <span class="portrait-initials" aria-hidden="true">{{ person.name | initials }}</span>
           {%- endif %}
         </div>
-        <h3>{% if person.link %}<a href="{{ person.link }}">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</h3>
+        <h3>{{ person.name }}</h3>
         {% if person.role %}<div class="person-role">{{ person.role }}</div>{% endif %}
         {% if person.focus %}<div class="person-focus">{{ person.focus }}</div>{% endif %}
-      </article>
+      </a>
       {%- endfor %}
     </div>
   </div>

@@ -109,7 +109,18 @@ function buildPublications(settings, manualEntries) {
 
 // Projects: those fetched from FRIS (data/projects.json, refreshed weekly)
 // plus any added by hand, filtered by the Project list settings.
+// Turns what someone pasted ("3M250726" or a full address) into a portal link.
+function portalLink(value) {
+  const v = String(value || "").trim();
+  if (!v) return "";
+  if (/^https?:\/\//i.test(v)) return v;
+  if (/^[0-9A-Z]{2,}[0-9A-Z\/-]*$/i.test(v)) return `https://research.kuleuven.be/portal/en/project/${encodeURIComponent(v)}`;
+  return "";
+}
+
 function buildProjects(settings, manualEntries) {
+  const linkList = readYaml(path.join(root, "project-links.yml")).projects || [];
+  const linkById = new Map(linkList.filter((x) => x && x.fris_id).map((x) => [String(x.fris_id), portalLink(x.link)]));
   const today = new Date().toISOString().slice(0, 10);
   const completedYears = settings.show_completed_years === undefined || settings.show_completed_years === ""
     ? 2 : Number(settings.show_completed_years) || 0;
@@ -155,13 +166,40 @@ function buildProjects(settings, manualEntries) {
         funder: [...new Set(funders)].join(", "),
         // Older imports built links from FRIS's internal number, which the
         // KU Leuven portal doesn't recognise (…/project/59074371) — skip those.
-        url: (/research\.kuleuven\.be\/portal\/en\/project\/\d+$/.test(p.url || "") ? "" : p.url) || settings.portal_link || "",
+        // Its own KU Leuven page if someone pasted it under "Project links",
+        // otherwise the unit's project overview.
+        url: linkById.get(String(p.fris_id || "")) || settings.portal_link || "",
         start: p.start || "",
       };
     });
 
   const manual = manualEntries.filter((p) => p.title).sort(byOrder("title"));
   return [...manual, ...fris];
+}
+
+function slugify(s) {
+  return String(s || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+}
+
+// Is this person an author of this paper? Uses ORCID / OpenAlex ID when the
+// automatic list has them, otherwise compares surname + first initial.
+function isAuthor(person, pub) {
+  const orcid = person.orcidId;
+  const oaid = (String(person.openalex_id || "").match(/A\d{4,}/i) || [""])[0].toUpperCase();
+  const plain = (x) => slugify(x).split("-").filter(Boolean);
+  const pn = plain(person.name);
+  const sameName = (name) => {
+    const an = plain(name);
+    if (!an.length || !pn.length) return false;
+    return an[an.length - 1] === pn[pn.length - 1] && an[0][0] === pn[0][0];
+  };
+  if (Array.isArray(pub.authors)) {
+    return pub.authors.some((a) => a.member && (
+      (orcid && a.orcid === orcid) || (oaid && a.openalex === oaid) ||
+      (!a.orcid && !a.openalex && sameName(a.name))));
+  }
+  return false;
 }
 
 function isTrue(value, fallback) {
@@ -177,6 +215,17 @@ export default function () {
 
   // People, grouped in the order the groups are listed on the People page.
   const people = readFolder("people").filter((p) => p.name);
+  // Every person gets a profile page at /people/<their-name>/.
+  const usedSlugs = new Set();
+  for (const person of people) {
+    let base = slugify(person.name) || "person";
+    let slug = base;
+    for (let n = 2; usedSlugs.has(slug); n++) slug = `${base}-${n}`;
+    usedSlugs.add(slug);
+    person.profileSlug = slug;
+    person.profileUrl = `/people/${slug}/`;
+    person.orcidId = (String(person.orcid || "").match(/\d{4}-\d{4}-\d{4}-\d{3}[\dX]/i) || [""])[0].toUpperCase();
+  }
   const groupsDefined = pages.people?.groups || [];
   const peopleGroups = groupsDefined
     .map((g) => ({
@@ -189,12 +238,16 @@ export default function () {
   const known = new Set(groupsDefined.map((g) => g.id));
   const orphans = people.filter((p) => !known.has(p.group)).sort(byOrder("name"));
   if (orphans.length) peopleGroups.push({ id: "other", title: "Other", members: orphans });
+  for (const g of peopleGroups) for (const m of g.members) m.groupTitle = g.title;
 
   // Publications: the automatic list from OpenAlex (data/publications.json,
   // refreshed weekly) plus any entries added by hand, grouped by year.
   const pubSettings = readYaml(path.join(root, "publications.yml"));
   const pubs = buildPublications(pubSettings, readFolder("publications"));
   const years = [...new Set(pubs.map((p) => String(p.year ?? "")))].sort((a, b) => b.localeCompare(a));
+  // Each person's own papers, for their profile page.
+  for (const person of people) person.publications = pubs.filter((pub) => isAuthor(person, pub)).slice(0, 15);
+  for (const person of people) person.publicationCount = pubs.filter((pub) => isAuthor(person, pub)).length;
   const pubYears = years.map((year) => ({
     year: year || "Undated",
     items: pubs.filter((p) => String(p.year ?? "") === year),
@@ -220,6 +273,7 @@ export default function () {
   return {
     settings,
     pages,
+    people,
     peopleGroups,
     pubYears,
     pubsUpdated,

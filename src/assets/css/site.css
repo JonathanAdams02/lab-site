@@ -179,6 +179,34 @@ a:hover { color: var(--sky); }
 .person-role { font-size: 14px; color: var(--muted); margin-bottom: 8px; }
 .person-focus { font-size: 13px; color: var(--faint); }
 
+.person-card { display: block; color: inherit; }
+.person-card:hover { color: inherit; }
+.person-card .portrait img { transition: transform .25s ease; }
+.person-card:hover .portrait img { transform: scale(1.03); }
+.person-card:hover h3 { color: var(--blue); }
+.person-card:focus-visible { outline: 2px solid var(--sky); outline-offset: 4px; }
+
+/* ---------- Person profile ---------- */
+.back-link { display: inline-block; font-size: 13.5px; font-weight: 600; margin-bottom: 40px; }
+.profile-grid { display: grid; grid-template-columns: 300px 1fr; gap: 72px; align-items: start; }
+.profile-portrait { margin-bottom: 28px; }
+.profile-portrait .portrait-initials { font-size: 72px; }
+.profile-contact { display: flex; flex-direction: column; gap: 20px; font-size: 14.5px; }
+.profile-contact a { word-break: break-word; }
+.orcid { display: inline-flex; align-items: center; gap: 8px; }
+.orcid-badge {
+  display: inline-flex; align-items: center; justify-content: center; width: 18px; height: 18px;
+  border-radius: 50%; background: #a6ce39; color: #fff; font-size: 9px; font-weight: 700;
+}
+.profile-main .page-title { margin-bottom: 10px; }
+.profile-role { font-size: 17px; color: var(--muted); margin-bottom: 22px; }
+.profile-focus { font-size: 18px; line-height: 1.6; color: var(--body); margin: 0 0 28px; max-width: 62ch; }
+.profile-bio { max-width: 68ch; margin-bottom: 8px; }
+.profile-pubs { margin-top: 48px; padding-top: 32px; border-top: 1px solid var(--line); }
+.profile-pubs h2 { font-family: var(--serif); font-weight: 400; font-size: 26px; margin: 0 0 26px; color: var(--ink); }
+.profile-pubs .pub h3 { font-size: 16px; }
+.profile-more { display: inline-block; margin-top: 26px; font-size: 14px; font-weight: 600; }
+
 /* ---------- Research output ---------- */
 .research-head { padding-top: 88px; }
 .research-head .lede { margin-bottom: 44px; max-width: 66ch; }
@@ -358,6 +386,10 @@ a:hover { color: var(--sky); }
 }
 
 @media (max-width: 900px) {
+  .profile-grid { grid-template-columns: 1fr; gap: 32px; }
+  .profile-side { display: grid; grid-template-columns: 160px 1fr; gap: 24px; align-items: start; }
+  .profile-portrait { margin-bottom: 0; }
+  .profile-portrait .portrait-initials { font-size: 44px; }
   :root { --gutter: 28px; }
   .hero-grid, .about-grid, .involve-grid, .contact-grid, .footer-grid { grid-template-columns: 1fr; }
   .hero-grid { gap: 32px; padding-top: 64px; }
@@ -379,6 +411,7 @@ a:hover { color: var(--sky); }
 }
 
 @media (max-width: 600px) {
+  .profile-side { grid-template-columns: 110px 1fr; gap: 18px; }
   :root { --gutter: 20px; }
   .site-header .wrap { height: 80px; gap: 16px; }
   .site-logo img { height: 52px; }

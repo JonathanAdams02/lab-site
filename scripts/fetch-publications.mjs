@@ -127,9 +127,12 @@ for (const w of raw) {
 
   const authorships = w.authorships || [];
   const stored = authorships
-    .map((a, i) => ({ name: a.author?.display_name || "", member: isMember(a), i }))
+    .map((a, i) => ({ name: a.author?.display_name || "", member: isMember(a), i, au: a.author || {} }))
     .filter((a) => a.name && (a.i < MAX_STORED_AUTHORS || a.member))
-    .map(({ name, member }) => ({ name, member }));
+    // For lab members, also keep their IDs so each profile page can list their papers.
+    .map(({ name, member, au }) => (member
+      ? { name, member, orcid: orcidOf(au.orcid), openalex: shortId(au.id) }
+      : { name, member }));
 
   const doi = w.doi ? String(w.doi).replace(/^https?:\/\/(dx\.)?doi\.org\//i, "").toLowerCase() : "";
   const item = {

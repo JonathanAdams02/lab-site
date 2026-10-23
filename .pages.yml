@@ -218,11 +218,19 @@ content:
             - { name: support, label: Support and affiliated staff }
       - { name: focus, label: Research focus, type: string }
       - { name: photo, label: Portrait photo, type: image, description: Square photos look best. Without a photo the initials are shown. }
-      - { name: link, label: Personal page or profile link (optional), type: string }
+      - { name: email, label: Email (shown on their profile page), type: string }
+      - { name: link, label: Personal website or profile link (optional), type: string }
+      - name: body
+        label: About their work (optional)
+        description: A few paragraphs for their profile page. Leave empty if you don't have one yet — the page then shows their role, focus, contact details and publications.
+        type: rich-text
+        options:
+          format: markdown
+          media: false
       - name: orcid
         label: ORCID iD
         type: string
-        description: "e.g. 0000-0002-1825-0097. Their papers then appear on Research output automatically (checked weekly)."
+        description: "e.g. 0000-0002-1825-0097. Shown on their profile, and their papers appear on Research output and their profile automatically (checked weekly)."
       - name: openalex_id
         label: OpenAlex author ID (optional)
         type: string
@@ -346,6 +354,25 @@ content:
         label: Funding words that count as internal (advanced)
         type: string
         list: true
+
+  - name: project_links
+    label: Project links (KU Leuven portal)
+    type: file
+    path: content/project-links.yml
+    format: yaml
+    fields:
+      - name: projects
+        label: Projects
+        description: "Paste each project's address from the KU Leuven research portal (or just its code, e.g. 3M250726). New projects from FRIS appear here automatically. Projects without a link point to the unit's project overview."
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{title}"
+        fields:
+          - { name: title, label: Project, type: string, readonly: true }
+          - { name: link, label: KU Leuven portal address or code, type: string }
+          - { name: fris_id, label: FRIS number (don't change), type: string, readonly: true }
 
   - name: projects
     label: Extra projects (manual)

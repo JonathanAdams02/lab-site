@@ -1,0 +1,71 @@
+---
+layout: base.njk
+navKey: people
+pagination:
+  data: lab.people
+  size: 1
+  alias: person
+  addAllPagesToCollections: false
+permalink: "/people/{{ person.profileSlug }}/"
+eleventyComputed:
+  pageTitle: "{{ person.name }}"
+---
+{#- One page per person, made automatically from their entry under People in Pages CMS. -#}
+<section class="wrap page-section person-page">
+  <a class="back-link" href="/people/">← The team</a>
+
+  <div class="profile-grid">
+    <aside class="profile-side">
+      <div class="portrait profile-portrait">
+        {%- if person.photo %}
+        <img src="{{ person.photo }}" alt="{{ person.name }}">
+        {%- else %}
+        <span class="portrait-initials" aria-hidden="true">{{ person.name | initials }}</span>
+        {%- endif %}
+      </div>
+
+      {% if person.email or person.orcidId or person.link %}
+      <div class="profile-contact">
+        {% if person.email %}<div>
+          <div class="label">Email</div>
+          <a href="mailto:{{ person.email }}">{{ person.email }}</a>
+        </div>{% endif %}
+        {% if person.orcidId %}<div>
+          <div class="label">ORCID</div>
+          <a class="orcid" href="https://orcid.org/{{ person.orcidId }}" target="_blank" rel="noopener"><span class="orcid-badge" aria-hidden="true">iD</span>{{ person.orcidId }}</a>
+        </div>{% endif %}
+        {% if person.link %}<div>
+          <div class="label">Website</div>
+          <a href="{{ person.link }}" target="_blank" rel="noopener">{{ person.link | replace("https://", "") | replace("http://", "") | replace("www.", "") }}</a>
+        </div>{% endif %}
+      </div>
+      {% endif %}
+    </aside>
+
+    <div class="profile-main">
+      {% if person.groupTitle %}<div class="eyebrow">{{ person.groupTitle }}</div>{% endif %}
+      <h1 class="page-title">{{ person.name }}</h1>
+      {% if person.role %}<div class="profile-role">{{ person.role }}</div>{% endif %}
+      {% if person.focus %}<p class="profile-focus">{{ person.focus }}</p>{% endif %}
+      {% if person.html %}<div class="about-body rich profile-bio">{{ person.html | safe }}</div>{% endif %}
+
+      {% if person.publications.length %}
+      <div class="profile-pubs">
+        <h2>Recent publications</h2>
+        <div class="pub-list">
+          {%- for pub in person.publications %}
+          <article class="pub">
+            <h3>{% if pub.link %}<a href="{{ pub.link }}" target="_blank" rel="noopener">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}</h3>
+            {% if pub.authorsHtml %}<div class="pub-authors">{{ pub.authorsHtml | safe }}</div>{% endif %}
+            <div class="pub-journal">{% if pub.journal %}<em>{{ pub.journal }}</em> · {% endif %}{{ pub.year }}</div>
+          </article>
+          {%- endfor %}
+        </div>
+        {% if person.publicationCount > person.publications.length %}
+        <a class="profile-more" href="/research/">All {{ person.publicationCount }} publications on Research output →</a>
+        {% endif %}
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</section>

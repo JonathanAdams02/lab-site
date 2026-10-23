@@ -87,7 +87,8 @@ The *Projects* page fills itself from **FRIS**, the Flemish research portal. It 
 How the list behaves, adjustable in Pages CMS → **Project list settings**:
 - **Internal "own budget" research lines are hidden.** Only funded projects show. Untick to show everything.
 - **Completed projects** stay visible for 2 years (set 0 to show only current and upcoming ones).
-- Descriptions are shortened to 70 words, with a link to the full project page on the KU Leuven research portal.
+- Descriptions are shortened to 70 words.
+- **Links to each project's KU Leuven page:** FRIS doesn't include the KU Leuven project code, so paste these once in Pages CMS → **Project links (KU Leuven portal)**. Open the project on the KU Leuven portal and copy its address (or just the code, e.g. `3M250726`). New projects are added to that list automatically. Projects without a link point to the unit's project overview.
 - **Hide these projects**: paste the title of any project that shouldn't appear.
 - Anything missing from FRIS can be added under **Extra projects (manual)**. These appear at the top.
 
@@ -102,6 +103,7 @@ Log in at **app.pagescms.org**, open the site, then:
 | To… | Go to… |
 |---|---|
 | Add or update a **team member** | **People** → *Add an entry* (or click a name). Choose the group, upload a square photo, save. |
+| Add someone's **email or bio** to their profile page | **People** → their entry → *Email* and *About their work*. Everyone has a profile page automatically; the bio is optional. |
 | Get someone's **publications** listed | **People** → their entry → fill in the **ORCID iD**. Papers appear automatically (see section 4). |
 | Add a publication OpenAlex missed | **Extra publications (manual)** → *Add an entry*. |
 | Hide a wrong publication | **Publication list settings** → *Hide these publications* → paste its DOI. |
