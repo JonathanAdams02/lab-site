@@ -2,6 +2,7 @@
 name: Iqra Shahzad
 role: Postdoctoral researcher
 group: postdoc
+email: iqra.shahzad@kuleuven.be
 orcid: 0000-0002-8724-7668
 openalex_id: A5024260751
 ---
