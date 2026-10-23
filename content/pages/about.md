@@ -25,5 +25,3 @@ approach:
     body: Findings shared openly, and mapped in the Output Atlas.
 ---
 We are part of the Leuven Brain Institute and work closely with UZ Leuven, combining an academic hospital setting with a large basic neuroscience community. Clinical questions drive the research, and results are fed back into clinical practice.
-
-Placeholder text — send us the group's own description and we will drop it in verbatim.
