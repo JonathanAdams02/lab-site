@@ -67,19 +67,44 @@ async function getJson(url, attempt = 1) {
   return res.json();
 }
 
+// With an API key we use OpenAlex's "cursor" paging (no limit on results).
+// Without one, cursor paging is refused, so we fall back to plain page
+// numbers, which OpenAlex allows without a key (up to 10,000 results).
 async function fetchAll(filter) {
-  const works = [];
-  let cursor = "*";
-  while (cursor) {
-    const params = new URLSearchParams({ filter, select: SELECT, "per-page": "200", cursor });
+  const apiKey = process.env.OPENALEX_API_KEY;
+  const base = () => {
+    const params = new URLSearchParams({ filter, select: SELECT, "per-page": "200" });
     if (process.env.OPENALEX_MAILTO) params.set("mailto", process.env.OPENALEX_MAILTO);
-    if (process.env.OPENALEX_API_KEY) params.set("api_key", process.env.OPENALEX_API_KEY);
-    const data = await getJson(`${API}/works?${params}`);
-    works.push(...(data.results || []));
-    cursor = data.meta?.next_cursor || null;
-    if (!data.results?.length) break;
+    if (apiKey) params.set("api_key", apiKey);
+    return params;
+  };
+  const works = [];
+  if (apiKey) {
+    let cursor = "*";
+    while (cursor) {
+      const params = base();
+      params.set("cursor", cursor);
+      const data = await getJson(`${API}/works?${params}`);
+      works.push(...(data.results || []));
+      cursor = data.meta?.next_cursor || null;
+      if (!data.results?.length) break;
+    }
+  } else {
+    for (let page = 1; page <= 50; page++) {
+      const params = base();
+      params.set("page", String(page));
+      const data = await getJson(`${API}/works?${params}`);
+      const results = data.results || [];
+      works.push(...results);
+      const total = Number(data.meta?.count ?? 0);
+      if (results.length < 200 || works.length >= total) break;
+    }
   }
   return works;
+}
+
+if (!process.env.OPENALEX_API_KEY) {
+  console.log("Note: no OPENALEX_API_KEY set — using page-number paging. Add a free key (openalex.org/settings/api) as a repository secret for best reliability.");
 }
 
 // OpenAlex allows up to 100 OR-values per filter; stay well below.
