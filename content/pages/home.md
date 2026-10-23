@@ -24,4 +24,5 @@ themes:
       and refine brain stimulation treatments such as electroconvulsive therapy
       and transcranial alternating current stimulation (tACS), aiming to improve
       outcomes and protect cognition in depression.
+  - title: Computational Psychiatry
 ---
