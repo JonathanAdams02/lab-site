@@ -1,7 +1,55 @@
 {
   "source": "OpenAlex (https://openalex.org)",
-  "updated": "2026-10-23T07:58:02.452Z",
+  "updated": "2026-10-26T10:04:10.824Z",
   "works": [
+    {
+      "openalex": "W7223169598",
+      "doi": "10.1016/j.ynirp.2026.100419",
+      "title": "Acute exercise for emotional pattern separation in youth with psychiatric symptoms and childhood adversity: a randomized controlled trial",
+      "year": 2026,
+      "date": "2026-10-22",
+      "type": "article",
+      "journal": "Neuroimage Reports",
+      "url": "https://doi.org/10.1016/j.ynirp.2026.100419",
+      "open_access_url": "https://doi.org/10.1016/j.ynirp.2026.100419",
+      "authors": [
+        {
+          "name": "Victor Mazereel",
+          "member": false
+        },
+        {
+          "name": "Lise Jennen",
+          "member": false
+        },
+        {
+          "name": "Davy Vancampfort",
+          "member": false
+        },
+        {
+          "name": "Zhiling Qiao",
+          "member": false
+        },
+        {
+          "name": "Kristof Vansteelandt",
+          "member": true,
+          "orcid": "0000-0002-2562-0447",
+          "openalex": "A5068078315"
+        },
+        {
+          "name": "Patrick Dupont",
+          "member": false
+        },
+        {
+          "name": "Aleksandra Lecei",
+          "member": false
+        },
+        {
+          "name": "Ruud van Winkel",
+          "member": false
+        }
+      ],
+      "author_count": 8
+    },
     {
       "openalex": "W7220842024",
       "doi": "10.1016/j.jad.2026.122596",
@@ -1794,7 +1842,7 @@
           "openalex": "A5062466055"
         },
         {
-          "name": "Margot Van Cauwenberge",
+          "name": "Margot Georgette Abel Van Cauwenberge",
           "member": false
         },
         {
@@ -2900,7 +2948,7 @@
       "open_access_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12823573/",
       "authors": [
         {
-          "name": "Margot Van Cauwenberge",
+          "name": "Margot Georgette Abel Van Cauwenberge",
           "member": false
         },
         {
@@ -3051,10 +3099,10 @@
       "type": "erratum",
       "journal": "Journal of Affective Disorders",
       "url": "https://doi.org/10.1016/j.jad.2025.120043",
-      "open_access_url": "https://doi.org/10.1016/j.jad.2025.120043",
+      "open_access_url": "",
       "authors": [
         {
-          "name": "Margot Van Cauwenberge",
+          "name": "Margot Georgette Abel Van Cauwenberge",
           "member": false
         },
         {
@@ -3441,7 +3489,7 @@
       "type": "article",
       "journal": "Brain and Cognition",
       "url": "https://doi.org/10.1016/j.bandc.2025.106319",
-      "open_access_url": "https://doi.org/10.1016/j.bandc.2025.106319",
+      "open_access_url": "https://lirias.kuleuven.be/retrieve/bb7cfd3d-9b4f-49fa-bb5c-ef9c1e97bcff",
       "authors": [
         {
           "name": "Bea R.H. Van den Bergh",
@@ -3967,10 +4015,10 @@
       "type": "article",
       "journal": "Journal of Affective Disorders",
       "url": "https://doi.org/10.1016/j.jad.2025.04.053",
-      "open_access_url": "https://doi.org/10.1016/j.jad.2025.04.053",
+      "open_access_url": "https://lirias.kuleuven.be/retrieve/73c2e54d-71dd-4022-bb56-fd4680ecca5d",
       "authors": [
         {
-          "name": "Margot Van Cauwenberge",
+          "name": "Margot Georgette Abel Van Cauwenberge",
           "member": false
         },
         {
@@ -4042,7 +4090,7 @@
           "member": false
         },
         {
-          "name": "Margot Van Cauwenberge",
+          "name": "Margot Georgette Abel Van Cauwenberge",
           "member": false
         },
         {
@@ -4336,7 +4384,7 @@
           "openalex": "A5062466055"
         },
         {
-          "name": "Margot Van Cauwenberge",
+          "name": "Margot Georgette Abel Van Cauwenberge",
           "member": false
         },
         {
@@ -4594,7 +4642,7 @@
           "member": false
         },
         {
-          "name": "Margot Van Cauwenberge",
+          "name": "Margot Georgette Abel Van Cauwenberge",
           "member": false
         },
         {
@@ -4684,7 +4732,7 @@
           "openalex": "A5087545626"
         },
         {
-          "name": "Margot Van Cauwenberge",
+          "name": "Margot Georgette Abel Van Cauwenberge",
           "member": false
         },
         {
@@ -5100,7 +5148,7 @@
           "openalex": "A5087545626"
         },
         {
-          "name": "Margot Van Cauwenberge",
+          "name": "Margot Georgette Abel Van Cauwenberge",
           "member": false
         },
         {
@@ -5818,7 +5866,7 @@
           "openalex": "A5062466055"
         },
         {
-          "name": "Margot Van Cauwenberge",
+          "name": "Margot Georgette Abel Van Cauwenberge",
           "member": false
         },
         {
@@ -6412,7 +6460,7 @@
           "openalex": "A5087545626"
         },
         {
-          "name": "Margot Van Cauwenberge",
+          "name": "Margot Georgette Abel Van Cauwenberge",
           "member": false
         },
         {
@@ -6626,7 +6674,7 @@
           "openalex": "A5062466055"
         },
         {
-          "name": "Margot Van Cauwenberge",
+          "name": "Margot Georgette Abel Van Cauwenberge",
           "member": false
         },
         {
@@ -6832,7 +6880,7 @@
       "title": "In vivo PET of synaptic density as potential diagnostic marker for cognitive disorders: prospective comparison with current imaging markers for neuronal dysfunction and relation to symptomatology - study protocol",
       "year": 2024,
       "date": "2024-02-12",
-      "type": "conference-abstract",
+      "type": "article",
       "journal": "BMC Medical Imaging",
       "url": "https://doi.org/10.1186/s12880-024-01224-5",
       "open_access_url": "https://bmcmedimaging.biomedcentral.com/counter/pdf/10.1186/s12880-024-01224-5",
@@ -7254,7 +7302,7 @@
           "openalex": "A5087545626"
         },
         {
-          "name": "Margot Van Cauwenberge",
+          "name": "Margot Georgette Abel Van Cauwenberge",
           "member": false
         },
         {
@@ -8510,7 +8558,7 @@
       "open_access_url": "https://lirias.kuleuven.be/retrieve/f816bcd0-4358-440e-ad4b-457e0200660c",
       "authors": [
         {
-          "name": "Margot Van Cauwenberge",
+          "name": "Margot Georgette Abel Van Cauwenberge",
           "member": false
         },
         {
@@ -9166,7 +9214,7 @@
           "openalex": "A5062466055"
         },
         {
-          "name": "Margot Van Cauwenberge",
+          "name": "Margot Georgette Abel Van Cauwenberge",
           "member": false
         },
         {
@@ -9658,7 +9706,7 @@
           "member": false
         },
         {
-          "name": "Margot Van Cauwenberge",
+          "name": "Margot Georgette Abel Van Cauwenberge",
           "member": false
         },
         {
@@ -12111,7 +12159,7 @@
       "type": "article",
       "journal": "European Neuropsychopharmacology",
       "url": "https://doi.org/10.1016/j.euroneuro.2021.10.491",
-      "open_access_url": "https://doi.org/10.1016/j.euroneuro.2021.10.491",
+      "open_access_url": "",
       "authors": [
         {
           "name": "Alain P. Nicolini",
@@ -13566,7 +13614,7 @@
       "open_access_url": "https://www.nature.com/articles/s41398-021-01314-w.pdf",
       "authors": [
         {
-          "name": "Margot Van Cauwenberge",
+          "name": "Margot Georgette Abel Van Cauwenberge",
           "member": false
         },
         {
@@ -13772,7 +13820,7 @@
       "title": "The Leuven late life depression (L3D) study: PET-MRI biomarkers of pathological brain ageing in late-life depression: study protocol",
       "year": 2021,
       "date": "2021-01-28",
-      "type": "article",
+      "type": "conference-abstract",
       "journal": "BMC Psychiatry",
       "url": "https://doi.org/10.1186/s12888-021-03063-y",
       "open_access_url": "https://bmcpsychiatry.biomedcentral.com/track/pdf/10.1186/s12888-021-03063-y",
@@ -13790,7 +13838,7 @@
           "openalex": "A5062466055"
         },
         {
-          "name": "Margot Van Cauwenberge",
+          "name": "Margot Georgette Abel Van Cauwenberge",
           "member": false
         },
         {
