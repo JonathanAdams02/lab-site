@@ -1,55 +1,7 @@
 {
   "source": "OpenAlex (https://openalex.org)",
-  "updated": "2026-11-03T14:20:39.285Z",
+  "updated": "2026-11-03T14:23:33.433Z",
   "works": [
-    {
-      "openalex": "W7223169598",
-      "doi": "10.1016/j.ynirp.2026.100419",
-      "title": "Acute exercise for emotional pattern separation in youth with psychiatric symptoms and childhood adversity: a randomized controlled trial",
-      "year": 2026,
-      "date": "2026-10-22",
-      "type": "article",
-      "journal": "Neuroimage Reports",
-      "url": "https://doi.org/10.1016/j.ynirp.2026.100419",
-      "open_access_url": "https://doi.org/10.1016/j.ynirp.2026.100419",
-      "authors": [
-        {
-          "name": "Victor Mazereel",
-          "member": false
-        },
-        {
-          "name": "Lise Jennen",
-          "member": false
-        },
-        {
-          "name": "Davy Vancampfort",
-          "member": false
-        },
-        {
-          "name": "Zhiling Qiao",
-          "member": false
-        },
-        {
-          "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
-        },
-        {
-          "name": "Patrick Dupont",
-          "member": false
-        },
-        {
-          "name": "Aleksandra Lecei",
-          "member": false
-        },
-        {
-          "name": "Ruud van Winkel",
-          "member": false
-        }
-      ],
-      "author_count": 8
-    },
     {
       "openalex": "W7220842024",
       "doi": "10.1016/j.jad.2026.122596",
@@ -67,9 +19,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Jasmien Obbels",
@@ -311,9 +261,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Jasmien Obbels",
@@ -1219,9 +1167,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Esmée Verwijk",
@@ -1303,9 +1249,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Pascal A. Sienaert",
@@ -1475,9 +1419,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Jasmien Obbels",
@@ -1503,50 +1445,6 @@
         }
       ],
       "author_count": 8
-    },
-    {
-      "openalex": "W7135234059",
-      "doi": "10.1007/s00127-026-03061-z",
-      "title": "A prospective study of VR-assessed state paranoia and anxiety suggests threat-related developmental pathways in adolescence",
-      "year": 2026,
-      "date": "2026-03-13",
-      "type": "article",
-      "journal": "Social Psychiatry and Psychiatric Epidemiology",
-      "url": "https://doi.org/10.1007/s00127-026-03061-z",
-      "open_access_url": "https://www.researchsquare.com/article/rs-6830080/latest.pdf",
-      "authors": [
-        {
-          "name": "Cansel Inan",
-          "member": false
-        },
-        {
-          "name": "Celine Samaey",
-          "member": false
-        },
-        {
-          "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
-        },
-        {
-          "name": "Aleksandra Lecei",
-          "member": false
-        },
-        {
-          "name": "Charlotte E. Gayer-Anderson",
-          "member": false
-        },
-        {
-          "name": "Lucia Valmaggia",
-          "member": false
-        },
-        {
-          "name": "Ruud van Winkel",
-          "member": false
-        }
-      ],
-      "author_count": 7
     },
     {
       "openalex": "W7135065600",
@@ -1911,46 +1809,6 @@
       "author_count": 5
     },
     {
-      "openalex": "W7130558250",
-      "doi": "10.1016/j.neuroimage.2026.121823",
-      "title": "Associations of hippocampal subfield volumes with psychiatric symptoms, childhood adversity and cardiorespiratory fitness in adolescents and young adults",
-      "year": 2026,
-      "date": "2026-02-20",
-      "type": "article",
-      "journal": "NeuroImage",
-      "url": "https://doi.org/10.1016/j.neuroimage.2026.121823",
-      "open_access_url": "https://doi.org/10.1016/j.neuroimage.2026.121823",
-      "authors": [
-        {
-          "name": "Lise Jennen",
-          "member": false
-        },
-        {
-          "name": "Victor Mazereel",
-          "member": false
-        },
-        {
-          "name": "Zhiling Qiao",
-          "member": false
-        },
-        {
-          "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
-        },
-        {
-          "name": "Ruud van Winkel",
-          "member": false
-        },
-        {
-          "name": "Davy Vancampfort",
-          "member": false
-        }
-      ],
-      "author_count": 6
-    },
-    {
       "openalex": "W7125544973",
       "doi": "10.1038/s43856-026-01390-3",
       "title": "Author Correction: Effects of electroconvulsive therapy on hippocampal longitudinal axis and its association with cognitive side effects",
@@ -2161,50 +2019,6 @@
         }
       ],
       "author_count": 3
-    },
-    {
-      "openalex": "W7212388857",
-      "doi": "10.1093/schizbullopen/sgag036",
-      "title": "Better Safe Than Sorry? Exploratory Associations Between Fear-Learning Processes and Later Paranoia in Threat-Exposed Adolescents in Standardized Virtual Reality Environments",
-      "year": 2026,
-      "date": "2026-01-01",
-      "type": "article",
-      "journal": "Schizophrenia Bulletin Open",
-      "url": "https://doi.org/10.1093/schizbullopen/sgag036",
-      "open_access_url": "https://academic.oup.com/schizbullopen/advance-article-pdf/doi/10.1093/schizbullopen/sgag036/71046408/sgag036.pdf",
-      "authors": [
-        {
-          "name": "Cansel Inan",
-          "member": false
-        },
-        {
-          "name": "Celine Samaey",
-          "member": false
-        },
-        {
-          "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
-        },
-        {
-          "name": "Aleksandra Lecei",
-          "member": false
-        },
-        {
-          "name": "Charlotte E. Gayer-Anderson",
-          "member": false
-        },
-        {
-          "name": "Lucia Valmaggia",
-          "member": false
-        },
-        {
-          "name": "Ruud van Winkel",
-          "member": false
-        }
-      ],
-      "author_count": 7
     },
     {
       "openalex": "W7163156824",
@@ -2443,9 +2257,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Jasmien Obbels",
@@ -2493,9 +2305,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "T. Feenstra",
@@ -2577,9 +2387,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Michel J. B. Koole",
@@ -2671,46 +2479,6 @@
         }
       ],
       "author_count": 8
-    },
-    {
-      "openalex": "W7117983485",
-      "doi": "10.1016/j.nsa.2025.105715",
-      "title": "The hippocampus in risk and resilience: effects of psychiatric symptoms, childhood adversity, and cardiorespiratory fitness in youth",
-      "year": 2026,
-      "date": "2026-01-01",
-      "type": "article",
-      "journal": "Neuroscience Applied",
-      "url": "https://doi.org/10.1016/j.nsa.2025.105715",
-      "open_access_url": "https://doi.org/10.1016/j.nsa.2025.105715",
-      "authors": [
-        {
-          "name": "Lise Jennen",
-          "member": false
-        },
-        {
-          "name": "Victor Mazereel",
-          "member": false
-        },
-        {
-          "name": "Z. Qiao",
-          "member": false
-        },
-        {
-          "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
-        },
-        {
-          "name": "Ruud van Winkel",
-          "member": false
-        },
-        {
-          "name": "Davy Vancampfort",
-          "member": false
-        }
-      ],
-      "author_count": 6
     },
     {
       "openalex": "W7171617074",
@@ -3813,50 +3581,6 @@
       "author_count": 48
     },
     {
-      "openalex": "W4414366102",
-      "doi": "10.3389/fpsyt.2025.1657470",
-      "title": "Fear learning and generalization in youth with early-stage transdiagnostic psychiatric symptoms and the impact of acute exercise",
-      "year": 2025,
-      "date": "2025-09-19",
-      "type": "article",
-      "journal": "Frontiers in Psychiatry",
-      "url": "https://doi.org/10.3389/fpsyt.2025.1657470",
-      "open_access_url": "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2025.1657470/pdf",
-      "authors": [
-        {
-          "name": "Lise Jennen",
-          "member": false
-        },
-        {
-          "name": "Celine Samaey",
-          "member": false
-        },
-        {
-          "name": "Zhiling Qiao",
-          "member": false
-        },
-        {
-          "name": "Victor Mazereel",
-          "member": false
-        },
-        {
-          "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
-        },
-        {
-          "name": "Davy Vancampfort",
-          "member": false
-        },
-        {
-          "name": "Ruud van Winkel",
-          "member": false
-        }
-      ],
-      "author_count": 7
-    },
-    {
       "openalex": "W4414123062",
       "doi": "10.1038/s41386-025-02229-6",
       "title": "Motor signs in late life depression relate to altered subcortical synaptic density and gray matter volume: an 11C-UCB-J PET-MR study",
@@ -3885,9 +3609,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Koen Van Laere",
@@ -4077,9 +3799,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Jan Van den Stock",
@@ -4475,9 +4195,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Esmée Verwijk",
@@ -5131,9 +4849,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Jan Van den Stock",
@@ -5371,9 +5087,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Jasmien Obbels",
@@ -5479,9 +5193,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Ann D’Hondt",
@@ -5667,9 +5379,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Anne-Marie Peeters",
@@ -5727,9 +5437,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Laura Van Gerven",
@@ -5911,9 +5619,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Stefan G. Sunaert",
@@ -6267,54 +5973,6 @@
         }
       ],
       "author_count": 5
-    },
-    {
-      "openalex": "W4404902423",
-      "doi": "10.1016/j.neuroimage.2024.120959",
-      "title": "The effects of acute exercise on emotional pattern separation in adolescents and young adults",
-      "year": 2024,
-      "date": "2024-12-02",
-      "type": "article",
-      "journal": "NeuroImage",
-      "url": "https://doi.org/10.1016/j.neuroimage.2024.120959",
-      "open_access_url": "https://doi.org/10.1016/j.neuroimage.2024.120959",
-      "authors": [
-        {
-          "name": "Lise Jennen",
-          "member": false
-        },
-        {
-          "name": "Victor Mazereel",
-          "member": false
-        },
-        {
-          "name": "Davy Vancampfort",
-          "member": false
-        },
-        {
-          "name": "Zhiling Qiao",
-          "member": false
-        },
-        {
-          "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
-        },
-        {
-          "name": "Patrick J. Dupont",
-          "member": false
-        },
-        {
-          "name": "Aleksandra Lecei",
-          "member": false
-        },
-        {
-          "name": "Ruud van Winkel",
-          "member": false
-        }
-      ],
-      "author_count": 8
     },
     {
       "openalex": "W4406049580",
@@ -7071,54 +6729,6 @@
       "author_count": 47
     },
     {
-      "openalex": "W4402869415",
-      "doi": "10.1093/eurpub/ckae114.113",
-      "title": "40 The effects of acute exercise on emotional pattern separation in adolescents and young adults",
-      "year": 2024,
-      "date": "2024-09-01",
-      "type": "article",
-      "journal": "European Journal of Public Health",
-      "url": "https://doi.org/10.1093/eurpub/ckae114.113",
-      "open_access_url": "https://academic.oup.com/eurpub/article-pdf/34/Supplement_2/ckae114.113/59295385/ckae114.113.pdf",
-      "authors": [
-        {
-          "name": "Lise Jennen",
-          "member": false
-        },
-        {
-          "name": "Victor Mazereel",
-          "member": false
-        },
-        {
-          "name": "Davy Vancampfort",
-          "member": false
-        },
-        {
-          "name": "Zhiling Qiao",
-          "member": false
-        },
-        {
-          "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
-        },
-        {
-          "name": "Patrick J. Dupont",
-          "member": false
-        },
-        {
-          "name": "Aleksandra Lecei",
-          "member": false
-        },
-        {
-          "name": "Ruud van Winkel",
-          "member": false
-        }
-      ],
-      "author_count": 8
-    },
-    {
       "openalex": "W4401967445",
       "doi": "10.1080/15622975.2024.2393373",
       "title": "Lithium-associated hypercalcemia and hyperparathyroidism: A systematic review and meta-analysis",
@@ -7259,9 +6869,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Michel J. B. Koole",
@@ -7575,9 +7183,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Maarten De Vos",
@@ -7953,9 +7559,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Evy Cleeren",
@@ -7997,7 +7601,9 @@
       "authors": [
         {
           "name": "Mertens, Laurent",
-          "member": false
+          "member": true,
+          "orcid": "0000-0001-5175-2673",
+          "openalex": ""
         },
         {
           "name": "Joost Vennekens",
@@ -8037,9 +7643,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Kaat Hebbrecht",
@@ -8569,9 +8173,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Evy Cleeren",
@@ -8929,62 +8531,6 @@
         }
       ],
       "author_count": 15
-    },
-    {
-      "openalex": "W4391406021",
-      "doi": "10.1002/cpp.2951",
-      "title": "Stress‐related fluctuations in personality functioning in daily life: Pilot data from an ambulatory monitoring study in outpatients diagnosed with borderline personality disorder",
-      "year": 2024,
-      "date": "2024-01-01",
-      "type": "article",
-      "journal": "Clinical Psychology & Psychotherapy",
-      "url": "https://doi.org/10.1002/cpp.2951",
-      "open_access_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/cpp.2951",
-      "authors": [
-        {
-          "name": "Roland Sinnaeve",
-          "member": false
-        },
-        {
-          "name": "Ilse Van Diest",
-          "member": false
-        },
-        {
-          "name": "Stephan J. Claes",
-          "member": false
-        },
-        {
-          "name": "Inez Myin‐Germeys",
-          "member": false
-        },
-        {
-          "name": "Louisa M. C. van den Bosch",
-          "member": false
-        },
-        {
-          "name": "Jan Henk Kamphuis",
-          "member": false
-        },
-        {
-          "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
-        },
-        {
-          "name": "Chris A. Van Hoof",
-          "member": false
-        },
-        {
-          "name": "Jan P. Cornelis",
-          "member": false
-        },
-        {
-          "name": "Marlies Houben",
-          "member": false
-        }
-      ],
-      "author_count": 10
     },
     {
       "openalex": "W4390941764",
@@ -9463,9 +9009,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Pascal A. Sienaert",
@@ -9685,9 +9229,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Jan Van den Stock",
@@ -9827,9 +9369,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Jasmien Obbels",
@@ -9881,74 +9421,6 @@
       "author_count": 1
     },
     {
-      "openalex": "W4387392918",
-      "doi": "10.1002/jclp.23599",
-      "title": "Associations between childhood adversity, psychiatric symptoms, and self‐esteem outcomes in adolescents and young adults: An experience sampling study",
-      "year": 2023,
-      "date": "2023-10-06",
-      "type": "article",
-      "journal": "Journal of Clinical Psychology",
-      "url": "https://doi.org/10.1002/jclp.23599",
-      "open_access_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/jclp.23599",
-      "authors": [
-        {
-          "name": "Victor Mazereel",
-          "member": false
-        },
-        {
-          "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
-        },
-        {
-          "name": "Claudia Menne‐Lothmann",
-          "member": false
-        },
-        {
-          "name": "Jeroen Decoster",
-          "member": false
-        },
-        {
-          "name": "Catherine A Derom",
-          "member": false
-        },
-        {
-          "name": "Evert W. Thiery",
-          "member": false
-        },
-        {
-          "name": "Bart P. F. Rutten",
-          "member": false
-        },
-        {
-          "name": "Nele Jacobs",
-          "member": false
-        },
-        {
-          "name": "Jim van Os",
-          "member": false
-        },
-        {
-          "name": "Marieke Wichers",
-          "member": false
-        },
-        {
-          "name": "Marc D. Binder",
-          "member": false
-        },
-        {
-          "name": "Davy Vancampfort",
-          "member": false
-        },
-        {
-          "name": "Ruud van Winkel",
-          "member": false
-        }
-      ],
-      "author_count": 13
-    },
-    {
       "openalex": "W4386466677",
       "doi": "10.1007/s00415-023-11927-4",
       "title": "Facial expression recognition deficits in frontotemporal dementia and Alzheimer’s disease: a meta-analytic investigation of effects of phenotypic variant, task modality, geographical region and symptomatic specificity",
@@ -9991,78 +9463,6 @@
         }
       ],
       "author_count": 6
-    },
-    {
-      "openalex": "W4386603995",
-      "doi": "10.1093/eurpub/ckad133.176",
-      "title": "O.4.2-1 The within-person bidirectional association between physical activity and loneliness in the daily lives of adolescents and young adults",
-      "year": 2023,
-      "date": "2023-09-01",
-      "type": "article",
-      "journal": "European Journal of Public Health",
-      "url": "https://doi.org/10.1093/eurpub/ckad133.176",
-      "open_access_url": "https://academic.oup.com/eurpub/article-pdf/33/Supplement_1/ckad133.176/51497622/ckad133.176.pdf",
-      "authors": [
-        {
-          "name": "Lise Jennen",
-          "member": false
-        },
-        {
-          "name": "Victor Mazereel",
-          "member": false
-        },
-        {
-          "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
-        },
-        {
-          "name": "Claudia Menne‐Lothmann",
-          "member": false
-        },
-        {
-          "name": "Jeroen Decoster",
-          "member": false
-        },
-        {
-          "name": "Catherine A Derom",
-          "member": false
-        },
-        {
-          "name": "Evert W. Thiery",
-          "member": false
-        },
-        {
-          "name": "Bart P. F. Rutten",
-          "member": false
-        },
-        {
-          "name": "Nele Jacobs",
-          "member": false
-        },
-        {
-          "name": "Jim van Os",
-          "member": false
-        },
-        {
-          "name": "Marieke Wichers",
-          "member": false
-        },
-        {
-          "name": "Marc De Hert",
-          "member": false
-        },
-        {
-          "name": "Davy Vancampfort",
-          "member": false
-        },
-        {
-          "name": "Ruud van Winkel",
-          "member": false
-        }
-      ],
-      "author_count": 14
     },
     {
       "openalex": "W4385969369",
@@ -10231,9 +9631,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Jan Van den Stock",
@@ -10831,9 +10229,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Eva Pilato",
@@ -11403,50 +10799,6 @@
       "author_count": 50
     },
     {
-      "openalex": "W4313470750",
-      "doi": "10.3389/fpsyt.2022.1050086",
-      "title": "Media coverage of Belgium’s first criminal case concerning euthanasia for psychiatric patients: A content analysis of Flemish newspapers and magazines",
-      "year": 2023,
-      "date": "2023-01-04",
-      "type": "article",
-      "journal": "Frontiers in Psychiatry",
-      "url": "https://doi.org/10.3389/fpsyt.2022.1050086",
-      "open_access_url": "https://doi.org/10.3389/fpsyt.2022.1050086",
-      "authors": [
-        {
-          "name": "Marc D. Binder",
-          "member": false
-        },
-        {
-          "name": "Erik Thys",
-          "member": false
-        },
-        {
-          "name": "Kirsten Catthoor",
-          "member": false
-        },
-        {
-          "name": "Kris Van den Broeck",
-          "member": false
-        },
-        {
-          "name": "Frieda Matthys",
-          "member": false
-        },
-        {
-          "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
-        },
-        {
-          "name": "Johan Detraux",
-          "member": false
-        }
-      ],
-      "author_count": 7
-    },
-    {
       "openalex": "W4313446618",
       "doi": "10.1111/bdi.13292",
       "title": "Alice in Wonderland syndrome and bipolar depression",
@@ -11643,9 +10995,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Jasmien Obbels",
@@ -11701,9 +11051,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Stefan G. Sunaert",
@@ -11867,9 +11215,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Mathieu Vandenbulcke",
@@ -12017,78 +11363,6 @@
         }
       ],
       "author_count": 11
-    },
-    {
-      "openalex": "W4311986981",
-      "doi": "10.1016/j.mhpa.2022.100499",
-      "title": "The within-person bidirectional association between physical activity and loneliness in the daily lives of adolescents and young adults",
-      "year": 2022,
-      "date": "2022-12-01",
-      "type": "article",
-      "journal": "Mental health and physical activity",
-      "url": "https://doi.org/10.1016/j.mhpa.2022.100499",
-      "open_access_url": "https://cris.maastrichtuniversity.nl/en/publications/4e3a5fad-267d-49cd-8131-09dc2b78591a",
-      "authors": [
-        {
-          "name": "Lise Jennen",
-          "member": false
-        },
-        {
-          "name": "Victor Mazereel",
-          "member": false
-        },
-        {
-          "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
-        },
-        {
-          "name": "Claudia Menne‐Lothmann",
-          "member": false
-        },
-        {
-          "name": "Jeroen Decoster",
-          "member": false
-        },
-        {
-          "name": "Catherine A Derom",
-          "member": false
-        },
-        {
-          "name": "Evert W. Thiery",
-          "member": false
-        },
-        {
-          "name": "Bart P. F. Rutten",
-          "member": false
-        },
-        {
-          "name": "Nele Jacobs",
-          "member": false
-        },
-        {
-          "name": "Jim van Os",
-          "member": false
-        },
-        {
-          "name": "Marieke Wichers",
-          "member": false
-        },
-        {
-          "name": "Marc D. Binder",
-          "member": false
-        },
-        {
-          "name": "Davy Vancampfort",
-          "member": false
-        },
-        {
-          "name": "Ruud van Winkel",
-          "member": false
-        }
-      ],
-      "author_count": 14
     },
     {
       "openalex": "W4307502815",
@@ -12451,9 +11725,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Ronald R. Peeters",
@@ -12515,9 +11787,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Pascal A. Sienaert",
@@ -12713,9 +11983,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Sophie Lemmens",
@@ -12801,9 +12069,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Kaat Hebbrecht",
@@ -13619,9 +12885,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Jasmien Obbels",
@@ -13969,9 +13233,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Axel Nordenskjöld",
@@ -14249,9 +13511,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "François‐Laurent De Winter",
@@ -14463,9 +13723,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Jasmien Obbels",
@@ -14565,9 +13823,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Jasmien Obbels",
@@ -14633,9 +13889,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Jorne Laton",
@@ -14677,9 +13931,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Mardien Leoniek Oudega",
@@ -14843,9 +14095,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Ann D’Hondt",
@@ -16039,74 +15289,6 @@
       "author_count": 3
     },
     {
-      "openalex": "W3172436069",
-      "doi": "10.1016/j.mhpa.2021.100413",
-      "title": "The complex and dynamic interplay between self-esteem, belongingness and physical activity in daily life: An experience sampling study in adolescence and young adulthood",
-      "year": 2021,
-      "date": "2021-06-15",
-      "type": "article",
-      "journal": "Mental health and physical activity",
-      "url": "https://doi.org/10.1016/j.mhpa.2021.100413",
-      "open_access_url": "https://www.sciencedirect.com/science/article/pii/S1755296621000338",
-      "authors": [
-        {
-          "name": "Victor Mazereel",
-          "member": false
-        },
-        {
-          "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
-        },
-        {
-          "name": "Claudia Menne‐Lothmann",
-          "member": false
-        },
-        {
-          "name": "Jeroen Decoster",
-          "member": false
-        },
-        {
-          "name": "Catherine A Derom",
-          "member": false
-        },
-        {
-          "name": "Evert W. Thiery",
-          "member": false
-        },
-        {
-          "name": "Bart P. F. Rutten",
-          "member": false
-        },
-        {
-          "name": "Nele Jacobs",
-          "member": false
-        },
-        {
-          "name": "Jim van Os",
-          "member": false
-        },
-        {
-          "name": "Marieke Wichers",
-          "member": false
-        },
-        {
-          "name": "Marc D. Binder",
-          "member": false
-        },
-        {
-          "name": "Davy Vancampfort",
-          "member": false
-        },
-        {
-          "name": "Ruud van Winkel",
-          "member": false
-        }
-      ],
-      "author_count": 13
-    },
-    {
       "openalex": "W3169862311",
       "doi": "10.1521/pedi_2021_35_509",
       "title": "The Statistical Specificity of Emotion Dynamics in Borderline Personality Disorder",
@@ -16151,46 +15333,6 @@
       "author_count": 7
     },
     {
-      "openalex": "W3172369393",
-      "doi": "10.1007/s00787-021-01822-6",
-      "title": "Resilience and quality of life in young adults with a 22q11.2 deletion syndrome: a patient’s perspective",
-      "year": 2021,
-      "date": "2021-06-11",
-      "type": "article",
-      "journal": "European Child & Adolescent Psychiatry",
-      "url": "https://doi.org/10.1007/s00787-021-01822-6",
-      "open_access_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/9979632",
-      "authors": [
-        {
-          "name": "Kris Van de Woestyne",
-          "member": false
-        },
-        {
-          "name": "Ans Vandensande",
-          "member": false
-        },
-        {
-          "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
-        },
-        {
-          "name": "Bea Maes",
-          "member": false
-        },
-        {
-          "name": "Elfi Vergaelen",
-          "member": false
-        },
-        {
-          "name": "Ann Swillen",
-          "member": false
-        }
-      ],
-      "author_count": 6
-    },
-    {
       "openalex": "W3171182492",
       "doi": "10.1038/s42003-021-02235-6",
       "title": "Long term fMRI adaptation depends on adapter response in face-selective cortex",
@@ -16211,9 +15353,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Stefan G. Sunaert",
@@ -16273,9 +15413,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Bo Crauwels",
@@ -16531,9 +15669,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Chris L. Adamson",
@@ -16857,9 +15993,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Axel Nordenskjöld",
@@ -16917,9 +16051,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Koen Van Laere",
@@ -17019,9 +16151,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Eric R. van Exel",
@@ -17613,9 +16743,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Filip Bouckaert",
@@ -17829,9 +16957,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Jasmien Obbels",
@@ -17895,9 +17021,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Pascal A. Sienaert",
@@ -18179,9 +17303,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Louise Emsell",
@@ -18493,9 +17615,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Harm‐Pieter Spaans",
@@ -18753,9 +17873,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Esmée Verwijk",
@@ -19219,9 +18337,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Pascal A. Sienaert",
@@ -19517,9 +18633,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "François‐Laurent De Winter",
@@ -19959,9 +19073,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Pascal A. Sienaert",
@@ -21081,9 +20193,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "François‐Laurent De Winter",
@@ -21147,9 +20257,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Jasmien Obbels",
@@ -21267,9 +20375,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Louise Emsell",
@@ -21681,38 +20787,6 @@
       "author_count": 9
     },
     {
-      "openalex": "W2944335326",
-      "doi": "10.1007/s40263-019-00625-3",
-      "title": "Medication-Induced Akathisia with Newly Approved Antipsychotics in Patients with a Severe Mental Illness: A Systematic Review and Meta-Analysis",
-      "year": 2019,
-      "date": "2019-05-07",
-      "type": "review",
-      "journal": "CNS Drugs",
-      "url": "https://doi.org/10.1007/s40263-019-00625-3",
-      "open_access_url": "https://lirias.kuleuven.be/retrieve/9d1ef507-a995-4ce6-8588-37f4e3584df4",
-      "authors": [
-        {
-          "name": "Koen Demyttenaere",
-          "member": false
-        },
-        {
-          "name": "Johan Detraux",
-          "member": false
-        },
-        {
-          "name": "Giorgio Racagni",
-          "member": false
-        },
-        {
-          "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
-        }
-      ],
-      "author_count": 4
-    },
-    {
       "openalex": "W2941495460",
       "doi": "10.3389/fpsyg.2019.00904",
       "title": "Non-overlapping and Inverse Associations Between the Sexes in Structural Brain-Trait Associations",
@@ -21757,9 +20831,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Esmée Verwijk",
@@ -21855,9 +20927,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "François‐Laurent De Winter",
@@ -22115,9 +21185,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Esmée Verwijk",
@@ -22355,42 +21423,6 @@
       "author_count": 3
     },
     {
-      "openalex": "W2901568432",
-      "doi": "10.1186/s40479-018-0095-7",
-      "title": "Emotional reactivity to appraisals in patients with a borderline personality disorder: a daily life study",
-      "year": 2018,
-      "date": "2018-11-13",
-      "type": "article",
-      "journal": "Borderline Personality Disorder and Emotion Dysregulation",
-      "url": "https://doi.org/10.1186/s40479-018-0095-7",
-      "open_access_url": "https://bpded.biomedcentral.com/counter/pdf/10.1186/s40479-018-0095-7",
-      "authors": [
-        {
-          "name": "Marlies Houben",
-          "member": false
-        },
-        {
-          "name": "Laurence Claes",
-          "member": false
-        },
-        {
-          "name": "Ellen Sleuwaegen",
-          "member": false
-        },
-        {
-          "name": "Ann Berens",
-          "member": false
-        },
-        {
-          "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
-        }
-      ],
-      "author_count": 5
-    },
-    {
       "openalex": "W2898985629",
       "doi": "10.1136/ebmental-2018-300048",
       "title": "Electroconvulsive therapy does not increase the risk of dementia in patients with affective disorders",
@@ -22625,42 +21657,6 @@
       "author_count": 1
     },
     {
-      "openalex": "W2883389043",
-      "doi": "10.1002/erv.2625",
-      "title": "Indirect and direct measures of striving for perfection moderate body mass index curves in the intensive treatment of anorexia nervosa",
-      "year": 2018,
-      "date": "2018-07-16",
-      "type": "article",
-      "journal": "European Eating Disorders Review",
-      "url": "https://doi.org/10.1002/erv.2625",
-      "open_access_url": "https://lirias.kuleuven.be/handle/123456789/624712",
-      "authors": [
-        {
-          "name": "Kathleen De Cuyper",
-          "member": false
-        },
-        {
-          "name": "Dirk Hermans",
-          "member": false
-        },
-        {
-          "name": "Guido Pieters",
-          "member": false
-        },
-        {
-          "name": "Laurence Claes",
-          "member": false
-        },
-        {
-          "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
-        }
-      ],
-      "author_count": 5
-    },
-    {
       "openalex": "W2884799707",
       "doi": "10.1111/acps.12942",
       "title": "Long‐term neurocognitive functioning after electroconvulsive therapy in patients with late‐life depression",
@@ -22681,9 +21677,7 @@
         },
         {
           "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
+          "member": false
         },
         {
           "name": "Annemiek Dols",
@@ -22723,38 +21717,6 @@
         }
       ],
       "author_count": 10
-    },
-    {
-      "openalex": "W2837253394",
-      "doi": "10.1186/s40479-018-0089-5",
-      "title": "Effectiveness of step-down versus outpatient dialectical behaviour therapy for patients with severe levels of borderline personality disorder: a pragmatic randomized controlled trial",
-      "year": 2018,
-      "date": "2018-07-10",
-      "type": "article",
-      "journal": "Borderline Personality Disorder and Emotion Dysregulation",
-      "url": "https://doi.org/10.1186/s40479-018-0089-5",
-      "open_access_url": "https://bpded.biomedcentral.com/counter/pdf/10.1186/s40479-018-0089-5",
-      "authors": [
-        {
-          "name": "Roland Sinnaeve",
-          "member": false
-        },
-        {
-          "name": "Louisa M. C. van den Bosch",
-          "member": false
-        },
-        {
-          "name": "Leona Hakkaart‐van Roijen",
-          "member": false
-        },
-        {
-          "name": "Kristof Vansteelandt",
-          "member": true,
-          "orcid": "0000-0002-2562-0447",
-          "openalex": "A5068078315"
-        }
-      ],
-      "author_count": 4
     },
     {
       "openalex": "W2826049594",
