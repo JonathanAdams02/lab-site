@@ -1,6 +1,6 @@
 {
   "source": "OpenAlex (https://openalex.org)",
-  "updated": "2026-11-03T09:56:30.651Z",
+  "updated": "2026-11-03T10:45:10.602Z",
   "works": [
     {
       "openalex": "W7223169598",
@@ -5757,7 +5757,9 @@
       "authors": [
         {
           "name": "Laura Iris Van Hove",
-          "member": false
+          "member": true,
+          "orcid": "0009-0005-3779-7740",
+          "openalex": "A5126234555"
         },
         {
           "name": "François‐Laurent De Winter",
