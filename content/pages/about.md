@@ -22,6 +22,6 @@ approach:
     body: Imaging, electrophysiology and computational modelling used side by side.
   - num: "03"
     title: Open output
-    body: Findings shared openly, and mapped in the Output Atlas.
+    body: Findings shared openly.
 ---
 We are part of the Leuven Brain Institute and work closely with UZ Leuven, combining an academic hospital setting with a large basic neuroscience community. Clinical questions drive the research, and results are fed back into clinical practice.
