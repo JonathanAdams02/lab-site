@@ -1,6 +1,6 @@
 {
   "source": "OpenAlex (https://openalex.org)",
-  "updated": "2026-11-02T12:19:31.087Z",
+  "updated": "2026-11-03T09:20:35.957Z",
   "works": [
     {
       "openalex": "W7223169598",
@@ -3331,7 +3331,9 @@
         },
         {
           "name": "Laurent Mertens",
-          "member": false
+          "member": true,
+          "orcid": "0000-0001-5175-2673",
+          "openalex": "A5075193529"
         },
         {
           "name": "Joost Vennekens",
@@ -3841,7 +3843,9 @@
         },
         {
           "name": "Laurent Mertens",
-          "member": false
+          "member": true,
+          "orcid": "0000-0001-5175-2673",
+          "openalex": "A5075193529"
         },
         {
           "name": "Laura Iris Van Hove",
@@ -4691,6 +4695,38 @@
         }
       ],
       "author_count": 6
+    },
+    {
+      "openalex": "W4409480427",
+      "doi": "10.14428/esann/2025.es2025-98",
+      "title": "Enhancing Computer Vision with Knowledge: a Rummikub Case Study",
+      "year": 2025,
+      "date": "2025-01-01",
+      "type": "conference-paper",
+      "journal": "European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning (ESANN)",
+      "url": "https://doi.org/10.14428/esann/2025.es2025-98",
+      "open_access_url": "https://doi.org/10.14428/esann/2025.es2025-98",
+      "authors": [
+        {
+          "name": "Simon Vandevelde",
+          "member": false
+        },
+        {
+          "name": "Laurent Mertens",
+          "member": true,
+          "orcid": "0000-0001-5175-2673",
+          "openalex": "A5075193529"
+        },
+        {
+          "name": "Sverre Lauwers",
+          "member": false
+        },
+        {
+          "name": "Joost Vennekens",
+          "member": false
+        }
+      ],
+      "author_count": 4
     },
     {
       "openalex": "W4407145685",
@@ -5911,6 +5947,34 @@
         },
         {
           "name": "Marcus Missal",
+          "member": false
+        }
+      ],
+      "author_count": 3
+    },
+    {
+      "openalex": "W4402856387",
+      "doi": "10.48550/arxiv.2407.14314",
+      "title": "EmoCAM: Toward Understanding What Drives CNN-based Emotion Recognition",
+      "year": 2024,
+      "date": "2024-07-19",
+      "type": "preprint",
+      "journal": "arXiv (Cornell University)",
+      "url": "https://doi.org/10.48550/arxiv.2407.14314",
+      "open_access_url": "https://arxiv.org/pdf/2407.14314",
+      "authors": [
+        {
+          "name": "Youssef Doulfoukar",
+          "member": false
+        },
+        {
+          "name": "Laurent Mertens",
+          "member": true,
+          "orcid": "0000-0001-5175-2673",
+          "openalex": "A5075193529"
+        },
+        {
+          "name": "Joost Vennekens",
           "member": false
         }
       ],
@@ -8307,6 +8371,26 @@
       "author_count": 9
     },
     {
+      "openalex": "W4387421137",
+      "doi": "10.1145/3577190.3614232",
+      "title": "Modeling Social Cognition and its Neurologic Deficits with Artificial Neural Networks",
+      "year": 2023,
+      "date": "2023-10-07",
+      "type": "conference-paper",
+      "journal": "INTERNATIONAL CONFERENCE ON MULTIMODAL INTERACTION",
+      "url": "https://doi.org/10.1145/3577190.3614232",
+      "open_access_url": "https://dl.acm.org/doi/pdf/10.1145/3577190.3614232",
+      "authors": [
+        {
+          "name": "Laurent Mertens",
+          "member": true,
+          "orcid": "0000-0001-5175-2673",
+          "openalex": "A5075193529"
+        }
+      ],
+      "author_count": 1
+    },
+    {
       "openalex": "W4387392918",
       "doi": "10.1002/jclp.23599",
       "title": "Associations between childhood adversity, psychiatric symptoms, and self‐esteem outcomes in adolescents and young adults: An experience sampling study",
@@ -9837,7 +9921,9 @@
       "authors": [
         {
           "name": "Laurent Mertens",
-          "member": false
+          "member": true,
+          "orcid": "0000-0001-5175-2673",
+          "openalex": "A5075193529"
         },
         {
           "name": "Elahe’ Yargholi",
@@ -12017,6 +12103,30 @@
         }
       ],
       "author_count": 7
+    },
+    {
+      "openalex": "W4225518674",
+      "doi": "10.48550/arxiv.2201.04913",
+      "title": "Compressing Word Embeddings Using Syllables",
+      "year": 2022,
+      "date": "2022-01-13",
+      "type": "preprint",
+      "journal": "arXiv (Cornell University)",
+      "url": "https://doi.org/10.48550/arxiv.2201.04913",
+      "open_access_url": "https://arxiv.org/pdf/2201.04913",
+      "authors": [
+        {
+          "name": "Laurent Mertens",
+          "member": true,
+          "orcid": "0000-0001-5175-2673",
+          "openalex": "A5075193529"
+        },
+        {
+          "name": "Joost Vennekens",
+          "member": false
+        }
+      ],
+      "author_count": 2
     },
     {
       "openalex": "W4313200643",
@@ -15927,6 +16037,30 @@
         }
       ],
       "author_count": 7
+    },
+    {
+      "openalex": "W3034957465",
+      "doi": "10.1109/e-tems46250.2020.9111743",
+      "title": "Predicting Subcontractor Performance from Past Audits",
+      "year": 2020,
+      "date": "2020-03-01",
+      "type": "conference-paper",
+      "journal": "IEEE European Technology and Engineering Management Summit (E-TEMS)",
+      "url": "https://doi.org/10.1109/e-tems46250.2020.9111743",
+      "open_access_url": "https://lirias.kuleuven.be/retrieve/856e25a9-0a21-496d-a405-ecf7b38abb2d",
+      "authors": [
+        {
+          "name": "Laurent Mertens",
+          "member": true,
+          "orcid": "0000-0001-5175-2673",
+          "openalex": "A5075193529"
+        },
+        {
+          "name": "Joost Vennekens",
+          "member": false
+        }
+      ],
+      "author_count": 2
     },
     {
       "openalex": "W3010509509",
