@@ -1,6 +1,6 @@
 {
   "source": "OpenAlex (https://openalex.org)",
-  "updated": "2026-11-03T14:23:33.433Z",
+  "updated": "2026-11-03T14:34:44.248Z",
   "works": [
     {
       "openalex": "W7220842024",
@@ -3361,6 +3361,26 @@
         }
       ],
       "author_count": 6
+    },
+    {
+      "openalex": "W4415380133",
+      "doi": "10.1186/s12888-025-07247-8",
+      "title": "Blue light treatment of psychiatric disorders: relationships with systemic inflammation, lipid metabolism, and clinical symptoms",
+      "year": 2025,
+      "date": "2025-10-21",
+      "type": "article",
+      "journal": "BMC Psychiatry",
+      "url": "https://doi.org/10.1186/s12888-025-07247-8",
+      "open_access_url": "https://bmcpsychiatry.biomedcentral.com/counter/pdf/10.1186/s12888-025-07247-8",
+      "authors": [
+        {
+          "name": "Lina Ren",
+          "member": true,
+          "orcid": "0000-0003-0287-8733",
+          "openalex": "A5084884445"
+        }
+      ],
+      "author_count": 1
     },
     {
       "openalex": "W4415119397",
