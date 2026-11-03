@@ -6,6 +6,7 @@ address: |-
   Leuven Brain Institute
   Herestraat 49
   3000 Leuven, Belgium
-joining_text: We welcome enquiries from prospective PhD candidates and postdocs. Send a CV and a short statement of research interests.
-image: ""
+joining_text: We welcome enquiries from prospective PhD candidates and postdocs.
+  Send a CV and a short statement of research interests.
+image: /media/route-map-20261103-1715.jpg
 ---
