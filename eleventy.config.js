@@ -10,6 +10,8 @@ export default function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
   eleventyConfig.addPassthroughCopy({ media: "media" });
+  // The Research Atlas, built by atlas/build.py, is published at /atlas/.
+  eleventyConfig.addPassthroughCopy({ "atlas/atlas.html": "atlas/index.html" });
 
   // Rebuild when content changes during local preview.
   eleventyConfig.addWatchTarget("content/");

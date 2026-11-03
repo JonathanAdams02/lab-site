@@ -4,3 +4,8 @@ _site/
 .cache/
 fris-debug/
 fris-probe/
+# Research Atlas (Python)
+.venv/
+venv/
+__pycache__/
+atlas/website_cache.json

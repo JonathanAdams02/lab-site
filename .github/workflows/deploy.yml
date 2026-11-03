@@ -6,9 +6,9 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
-  # Republish after the weekly publication / project updates have run.
+  # Republish after the publication / project / atlas updates have run.
   workflow_run:
-    workflows: ["Update publications", "Update projects"]
+    workflows: ["Update publications", "Update projects", "Update atlas"]
     types: [completed]
 
 permissions:

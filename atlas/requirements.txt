@@ -1,0 +1,7 @@
+# Python packages for atlas/build.py
+# (on GitHub, the CPU-only version of PyTorch is installed first — see .github/workflows/update-atlas.yml)
+sentence-transformers>=2.7
+umap-learn>=0.5.5
+scikit-learn>=1.3
+numpy
+pyyaml
