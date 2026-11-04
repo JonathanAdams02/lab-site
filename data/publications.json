@@ -1,6 +1,6 @@
 {
   "source": "OpenAlex (https://openalex.org)",
-  "updated": "2026-11-03T14:34:44.248Z",
+  "updated": "2026-11-04T14:46:21.169Z",
   "works": [
     {
       "openalex": "W7220842024",
@@ -1350,14 +1350,14 @@
     },
     {
       "openalex": "W7154843368",
-      "doi": "10.31234/osf.io/ey8nx_v1",
+      "doi": "10.31234/osf.io/ey8nx",
       "title": "Beyond “Sleep Problems”: Conceptual Disentangling of Nighttime Disturbances in Dementia",
       "year": 2026,
       "date": "2026-04-18",
       "type": "preprint",
       "journal": "",
-      "url": "https://doi.org/10.31234/osf.io/ey8nx_v1",
-      "open_access_url": "https://doi.org/10.31234/osf.io/ey8nx_v1",
+      "url": "https://doi.org/10.31234/osf.io/ey8nx",
+      "open_access_url": "https://doi.org/10.31234/osf.io/ey8nx",
       "authors": [
         {
           "name": "Ajda Flisar",
@@ -3959,7 +3959,7 @@
     {
       "openalex": "W4412460980",
       "doi": "10.1167/jov.25.9.1826",
-      "title": "Brain representations of numerosity across the senses and presentation format",
+      "title": "Brain Representation of Numerosity across the Senses and Presentation Formats",
       "year": 2025,
       "date": "2025-07-15",
       "type": "article",
@@ -3968,7 +3968,7 @@
       "open_access_url": "https://doi.org/10.1167/jov.25.9.1826",
       "authors": [
         {
-          "name": "Ying YANG",
+          "name": "Ying Yang",
           "member": false
         },
         {
@@ -3996,9 +3996,13 @@
         {
           "name": "Olivier Collignon",
           "member": false
+        },
+        {
+          "name": "Olivier Collignon",
+          "member": false
         }
       ],
-      "author_count": 7
+      "author_count": 8
     },
     {
       "openalex": "W4412459132",
@@ -12827,7 +12831,7 @@
       "year": 2022,
       "date": "2022-05-26",
       "type": "other",
-      "journal": "",
+      "journal": "Cambridge University Press eBooks",
       "url": "https://doi.org/10.1017/9781108918954.001",
       "open_access_url": "",
       "authors": [
