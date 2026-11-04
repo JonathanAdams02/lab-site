@@ -25,7 +25,18 @@ content:
           - { name: intro, label: Introduction, type: text }
           - { name: primary_button, label: Blue button text (goes to Research output), type: string }
           - { name: secondary_button, label: Outline button text (goes to People), type: string }
-          - { name: show_atlas, label: Show the Output Atlas, type: boolean, default: true }
+          - name: group_photo
+            label: Group photo (shown under the introduction)
+            description: A wide photo works best. It is always shown whole, never cropped.
+            type: image
+          - { name: group_photo_alt, label: Group photo description (for screen readers), type: string }
+          - { name: group_photo_caption, label: Group photo caption (optional), type: string }
+          - name: atlas_with_photo
+            label: Also show the Output Atlas under the group photo
+            description: Normally the group photo replaces the atlas on the homepage. The atlas always stays on the Research output page.
+            type: boolean
+            default: false
+          - { name: show_atlas, label: Show the Output Atlas when there is no group photo, type: boolean, default: true }
           - { name: themes_title, label: Research themes heading, type: string }
           - name: themes
             label: Research themes

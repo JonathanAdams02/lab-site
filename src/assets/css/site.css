@@ -118,6 +118,10 @@ a:hover { color: var(--sky); }
 
 .atlas-section { padding-top: 60px; padding-bottom: 88px; }
 .atlas-frame { border: 1px solid var(--line); background: #fff; }
+.group-photo { margin: 0; }
+.group-photo img { width: 100%; height: auto; display: block; border: 1px solid var(--line); }
+.group-photo figcaption { font-size: 13.5px; color: var(--faint); margin-top: 12px; line-height: 1.5; }
+.atlas-after-photo { padding-top: 0; }
 .atlas-frame-inner { max-width: 1320px; margin: 0 auto; }
 .atlas-frame iframe { width: 100%; height: var(--atlas-height, 950px); border: none; display: block; }
 .atlas-open { margin-top: 12px; font-size: 13.5px; font-weight: 600; display: none; }
@@ -392,6 +396,14 @@ a:hover { color: var(--sky); }
 }
 .copy-btn:hover { border-color: var(--blue); }
 .fund .btn { margin-top: auto; }
+/* With a link, the whole card is clickable (title link stretched over it);
+   the bank details and copy buttons stay usable on top. */
+.fund-linked { position: relative; transition: border-color .15s; }
+.fund-linked:hover { border-color: var(--sky); }
+.fund-title-link { color: inherit; }
+.fund-title-link::after { content: ""; position: absolute; inset: 0; z-index: 1; }
+.fund-linked:hover .fund-title-link { color: var(--blue-hover); }
+.fund-linked .fund-details, .fund-linked .btn { position: relative; z-index: 2; }
 .donate-note { margin-top: 36px; font-size: 14.5px; line-height: 1.65; color: var(--muted); max-width: 70ch; }
 
 /* spam-safe email links */

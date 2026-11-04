@@ -19,8 +19,20 @@ permalink: /
   </div>
 </section>
 
-{% if lab.isTrue(p.show_atlas, true) %}
+{% if p.group_photo %}
 <section class="wrap atlas-section">
+  <figure class="group-photo">
+    <img src="{{ p.group_photo }}" alt="{{ p.group_photo_alt or 'The research group' }}">
+    {% if p.group_photo_caption %}<figcaption>{{ p.group_photo_caption }}</figcaption>{% endif %}
+  </figure>
+</section>
+{% endif %}
+
+{#- With a group photo, the photo replaces the atlas here (unless "also show
+    the atlas" is ticked). The atlas always stays on the Research output page. -#}
+{% set showAtlas = lab.isTrue(p.atlas_with_photo, false) if p.group_photo else lab.isTrue(p.show_atlas, true) %}
+{% if showAtlas %}
+<section class="wrap atlas-section{% if p.group_photo %} atlas-after-photo{% endif %}">
   {% include "atlas.njk" %}
 </section>
 {% endif %}
