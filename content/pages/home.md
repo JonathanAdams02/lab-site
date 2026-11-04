@@ -6,6 +6,8 @@ intro: We study the brain mechanisms underlying psychiatric illness, bridging
   Brain Institute.
 primary_button: Explore our research output
 secondary_button: Meet the team
+group_photo: /media/WhatsApp Image 2026-11-04 at 14.14.10.jpeg
+atlas_with_photo: false
 show_atlas: true
 themes_title: Research themes
 themes:
