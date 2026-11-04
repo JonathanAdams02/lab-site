@@ -1,8 +1,6 @@
 ---
 eyebrow: Donate
 title: Support our research
-intro: Gifts help us start new studies, support young researchers and share our
-  results. Every contribution, large or small, makes a difference.
 funds:
   - name: Sequoia fonds voor onderzoek naar veroudering en geestelijke gezondheid
     description: Ouderen zijn kwetsbaar voor het ontwikkelen van geestelijke
@@ -17,6 +15,6 @@ funds:
       steunen dat bijdraagt tot het opsporen, begrijpen en behandelen van
       psychische of cognitieve problemen bij ouderen. Het doel is om de
       levenskwaliteit en het welbevinden van ouderen te verhogen.
-    link: https://steun.kuleuven.be/fondsen/geneeskunde/sequoia-fonds
+    link: https://www.upckuleuven.be/nl/research/sequoia-fonds
     link_label: Lees meer
 ---
