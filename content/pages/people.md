@@ -1,7 +1,8 @@
 ---
 eyebrow: People
 title: The team
-intro: Clinicians, neuroscientists and methodologists working across the Leuven Brain Institute and UZ Leuven.
+intro: Clinicians, neuroscientists and methodologists working across the Leuven
+  Brain Institute, UZ Leuven and UPC KU Leuven.
 groups:
   - id: pi
     title: Principal investigators
