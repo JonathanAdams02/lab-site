@@ -5,6 +5,8 @@
   { "key": "projects", "label": "Projects", "url": "/projects/" },
   { "key": "research", "label": "Research output", "url": "/research/" },
   { "key": "code", "label": "Code", "url": "/code/" },
+  { "key": "news", "label": "News", "url": "/news/", "requires": "news" },
   { "key": "participate", "label": "Participate", "url": "/participate/" },
+  { "key": "donate", "label": "Donate", "url": "/donate/", "requires": "donate" },
   { "key": "contact", "label": "Contact", "url": "/contact/" }
 ]

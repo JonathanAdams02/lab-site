@@ -4,7 +4,8 @@
 media:
   input: media
   output: /media
-  extensions: [jpg, jpeg, png, webp, gif, svg]
+  # Upper- and lower-case both listed: phones and cameras often save ".JPG".
+  extensions: [jpg, jpeg, png, webp, gif, svg, JPG, JPEG, PNG, WEBP, GIF, SVG]
 
 content:
   # ------------------------------------------------------------------
@@ -177,6 +178,48 @@ content:
               - { name: body, label: Text, type: text }
           - { name: questions_text, label: Text before the email address at the bottom of the box, type: string }
 
+      - name: news_page
+        label: News (page heading)
+        type: file
+        path: content/pages/news.md
+        fields:
+          - { name: eyebrow, label: Small label above the title, type: string }
+          - { name: title, label: Title, type: string }
+          - { name: intro, label: Introduction, type: text }
+
+      - name: donate_page
+        label: Donate
+        type: file
+        path: content/pages/donate.md
+        fields:
+          - { name: eyebrow, label: Small label above the title, type: string }
+          - { name: title, label: Title, type: string }
+          - { name: intro, label: Introduction, type: text }
+          - name: body
+            label: Further text (optional)
+            type: rich-text
+            options:
+              format: markdown
+              media: false
+          - name: funds
+            label: Funds (the Donate page appears in the menu once at least one is listed)
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{name}"
+            fields:
+              - { name: name, label: Fund name, type: string, required: true }
+              - { name: description, label: What the money is used for, type: text }
+              - { name: link, label: Online donation page (link), type: string, description: "e.g. the fund's page on the KU Leuven Fund website" }
+              - { name: link_label, label: Button text, type: string, description: "Default: Donate online" }
+              - { name: beneficiary, label: Beneficiary (for bank transfers), type: string }
+              - { name: account, label: Account number (IBAN), type: string }
+              - { name: bic, label: BIC, type: string }
+              - { name: reference, label: Payment reference / structured message, type: string }
+              - { name: image, label: Picture (optional), type: image }
+          - { name: note, label: Note at the bottom (e.g. tax deductibility), type: text }
+
       - name: contact_page
         label: Contact
         type: file
@@ -217,8 +260,8 @@ content:
             - { name: phd, label: PhD candidates }
             - { name: support, label: Support and affiliated staff }
       - { name: focus, label: Research focus, type: string }
-      - { name: photo, label: Portrait photo, type: image, description: Square photos look best. Without a photo the initials are shown. }
-      - { name: email, label: Email (shown on their profile page), type: string }
+      - { name: photo, label: Portrait photo, type: image, description: "JPG or PNG. The whole photo is always shown (never cropped); without a photo the initials are shown." }
+      - { name: email, label: Email (shown on their profile page — protected against spam harvesting), type: string }
       - { name: link, label: Personal website or profile link (optional), type: string }
       - name: body
         label: About their work (optional)
@@ -236,6 +279,36 @@ content:
         type: string
         description: "Only needed if someone has no ORCID. Find it by searching their name on openalex.org — it looks like A5012345678."
       - { name: order, label: Position within the group, type: number, description: Lower numbers come first. Leave empty to sort alphabetically at the end. }
+
+  - name: news
+    label: News
+    type: collection
+    path: content/news
+    filename: "{year}-{month}-{day}-{fields.title}.md"
+    view:
+      fields: [title, date, published]
+      primary: title
+      sort: [date, title]
+      default:
+        sort: date
+        order: desc
+    fields:
+      - { name: title, label: Title, type: string, required: true }
+      - { name: date, label: Date, type: date, required: true }
+      - name: published
+        label: Show on the website
+        description: Untick to hide a post without deleting it. The News page only appears when at least one post is shown.
+        type: boolean
+        default: true
+      - { name: summary, label: Short summary (shown in the overview), type: text }
+      - { name: image, label: Picture (optional), type: image }
+      - { name: image_alt, label: Picture description (for screen readers), type: string }
+      - { name: image_caption, label: Picture caption (optional), type: string }
+      - name: body
+        label: Text
+        type: rich-text
+        options:
+          format: markdown
 
   - name: publication_settings
     label: Publication list settings

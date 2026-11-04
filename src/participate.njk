@@ -3,14 +3,15 @@ layout: base.njk
 navKey: participate
 permalink: /participate/
 ---
+{%- from "email.njk" import email -%}
 {%- set p = lab.pages.participate -%}
-{%- set email = lab.settings.participate_email -%}
+{%- set participateEmail = lab.settings.participate_email -%}
 <section class="participate-hero">
   <div class="wrap">
     {% if p.eyebrow %}<div class="eyebrow">{{ p.eyebrow }}</div>{% endif %}
     <h1 class="page-title">{{ p.title }}</h1>
     {% if p.intro %}<p>{{ p.intro }}</p>{% endif %}
-    {% if p.button and email %}<a class="btn btn-primary" href="mailto:{{ email }}">{{ p.button }}</a>{% endif %}
+    {% if p.button and participateEmail %}{{ email(participateEmail, label=p.button, mode="open", cls="btn btn-primary") }}{% endif %}
   </div>
 </section>
 
@@ -66,8 +67,8 @@ permalink: /participate/
         </div>
         {%- endfor %}
       </div>
-      {% if p.questions_text and email %}
-      <div class="notes-foot">{{ p.questions_text }} <a href="mailto:{{ email }}">{{ email }}</a>.</div>
+      {% if p.questions_text and participateEmail %}
+      <div class="notes-foot">{{ p.questions_text }} {{ email(participateEmail, label="Show email address") }}.</div>
       {% endif %}
     </div>
   </div>

@@ -31,9 +31,9 @@
       Menu
     </button>
     <nav class="site-nav" id="site-nav" aria-label="Main">
-      {%- for item in navigation %}
+      {%- for item in navigation %}{% if not item.requires or lab.visible[item.requires] %}
       <a href="{{ item.url }}"{% if item.key == navKey %} aria-current="page"{% endif %}>{{ item.label }}</a>
-      {%- endfor %}
+      {%- endif %}{% endfor %}
     </nav>
   </div>
 </header>
@@ -50,7 +50,7 @@
     </div>
     <div class="footer-col">
       <div class="footer-col-title">Pages</div>
-      {%- for item in navigation %}{% if item.key != "home" %}
+      {%- for item in navigation %}{% if item.key != "home" and (not item.requires or lab.visible[item.requires]) %}
       <a href="{{ item.url }}">{{ item.label }}</a>
       {%- endif %}{% endfor %}
     </div>
@@ -67,6 +67,39 @@
 </footer>
 
 <script>
+  // Spam-safe email links (see _includes/email.njk)
+  (function () {
+    function decode(e) {
+      try { return decodeURIComponent(escape(atob(e))).split('').reverse().join(''); } catch (err) { return ''; }
+    }
+    document.querySelectorAll('.js-email').forEach(function (link) {
+      link.addEventListener('click', function (ev) {
+        var addr = decode(link.getAttribute('data-e'));
+        if (!addr) return;
+        if (link.getAttribute('data-mode') === 'open') {
+          ev.preventDefault();
+          window.location.href = 'mailto:' + addr;
+          return;
+        }
+        if (!link.classList.contains('revealed')) {
+          ev.preventDefault();
+          link.textContent = addr;
+          link.href = 'mailto:' + addr;
+          link.classList.add('revealed');
+        }
+      });
+    });
+  })();
+  // Copy buttons (Donate page)
+  (function () {
+    document.querySelectorAll('[data-copy]').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var text = btn.getAttribute('data-copy');
+        var done = function () { var t = btn.textContent; btn.textContent = 'Copied'; setTimeout(function () { btn.textContent = t; }, 1500); };
+        if (navigator.clipboard) navigator.clipboard.writeText(text).then(done, function () {});
+      });
+    });
+  })();
   (function () {
     var header = document.querySelector('.site-header');
     var btn = document.querySelector('.nav-toggle');

@@ -15,7 +15,7 @@ permalink: /people/
     <div class="people-grid">
       {%- for person in group.members %}
       <a class="person person-card" href="{{ person.profileUrl }}">
-        <div class="portrait">
+        <div class="portrait{% if person.photo %} has-photo{% endif %}">
           {%- if person.photo %}
           <img src="{{ person.photo }}" alt="{{ person.name }}" loading="lazy">
           {%- else %}

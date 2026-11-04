@@ -16,7 +16,14 @@ export default function (eleventyConfig) {
   // Rebuild when content changes during local preview.
   eleventyConfig.addWatchTarget("content/");
 
-  // "Ada Lovelace" -> "AL" (used when a person has no photo).
+  // Email addresses are never written into the pages as plain text (spam
+  // harvesters read the page source). They're stored reversed + base64 and
+  // put back together in the browser when a visitor clicks — see email.njk.
+  eleventyConfig.addFilter("encodeEmail", (address = "") =>
+    Buffer.from(String(address).trim().split("").reverse().join(""), "utf8").toString("base64")
+  );
+
+    // "Ada Lovelace" -> "AL" (used when a person has no photo).
   eleventyConfig.addFilter("initials", (name = "") =>
     String(name)
       .split(/\s+/)

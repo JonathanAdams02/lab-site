@@ -1,0 +1,25 @@
+---
+layout: base.njk
+navKey: news
+pagination:
+  data: lab.news
+  size: 1
+  alias: post
+  addAllPagesToCollections: false
+permalink: "/news/{{ post.slug }}/"
+eleventyComputed:
+  pageTitle: "{{ post.title }}"
+---
+<article class="wrap page-section news-post">
+  <a class="back-link" href="/news/">← All news</a>
+  {% if post.dateLabel %}<time class="eyebrow news-post-date" datetime="{{ post.dateISO }}">{{ post.dateLabel }}</time>{% endif %}
+  <h1 class="page-title">{{ post.title }}</h1>
+  {% if post.summary %}<p class="lede news-post-summary">{{ post.summary }}</p>{% endif %}
+  {% if post.image %}
+  <figure class="news-post-figure">
+    <img src="{{ post.image }}" alt="{{ post.image_alt or '' }}">
+    {% if post.image_caption %}<figcaption>{{ post.image_caption }}</figcaption>{% endif %}
+  </figure>
+  {% endif %}
+  <div class="about-body rich news-post-body">{{ post.html | safe }}</div>
+</article>

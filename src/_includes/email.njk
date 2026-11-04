@@ -1,0 +1,9 @@
+{#- Spam-safe email links. The address is encoded in the page and only decoded
+    when a visitor clicks (see the script in base.njk).
+    mode "reveal": shows the label, the address appears on click (then works as a normal link)
+    mode "open":   a button/link that opens the visitor's mail program on click -#}
+{% macro email(address, label="Show email address", mode="reveal", cls="") -%}
+{%- if address -%}
+<a href="#" class="js-email {{ cls }}" data-e="{{ address | encodeEmail }}" data-mode="{{ mode }}" rel="nofollow">{{ label }}</a>
+{%- endif -%}
+{%- endmacro %}

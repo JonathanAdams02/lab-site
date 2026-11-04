@@ -1,0 +1,30 @@
+---
+layout: base.njk
+navKey: news
+pagination:
+  data: lab.newsPages
+  size: 1
+  alias: newsPage
+  addAllPagesToCollections: false
+permalink: /news/
+---
+{#- Only built when there is at least one published post (see lab.js). -#}
+{%- set p = lab.pages.news or {} -%}
+<section class="wrap page-section news-section">
+  <div class="eyebrow">{{ p.eyebrow or "News" }}</div>
+  <h1 class="page-title">{{ p.title or "News" }}</h1>
+  {% if p.intro %}<p class="lede">{{ p.intro }}</p>{% endif %}
+  <div class="news-grid">
+    {%- for post in lab.news %}
+    <a class="news-card" href="{{ post.url }}">
+      {% if post.image %}<div class="news-card-img"><img src="{{ post.image }}" alt="{{ post.image_alt or '' }}" loading="lazy"></div>{% endif %}
+      <div class="news-card-body">
+        {% if post.dateLabel %}<time class="news-date" datetime="{{ post.dateISO }}">{{ post.dateLabel }}</time>{% endif %}
+        <h2>{{ post.title }}</h2>
+        {% if post.summary %}<p>{{ post.summary }}</p>{% endif %}
+        <span class="news-more">Read more →</span>
+      </div>
+    </a>
+    {%- endfor %}
+  </div>
+</section>

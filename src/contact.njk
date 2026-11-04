@@ -3,6 +3,7 @@ layout: base.njk
 navKey: contact
 permalink: /contact/
 ---
+{%- from "email.njk" import email -%}
 {%- set p = lab.pages.contact -%}
 {%- set s = lab.settings -%}
 <section class="wrap page-section contact-section">
@@ -16,12 +17,12 @@ permalink: /contact/
       </div>{% endif %}
       {% if s.general_email %}<div>
         <div class="label-lg">General enquiries</div>
-        <a class="contact-email" href="mailto:{{ s.general_email }}">{{ s.general_email }}</a>
+        {{ email(s.general_email, cls="contact-email") }}
       </div>{% endif %}
       {% if p.joining_text or s.vacancies_email %}<div>
         <div class="label-lg">Joining the group</div>
         {% if p.joining_text %}<p class="contact-join">{{ p.joining_text }}</p>{% endif %}
-        {% if s.vacancies_email %}<a href="mailto:{{ s.vacancies_email }}" style="font-size: 16px">{{ s.vacancies_email }}</a>{% endif %}
+        {{ email(s.vacancies_email, cls="contact-join-email") }}
       </div>{% endif %}
     </div>
     <div class="contact-image">

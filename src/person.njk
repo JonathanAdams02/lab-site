@@ -10,13 +10,14 @@ permalink: "/people/{{ person.profileSlug }}/"
 eleventyComputed:
   pageTitle: "{{ person.name }}"
 ---
+{%- from "email.njk" import email -%}
 {#- One page per person, made automatically from their entry under People in Pages CMS. -#}
 <section class="wrap page-section person-page">
   <a class="back-link" href="/people/">← The team</a>
 
   <div class="profile-grid">
     <aside class="profile-side">
-      <div class="portrait profile-portrait">
+      <div class="portrait profile-portrait{% if person.photo %} has-photo{% endif %}">
         {%- if person.photo %}
         <img src="{{ person.photo }}" alt="{{ person.name }}">
         {%- else %}
@@ -28,7 +29,7 @@ eleventyComputed:
       <div class="profile-contact">
         {% if person.email %}<div>
           <div class="label">Email</div>
-          <a href="mailto:{{ person.email }}">{{ person.email }}</a>
+          {{ email(person.email) }}
         </div>{% endif %}
         {% if person.orcidId %}<div>
           <div class="label">ORCID</div>

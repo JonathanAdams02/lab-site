@@ -1,0 +1,44 @@
+---
+layout: base.njk
+navKey: donate
+pagination:
+  data: lab.donatePages
+  size: 1
+  alias: donatePage
+  addAllPagesToCollections: false
+permalink: /donate/
+---
+{#- Only built when at least one fund is listed (see lab.js). -#}
+{%- set p = lab.pages.donate or {} -%}
+<section class="participate-hero">
+  <div class="wrap">
+    <div class="eyebrow">{{ p.eyebrow or "Donate" }}</div>
+    <h1 class="page-title">{{ p.title or "Support our research" }}</h1>
+    {% if p.intro %}<p>{{ p.intro }}</p>{% endif %}
+  </div>
+</section>
+
+<section class="wrap page-section donate-section">
+  {% if p.html %}<div class="about-body rich donate-body">{{ p.html | safe }}</div>{% endif %}
+  <div class="fund-grid">
+    {%- for fund in lab.donateFunds %}
+    <article class="fund">
+      {% if fund.image %}<div class="fund-img"><img src="{{ fund.image }}" alt="" loading="lazy"></div>{% endif %}
+      <div class="fund-body">
+        <h2>{{ fund.name }}</h2>
+        {% if fund.description %}<p>{{ fund.description }}</p>{% endif %}
+        {% if fund.account or fund.reference or fund.beneficiary %}
+        <dl class="fund-details">
+          {% if fund.beneficiary %}<div><dt>Beneficiary</dt><dd>{{ fund.beneficiary }}</dd></div>{% endif %}
+          {% if fund.account %}<div><dt>Account (IBAN)</dt><dd><span class="mono">{{ fund.account }}</span> <button type="button" class="copy-btn" data-copy="{{ fund.account | replace(' ', '') }}">Copy</button></dd></div>{% endif %}
+          {% if fund.bic %}<div><dt>BIC</dt><dd class="mono">{{ fund.bic }}</dd></div>{% endif %}
+          {% if fund.reference %}<div><dt>Reference</dt><dd><span class="mono">{{ fund.reference }}</span> <button type="button" class="copy-btn" data-copy="{{ fund.reference }}">Copy</button></dd></div>{% endif %}
+        </dl>
+        {% endif %}
+        {% if fund.link %}<a class="btn btn-primary" href="{{ fund.link }}" target="_blank" rel="noopener">{{ fund.link_label or "Donate online" }}</a>{% endif %}
+      </div>
+    </article>
+    {%- endfor %}
+  </div>
+  {% if p.note %}<p class="donate-note">{{ p.note }}</p>{% endif %}
+</section>

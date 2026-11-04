@@ -110,12 +110,15 @@ Log in at **app.pagescms.org**, open the site, then:
 | Change which **projects** show | **Project list settings** (they come from FRIS automatically, see section 5). Add one by hand under **Extra projects (manual)**. |
 | Open or close a **recruiting study** | **Recruiting studies**. Untick *Currently recruiting* to hide a study without deleting it. |
 | Change **page texts** (intro, About, Contact…) | **Page texts** → the page. |
+| Post **news** | **News** → *Add an entry*: title, date, summary, optional picture, text. The News page and menu item appear once a post is shown; untick *Show on the website* to hide one. |
+| List a **fund for donations** | **Page texts → Donate → Funds** → add one (name, description, donation link and/or IBAN + reference). The Donate page appears in the menu once a fund is listed. |
 | Change **emails, logos, footer links, atlas address** | **Site settings** |
 
 Click **Save**. The live site updates about 1–2 minutes later (refresh the page). Every save is kept in the history, so nothing is ever lost and any change can be undone on GitHub.
 
 **Tips**
-- People without a photo show their initials. Square photos of at least 400×400 px look best.
+- Photos (JPG or PNG) are always shown whole, never cropped; people without a photo show their initials.
+- Email addresses are protected against spam harvesting: they're not in the page as text, visitors click *Show email address* to see them.
 - The *order* fields are optional: lower numbers come first, and empty ones go last.
 - Leaving an optional text field empty hides that element on the site.
 

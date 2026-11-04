@@ -270,9 +270,38 @@ export default function () {
     if (u) pubsUpdated = new Date(u).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" });
   } catch {}
 
+  // News: one file per post in content/news. Unpublished posts are skipped.
+  // The News page and menu item only exist when there is at least one post.
+  const asDate = (d) => {
+    const dt = d instanceof Date ? d : new Date(String(d || ""));
+    return Number.isNaN(dt.getTime()) ? null : dt;
+  };
+  const news = readFolder("news")
+    .filter((n) => n.title && isTrue(n.published, true))
+    .map((n) => {
+      const dt = asDate(n.date);
+      const slug = slugify(n.slug) || slugify(n.title);
+      return {
+        ...n,
+        slug,
+        url: `/news/${slug}/`,
+        dateISO: dt ? dt.toISOString().slice(0, 10) : "",
+        dateLabel: dt ? dt.toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" }) : "",
+      };
+    })
+    .sort((a, b) => b.dateISO.localeCompare(a.dateISO) || a.title.localeCompare(b.title));
+
+  // Donate: the page and menu item only exist when at least one fund is listed.
+  const donateFunds = (pages.donate?.funds || []).filter((f) => f && f.name);
+
   return {
     settings,
     pages,
+    news,
+    newsPages: news.length ? [{}] : [],
+    donateFunds,
+    donatePages: donateFunds.length ? [{}] : [],
+    visible: { news: news.length > 0, donate: donateFunds.length > 0 },
     people,
     peopleGroups,
     pubYears,
