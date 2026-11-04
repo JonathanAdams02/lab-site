@@ -17,5 +17,6 @@ funds:
       steunen dat bijdraagt tot het opsporen, begrijpen en behandelen van
       psychische of cognitieve problemen bij ouderen. Het doel is om de
       levenskwaliteit en het welbevinden van ouderen te verhogen.
-    link_label: https://steun.kuleuven.be/fondsen/geneeskunde/sequoia-fonds
+    link: https://steun.kuleuven.be/fondsen/geneeskunde/sequoia-fonds
+    link_label: Lees meer
 ---
