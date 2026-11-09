@@ -1,6 +1,6 @@
 {
   "source": "OpenAlex (https://openalex.org)",
-  "updated": "2026-11-04T14:46:21.169Z",
+  "updated": "2026-11-09T12:48:17.757Z",
   "works": [
     {
       "openalex": "W7220842024",
@@ -1355,7 +1355,7 @@
       "year": 2026,
       "date": "2026-04-18",
       "type": "preprint",
-      "journal": "",
+      "journal": "PsyArXiv (OSF Preprints)",
       "url": "https://doi.org/10.31234/osf.io/ey8nx",
       "open_access_url": "https://doi.org/10.31234/osf.io/ey8nx",
       "authors": [
@@ -3363,26 +3363,6 @@
       "author_count": 6
     },
     {
-      "openalex": "W4415380133",
-      "doi": "10.1186/s12888-025-07247-8",
-      "title": "Blue light treatment of psychiatric disorders: relationships with systemic inflammation, lipid metabolism, and clinical symptoms",
-      "year": 2025,
-      "date": "2025-10-21",
-      "type": "article",
-      "journal": "BMC Psychiatry",
-      "url": "https://doi.org/10.1186/s12888-025-07247-8",
-      "open_access_url": "https://bmcpsychiatry.biomedcentral.com/counter/pdf/10.1186/s12888-025-07247-8",
-      "authors": [
-        {
-          "name": "Lina Ren",
-          "member": true,
-          "orcid": "0000-0003-0287-8733",
-          "openalex": "A5084884445"
-        }
-      ],
-      "author_count": 1
-    },
-    {
       "openalex": "W4415119397",
       "doi": "10.1163/1568539x-bja10326",
       "title": "The extended social phenotype",
@@ -3958,14 +3938,14 @@
     },
     {
       "openalex": "W4412460980",
-      "doi": "10.1167/jov.25.9.1826",
+      "doi": "10.1523/jneurosci.1264-25.2025",
       "title": "Brain Representation of Numerosity across the Senses and Presentation Formats",
       "year": 2025,
       "date": "2025-07-15",
       "type": "article",
-      "journal": "Journal of Vision",
-      "url": "https://doi.org/10.1167/jov.25.9.1826",
-      "open_access_url": "https://doi.org/10.1167/jov.25.9.1826",
+      "journal": "Journal of Neuroscience",
+      "url": "https://doi.org/10.1523/jneurosci.1264-25.2025",
+      "open_access_url": "https://doi.org/10.1523/jneurosci.1264-25.2025",
       "authors": [
         {
           "name": "Ying Yang",
@@ -3986,11 +3966,11 @@
           "openalex": "A5024260751"
         },
         {
-          "name": "Alice Van Audenhaege",
+          "name": "Rémi Gau",
           "member": false
         },
         {
-          "name": "Filippo Cerpelloni",
+          "name": "Alice Van Audenhaege",
           "member": false
         },
         {
@@ -6361,184 +6341,6 @@
       "author_count": 22
     },
     {
-      "openalex": "W4403599068",
-      "doi": "10.1101/2024.10.18.24315786",
-      "title": "Clinical Recognition of Frontotemporal Dementia with Right Temporal Predominance; Consensus Recommendations of the International Working Group",
-      "year": 2024,
-      "date": "2024-10-21",
-      "type": "preprint",
-      "journal": "medRxiv",
-      "url": "https://doi.org/10.1101/2024.10.18.24315786",
-      "open_access_url": "https://www.medrxiv.org/content/medrxiv/early/2024/10/21/2024.10.18.24315786.full.pdf",
-      "authors": [
-        {
-          "name": "Hülya Ulugut",
-          "member": false
-        },
-        {
-          "name": "Kyan Younes",
-          "member": false
-        },
-        {
-          "name": "Maxime Montembeault",
-          "member": false
-        },
-        {
-          "name": "Maxime Bertoux",
-          "member": false
-        },
-        {
-          "name": "Muireann Irish",
-          "member": false
-        },
-        {
-          "name": "Fiona Kumfor",
-          "member": false
-        },
-        {
-          "name": "Giorgio Fumagalli",
-          "member": false
-        },
-        {
-          "name": "Bedia Samancı",
-          "member": false
-        },
-        {
-          "name": "Ignacio Illán‐Gala",
-          "member": false
-        },
-        {
-          "name": "J. C. Thompson",
-          "member": false
-        },
-        {
-          "name": "Alexander Frizell Santillo",
-          "member": false
-        },
-        {
-          "name": "Elisabet M. Englund",
-          "member": false
-        },
-        {
-          "name": "Maria Landqvist Waldö",
-          "member": false
-        },
-        {
-          "name": "Lina Riedl",
-          "member": false
-        },
-        {
-          "name": "Jan Van den Stock",
-          "member": true,
-          "orcid": "0000-0001-5756-3195",
-          "openalex": "A5052009397"
-        },
-        {
-          "name": "Mathieu Vandenbulcke",
-          "member": true,
-          "orcid": "0000-0001-9765-1499",
-          "openalex": "A5073952660"
-        },
-        {
-          "name": "Rik R. Vandenberghe",
-          "member": false
-        },
-        {
-          "name": "Robert Jr Laforce",
-          "member": false
-        },
-        {
-          "name": "Simon Ducharme",
-          "member": false
-        },
-        {
-          "name": "Peter Pressman",
-          "member": false
-        },
-        {
-          "name": "Paulo Caramelli",
-          "member": false
-        },
-        {
-          "name": "Leonardo Cruz de Souza",
-          "member": false
-        },
-        {
-          "name": "Leonel Tadao Takada",
-          "member": false
-        },
-        {
-          "name": "Hakan I. Gurvit",
-          "member": false
-        },
-        {
-          "name": "Janine Diehl‐Schmid",
-          "member": false
-        },
-        {
-          "name": "Daniela Galimberti",
-          "member": false
-        },
-        {
-          "name": "Florence Pasquier",
-          "member": false
-        },
-        {
-          "name": "Sandra Weıntraub",
-          "member": false
-        },
-        {
-          "name": "Bruce L. Miller",
-          "member": false
-        },
-        {
-          "name": "Virginia E. Sturm",
-          "member": false
-        },
-        {
-          "name": "Jennifer Louise Whitwell",
-          "member": false
-        },
-        {
-          "name": "Bradley F. Boeve",
-          "member": false
-        },
-        {
-          "name": "Jonathan Daniel Rohrer",
-          "member": false
-        },
-        {
-          "name": "Olivier Piguet",
-          "member": false
-        },
-        {
-          "name": "Maria Luisa Gorno Tempini",
-          "member": false
-        },
-        {
-          "name": "Keith A. Josephs",
-          "member": false
-        },
-        {
-          "name": "Julie S. Snowden",
-          "member": false
-        },
-        {
-          "name": "James Benedict Rowe",
-          "member": false
-        },
-        {
-          "name": "Jason D. Warren",
-          "member": false
-        },
-        {
-          "name": "Katherine P. Rankin",
-          "member": false
-        }
-      ],
-      "author_count": 42
-    },
-    {
       "openalex": "W4403522737",
       "doi": "10.1145/3640471.3680240",
       "title": "Eyes-free Circular Gestures on Smartphones",
@@ -7353,70 +7155,6 @@
       "author_count": 19
     },
     {
-      "openalex": "W4400088853",
-      "doi": "10.1101/2024.06.21.599515",
-      "title": "Amygdala-predominant α-synuclein pathology exacerbates hippocampal neuron loss in Alzheimer’s disease",
-      "year": 2024,
-      "date": "2024-06-27",
-      "type": "preprint",
-      "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
-      "url": "https://doi.org/10.1101/2024.06.21.599515",
-      "open_access_url": "https://www.biorxiv.org/content/biorxiv/early/2024/06/27/2024.06.21.599515.full.pdf",
-      "authors": [
-        {
-          "name": "Klara Gawor",
-          "member": false
-        },
-        {
-          "name": "Sandra O. Tomé",
-          "member": false
-        },
-        {
-          "name": "Rik R. Vandenberghe",
-          "member": false
-        },
-        {
-          "name": "Philip Van Damme",
-          "member": false
-        },
-        {
-          "name": "Mathieu Vandenbulcke",
-          "member": true,
-          "orcid": "0000-0001-9765-1499",
-          "openalex": "A5073952660"
-        },
-        {
-          "name": "Markus Otto",
-          "member": false
-        },
-        {
-          "name": "Christine A. F. Von Arnim",
-          "member": false
-        },
-        {
-          "name": "Estifanos Ghebremedhin",
-          "member": false
-        },
-        {
-          "name": "Alicja Ronisz",
-          "member": false
-        },
-        {
-          "name": "Simona Ospitalieri",
-          "member": false
-        },
-        {
-          "name": "Matthew B. Blaschko",
-          "member": false
-        },
-        {
-          "name": "Dietmar Rudolf Thal",
-          "member": false
-        }
-      ],
-      "author_count": 12
-    },
-    {
       "openalex": "W4399907246",
       "doi": "10.1186/s12875-024-02447-9",
       "title": "Healthcare providers’ perception of caring for older patients with depression and physical multimorbidity: insights from a focus group study",
@@ -7462,7 +7200,7 @@
       "title": "The Syndrome of Irreversible Lithium-Effectuated Neurotoxicity: A Scoping Review",
       "year": 2024,
       "date": "2024-05-02",
-      "type": "article",
+      "type": "review",
       "journal": "ALPHA PSYCHIATRY",
       "url": "https://doi.org/10.5152/alphapsychiatry.2024.231460",
       "open_access_url": "https://doi.org/10.5152/alphapsychiatry.2024.231460",
@@ -8471,90 +8209,6 @@
         }
       ],
       "author_count": 9
-    },
-    {
-      "openalex": "W4403091263",
-      "doi": "10.2139/ssrn.4975395",
-      "title": "Plasma VAMP2 and GFAP Associate with Synaptic Density Independent of Alzheimer's Pathology in Nondemented Older Adults",
-      "year": 2024,
-      "date": "2024-01-01",
-      "type": "preprint",
-      "journal": "SSRN Electronic Journal",
-      "url": "https://doi.org/10.2139/ssrn.4975395",
-      "open_access_url": "https://doi.org/10.2139/ssrn.4975395",
-      "authors": [
-        {
-          "name": "Steffi De Meyer",
-          "member": false
-        },
-        {
-          "name": "Soha Alali",
-          "member": false
-        },
-        {
-          "name": "Maarten Laroy",
-          "member": true,
-          "orcid": "0000-0003-3673-122X",
-          "openalex": "A5062466055"
-        },
-        {
-          "name": "Thomas Vande Casteele",
-          "member": true,
-          "orcid": "0000-0002-1559-4038",
-          "openalex": "A5087545626"
-        },
-        {
-          "name": "Margot Georgette Abel Van Cauwenberge",
-          "member": false
-        },
-        {
-          "name": "Julie Goossens",
-          "member": false
-        },
-        {
-          "name": "Charlotte De Rocker",
-          "member": false
-        },
-        {
-          "name": "Jeroen Vanbrabant",
-          "member": false
-        },
-        {
-          "name": "Eugeen Vanmechelen",
-          "member": false
-        },
-        {
-          "name": "Jan Van den Stock",
-          "member": true,
-          "orcid": "0000-0001-5756-3195",
-          "openalex": "A5052009397"
-        },
-        {
-          "name": "Filip Brouckaert",
-          "member": false
-        },
-        {
-          "name": "Koen Van Laere",
-          "member": false
-        },
-        {
-          "name": "Mathieu Vandenbulcke",
-          "member": true,
-          "orcid": "0000-0001-9765-1499",
-          "openalex": "A5073952660"
-        },
-        {
-          "name": "Louise Emsell",
-          "member": true,
-          "orcid": "0000-0003-0011-4158",
-          "openalex": "A5009995930"
-        },
-        {
-          "name": "Koen Poesen",
-          "member": false
-        }
-      ],
-      "author_count": 15
     },
     {
       "openalex": "W4390941764",
@@ -11899,46 +11553,6 @@
       "author_count": 15
     },
     {
-      "openalex": "W4295815886",
-      "doi": "10.1016/j.brs.2022.09.001",
-      "title": "Effectiveness of electroconvulsive therapy in patients lacking decision making capacity: A systematic review and meta-analysis",
-      "year": 2022,
-      "date": "2022-09-01",
-      "type": "review",
-      "journal": "Brain stimulation",
-      "url": "https://doi.org/10.1016/j.brs.2022.09.001",
-      "open_access_url": "http://www.brainstimjrnl.com/article/S1935861X22002054/pdf",
-      "authors": [
-        {
-          "name": "Akihiro Takamiya",
-          "member": false
-        },
-        {
-          "name": "Pascal A. Sienaert",
-          "member": true,
-          "orcid": "0000-0002-0650-415X",
-          "openalex": "A5085661145"
-        },
-        {
-          "name": "Tania Gergel",
-          "member": false
-        },
-        {
-          "name": "Jakov Gather",
-          "member": false
-        },
-        {
-          "name": "Taishiro Kishimoto",
-          "member": false
-        },
-        {
-          "name": "David Zilles‐Wegner",
-          "member": false
-        }
-      ],
-      "author_count": 6
-    },
-    {
       "openalex": "W4291196688",
       "doi": "10.1007/s11065-022-09554-3",
       "title": "Current Potential for Clinical Optimization of Social Cognition Assessment for Frontotemporal Dementia and Primary Psychiatric Disorders",
@@ -12588,7 +12202,7 @@
       "title": "A multicentric multimodal in vivo microscopy MRI study of bipolar disorder reveals axonal loss and demyelination",
       "year": 2022,
       "date": "2022-06-01",
-      "type": "article",
+      "type": "conference-abstract",
       "journal": "European Psychiatry",
       "url": "https://doi.org/10.1192/j.eurpsy.2022.429",
       "open_access_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/71DFD4F3FACE454334D7D7A1C1AAACFB/S0924933822004291a.pdf/div-class-title-a-multicentric-multimodal-in-vivo-microscopy-mri-study-of-bipolar-disorder-reveals-axonal-loss-and-demyelination-div.pdf",
@@ -12664,7 +12278,7 @@
       "title": "Local field potentials in the BNST in patients with OCD: acute effects of DBS after symptom provocation",
       "year": 2022,
       "date": "2022-06-01",
-      "type": "article",
+      "type": "conference-abstract",
       "journal": "European Psychiatry",
       "url": "https://doi.org/10.1192/j.eurpsy.2022.1907",
       "open_access_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/26A744490BDF00D32F5424926921A6F1/S0924933822019071a.pdf/div-class-title-local-field-potentials-in-the-bnst-in-patients-with-ocd-acute-effects-of-dbs-after-symptom-provocation-div.pdf",
@@ -13731,6 +13345,46 @@
       "author_count": 14
     },
     {
+      "openalex": "W4295815886",
+      "doi": "10.1016/j.brs.2022.09.001",
+      "title": "Effectiveness of Electroconvulsive Therapy in Patients Lacking Decision Making Capacity: A Systematic Review and Meta-Analysis",
+      "year": 2022,
+      "date": "2022-01-01",
+      "type": "review",
+      "journal": "Brain stimulation",
+      "url": "https://doi.org/10.1016/j.brs.2022.09.001",
+      "open_access_url": "http://www.brainstimjrnl.com/article/S1935861X22002054/pdf",
+      "authors": [
+        {
+          "name": "Akihiro Takamiya",
+          "member": false
+        },
+        {
+          "name": "Pascal A. Sienaert",
+          "member": true,
+          "orcid": "0000-0002-0650-415X",
+          "openalex": "A5085661145"
+        },
+        {
+          "name": "Tania Gergel",
+          "member": false
+        },
+        {
+          "name": "Jakov Gather",
+          "member": false
+        },
+        {
+          "name": "Taishiro Kishimoto",
+          "member": false
+        },
+        {
+          "name": "David Zilles‐Wegner",
+          "member": false
+        }
+      ],
+      "author_count": 6
+    },
+    {
       "openalex": "W4200139069",
       "doi": "10.1097/yct.0000000000000818",
       "title": "The Effect of Electroconvulsive Therapy on Positive Affect and Hedonism in Patients With Depression",
@@ -14397,30 +14051,6 @@
         }
       ],
       "author_count": 9
-    },
-    {
-      "openalex": "W7211209520",
-      "doi": "",
-      "title": "Pramipexole en bipolaire depressie: een literatuurstudie en klinische aanbevelingen",
-      "year": 2021,
-      "date": "2021-09-01",
-      "type": "article",
-      "journal": "Lirias (KU Leuven)",
-      "url": "https://lirias.kuleuven.be/handle/20.500.12942/792648",
-      "open_access_url": "https://lirias.kuleuven.be/retrieve/bff919a6-2ff7-4696-a32a-f472b5a6ec4d",
-      "authors": [
-        {
-          "name": "V Dionys",
-          "member": false
-        },
-        {
-          "name": "Pascal A. Sienaert",
-          "member": true,
-          "orcid": "0000-0002-0650-415X",
-          "openalex": "A5085661145"
-        }
-      ],
-      "author_count": 2
     },
     {
       "openalex": "W3091774503",
@@ -15770,7 +15400,7 @@
       "title": "Movement, mood and cognition: Preliminary insight into the effects of electroconvulsive therapy in depression through a data-driven resting-state connectivity analysis",
       "year": 2021,
       "date": "2021-04-01",
-      "type": "article",
+      "type": "conference-abstract",
       "journal": "European Psychiatry",
       "url": "https://doi.org/10.1192/j.eurpsy.2021.359",
       "open_access_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/6C18131F1D0BE7C1359D43D262B5AAED/S092493382100359Xa.pdf/div-class-title-movement-mood-and-cognition-preliminary-insight-into-the-effects-of-electroconvulsive-therapy-in-depression-through-a-data-driven-resting-state-connectivity-analysis-div.pdf",
@@ -15826,7 +15456,7 @@
       "title": "Personalized ECT: Much ado about nothing?",
       "year": 2021,
       "date": "2021-04-01",
-      "type": "article",
+      "type": "conference-abstract",
       "journal": "European Psychiatry",
       "url": "https://doi.org/10.1192/j.eurpsy.2021.84",
       "open_access_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/D8FBE34DF9EC9E7674B53B45D5BB5162/S0924933821000845a.pdf/div-class-title-personalized-ect-much-ado-about-nothing-div.pdf",
@@ -15846,7 +15476,7 @@
       "title": "Vns as alternative treatment for maintenance ect in a patient with treatment resistant depression - a case study",
       "year": 2021,
       "date": "2021-04-01",
-      "type": "article",
+      "type": "conference-abstract",
       "journal": "European Psychiatry",
       "url": "https://doi.org/10.1192/j.eurpsy.2021.1308",
       "open_access_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/D4304DF2E23D55B75255CDEF9D19BD8A/S0924933821013080a.pdf/div-class-title-vns-as-alternative-treatment-for-maintenance-ect-in-a-patient-with-treatment-resistant-depression-a-case-study-div.pdf",
@@ -21555,7 +21185,7 @@
       "year": 2018,
       "date": "2018-08-22",
       "type": "preprint",
-      "journal": "",
+      "journal": "PsyArXiv (OSF Preprints)",
       "url": "https://doi.org/10.31234/osf.io/cfkts",
       "open_access_url": "https://doi.org/10.31234/osf.io/cfkts",
       "authors": [
