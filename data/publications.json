@@ -1,7 +1,59 @@
 {
   "source": "OpenAlex (https://openalex.org)",
-  "updated": "2026-11-09T12:48:17.757Z",
+  "updated": "2026-11-16T09:18:27.250Z",
   "works": [
+    {
+      "openalex": "W7225868723",
+      "doi": "10.5334/ijic.10212",
+      "title": "Developing Integrated Care: The I-CONNECT Care Model for Older Adults with Mood Disorders and Multimorbidity",
+      "year": 2026,
+      "date": "2026-11-12",
+      "type": "article",
+      "journal": "International Journal of Integrated Care",
+      "url": "https://doi.org/10.5334/ijic.10212",
+      "open_access_url": "https://ijic.org/articles/10212/files/6af5d004bef81.pdf",
+      "authors": [
+        {
+          "name": "Louise de Almeida Ferreira Fonseca",
+          "member": false
+        },
+        {
+          "name": "Laura Tops",
+          "member": false
+        },
+        {
+          "name": "Mieke Vermandere",
+          "member": false
+        },
+        {
+          "name": "Bert Vaes",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": true,
+          "orcid": "0000-0001-9765-1499",
+          "openalex": "A5073952660"
+        },
+        {
+          "name": "Jos Tournoy",
+          "member": false
+        },
+        {
+          "name": "Johan Flamaing",
+          "member": false
+        },
+        {
+          "name": "Geert Goderis",
+          "member": false
+        },
+        {
+          "name": "Mieke Deschodt",
+          "member": false
+        }
+      ],
+      "author_count": 9
+    },
     {
       "openalex": "W7220842024",
       "doi": "10.1016/j.jad.2026.122596",
@@ -795,6 +847,102 @@
       "author_count": 4
     },
     {
+      "openalex": "W7171617074",
+      "doi": "10.1192/j.eurpsy.2026.12238",
+      "title": "Use of electroconvulsive therapy in Nordic and western European countries",
+      "year": 2026,
+      "date": "2026-07-29",
+      "type": "review",
+      "journal": "European Psychiatry",
+      "url": "https://doi.org/10.1192/j.eurpsy.2026.12238",
+      "open_access_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/5CBE2E1EEEF536166E4285ABB7B0F7D8/S092493382612238Xa.pdf/div-class-title-use-of-electroconvulsive-therapy-in-nordic-and-western-european-countries-div.pdf",
+      "authors": [
+        {
+          "name": "Richard Braithwaite",
+          "member": false
+        },
+        {
+          "name": "Ali Amad",
+          "member": false
+        },
+        {
+          "name": "Carlo Ignazio Cattaneo",
+          "member": false
+        },
+        {
+          "name": "Jan Di Pauli",
+          "member": false
+        },
+        {
+          "name": "Martha Finnegan",
+          "member": false
+        },
+        {
+          "name": "Pedro Frias",
+          "member": false
+        },
+        {
+          "name": "Manuel Gonçalves‐Pinho",
+          "member": false
+        },
+        {
+          "name": "Michael Grözinger",
+          "member": false
+        },
+        {
+          "name": "Kaija Järventausta",
+          "member": false
+        },
+        {
+          "name": "Anders Jørgensen",
+          "member": false
+        },
+        {
+          "name": "Saana Karttunen",
+          "member": false
+        },
+        {
+          "name": "Ute Keßler",
+          "member": false
+        },
+        {
+          "name": "Pia Nordanskog",
+          "member": false
+        },
+        {
+          "name": "Jasmien Obbels",
+          "member": false
+        },
+        {
+          "name": "Albino Jorge Oliveira-Maia",
+          "member": false
+        },
+        {
+          "name": "Didi Rhebergen",
+          "member": false
+        },
+        {
+          "name": "Pascal A. Sienaert",
+          "member": true,
+          "orcid": "0000-0002-0650-415X",
+          "openalex": "A5085661145"
+        },
+        {
+          "name": "Floris Q. Tas",
+          "member": false
+        },
+        {
+          "name": "Saskia Wilhelmy",
+          "member": false
+        },
+        {
+          "name": "George Kirov",
+          "member": false
+        }
+      ],
+      "author_count": 20
+    },
+    {
       "openalex": "W7170132464",
       "doi": "10.1038/s44220-026-00692-8",
       "title": "Reframing late life depression: from brain pathology to plasticity",
@@ -995,7 +1143,7 @@
     {
       "openalex": "W7165565883",
       "doi": "10.1097/yct.0000000000001225",
-      "title": "Electroconvulsive Therapy in Movement Disorders",
+      "title": "Electroconvulsive Therapy in Movement Disorders: A Systematic Review",
       "year": 2026,
       "date": "2026-06-22",
       "type": "article",
@@ -1177,6 +1325,150 @@
       "author_count": 9
     },
     {
+      "openalex": "W7163156824",
+      "doi": "10.1192/j.eurpsy.2026.12228",
+      "title": "Definition of treatment-resistant late-life depression: Conclusions from a European Task Force Delphi process",
+      "year": 2026,
+      "date": "2026-06-02",
+      "type": "article",
+      "journal": "European Psychiatry",
+      "url": "https://doi.org/10.1192/j.eurpsy.2026.12228",
+      "open_access_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/05A5BACAEB74431332F2752A1D8FA5A1/S0924933826122287a.pdf/div-class-title-definition-of-treatment-resistant-late-life-depression-conclusions-from-a-european-task-force-delphi-process-div.pdf",
+      "authors": [
+        {
+          "name": "Blanca Moyano",
+          "member": false
+        },
+        {
+          "name": "Armin von Gunten",
+          "member": false
+        },
+        {
+          "name": "C. Mueller",
+          "member": false
+        },
+        {
+          "name": "Ruken Yaman-Deveci",
+          "member": false
+        },
+        {
+          "name": "Robert J. Howard",
+          "member": false
+        },
+        {
+          "name": "R. Stewart",
+          "member": false
+        },
+        {
+          "name": "Allan Hunter Young",
+          "member": false
+        },
+        {
+          "name": "Harry Costello",
+          "member": false
+        },
+        {
+          "name": "Samuel Bulteau",
+          "member": false
+        },
+        {
+          "name": "Benjamin Calvet",
+          "member": false
+        },
+        {
+          "name": "Sylvie Bonin‐Guillaume",
+          "member": false
+        },
+        {
+          "name": "Nicolas Hoertel",
+          "member": false
+        },
+        {
+          "name": "G. H. Robert",
+          "member": false
+        },
+        {
+          "name": "J. Roche",
+          "member": false
+        },
+        {
+          "name": "Alexis Lepetit",
+          "member": false
+        },
+        {
+          "name": "Sandrine Louchart",
+          "member": false
+        },
+        {
+          "name": "Luis Agüera-Ortíz",
+          "member": false
+        },
+        {
+          "name": "J. Pla-Vidal",
+          "member": false
+        },
+        {
+          "name": "Filip Bouckaert",
+          "member": true,
+          "orcid": "0000-0003-1323-0991",
+          "openalex": "A5004439858"
+        },
+        {
+          "name": "Richard C. Oude Voshaar",
+          "member": false
+        },
+        {
+          "name": "L. Fernandes",
+          "member": false
+        },
+        {
+          "name": "Octavian Vasiliu",
+          "member": false
+        },
+        {
+          "name": "Monika Dominiak",
+          "member": false
+        },
+        {
+          "name": "Josef Priller",
+          "member": false
+        },
+        {
+          "name": "Martin Preisig",
+          "member": false
+        },
+        {
+          "name": "Federico Triolo",
+          "member": false
+        },
+        {
+          "name": "Martino Belvederi Murri",
+          "member": false
+        },
+        {
+          "name": "Eivind Aakhus",
+          "member": false
+        },
+        {
+          "name": "Setareh Ranjbar",
+          "member": false
+        },
+        {
+          "name": "Kevin Swierkosz-Lenart",
+          "member": false
+        },
+        {
+          "name": "Vasiliki Orgeta",
+          "member": false
+        },
+        {
+          "name": "Pierre Vandel",
+          "member": false
+        }
+      ],
+      "author_count": 32
+    },
+    {
       "openalex": "W7167845866",
       "doi": "10.1093/cercor/bhag084",
       "title": "From body selectivity to socio-emotional meaning: where extrastriate body area stops",
@@ -1273,7 +1565,7 @@
       "type": "review",
       "journal": "The Canadian Journal of Psychiatry",
       "url": "https://doi.org/10.1177/07067437261448747",
-      "open_access_url": "https://pubmed.ncbi.nlm.nih.gov/42089692/",
+      "open_access_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13149350/",
       "authors": [
         {
           "name": "David Borghgraef",
@@ -1852,7 +2144,7 @@
           "member": false
         },
         {
-          "name": "Narcı́s Cardoner",
+          "name": "Narcís Cardoner",
           "member": false
         },
         {
@@ -2019,150 +2311,6 @@
         }
       ],
       "author_count": 3
-    },
-    {
-      "openalex": "W7163156824",
-      "doi": "10.1192/j.eurpsy.2026.12228",
-      "title": "Definition of treatment-resistant late-life depression: Conclusions from a European Task Force Delphi process",
-      "year": 2026,
-      "date": "2026-01-01",
-      "type": "article",
-      "journal": "European Psychiatry",
-      "url": "https://doi.org/10.1192/j.eurpsy.2026.12228",
-      "open_access_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/05A5BACAEB74431332F2752A1D8FA5A1/S0924933826122287a.pdf/div-class-title-definition-of-treatment-resistant-late-life-depression-conclusions-from-a-european-task-force-delphi-process-div.pdf",
-      "authors": [
-        {
-          "name": "Blanca Moyano",
-          "member": false
-        },
-        {
-          "name": "Armin von Gunten",
-          "member": false
-        },
-        {
-          "name": "C. Mueller",
-          "member": false
-        },
-        {
-          "name": "Ruken Yaman-Deveci",
-          "member": false
-        },
-        {
-          "name": "Robert J. Howard",
-          "member": false
-        },
-        {
-          "name": "R. Stewart",
-          "member": false
-        },
-        {
-          "name": "Allan Hunter Young",
-          "member": false
-        },
-        {
-          "name": "Harry Costello",
-          "member": false
-        },
-        {
-          "name": "Samuel Bulteau",
-          "member": false
-        },
-        {
-          "name": "Benjamin Calvet",
-          "member": false
-        },
-        {
-          "name": "Sylvie Bonin‐Guillaume",
-          "member": false
-        },
-        {
-          "name": "Nicolas Hoertel",
-          "member": false
-        },
-        {
-          "name": "G. H. Robert",
-          "member": false
-        },
-        {
-          "name": "J. Roche",
-          "member": false
-        },
-        {
-          "name": "Alexis Lepetit",
-          "member": false
-        },
-        {
-          "name": "Sandrine Louchart",
-          "member": false
-        },
-        {
-          "name": "Luis Agüera-Ortíz",
-          "member": false
-        },
-        {
-          "name": "J. Pla-Vidal",
-          "member": false
-        },
-        {
-          "name": "Filip Bouckaert",
-          "member": true,
-          "orcid": "0000-0003-1323-0991",
-          "openalex": "A5004439858"
-        },
-        {
-          "name": "Richard C. Oude Voshaar",
-          "member": false
-        },
-        {
-          "name": "L. Fernandes",
-          "member": false
-        },
-        {
-          "name": "Octavian Vasiliu",
-          "member": false
-        },
-        {
-          "name": "Monika Dominiak",
-          "member": false
-        },
-        {
-          "name": "Josef Priller",
-          "member": false
-        },
-        {
-          "name": "Martin Preisig",
-          "member": false
-        },
-        {
-          "name": "Federico Triolo",
-          "member": false
-        },
-        {
-          "name": "Martino Belvederi Murri",
-          "member": false
-        },
-        {
-          "name": "Eivind Aakhus",
-          "member": false
-        },
-        {
-          "name": "Setareh Ranjbar",
-          "member": false
-        },
-        {
-          "name": "Kevin Swierkosz-Lenart",
-          "member": false
-        },
-        {
-          "name": "Vasiliki Orgeta",
-          "member": false
-        },
-        {
-          "name": "Pierre Vandel",
-          "member": false
-        }
-      ],
-      "author_count": 32
     },
     {
       "openalex": "W7118014391",
@@ -2479,102 +2627,6 @@
         }
       ],
       "author_count": 8
-    },
-    {
-      "openalex": "W7171617074",
-      "doi": "10.1192/j.eurpsy.2026.12238",
-      "title": "Use of electroconvulsive therapy in Nordic and western European countries",
-      "year": 2026,
-      "date": "2026-01-01",
-      "type": "review",
-      "journal": "European Psychiatry",
-      "url": "https://doi.org/10.1192/j.eurpsy.2026.12238",
-      "open_access_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/5CBE2E1EEEF536166E4285ABB7B0F7D8/S092493382612238Xa.pdf/div-class-title-use-of-electroconvulsive-therapy-in-nordic-and-western-european-countries-div.pdf",
-      "authors": [
-        {
-          "name": "Richard Braithwaite",
-          "member": false
-        },
-        {
-          "name": "Ali Amad",
-          "member": false
-        },
-        {
-          "name": "Carlo Ignazio Cattaneo",
-          "member": false
-        },
-        {
-          "name": "Jan Di Pauli",
-          "member": false
-        },
-        {
-          "name": "Martha Finnegan",
-          "member": false
-        },
-        {
-          "name": "Pedro Frias",
-          "member": false
-        },
-        {
-          "name": "Manuel Gonçalves‐Pinho",
-          "member": false
-        },
-        {
-          "name": "Michael Grözinger",
-          "member": false
-        },
-        {
-          "name": "Kaija Järventausta",
-          "member": false
-        },
-        {
-          "name": "Anders Jørgensen",
-          "member": false
-        },
-        {
-          "name": "Saana Karttunen",
-          "member": false
-        },
-        {
-          "name": "Ute Keßler",
-          "member": false
-        },
-        {
-          "name": "Pia Nordanskog",
-          "member": false
-        },
-        {
-          "name": "Jasmien Obbels",
-          "member": false
-        },
-        {
-          "name": "Albino Jorge Oliveira-Maia",
-          "member": false
-        },
-        {
-          "name": "Didi Rhebergen",
-          "member": false
-        },
-        {
-          "name": "Pascal A. Sienaert",
-          "member": true,
-          "orcid": "0000-0002-0650-415X",
-          "openalex": "A5085661145"
-        },
-        {
-          "name": "Floris Q. Tas",
-          "member": false
-        },
-        {
-          "name": "Saskia Wilhelmy",
-          "member": false
-        },
-        {
-          "name": "George Kirov",
-          "member": false
-        }
-      ],
-      "author_count": 20
     },
     {
       "openalex": "W4417273442",
@@ -3440,7 +3492,7 @@
           "member": false
         },
         {
-          "name": "Narcı́s Cardoner",
+          "name": "Narcís Cardoner",
           "member": false
         },
         {
@@ -4231,6 +4283,58 @@
       "author_count": 8
     },
     {
+      "openalex": "W7111884718",
+      "doi": "",
+      "title": "Feasibility, acceptability and effectiveness of smartphone-based virtual reality relaxation for a psychiatric population: an explorative pilot study in the elderly",
+      "year": 2025,
+      "date": "2025-06-12",
+      "type": "conference-paper",
+      "journal": "Lirias",
+      "url": "https://lirias.kuleuven.be/handle/20.500.12942/770827",
+      "open_access_url": "https://lirias.kuleuven.be/retrieve/7e9824dd-c908-4519-92dc-64f6a832e9c7",
+      "authors": [
+        {
+          "name": "Bernaerts, Sylvie",
+          "member": false
+        },
+        {
+          "name": "Filip Bouckaert",
+          "member": true,
+          "orcid": "0000-0003-1323-0991",
+          "openalex": "A5004439858"
+        },
+        {
+          "name": "Debard, Glen",
+          "member": false
+        },
+        {
+          "name": "Desplenter, Siska",
+          "member": false
+        },
+        {
+          "name": "Obbels, Jasmine",
+          "member": false
+        },
+        {
+          "name": "Sels, Romy",
+          "member": false
+        },
+        {
+          "name": "Tom Van Daele",
+          "member": false
+        },
+        {
+          "name": "van Loo, Marlon",
+          "member": false
+        },
+        {
+          "name": "Bonroy, Bert",
+          "member": false
+        }
+      ],
+      "author_count": 9
+    },
+    {
       "openalex": "W4411181980",
       "doi": "10.54195/tgg22052",
       "title": "Een wankel evenwicht: een case studie over gehechtheid, controle en intiem partnergeweld bij ouderen",
@@ -4331,6 +4435,92 @@
         }
       ],
       "author_count": 5
+    },
+    {
+      "openalex": "W4410794499",
+      "doi": "10.1093/braincomms/fcaf207",
+      "title": "Plasma vesicle-associated membrane protein 2 and glial fibrillary acidic protein associate with synaptic density in older adults without dementia",
+      "year": 2025,
+      "date": "2025-05-26",
+      "type": "article",
+      "journal": "Brain Communications",
+      "url": "https://doi.org/10.1093/braincomms/fcaf207",
+      "open_access_url": "https://academic.oup.com/braincomms/advance-article-pdf/doi/10.1093/braincomms/fcaf207/63362353/fcaf207.pdf",
+      "authors": [
+        {
+          "name": "Steffi De Meyer",
+          "member": false
+        },
+        {
+          "name": "Soha Alali",
+          "member": false
+        },
+        {
+          "name": "Maarten Laroy",
+          "member": true,
+          "orcid": "0000-0003-3673-122X",
+          "openalex": "A5062466055"
+        },
+        {
+          "name": "Thomas Vande Casteele",
+          "member": true,
+          "orcid": "0000-0002-1559-4038",
+          "openalex": "A5087545626"
+        },
+        {
+          "name": "Margot Georgette Abel Van Cauwenberge",
+          "member": false
+        },
+        {
+          "name": "Julie Goossens",
+          "member": false
+        },
+        {
+          "name": "Charlotte De Rocker",
+          "member": false
+        },
+        {
+          "name": "Jeroen Vanbrabant",
+          "member": false
+        },
+        {
+          "name": "Eugeen Vanmechelen",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true,
+          "orcid": "0000-0001-5756-3195",
+          "openalex": "A5052009397"
+        },
+        {
+          "name": "Filip Bouckaert",
+          "member": true,
+          "orcid": "0000-0003-1323-0991",
+          "openalex": "A5004439858"
+        },
+        {
+          "name": "Koen Van Laere",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": true,
+          "orcid": "0000-0001-9765-1499",
+          "openalex": "A5073952660"
+        },
+        {
+          "name": "Louise Emsell",
+          "member": true,
+          "orcid": "0000-0003-0011-4158",
+          "openalex": "A5009995930"
+        },
+        {
+          "name": "Koen Poesen",
+          "member": false
+        }
+      ],
+      "author_count": 15
     },
     {
       "openalex": "W4410372867",
@@ -5241,7 +5431,7 @@
     {
       "openalex": "W4408142714",
       "doi": "10.1097/yct.0000000000001132",
-      "title": "Family Presence During Electroconvulsive Therapy",
+      "title": "Family Presence During Electroconvulsive Therapy: A Qualitative Study About Its Feasibility From a Patient, Family Member, and Healthcare Worker Perspective",
       "year": 2025,
       "date": "2025-03-04",
       "type": "article",
@@ -5511,83 +5701,11 @@
       "author_count": 8
     },
     {
-      "openalex": "W4407934882",
-      "doi": "10.1016/j.brs.2024.12.163",
-      "title": "Cortical and subcortical gray matter volume change and cognitive performance after Electroconvulsive Therapy",
-      "year": 2025,
-      "date": "2025-01-01",
-      "type": "article",
-      "journal": "Brain stimulation",
-      "url": "https://doi.org/10.1016/j.brs.2024.12.163",
-      "open_access_url": "https://www.brainstimjrnl.com/article/S1935-861X(24)00358-9/pdf",
-      "authors": [
-        {
-          "name": "Maximilian Kiebs",
-          "member": false
-        },
-        {
-          "name": "Olga Therese Ousdal",
-          "member": false
-        },
-        {
-          "name": "Danielle C. Farrar",
-          "member": false
-        },
-        {
-          "name": "Maarten Laroy",
-          "member": true,
-          "orcid": "0000-0003-3673-122X",
-          "openalex": "A5062466055"
-        },
-        {
-          "name": "Erik Barry Erhardt",
-          "member": false
-        },
-        {
-          "name": "Chris Abbott",
-          "member": false
-        }
-      ],
-      "author_count": 6
-    },
-    {
-      "openalex": "W4409480427",
-      "doi": "10.14428/esann/2025.es2025-98",
-      "title": "Enhancing Computer Vision with Knowledge: a Rummikub Case Study",
-      "year": 2025,
-      "date": "2025-01-01",
-      "type": "conference-paper",
-      "journal": "European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning (ESANN)",
-      "url": "https://doi.org/10.14428/esann/2025.es2025-98",
-      "open_access_url": "https://doi.org/10.14428/esann/2025.es2025-98",
-      "authors": [
-        {
-          "name": "Simon Vandevelde",
-          "member": false
-        },
-        {
-          "name": "Laurent Mertens",
-          "member": true,
-          "orcid": "0000-0001-5175-2673",
-          "openalex": "A5075193529"
-        },
-        {
-          "name": "Sverre Lauwers",
-          "member": false
-        },
-        {
-          "name": "Joost Vennekens",
-          "member": false
-        }
-      ],
-      "author_count": 4
-    },
-    {
       "openalex": "W4407145685",
       "doi": "10.1017/s0033291724003362",
       "title": "Gray and white matter differences in the medial temporal lobe in late-life depression: a multimodal PET-MRI investigation",
       "year": 2025,
-      "date": "2025-01-01",
+      "date": "2025-02-04",
       "type": "article",
       "journal": "Psychological Medicine",
       "url": "https://doi.org/10.1017/s0033291724003362",
@@ -5665,22 +5783,26 @@
       "author_count": 14
     },
     {
-      "openalex": "W4410794499",
-      "doi": "10.1093/braincomms/fcaf207",
-      "title": "Plasma vesicle-associated membrane protein 2 and glial fibrillary acidic protein associate with synaptic density in older adults without dementia",
+      "openalex": "W4407934882",
+      "doi": "10.1016/j.brs.2024.12.163",
+      "title": "Cortical and subcortical gray matter volume change and cognitive performance after Electroconvulsive Therapy",
       "year": 2025,
       "date": "2025-01-01",
       "type": "article",
-      "journal": "Brain Communications",
-      "url": "https://doi.org/10.1093/braincomms/fcaf207",
-      "open_access_url": "https://academic.oup.com/braincomms/advance-article-pdf/doi/10.1093/braincomms/fcaf207/63362353/fcaf207.pdf",
+      "journal": "Brain stimulation",
+      "url": "https://doi.org/10.1016/j.brs.2024.12.163",
+      "open_access_url": "https://www.brainstimjrnl.com/article/S1935-861X(24)00358-9/pdf",
       "authors": [
         {
-          "name": "Steffi De Meyer",
+          "name": "Maximilian Kiebs",
           "member": false
         },
         {
-          "name": "Soha Alali",
+          "name": "Olga Therese Ousdal",
+          "member": false
+        },
+        {
+          "name": "Danielle C. Farrar",
           "member": false
         },
         {
@@ -5690,65 +5812,47 @@
           "openalex": "A5062466055"
         },
         {
-          "name": "Thomas Vande Casteele",
-          "member": true,
-          "orcid": "0000-0002-1559-4038",
-          "openalex": "A5087545626"
-        },
-        {
-          "name": "Margot Georgette Abel Van Cauwenberge",
+          "name": "Erik Barry Erhardt",
           "member": false
         },
         {
-          "name": "Julie Goossens",
-          "member": false
-        },
-        {
-          "name": "Charlotte De Rocker",
-          "member": false
-        },
-        {
-          "name": "Jeroen Vanbrabant",
-          "member": false
-        },
-        {
-          "name": "Eugeen Vanmechelen",
-          "member": false
-        },
-        {
-          "name": "Jan Van den Stock",
-          "member": true,
-          "orcid": "0000-0001-5756-3195",
-          "openalex": "A5052009397"
-        },
-        {
-          "name": "Filip Bouckaert",
-          "member": true,
-          "orcid": "0000-0003-1323-0991",
-          "openalex": "A5004439858"
-        },
-        {
-          "name": "Koen Van Laere",
-          "member": false
-        },
-        {
-          "name": "Mathieu Vandenbulcke",
-          "member": true,
-          "orcid": "0000-0001-9765-1499",
-          "openalex": "A5073952660"
-        },
-        {
-          "name": "Louise Emsell",
-          "member": true,
-          "orcid": "0000-0003-0011-4158",
-          "openalex": "A5009995930"
-        },
-        {
-          "name": "Koen Poesen",
+          "name": "Chris Abbott",
           "member": false
         }
       ],
-      "author_count": 15
+      "author_count": 6
+    },
+    {
+      "openalex": "W4409480427",
+      "doi": "10.14428/esann/2025.es2025-98",
+      "title": "Enhancing Computer Vision with Knowledge: a Rummikub Case Study",
+      "year": 2025,
+      "date": "2025-01-01",
+      "type": "conference-paper",
+      "journal": "European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning (ESANN)",
+      "url": "https://doi.org/10.14428/esann/2025.es2025-98",
+      "open_access_url": "https://doi.org/10.14428/esann/2025.es2025-98",
+      "authors": [
+        {
+          "name": "Simon Vandevelde",
+          "member": false
+        },
+        {
+          "name": "Laurent Mertens",
+          "member": true,
+          "orcid": "0000-0001-5175-2673",
+          "openalex": "A5075193529"
+        },
+        {
+          "name": "Sverre Lauwers",
+          "member": false
+        },
+        {
+          "name": "Joost Vennekens",
+          "member": false
+        }
+      ],
+      "author_count": 4
     },
     {
       "openalex": "W4406595857",
@@ -5939,7 +6043,7 @@
     {
       "openalex": "W4405707896",
       "doi": "10.1097/yct.0000000000001094",
-      "title": "Molecular Positron Emission Tomography and Single-Photon Emission Computed Tomography Imaging for Understanding the Neurobiological Mechanisms of Electroconvulsive Therapy",
+      "title": "Molecular Positron Emission Tomography and Single-Photon Emission Computed Tomography Imaging for Understanding the Neurobiological Mechanisms of Electroconvulsive Therapy: A Scoping Review",
       "year": 2024,
       "date": "2024-12-17",
       "type": "review",
@@ -6237,6 +6341,70 @@
       "author_count": 6
     },
     {
+      "openalex": "W4405219203",
+      "doi": "10.1093/braincomms/fcae442",
+      "title": "Amygdala-predominant α-synuclein pathology is associated with exacerbated hippocampal neuron loss in Alzheimer’s disease",
+      "year": 2024,
+      "date": "2024-10-30",
+      "type": "article",
+      "journal": "Brain Communications",
+      "url": "https://doi.org/10.1093/braincomms/fcae442",
+      "open_access_url": "https://doi.org/10.1093/braincomms/fcae442",
+      "authors": [
+        {
+          "name": "Klara Gawor",
+          "member": false
+        },
+        {
+          "name": "Sandra O. Tomé",
+          "member": false
+        },
+        {
+          "name": "Rik R. Vandenberghe",
+          "member": false
+        },
+        {
+          "name": "Philip Van Damme",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": true,
+          "orcid": "0000-0001-9765-1499",
+          "openalex": "A5073952660"
+        },
+        {
+          "name": "Markus Otto",
+          "member": false
+        },
+        {
+          "name": "Christine A. F. Von Arnim",
+          "member": false
+        },
+        {
+          "name": "Estifanos Ghebremedhin",
+          "member": false
+        },
+        {
+          "name": "Alicja Ronisz",
+          "member": false
+        },
+        {
+          "name": "Simona Ospitalieri",
+          "member": false
+        },
+        {
+          "name": "Matthew B. Blaschko",
+          "member": false
+        },
+        {
+          "name": "Dietmar Rudolf Thal",
+          "member": false
+        }
+      ],
+      "author_count": 12
+    },
+    {
       "openalex": "W4403715655",
       "doi": "10.1111/ene.16446",
       "title": "Pharmacotherapy for behavioural manifestations in frontotemporal dementia: An expert consensus from the European Reference Network for Rare Neurological Diseases ( ERN ‐ RND )",
@@ -6396,7 +6564,7 @@
           "member": false
         },
         {
-          "name": "Narcı́s Cardoner",
+          "name": "Narcís Cardoner",
           "member": false
         },
         {
@@ -6585,7 +6753,7 @@
     {
       "openalex": "W4401855261",
       "doi": "10.1097/yct.0000000000001063",
-      "title": "The Role of Electroconvulsive Therapy in Posttraumatic Stress Disorder",
+      "title": "The Role of Electroconvulsive Therapy in Posttraumatic Stress Disorder: A Systematic Review",
       "year": 2024,
       "date": "2024-08-23",
       "type": "article",
@@ -6605,6 +6773,58 @@
         }
       ],
       "author_count": 2
+    },
+    {
+      "openalex": "W4401632885",
+      "doi": "10.1162/imag_a_00280",
+      "title": "A comparison of fMRI presurgical mapping techniques with intraoperative brain mapping-based validation",
+      "year": 2024,
+      "date": "2024-08-16",
+      "type": "article",
+      "journal": "Imaging Neuroscience",
+      "url": "https://doi.org/10.1162/imag_a_00280",
+      "open_access_url": "https://doi.org/10.1162/imag_a_00280",
+      "authors": [
+        {
+          "name": "Ahmed Radwan",
+          "member": false
+        },
+        {
+          "name": "Louise Emsell",
+          "member": true,
+          "orcid": "0000-0003-0011-4158",
+          "openalex": "A5009995930"
+        },
+        {
+          "name": "Kristof Vansteelandt",
+          "member": false
+        },
+        {
+          "name": "Evy Cleeren",
+          "member": false
+        },
+        {
+          "name": "Ronald R. Peeters",
+          "member": false
+        },
+        {
+          "name": "Steven De Vleeschouwer",
+          "member": false
+        },
+        {
+          "name": "Tom Theys",
+          "member": false
+        },
+        {
+          "name": "Patrick J. Dupont",
+          "member": false
+        },
+        {
+          "name": "Stefan G. Sunaert",
+          "member": false
+        }
+      ],
+      "author_count": 9
     },
     {
       "openalex": "W4401108788",
@@ -7193,6 +7413,58 @@
         }
       ],
       "author_count": 6
+    },
+    {
+      "openalex": "W4399369423",
+      "doi": "10.1093/geroni/igae057",
+      "title": "Physiological Profiling of Agitation in Dementia: Insights From Wearable Sensor Data",
+      "year": 2024,
+      "date": "2024-06-05",
+      "type": "article",
+      "journal": "Innovation in Aging",
+      "url": "https://doi.org/10.1093/geroni/igae057",
+      "open_access_url": "https://doi.org/10.1093/geroni/igae057",
+      "authors": [
+        {
+          "name": "Hannah Davidoff",
+          "member": false
+        },
+        {
+          "name": "Alex van Kraaij",
+          "member": false
+        },
+        {
+          "name": "Laura Van den Bulcke",
+          "member": false
+        },
+        {
+          "name": "Erika Lutin",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": true,
+          "orcid": "0000-0001-9765-1499",
+          "openalex": "A5073952660"
+        },
+        {
+          "name": "Nick Van Helleputte",
+          "member": false
+        },
+        {
+          "name": "Maarten De Vos",
+          "member": false
+        },
+        {
+          "name": "Chris A. Van Hoof",
+          "member": false
+        },
+        {
+          "name": "Maarten J. A. Van Den Bossche",
+          "member": false
+        }
+      ],
+      "author_count": 9
     },
     {
       "openalex": "W4396611710",
@@ -7913,58 +8185,6 @@
       "author_count": 7
     },
     {
-      "openalex": "W4401632885",
-      "doi": "10.1162/imag_a_00280",
-      "title": "A comparison of fMRI presurgical mapping techniques with intraoperative brain mapping-based validation",
-      "year": 2024,
-      "date": "2024-01-01",
-      "type": "article",
-      "journal": "Imaging Neuroscience",
-      "url": "https://doi.org/10.1162/imag_a_00280",
-      "open_access_url": "https://doi.org/10.1162/imag_a_00280",
-      "authors": [
-        {
-          "name": "Ahmed Radwan",
-          "member": false
-        },
-        {
-          "name": "Louise Emsell",
-          "member": true,
-          "orcid": "0000-0003-0011-4158",
-          "openalex": "A5009995930"
-        },
-        {
-          "name": "Kristof Vansteelandt",
-          "member": false
-        },
-        {
-          "name": "Evy Cleeren",
-          "member": false
-        },
-        {
-          "name": "Ronald R. Peeters",
-          "member": false
-        },
-        {
-          "name": "Steven De Vleeschouwer",
-          "member": false
-        },
-        {
-          "name": "Tom Theys",
-          "member": false
-        },
-        {
-          "name": "Patrick J. Dupont",
-          "member": false
-        },
-        {
-          "name": "Stefan G. Sunaert",
-          "member": false
-        }
-      ],
-      "author_count": 9
-    },
-    {
       "openalex": "W4404978375",
       "doi": "10.1177/20420986241233842",
       "title": "Alert prescribing of clozapine: a comparison of five drug–drug interaction sources",
@@ -7999,70 +8219,6 @@
         }
       ],
       "author_count": 5
-    },
-    {
-      "openalex": "W4405219203",
-      "doi": "10.1093/braincomms/fcae442",
-      "title": "Amygdala-predominant α-synuclein pathology is associated with exacerbated hippocampal neuron loss in Alzheimer’s disease",
-      "year": 2024,
-      "date": "2024-01-01",
-      "type": "article",
-      "journal": "Brain Communications",
-      "url": "https://doi.org/10.1093/braincomms/fcae442",
-      "open_access_url": "https://doi.org/10.1093/braincomms/fcae442",
-      "authors": [
-        {
-          "name": "Klara Gawor",
-          "member": false
-        },
-        {
-          "name": "Sandra O. Tomé",
-          "member": false
-        },
-        {
-          "name": "Rik R. Vandenberghe",
-          "member": false
-        },
-        {
-          "name": "Philip Van Damme",
-          "member": false
-        },
-        {
-          "name": "Mathieu Vandenbulcke",
-          "member": true,
-          "orcid": "0000-0001-9765-1499",
-          "openalex": "A5073952660"
-        },
-        {
-          "name": "Markus Otto",
-          "member": false
-        },
-        {
-          "name": "Christine A. F. Von Arnim",
-          "member": false
-        },
-        {
-          "name": "Estifanos Ghebremedhin",
-          "member": false
-        },
-        {
-          "name": "Alicja Ronisz",
-          "member": false
-        },
-        {
-          "name": "Simona Ospitalieri",
-          "member": false
-        },
-        {
-          "name": "Matthew B. Blaschko",
-          "member": false
-        },
-        {
-          "name": "Dietmar Rudolf Thal",
-          "member": false
-        }
-      ],
-      "author_count": 12
     },
     {
       "openalex": "W4405636901",
@@ -8157,58 +8313,6 @@
         }
       ],
       "author_count": 5
-    },
-    {
-      "openalex": "W4399369423",
-      "doi": "10.1093/geroni/igae057",
-      "title": "Physiological Profiling of Agitation in Dementia: Insights From Wearable Sensor Data",
-      "year": 2024,
-      "date": "2024-01-01",
-      "type": "article",
-      "journal": "Innovation in Aging",
-      "url": "https://doi.org/10.1093/geroni/igae057",
-      "open_access_url": "https://doi.org/10.1093/geroni/igae057",
-      "authors": [
-        {
-          "name": "Hannah Davidoff",
-          "member": false
-        },
-        {
-          "name": "Alex van Kraaij",
-          "member": false
-        },
-        {
-          "name": "Laura Van den Bulcke",
-          "member": false
-        },
-        {
-          "name": "Erika Lutin",
-          "member": false
-        },
-        {
-          "name": "Mathieu Vandenbulcke",
-          "member": true,
-          "orcid": "0000-0001-9765-1499",
-          "openalex": "A5073952660"
-        },
-        {
-          "name": "Nick Van Helleputte",
-          "member": false
-        },
-        {
-          "name": "Maarten De Vos",
-          "member": false
-        },
-        {
-          "name": "Chris A. Van Hoof",
-          "member": false
-        },
-        {
-          "name": "Maarten J. A. Van Den Bossche",
-          "member": false
-        }
-      ],
-      "author_count": 9
     },
     {
       "openalex": "W4390941764",
@@ -8398,7 +8502,7 @@
           "member": false
         },
         {
-          "name": "Narcı́s Cardoner",
+          "name": "Narcís Cardoner",
           "member": false
         },
         {
@@ -8806,7 +8910,7 @@
           "member": false
         },
         {
-          "name": "Narcı́s Cardoner",
+          "name": "Narcís Cardoner",
           "member": false
         },
         {
@@ -9020,7 +9124,7 @@
           "member": false
         },
         {
-          "name": "Vennekens, Joost",
+          "name": "Joost Vennekens",
           "member": false
         }
       ],
@@ -9097,6 +9201,44 @@
         }
       ],
       "author_count": 1
+    },
+    {
+      "openalex": "W4386939595",
+      "doi": "10.1007/978-3-031-44207-0_41",
+      "title": "Color-Dependent Prediction Stability of Popular CNN Image Classification Architectures",
+      "year": 2023,
+      "date": "2023-09-21",
+      "type": "conference-paper",
+      "journal": "Lecture notes in computer science",
+      "url": "https://doi.org/10.1007/978-3-031-44207-0_41",
+      "open_access_url": "https://lirias.kuleuven.be/retrieve/cf73d93b-191b-4da3-bd62-5690902b0d09",
+      "authors": [
+        {
+          "name": "Laurent Mertens",
+          "member": true,
+          "orcid": "0000-0001-5175-2673",
+          "openalex": "A5075193529"
+        },
+        {
+          "name": "Elahe’ Yargholi",
+          "member": false
+        },
+        {
+          "name": "Jan Van den Stock",
+          "member": true,
+          "orcid": "0000-0001-5756-3195",
+          "openalex": "A5052009397"
+        },
+        {
+          "name": "Hans Op de Beeck",
+          "member": false
+        },
+        {
+          "name": "Joost Vennekens",
+          "member": false
+        }
+      ],
+      "author_count": 5
     },
     {
       "openalex": "W4386466677",
@@ -10275,7 +10417,7 @@
     {
       "openalex": "W4321606611",
       "doi": "10.1097/yct.0000000000000900",
-      "title": "Borderline Personality Disorder and Outcome of Electroconvulsive Therapy in Patients With Depression",
+      "title": "Borderline Personality Disorder and Outcome of Electroconvulsive Therapy in Patients With Depression: A Systematic Review",
       "year": 2023,
       "date": "2023-01-17",
       "type": "article",
@@ -10573,44 +10715,6 @@
         }
       ],
       "author_count": 11
-    },
-    {
-      "openalex": "W4386939595",
-      "doi": "10.1007/978-3-031-44207-0_41",
-      "title": "Color-Dependent Prediction Stability of Popular CNN Image Classification Architectures",
-      "year": 2023,
-      "date": "2023-01-01",
-      "type": "conference-paper",
-      "journal": "Lecture notes in computer science",
-      "url": "https://doi.org/10.1007/978-3-031-44207-0_41",
-      "open_access_url": "https://lirias.kuleuven.be/retrieve/cf73d93b-191b-4da3-bd62-5690902b0d09",
-      "authors": [
-        {
-          "name": "Laurent Mertens",
-          "member": true,
-          "orcid": "0000-0001-5175-2673",
-          "openalex": "A5075193529"
-        },
-        {
-          "name": "Elahe’ Yargholi",
-          "member": false
-        },
-        {
-          "name": "Jan Van den Stock",
-          "member": true,
-          "orcid": "0000-0001-5756-3195",
-          "openalex": "A5052009397"
-        },
-        {
-          "name": "Hans Op de Beeck",
-          "member": false
-        },
-        {
-          "name": "Joost Vennekens",
-          "member": false
-        }
-      ],
-      "author_count": 5
     },
     {
       "openalex": "W4364857458",
@@ -11607,7 +11711,7 @@
     {
       "openalex": "W4291690348",
       "doi": "10.1097/yct.0000000000000879",
-      "title": "Lateralized Raise in Intraocular Pressure During Electroconvulsive Therapy",
+      "title": "Lateralized Raise in Intraocular Pressure During Electroconvulsive Therapy: A Tonometry Pilot Study",
       "year": 2022,
       "date": "2022-08-08",
       "type": "article",
@@ -12171,7 +12275,7 @@
     {
       "openalex": "W4282920770",
       "doi": "10.1097/yct.0000000000000863",
-      "title": "Asystole During Electroconvulsive Therapy",
+      "title": "Asystole During Electroconvulsive Therapy: Does Electrode Placement Matter? A Systematic Review",
       "year": 2022,
       "date": "2022-06-11",
       "type": "review",
@@ -12343,34 +12447,6 @@
       "author_count": 5
     },
     {
-      "openalex": "W4281556210",
-      "doi": "10.1017/9781108918954.016",
-      "title": "Index",
-      "year": 2022,
-      "date": "2022-05-26",
-      "type": "paratext",
-      "journal": "Cambridge University Press eBooks",
-      "url": "https://doi.org/10.1017/9781108918954.016",
-      "open_access_url": "",
-      "authors": [
-        {
-          "name": "Mathieu Vandenbulcke",
-          "member": true,
-          "orcid": "0000-0001-9765-1499",
-          "openalex": "A5073952660"
-        },
-        {
-          "name": "Rose‐Marie Dröes",
-          "member": false
-        },
-        {
-          "name": "Erik Schokkaert",
-          "member": false
-        }
-      ],
-      "author_count": 3
-    },
-    {
       "openalex": "W4281564719",
       "doi": "10.1017/9781108918954.005",
       "title": "Living Meaningfully with Dementia",
@@ -12437,34 +12513,6 @@
         }
       ],
       "author_count": 5
-    },
-    {
-      "openalex": "W4281564763",
-      "doi": "10.1017/9781108918954.001",
-      "title": "Preface",
-      "year": 2022,
-      "date": "2022-05-26",
-      "type": "other",
-      "journal": "Cambridge University Press eBooks",
-      "url": "https://doi.org/10.1017/9781108918954.001",
-      "open_access_url": "",
-      "authors": [
-        {
-          "name": "Mathieu Vandenbulcke",
-          "member": true,
-          "orcid": "0000-0001-9765-1499",
-          "openalex": "A5073952660"
-        },
-        {
-          "name": "Rose‐Marie Dröes",
-          "member": false
-        },
-        {
-          "name": "Erik Schokkaert",
-          "member": false
-        }
-      ],
-      "author_count": 3
     },
     {
       "openalex": "W4281561882",
@@ -12663,7 +12711,7 @@
     {
       "openalex": "W4224318909",
       "doi": "10.1097/yct.0000000000000854",
-      "title": "Preliminary Assessment of Pre–Electroconvulsive Therapy Evaluation Practices in European Countries",
+      "title": "Preliminary Assessment of Pre–Electroconvulsive Therapy Evaluation Practices in European Countries: The Need for Guidelines",
       "year": 2022,
       "date": "2022-04-23",
       "type": "article",
@@ -12949,7 +12997,7 @@
       "type": "article",
       "journal": "European Journal of Ageing",
       "url": "https://doi.org/10.1007/s10433-022-00689-z",
-      "open_access_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/9729662",
+      "open_access_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9729662/pdf/",
       "authors": [
         {
           "name": "Laura Dewitte",
@@ -13203,7 +13251,7 @@
       "type": "article",
       "journal": "Journal of Cerebral Blood Flow & Metabolism",
       "url": "https://doi.org/10.1177/0271678x221076023",
-      "open_access_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/9207493",
+      "open_access_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9207493/",
       "authors": [
         {
           "name": "Nathalie Mertens",
@@ -13387,7 +13435,7 @@
     {
       "openalex": "W4200139069",
       "doi": "10.1097/yct.0000000000000818",
-      "title": "The Effect of Electroconvulsive Therapy on Positive Affect and Hedonism in Patients With Depression",
+      "title": "The Effect of Electroconvulsive Therapy on Positive Affect and Hedonism in Patients With Depression: A Prospective Study",
       "year": 2021,
       "date": "2021-12-28",
       "type": "article",
@@ -13892,7 +13940,7 @@
           "member": false
         },
         {
-          "name": "Narcı́s Cardoner",
+          "name": "Narcís Cardoner",
           "member": false
         },
         {
@@ -13951,7 +13999,7 @@
       "type": "article",
       "journal": "Journal of Cerebral Blood Flow & Metabolism",
       "url": "https://doi.org/10.1177/0271678x211047759",
-      "open_access_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/9122519",
+      "open_access_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9122519/",
       "authors": [
         {
           "name": "Laura Michiels",
@@ -13970,7 +14018,7 @@
           "member": false
         },
         {
-          "name": "Stefan Sunaert",
+          "name": "Stefan G. Sunaert",
           "member": false
         },
         {
@@ -14355,7 +14403,7 @@
     {
       "openalex": "W3192160346",
       "doi": "10.4088/jcp.20m13631",
-      "title": "Inflammation and Cognitive Functioning in Depressed Older Adults Treated With Electroconvulsive Therapy",
+      "title": "Inflammation and Cognitive Functioning in Depressed Older Adults Treated With Electroconvulsive Therapy: A Prospective Cohort Study",
       "year": 2021,
       "date": "2021-08-06",
       "type": "article",
@@ -14539,6 +14587,30 @@
         }
       ],
       "author_count": 8
+    },
+    {
+      "openalex": "W3183387570",
+      "doi": "10.1007/978-3-030-77904-7_7",
+      "title": "Management Approaches for Behavioural and Psychological Symptoms of Dementia",
+      "year": 2021,
+      "date": "2021-07-26",
+      "type": "book-chapter",
+      "journal": "Springer eBooks",
+      "url": "https://doi.org/10.1007/978-3-030-77904-7_7",
+      "open_access_url": "",
+      "authors": [
+        {
+          "name": "Maarten J. A. Van Den Bossche",
+          "member": false
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": true,
+          "orcid": "0000-0001-9765-1499",
+          "openalex": "A5073952660"
+        }
+      ],
+      "author_count": 2
     },
     {
       "openalex": "W3185599635",
@@ -14827,6 +14899,42 @@
       "author_count": 31
     },
     {
+      "openalex": "W3183453765",
+      "doi": "10.1093/braincomms/fcab161",
+      "title": "The Interplay of Social Cognition Sub-domains in Frontotemporal Dementia",
+      "year": 2021,
+      "date": "2021-07-01",
+      "type": "article",
+      "journal": "Brain Communications",
+      "url": "https://doi.org/10.1093/braincomms/fcab161",
+      "open_access_url": "https://academic.oup.com/braincomms/article-pdf/3/3/fcab161/40431902/fcab161.pdf",
+      "authors": [
+        {
+          "name": "Jan Van den Stock",
+          "member": true,
+          "orcid": "0000-0001-5756-3195",
+          "openalex": "A5052009397"
+        },
+        {
+          "name": "Jiaze Sun",
+          "member": false
+        },
+        {
+          "name": "François‐Laurent De Winter",
+          "member": true,
+          "orcid": "0000-0001-7753-3575",
+          "openalex": "A5037642793"
+        },
+        {
+          "name": "Mathieu Vandenbulcke",
+          "member": true,
+          "orcid": "0000-0001-9765-1499",
+          "openalex": "A5073952660"
+        }
+      ],
+      "author_count": 4
+    },
+    {
       "openalex": "W3174186083",
       "doi": "10.1016/j.brs.2021.06.011",
       "title": "Biophysical mechanisms of electroconvulsive therapy-induced volume expansion in the medial temporal lobe: A longitudinal in vivo human imaging study",
@@ -14917,7 +15025,7 @@
     {
       "openalex": "W3172178014",
       "doi": "10.1097/yct.0000000000000779",
-      "title": "Burning Mouth Syndrome Treated With Electroconvulsive Therapy",
+      "title": "Burning Mouth Syndrome Treated With Electroconvulsive Therapy: A Case of Serendipity",
       "year": 2021,
       "date": "2021-06-19",
       "type": "article",
@@ -15185,9 +15293,61 @@
       "author_count": 11
     },
     {
+      "openalex": "W3158118513",
+      "doi": "10.1159/000515931",
+      "title": "Inflammatory Markers May Inform the Effects of Electroconvulsive Therapy on Cognition in Patients with Depression",
+      "year": 2021,
+      "date": "2021-04-28",
+      "type": "article",
+      "journal": "Neuropsychobiology",
+      "url": "https://doi.org/10.1159/000515931",
+      "open_access_url": "",
+      "authors": [
+        {
+          "name": "Jan-Baptist Belge",
+          "member": false
+        },
+        {
+          "name": "Linda van Diermen",
+          "member": false
+        },
+        {
+          "name": "Bernard Sabbe",
+          "member": false
+        },
+        {
+          "name": "Manuel Morrens",
+          "member": false
+        },
+        {
+          "name": "Violette Coppens",
+          "member": false
+        },
+        {
+          "name": "Philippe de Timary",
+          "member": false
+        },
+        {
+          "name": "Eric Constant",
+          "member": false
+        },
+        {
+          "name": "Pascal A. Sienaert",
+          "member": true,
+          "orcid": "0000-0002-0650-415X",
+          "openalex": "A5085661145"
+        },
+        {
+          "name": "Didier L. Schrijvers",
+          "member": false
+        }
+      ],
+      "author_count": 9
+    },
+    {
       "openalex": "W3152686182",
       "doi": "10.1097/yct.0000000000000764",
-      "title": "Electroconvulsive Therapy for Patients With Depression Who Lack Capacity for Consent",
+      "title": "Electroconvulsive Therapy for Patients With Depression Who Lack Capacity for Consent: Doing Good and Doing No Harm",
       "year": 2021,
       "date": "2021-04-12",
       "type": "article",
@@ -16019,118 +16179,6 @@
       "author_count": 9
     },
     {
-      "openalex": "W3158118513",
-      "doi": "10.1159/000515931",
-      "title": "Inflammatory Markers May Inform the Effects of Electroconvulsive Therapy on Cognition in Patients with Depression",
-      "year": 2021,
-      "date": "2021-01-01",
-      "type": "article",
-      "journal": "Neuropsychobiology",
-      "url": "https://doi.org/10.1159/000515931",
-      "open_access_url": "",
-      "authors": [
-        {
-          "name": "Jan-Baptist Belge",
-          "member": false
-        },
-        {
-          "name": "Linda van Diermen",
-          "member": false
-        },
-        {
-          "name": "Bernard Sabbe",
-          "member": false
-        },
-        {
-          "name": "Manuel Morrens",
-          "member": false
-        },
-        {
-          "name": "Violette Coppens",
-          "member": false
-        },
-        {
-          "name": "Philippe de Timary",
-          "member": false
-        },
-        {
-          "name": "Eric Constant",
-          "member": false
-        },
-        {
-          "name": "Pascal A. Sienaert",
-          "member": true,
-          "orcid": "0000-0002-0650-415X",
-          "openalex": "A5085661145"
-        },
-        {
-          "name": "Didier L. Schrijvers",
-          "member": false
-        }
-      ],
-      "author_count": 9
-    },
-    {
-      "openalex": "W3183387570",
-      "doi": "10.1007/978-3-030-77904-7_7",
-      "title": "Management Approaches for Behavioural and Psychological Symptoms of Dementia",
-      "year": 2021,
-      "date": "2021-01-01",
-      "type": "book-chapter",
-      "journal": "Springer eBooks",
-      "url": "https://doi.org/10.1007/978-3-030-77904-7_7",
-      "open_access_url": "",
-      "authors": [
-        {
-          "name": "Maarten J. A. Van Den Bossche",
-          "member": false
-        },
-        {
-          "name": "Mathieu Vandenbulcke",
-          "member": true,
-          "orcid": "0000-0001-9765-1499",
-          "openalex": "A5073952660"
-        }
-      ],
-      "author_count": 2
-    },
-    {
-      "openalex": "W3183453765",
-      "doi": "10.1093/braincomms/fcab161",
-      "title": "The Interplay of Social Cognition Sub-domains in Frontotemporal Dementia",
-      "year": 2021,
-      "date": "2021-01-01",
-      "type": "article",
-      "journal": "Brain Communications",
-      "url": "https://doi.org/10.1093/braincomms/fcab161",
-      "open_access_url": "https://academic.oup.com/braincomms/article-pdf/3/3/fcab161/40431902/fcab161.pdf",
-      "authors": [
-        {
-          "name": "Jan Van den Stock",
-          "member": true,
-          "orcid": "0000-0001-5756-3195",
-          "openalex": "A5052009397"
-        },
-        {
-          "name": "Jiaze Sun",
-          "member": false
-        },
-        {
-          "name": "François‐Laurent De Winter",
-          "member": true,
-          "orcid": "0000-0001-7753-3575",
-          "openalex": "A5037642793"
-        },
-        {
-          "name": "Mathieu Vandenbulcke",
-          "member": true,
-          "orcid": "0000-0001-9765-1499",
-          "openalex": "A5073952660"
-        }
-      ],
-      "author_count": 4
-    },
-    {
       "openalex": "W3111260206",
       "doi": "10.1093/geront/gnaa206",
       "title": "Continuing to Participate in the Dance of Life as Oneself: The Lived Experience of Meaning in Life for Older Adults With Alzheimer’s Disease",
@@ -16237,7 +16285,7 @@
     {
       "openalex": "W3111802852",
       "doi": "10.1002/alz.041564",
-      "title": "Regional distribution of amyloid deposition and grey matter atrophy in late‐life depression",
+      "title": "Regional distribution of amyloid deposition and grey matter atrophy in late‐life depression: Neuroimaging / Multi‐modal comparisons",
       "year": 2020,
       "date": "2020-12-01",
       "type": "article",
@@ -16941,7 +16989,7 @@
     {
       "openalex": "W3085914696",
       "doi": "10.1097/yct.0000000000000715",
-      "title": "Response to Volume Increase in the Dentate Gyrus Induced by Electroconvulsive Therapy",
+      "title": "Response to Volume Increase in the Dentate Gyrus Induced by Electroconvulsive Therapy: Shedding Light on the Clinical Relevance of Plasticity in the Hippocampus",
       "year": 2020,
       "date": "2020-09-13",
       "type": "letter",
@@ -17561,7 +17609,7 @@
       "type": "article",
       "journal": "Tijdschrift voor Gerontologie en Geriatrie",
       "url": "https://doi.org/10.36613/tgg.1875-6832/2020.02.01",
-      "open_access_url": "https://www.health.belgium.be/sites/default/files/uploads/fields/fpshealth_theme_file/hgr_9360_dsm5.pdf",
+      "open_access_url": "https://doi.org/10.36613/tgg.1875-6832/2020.02.01",
       "authors": [
         {
           "name": "Eva Dierckx",
@@ -17963,7 +18011,7 @@
     {
       "openalex": "W3010509509",
       "doi": "10.1097/yct.0000000000000661",
-      "title": "Monitoring Electroconvulsive Therapy–Related Anxiety",
+      "title": "Monitoring Electroconvulsive Therapy–Related Anxiety: The ECT-Related Anxiety Questionnaire",
       "year": 2020,
       "date": "2020-02-29",
       "type": "article",
@@ -18001,6 +18049,66 @@
         }
       ],
       "author_count": 6
+    },
+    {
+      "openalex": "W3008259183",
+      "doi": "10.1159/000506133",
+      "title": "Inflammation, Hippocampal Volume, and Therapeutic Outcome following Electroconvulsive Therapy in Depressive Patients: A Pilot Study",
+      "year": 2020,
+      "date": "2020-02-28",
+      "type": "article",
+      "journal": "Neuropsychobiology",
+      "url": "https://doi.org/10.1159/000506133",
+      "open_access_url": "https://www.karger.com/Article/Pdf/506133",
+      "authors": [
+        {
+          "name": "Jan-Baptist Belge",
+          "member": false
+        },
+        {
+          "name": "Linda van Diermen",
+          "member": false
+        },
+        {
+          "name": "Bernard Sabbe",
+          "member": false
+        },
+        {
+          "name": "Paul Maria Parizel",
+          "member": false
+        },
+        {
+          "name": "Manuel Morrens",
+          "member": false
+        },
+        {
+          "name": "Violette Coppens",
+          "member": false
+        },
+        {
+          "name": "Eric Constant",
+          "member": false
+        },
+        {
+          "name": "Philippe de Timary",
+          "member": false
+        },
+        {
+          "name": "Pascal A. Sienaert",
+          "member": true,
+          "orcid": "0000-0002-0650-415X",
+          "openalex": "A5085661145"
+        },
+        {
+          "name": "Didier L. Schrijvers",
+          "member": false
+        },
+        {
+          "name": "Philip van Eijndhoven",
+          "member": false
+        }
+      ],
+      "author_count": 11
     },
     {
       "openalex": "W3008396481",
@@ -18139,7 +18247,7 @@
       "type": "article",
       "journal": "Journal of the American Medical Directors Association",
       "url": "https://doi.org/10.1016/j.jamda.2020.01.010",
-      "open_access_url": "https://research.manchester.ac.uk/en/publications/23c10892-580a-4a49-985f-40192d237d43",
+      "open_access_url": "https://lirias.kuleuven.be/handle/123456789/655287",
       "authors": [
         {
           "name": "Davy Vancampfort",
@@ -18783,66 +18891,6 @@
         }
       ],
       "author_count": 5
-    },
-    {
-      "openalex": "W3008259183",
-      "doi": "10.1159/000506133",
-      "title": "Inflammation, Hippocampal Volume, and Therapeutic Outcome following Electroconvulsive Therapy in Depressive Patients: A Pilot Study",
-      "year": 2020,
-      "date": "2020-01-01",
-      "type": "article",
-      "journal": "Neuropsychobiology",
-      "url": "https://doi.org/10.1159/000506133",
-      "open_access_url": "https://www.karger.com/Article/Pdf/506133",
-      "authors": [
-        {
-          "name": "Jan-Baptist Belge",
-          "member": false
-        },
-        {
-          "name": "Linda van Diermen",
-          "member": false
-        },
-        {
-          "name": "Bernard Sabbe",
-          "member": false
-        },
-        {
-          "name": "Paul Maria Parizel",
-          "member": false
-        },
-        {
-          "name": "Manuel Morrens",
-          "member": false
-        },
-        {
-          "name": "Violette Coppens",
-          "member": false
-        },
-        {
-          "name": "Eric Constant",
-          "member": false
-        },
-        {
-          "name": "Philippe de Timary",
-          "member": false
-        },
-        {
-          "name": "Pascal A. Sienaert",
-          "member": true,
-          "orcid": "0000-0002-0650-415X",
-          "openalex": "A5085661145"
-        },
-        {
-          "name": "Didier L. Schrijvers",
-          "member": false
-        },
-        {
-          "name": "Philip van Eijndhoven",
-          "member": false
-        }
-      ],
-      "author_count": 11
     },
     {
       "openalex": "W2998031482",
@@ -19765,7 +19813,7 @@
       "type": "article",
       "journal": "Human Brain Mapping",
       "url": "https://doi.org/10.1002/hbm.24753",
-      "open_access_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6865635",
+      "open_access_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6865635/",
       "authors": [
         {
           "name": "Jeroen Blommaert",
@@ -20194,7 +20242,7 @@
           "member": false
         },
         {
-          "name": "Narcı́s Cardoner",
+          "name": "Narcís Cardoner",
           "member": false
         },
         {
@@ -20697,7 +20745,7 @@
       "type": "article",
       "journal": "BMJ Case Reports",
       "url": "https://doi.org/10.1136/bcr-2017-224017",
-      "open_access_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6424181",
+      "open_access_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6424181/",
       "authors": [
         {
           "name": "Anouchka Franssen",
@@ -22061,7 +22109,7 @@
     {
       "openalex": "W2804339151",
       "doi": "10.1097/yct.0000000000000504",
-      "title": "Electroconvulsive Therapy–Related Anxiety",
+      "title": "Electroconvulsive Therapy–Related Anxiety: Treat or Threat?",
       "year": 2018,
       "date": "2018-05-16",
       "type": "letter",
@@ -22383,7 +22431,7 @@
     {
       "openalex": "W2789886406",
       "doi": "10.1097/yct.0000000000000490",
-      "title": "Pulse Width in Electroconvulsive Therapy",
+      "title": "Pulse Width in Electroconvulsive Therapy: How Brief Is Brief?",
       "year": 2018,
       "date": "2018-02-28",
       "type": "editorial",
@@ -22594,7 +22642,7 @@
           "member": false
         },
         {
-          "name": "Agustı́n Ruiz",
+          "name": "Agustín Ruiz",
           "member": false
         },
         {
