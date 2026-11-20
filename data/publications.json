@@ -1,6 +1,6 @@
 {
   "source": "OpenAlex (https://openalex.org)",
-  "updated": "2026-11-16T09:18:27.250Z",
+  "updated": "2026-11-20T09:26:02.114Z",
   "works": [
     {
       "openalex": "W7225868723",
@@ -1177,7 +1177,7 @@
       "type": "article",
       "journal": "Neuropsychobiology",
       "url": "https://doi.org/10.1159/000552240",
-      "open_access_url": "",
+      "open_access_url": "https://repository.uantwerpen.be/docstore/d:irua:37001",
       "authors": [
         {
           "name": "Annelies Dellink",
@@ -1384,7 +1384,7 @@
           "member": false
         },
         {
-          "name": "G. H. Robert",
+          "name": "Gabriel Hadrien Robert",
           "member": false
         },
         {
@@ -1532,7 +1532,7 @@
           "member": false
         },
         {
-          "name": "Nexhmedin Morina B",
+          "name": "Nexhmedin Morina",
           "member": false
         },
         {
@@ -1565,7 +1565,7 @@
       "type": "review",
       "journal": "The Canadian Journal of Psychiatry",
       "url": "https://doi.org/10.1177/07067437261448747",
-      "open_access_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13149350/",
+      "open_access_url": "https://lirias.kuleuven.be/retrieve/a2370d96-a3dd-487d-8df0-22081483ed0f",
       "authors": [
         {
           "name": "David Borghgraef",
@@ -3701,9 +3701,9 @@
       "year": 2025,
       "date": "2025-09-01",
       "type": "article",
-      "journal": "PubMed",
+      "journal": "Lirias",
       "url": "https://pubmed.ncbi.nlm.nih.gov/40982819",
-      "open_access_url": "https://hrcak.srce.hr/344087",
+      "open_access_url": "https://lirias.kuleuven.be/retrieve/238193ac-c8f8-4c04-bfb2-352966d05f25",
       "authors": [
         {
           "name": "Kirsten Catthoor",
@@ -4026,7 +4026,7 @@
           "member": false
         },
         {
-          "name": "Olivier Collignon",
+          "name": "Filippo Cerpelloni",
           "member": false
         },
         {
@@ -6860,8 +6860,8 @@
       "title": "EmoCAM: Toward Understanding What Drives CNN-based Emotion Recognition",
       "year": 2024,
       "date": "2024-07-19",
-      "type": "preprint",
-      "journal": "arXiv (Cornell University)",
+      "type": "conference-paper",
+      "journal": "Lirias",
       "url": "https://doi.org/10.48550/arxiv.2407.14314",
       "open_access_url": "https://arxiv.org/pdf/2407.14314",
       "authors": [
@@ -7631,7 +7631,7 @@
       "type": "article",
       "journal": "PubMed",
       "url": "https://doi.org/10.5281/zenodo.10948848",
-      "open_access_url": "https://lirias.kuleuven.be/retrieve/d2ecf7c0-4a8e-4b2e-8aaa-d9c5929101d9",
+      "open_access_url": "https://pubmed.ncbi.nlm.nih.gov/38174402",
       "authors": [
         {
           "name": "Mertens, Laurent",
@@ -7815,7 +7815,7 @@
       "type": "review",
       "journal": "The Lancet Neurology",
       "url": "https://doi.org/10.1016/s1474-4422(23)00447-7",
-      "open_access_url": "https://iris.unito.it/bitstream/2318/1965230/1/1-s2.0-S1474442223004477-main.pdf",
+      "open_access_url": "https://pure.amsterdamumc.nl/files/156411948/European-intersocietal-recommendations-for-the-biomarker-based-diagnosis-of-neurocognitive-disorders.pdf",
       "authors": [
         {
           "name": "Giovanni Battista Frisoni",
@@ -9293,7 +9293,7 @@
       "type": "article",
       "journal": "Journal of Clinical Sleep Medicine",
       "url": "https://doi.org/10.5664/jcsm.10778",
-      "open_access_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10692948/pdf/jcsm.10778.pdf",
+      "open_access_url": "https://lirias.kuleuven.be/retrieve/d0c75afc-61e0-47eb-872b-c3595b0d78a5",
       "authors": [
         {
           "name": "Laura Van den Bulcke",
@@ -9497,7 +9497,7 @@
       "type": "article",
       "journal": "American Journal of Geriatric Psychiatry",
       "url": "https://doi.org/10.1016/j.jagp.2023.07.004",
-      "open_access_url": "https://dspace.library.uu.nl/handle/1874/450795",
+      "open_access_url": "https://pure.amsterdamumc.nl/en/publications/cc87c28f-bba5-4c13-9b39-0e04f84e6374",
       "authors": [
         {
           "name": "Thomas C. Feenstra",
@@ -12413,7 +12413,7 @@
       "doi": "10.1017/9781108918954.002",
       "title": "Different Perspectives on Dementia",
       "year": 2022,
-      "date": "2022-05-26",
+      "date": "2022-05-25",
       "type": "book-chapter",
       "journal": "Cambridge University Press eBooks",
       "url": "https://doi.org/10.1017/9781108918954.002",
@@ -12451,7 +12451,7 @@
       "doi": "10.1017/9781108918954.005",
       "title": "Living Meaningfully with Dementia",
       "year": 2022,
-      "date": "2022-05-26",
+      "date": "2022-05-25",
       "type": "book-chapter",
       "journal": "Cambridge University Press eBooks",
       "url": "https://doi.org/10.1017/9781108918954.005",
@@ -12483,7 +12483,7 @@
       "doi": "10.1017/9781108918954.004",
       "title": "Personhood, Identity and Autonomy",
       "year": 2022,
-      "date": "2022-05-26",
+      "date": "2022-05-25",
       "type": "book-chapter",
       "journal": "Cambridge University Press eBooks",
       "url": "https://doi.org/10.1017/9781108918954.004",
@@ -12519,7 +12519,7 @@
       "doi": "10.1017/9781108918954.009",
       "title": "Risk Factors and Non-Pharmacological Prevention of Dementia",
       "year": 2022,
-      "date": "2022-05-26",
+      "date": "2022-05-25",
       "type": "book-chapter",
       "journal": "Cambridge University Press eBooks",
       "url": "https://doi.org/10.1017/9781108918954.009",
@@ -13999,7 +13999,7 @@
       "type": "article",
       "journal": "Journal of Cerebral Blood Flow & Metabolism",
       "url": "https://doi.org/10.1177/0271678x211047759",
-      "open_access_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9122519/",
+      "open_access_url": "https://lirias.kuleuven.be/retrieve/e54004e7-16a3-4c1e-9dc9-f4228fe0be83",
       "authors": [
         {
           "name": "Laura Michiels",
@@ -15407,7 +15407,7 @@
       "type": "article",
       "journal": "The World Journal of Biological Psychiatry",
       "url": "https://doi.org/10.1080/15622975.2021.1907718",
-      "open_access_url": "https://pure.amsterdamumc.nl/en/publications/84740004-eb5e-4739-a3d0-d00230c7d16b",
+      "open_access_url": "https://lirias.kuleuven.be/retrieve/fbcda296-4cb9-4353-b111-5015bb949531",
       "authors": [
         {
           "name": "Angela Carlier",
@@ -15957,7 +15957,7 @@
       "type": "article",
       "journal": "American Journal of Geriatric Psychiatry",
       "url": "https://doi.org/10.1016/j.jagp.2020.12.028",
-      "open_access_url": "https://discovery.ucl.ac.uk/id/eprint/10119774/3/Barkhof_Wagenmakers_Transient%20cognitive%20impairment%20and%20white%20matter%20hyperintensities%20in%20severely%20depressed%20older%20patients%20treated%20with%20electroconvulsive%20therapy%20%20-%20revis.pdf",
+      "open_access_url": "https://lirias.kuleuven.be/retrieve/3bb4509a-49b6-46d4-83dd-86f72c6e76de",
       "authors": [
         {
           "name": "Margot J. Wagenmakers",
@@ -18937,6 +18937,34 @@
       "author_count": 7
     },
     {
+      "openalex": "W2990639120",
+      "doi": "10.1111/acps.13134",
+      "title": "When to consider electroconvulsive therapy (ECT)",
+      "year": 2019,
+      "date": "2019-12-23",
+      "type": "article",
+      "journal": "Acta Psychiatrica Scandinavica",
+      "url": "https://doi.org/10.1111/acps.13134",
+      "open_access_url": "",
+      "authors": [
+        {
+          "name": "Charles H. Kellner",
+          "member": false
+        },
+        {
+          "name": "Jasmien Obbels",
+          "member": false
+        },
+        {
+          "name": "Pascal A. Sienaert",
+          "member": true,
+          "orcid": "0000-0002-0650-415X",
+          "openalex": "A5085661145"
+        }
+      ],
+      "author_count": 3
+    },
+    {
       "openalex": "W2995275406",
       "doi": "10.1016/j.neurobiolaging.2019.12.016",
       "title": "Multivariate analysis reveals anatomical correlates of naming errors in primary progressive aphasia",
@@ -19136,7 +19164,7 @@
           "member": false
         },
         {
-          "name": "M.M. Chakravarty",
+          "name": "M. Mallar Chakravarty",
           "member": false
         },
         {
@@ -19159,34 +19187,6 @@
         }
       ],
       "author_count": 9
-    },
-    {
-      "openalex": "W2990639120",
-      "doi": "10.1111/acps.13134",
-      "title": "When to consider electroconvulsive therapy (ECT)",
-      "year": 2019,
-      "date": "2019-11-27",
-      "type": "article",
-      "journal": "Acta Psychiatrica Scandinavica",
-      "url": "https://doi.org/10.1111/acps.13134",
-      "open_access_url": "",
-      "authors": [
-        {
-          "name": "Charles H. Kellner",
-          "member": false
-        },
-        {
-          "name": "Jasmien Obbels",
-          "member": false
-        },
-        {
-          "name": "Pascal A. Sienaert",
-          "member": true,
-          "orcid": "0000-0002-0650-415X",
-          "openalex": "A5085661145"
-        }
-      ],
-      "author_count": 3
     },
     {
       "openalex": "W2985403190",
@@ -19813,7 +19813,7 @@
       "type": "article",
       "journal": "Human Brain Mapping",
       "url": "https://doi.org/10.1002/hbm.24753",
-      "open_access_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6865635/",
+      "open_access_url": "https://lirias.kuleuven.be/handle/123456789/639547",
       "authors": [
         {
           "name": "Jeroen Blommaert",
@@ -20769,7 +20769,7 @@
       "type": "article",
       "journal": "Aging & Mental Health",
       "url": "https://doi.org/10.1080/13607863.2019.1571017",
-      "open_access_url": "https://discovery.ucl.ac.uk/10065928/11/Van%20Assche_AMH%20Childhood%20trauma%2C%20attachment%20and%20wellbeing%20in%20late%20life_final%20version.pdf",
+      "open_access_url": "https://lirias.kuleuven.be/retrieve/4f08cc7c-3476-4920-a36d-8d52e365bcb7",
       "authors": [
         {
           "name": "Lies Van Assche",
@@ -21876,7 +21876,7 @@
           "member": false
         },
         {
-          "name": "Gerhard Hellemann",
+          "name": "Gerhard Stefan Hellemann",
           "member": false
         },
         {
@@ -22169,7 +22169,7 @@
       "type": "article",
       "journal": "Experimental Gerontology",
       "url": "https://doi.org/10.1016/j.exger.2018.04.017",
-      "open_access_url": "https://hdl.handle.net/10344/9066",
+      "open_access_url": "https://kclpure.kcl.ac.uk/portal/files/94238805/Mild_cognitive_impairment_and_sedentary_VANCAMPFORT_Accepted19April2018_GREEN_AAM_CC_BY_NC_ND_.pdf",
       "authors": [
         {
           "name": "Davy Vancampfort",
@@ -22863,7 +22863,7 @@
       "type": "article",
       "journal": "NeuroImage",
       "url": "https://doi.org/10.1016/j.neuroimage.2018.01.026",
-      "open_access_url": "https://cris.maastrichtuniversity.nl/en/publications/485bfa8e-f074-4bda-8701-33c496141048",
+      "open_access_url": "https://lirias.kuleuven.be/retrieve/c4afc858-38f9-4eb0-836c-ae8dd3947ffe",
       "authors": [
         {
           "name": "Yun‐An Huang",
