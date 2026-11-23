@@ -7,4 +7,6 @@ photo: /media/PP_sq.jpeg
 orcid: 0000-0002-0548-6551
 openalex_id: A5046990645
 ---
-I am investigating theories of functional localization and network in emotion and social cognition using neuroimaging methods in healthy participants, developmental prosopagnosia, and frontotemporal dementia.
+Doğa Gündem is a PhD researcher at the Center for Neuropsychiatry, KU Leuven, supervised by Prof. Jan Van Den Stock. She holds a bachelor’s degree in Molecular Biology and Genetics and a master’s degree in Biomedical Sciences: Neuroscience.
+
+Her research focuses on investigating the functional localization and network theories of emotion and social cognition in neurotypicals, developmental prosopagnosia, and frontotemporal dementia, using neuroimaging methods.
