@@ -1,6 +1,6 @@
 {
   "source": "OpenAlex (https://openalex.org)",
-  "updated": "2026-11-25T09:37:49.137Z",
+  "updated": "2026-11-25T11:13:06.802Z",
   "works": [
     {
       "openalex": "W7236256976",
@@ -10862,7 +10862,7 @@
       "title": "Electroconvulsive therapy improves somatic symptoms before mood in patients with depression: a directed network approach",
       "year": 2023,
       "date": "2023-01-01",
-      "type": "article",
+      "type": "conference-abstract",
       "journal": "Neuroscience Applied",
       "url": "https://doi.org/10.1016/j.nsa.2023.102572",
       "open_access_url": "https://doi.org/10.1016/j.nsa.2023.102572",
@@ -13582,7 +13582,7 @@
       "title": "P.0381 Long-term outcome following electroconvulsive therapy for late-life depression: 5-year follow-up data from the modect study",
       "year": 2021,
       "date": "2021-12-01",
-      "type": "article",
+      "type": "conference-abstract",
       "journal": "European Neuropsychopharmacology",
       "url": "https://doi.org/10.1016/j.euroneuro.2021.10.360",
       "open_access_url": "https://pure.amsterdamumc.nl/en/publications/a43cd136-cb62-48dc-a4e3-d213419d96b1",
